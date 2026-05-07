@@ -4,15 +4,14 @@ title: "Trabajo Práctico 2"
 
 ## Análisis Exploratorio de Datos Univariados
 
-###Objetivos
+### Objetivos
 
-Reconocer población, muestra y unidad experimental   
+-   Reconocer población, muestra y unidad experimental
 
-Identificar distintos tipos de variables  
+-   Identificar distintos tipos de variables
 
-Ser capaz de resumir inforamción muestral en tablas y gráficos  
+-   Ser capaz de resumir inforamción muestral en tablas y gráficos
 
-Ser capaz de resumir inforamción muestral por medio de estadísticos.   
+-   Ser capaz de resumir inforamción muestral por medio de estadísticos.
 
-Intepretar la información muestral
-
+-   Intepretar la información muestral
