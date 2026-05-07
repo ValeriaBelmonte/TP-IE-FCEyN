@@ -1,0 +1,65 @@
+
+title: "TP IE"
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Trabajo Práctico IE"
+
+  sidebar:
+    style: docked
+    search: true
+
+    contents:
+      - href: index.qmd
+        text: Inicio
+
+      - href: programa.qmd
+        text: Programa
+
+      - href: politica_ia.qmd
+        text: Política de IA
+
+      - section: "TRABAJO PRÁCTICO 2"
+        contents:
+          - href: tp2/index.qmd
+            text: Presentación
+          - href: tp2/ejercicio2.1.qmd
+            text: Ejercicio 2.1
+          - href: tp2/ejercicio2.qmd
+            text: Ejercicio 2.2
+          - href: tp2/ejercicio3.qmd
+            text: Ejercicio 2.3
+
+      - section: "TRABAJO PRÁCTICO 3"
+        contents:
+          - href: tp3/index.qmd
+            text: Presentación
+          - href: tp3/ejercicio1.qmd
+            text: Ejercicio 3.1
+          - href: tp3/ejercicio2.qmd
+            text: Ejercicio 3.2
+
+      - section: "TRABAJO PRÁCTICO 7"
+        contents:
+          - href: tp7/ejercicio1.qmd
+            text: Ejercicio 7.1
+
+      - section: "TRABAJO PRÁCTICO 8"
+        contents:
+          - href: tp8/ejercicio1.qmd
+            text: Ejercicio 8.1
+
+      - section: "TRABAJO PRÁCTICO 9"
+        contents:
+          - href: tp9/ejercicio1.qmd
+            text: Ejercicio 9.1
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
+
+

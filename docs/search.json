@@ -1,0 +1,56 @@
+[
+  {
+    "objectID": "tp2/index.html",
+    "href": "tp2/index.html",
+    "title": "Trabajo Práctico 2",
+    "section": "",
+    "text": "En este trabajo práctico se desarrollan ejercicios vinculados al análisis exploratorio de datos univariados.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 2",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp2/index.html#análisis-exploratorio-de-datos-univariados",
+    "href": "tp2/index.html#análisis-exploratorio-de-datos-univariados",
+    "title": "Trabajo Práctico 2",
+    "section": "",
+    "text": "En este trabajo práctico se desarrollan ejercicios vinculados al análisis exploratorio de datos univariados.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 2",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "TP IE",
+    "section": "",
+    "text": "Bienvenidos.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "tp2/ejercicio2.1.html",
+    "href": "tp2/ejercicio2.1.html",
+    "title": "Ejercicio 2.1",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n1. Identifique:\n\n(a) el experimento que se realiza.\n(b) la unidad experimental.\n(c) la población de unidades y la población estadística.\n(d) la variable de estudio y a qué tipo corresponde.\n\n2. Construya la distribución de frecuencias y grafique adecuadamente.\n\n3. Calcule la moda, la mediana y la media aritmética considerando el ítem 2.\nUlizando el programa R",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 2",
+      "Ejercicio 2.1"
+    ]
+  },
+  {
+    "objectID": "tp2/ejercicio2.1.html#trabajo-practico-3",
+    "href": "tp2/ejercicio2.1.html#trabajo-practico-3",
+    "title": "Ejercicio 2.1",
+    "section": "TRABAJO PRACTICO 3",
+    "text": "TRABAJO PRACTICO 3",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 2",
+      "Ejercicio 2.1"
+    ]
+  }
+]

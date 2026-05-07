@@ -1,0 +1,7 @@
+---
+title: "Trabajo Práctico 2"
+---
+
+## Análisis Exploratorio de Datos Univariados
+
+En este trabajo práctico se desarrollan ejercicios vinculados al análisis exploratorio de datos univariados.
