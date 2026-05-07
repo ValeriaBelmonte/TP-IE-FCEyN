@@ -4,4 +4,15 @@ title: "Trabajo Práctico 2"
 
 ## Análisis Exploratorio de Datos Univariados
 
-En este trabajo práctico se desarrollan ejercicios vinculados al análisis exploratorio de datos univariados.
+###Objetivos
+
+Reconocer población, muestra y unidad experimental   
+
+Identificar distintos tipos de variables  
+
+Ser capaz de resumir inforamción muestral en tablas y gráficos  
+
+Ser capaz de resumir inforamción muestral por medio de estadísticos.   
+
+Intepretar la información muestral
+

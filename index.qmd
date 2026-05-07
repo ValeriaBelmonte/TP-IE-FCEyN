@@ -2,14 +2,4 @@
 title: "TP IE"
 ---
 
-## Objetivos
-
--   Reconocer población, muestra y unidad experimental
-
--   Identificar distintos tipos de variables
-
--   Ser capaz de resumir inforamción muestral en tablas y gráficos
-
--   Ser capaz de resumir inforamción muestral por medio de estadísticos.
-
--   Intepretar la información muestral
+## prologo 
