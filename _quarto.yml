@@ -21,7 +21,7 @@ website:
             text: Presentación
           - href: tp2/ejercicio2.1.qmd
             text: Ejercicio 2.1
-          - href: tp2/ejercicio2.1.qmd
+          - href: tp2/ejercicio2.2.qmd
             text: Ejercicio 2.2
 
       - section: "TRABAJO PRÁCTICO 3"
