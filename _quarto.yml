@@ -15,22 +15,14 @@ website:
       - href: index.qmd
         text: Inicio
 
-      - href: programa.qmd
-        text: Programa
-
-      - href: politica_ia.qmd
-        text: Política de IA
-
       - section: "TRABAJO PRÁCTICO 2"
         contents:
           - href: tp2/index.qmd
             text: Presentación
           - href: tp2/ejercicio2.1.qmd
             text: Ejercicio 2.1
-          - href: tp2/ejercicio2.qmd
+          - href: tp2/ejercicio2.1.qmd
             text: Ejercicio 2.2
-          - href: tp2/ejercicio3.qmd
-            text: Ejercicio 2.3
 
       - section: "TRABAJO PRÁCTICO 3"
         contents:

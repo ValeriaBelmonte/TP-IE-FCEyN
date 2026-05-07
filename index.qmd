@@ -1,5 +1,7 @@
 ---
-title: "TP IE"
+title: "Guía de uso del programa estadístico R"
 ---
 
-## prologo 
+En esta *Guía de uso del programa estadístico R* comenzamos a introducirnos en el aprendizaje de la Estadística utilizando el software R y el entorno de trabajo RStudio. A lo largo de las actividades propuestas, exploraremos distintas herramientas para organizar, analizar y representar datos, incorporando además prácticas de trabajo reproducible mediante el uso de documentos Quarto/R Markdown.
+
+El objetivo no es solo realizar cálculos estadísticos, sino también desarrollar una forma de trabajo basada en el análisis de datos, la interpretación de resultados y la comunicación clara de la información obtenida. Para ello, utilizaremos conjuntos de datos reales y aprenderemos a generar tablas, gráficos y resúmenes estadísticos de manera dinámica y reproducible
