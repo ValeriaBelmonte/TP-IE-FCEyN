@@ -1,7 +1,7 @@
 ---
 title: "Ejercicio 2.4"
 ---
-egún la Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico, ante la pregunta **"¿Con quién viven?"**, realizada a 36 mujeres adolescentes atendidas en servicios de urgencias de hospitales públicos, se obtuvieron las siguientes observaciones experimentales:  
+Según la Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico, ante la pregunta **"¿Con quién viven?"**, realizada a 36 mujeres adolescentes atendidas en servicios de urgencias de hospitales públicos, se obtuvieron las siguientes observaciones experimentales:  
 
 ```text
 M  A  A  A  M  P  P  P  M
