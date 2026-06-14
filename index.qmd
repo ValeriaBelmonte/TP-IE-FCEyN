@@ -1,7 +1,23 @@
 ---
-title: "Guía de uso del programa estadístico R"
+title: "Prólogo"
 ---
 
-En esta *Guía de uso del programa estadístico R* comenzamos a introducirnos en el aprendizaje de la Estadística utilizando el software R y el entorno de trabajo RStudio. A lo largo de las actividades propuestas, exploraremos distintas herramientas para organizar, analizar y representar datos, incorporando además prácticas de trabajo reproducible mediante el uso de documentos Quarto/R Markdown.
+Prólogo
 
-El objetivo no es solo realizar cálculos estadísticos, sino también desarrollar una forma de trabajo basada en el análisis de datos, la interpretación de resultados y la comunicación clara de la información obtenida. Para ello, utilizaremos conjuntos de datos reales y aprenderemos a generar tablas, gráficos y resúmenes estadísticos de manera dinámica y reproducible
+La presente Guía de Trabajos Prácticos está dirigida a los estudiantes que cursan la asignatura “Inferencia Estadística” correspondiente a las carreras de Profesorado en Matemática y Licenciatura en Matemática, respectivamente, del Departamento de Matemática “Prof. Lic. Juan Ernesto Macluf” de la Facultad de Ciencias Exactas y Naturales de la UNLPam, y sirve como complemento a las Notas de Clases “Inferencia Estadística”.
+
+Los problemas y actividades propuestos tienen por objetivo orientar y ayudar a los estudiantes en el aprendizaje de los conceptos estudiados en las asignaturas mencionadas y brindarles un espacio de aplicación de los mismos en situaciones problemáticas concretas y, en ocasiones, reales. Además, se incorporan actividades que implican desarrollo matemático formal, tales como demostraciones de propiedades y resultados, sugeridas principalmente a estudiantes de Licenciatura en Matemática.
+
+Algunos ejercicios están señalados con un ícono particular que indica, según el caso:
+
+💻 Resolución escrita y utilizando un paquete estadístico adecuado.
+📊 Aplicación con datos reales utilizando un paquete estadístico adecuado.
+⚙️ Actividad opcional pero recomendada a estudiantes de Licenciatura en Matemática.
+
+La incorporación, secuenciación y complejidad de los problemas y actividades propuestos son el resultado de la experiencia docente en el área y de la interacción con estudiantes de años anteriores, a quienes agradecemos sus críticas y sugerencias para mejorar esta guía año tras año.
+
+<div style="text-align:right">
+
+Las autoras, julio de 2026
+
+
