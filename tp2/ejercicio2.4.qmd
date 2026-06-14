@@ -1,3 +1,30 @@
 ---
 title: "Ejercicio 2.4"
 ---
+egún la Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico, ante la pregunta **"¿Con quién viven?"**, realizada a 36 mujeres adolescentes atendidas en servicios de urgencias de hospitales públicos, se obtuvieron las siguientes observaciones experimentales:  
+
+```text
+M  A  A  A  M  P  P  P  M
+M  O  O  M  M  M  P  P  A
+A  A  A  A  O  A  A  O  M
+M  M  M  A  A  A  O  A  A
+```
+
+donde:
+
+- **M** corresponde a *mamá*.
+- **P** corresponde a *papá*.
+- **A** corresponde a *ambos*.
+- **O** corresponde a *otros*.
+
+### 1. Identifique:
+
+a) El experimento que se realiza y cuántas veces se repite.
+
+b) La población de unidades y la población estadística.
+
+c) La variable de estudio y su tipo.
+
+### 2. Tabule y grafique adecuadamente.
+
+Comente la información resumida en la tabla.

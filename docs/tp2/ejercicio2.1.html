@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ejercicio 2.1 – Trabajo Práctico IE</title>
+<title>ejercicio2.1 – Trabajo Práctico IE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -170,7 +135,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp2/ejercicio2.2.html" class="sidebar-item-text sidebar-link">
+  <a href="../tp2/ejercicio2.2.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 2.2</span></a>
   </div>
 </li>
@@ -261,22 +226,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#tabla-de-frecuencias-agrupadas" id="toc-tabla-de-frecuencias-agrupadas" class="nav-link active" data-scroll-target="#tabla-de-frecuencias-agrupadas">Tabla de frecuencias Agrupadas</a></li>
-  <li><a href="#medidas-resumenes-datos-agrupados" id="toc-medidas-resumenes-datos-agrupados" class="nav-link" data-scroll-target="#medidas-resumenes-datos-agrupados">Medidas resumenes datos agrupados</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tp2/index.html">TRABAJO PRÁCTICO 2</a></li><li class="breadcrumb-item"><a href="../tp2/ejercicio2.1.html">Ejercicio 2.1</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Ejercicio 2.1</h1>
+<h1 class="title">ejercicio2.1</h1>
 </div>
 
 
@@ -293,230 +251,92 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:</p>
-<p>Tabla: Perímetros basales de troncos de quebracho blanco (cm)</p>
+<p>El contenido de minerales es fundamental para determinar la calidad de las aguas, en particular de las aguas subterráneas. A continuación se presenta una tabla de frecuencias basada en la concentración de cloruros (Cl⁻), expresada en ppm, medida en pozos de la Hoja Laguna Colorada Grande (Sudeste de La Pampa).</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Clase</th>
+<th style="text-align: center;">Marca</th>
+<th style="text-align: center;">Frecuencia</th>
+<th style="text-align: center;">Porcentaje</th>
+<th style="text-align: center;">Frecuencia acumulada</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td>138</td>
-<td>164</td>
-<td>150</td>
-<td>132</td>
-<td>144</td>
-<td>125</td>
-<td>149</td>
-<td>157</td>
-<td>146</td>
-<td>158</td>
+<td style="text-align: right;">(0; 150]</td>
+<td style="text-align: center;">75</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">23,08</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr class="even">
-<td>140</td>
-<td>147</td>
-<td>136</td>
-<td>148</td>
-<td>152</td>
-<td>144</td>
-<td>168</td>
-<td>128</td>
-<td>138</td>
-<td>176</td>
+<td style="text-align: right;">(150; 300]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="odd">
-<td>163</td>
-<td>121</td>
-<td>154</td>
-<td>165</td>
-<td>146</td>
-<td>173</td>
-<td>142</td>
-<td>147</td>
-<td>135</td>
-<td>153</td>
+<td style="text-align: right;">(300; 600]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
 </tr>
 <tr class="even">
-<td>140</td>
-<td>135</td>
-<td>161</td>
-<td>145</td>
-<td>135</td>
-<td>161</td>
-<td>145</td>
-<td>142</td>
-<td>150</td>
-<td>156</td>
+<td style="text-align: right;">(600; 900]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">7,69</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">(900; 1200]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">(1200; 1500]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">(1500; 1800]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">19,23</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"><strong>Total</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>26</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><div class="line-block"></div></td>
 </tr>
 </tbody>
 </table>
+<section id="actividades" class="level4">
+<h4 class="anchored" data-anchor-id="actividades">Actividades</h4>
 <ol type="1">
-<li>Cargamos los datos en el programa R</li>
+<li><p>Identifique la variable de estudio y complete la tabla.</p></li>
+<li><p>¿Qué porcentaje de los pozos mostró una concentración de cloruros superior a 600 ppm?</p></li>
+<li><p>Construya el histograma y el polígono de frecuencias correspondientes.</p></li>
+<li><p>Obtenga medidas resúmenes que considere adecuadas e interprete los resultados.</p></li>
+<li><p>Construya un boxplot y elabore conclusiones</p></li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(<span class="at">list=</span><span class="fu">ls</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>perimetros <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dv">138</span>, <span class="dv">164</span>, <span class="dv">150</span>, <span class="dv">132</span>, <span class="dv">144</span>, <span class="dv">125</span>, <span class="dv">149</span>, <span class="dv">157</span>, <span class="dv">146</span>, <span class="dv">158</span>,</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dv">140</span>, <span class="dv">147</span>, <span class="dv">136</span>, <span class="dv">148</span>, <span class="dv">152</span>, <span class="dv">144</span>, <span class="dv">168</span>, <span class="dv">128</span>, <span class="dv">138</span>, <span class="dv">176</span>,</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dv">163</span>, <span class="dv">121</span>, <span class="dv">154</span>, <span class="dv">165</span>, <span class="dv">146</span>, <span class="dv">173</span>, <span class="dv">142</span>, <span class="dv">147</span>, <span class="dv">135</span>, <span class="dv">153</span>,</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dv">140</span>, <span class="dv">135</span>, <span class="dv">161</span>, <span class="dv">145</span>, <span class="dv">135</span>, <span class="dv">161</span>, <span class="dv">145</span>, <span class="dv">142</span>, <span class="dv">150</span>, <span class="dv">156</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ol start="2" type="1">
-<li>Pedimos las medidas de centralización</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Media </span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(perimetros)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 147.725</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># mediana </span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">median</span>(perimetros)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 146.5</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Moda</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>tabla <span class="ot">&lt;-</span> <span class="fu">table</span>(perimetros)</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>tabla</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>perimetros
-121 125 128 132 135 136 138 140 142 144 145 146 147 148 149 150 152 153 154 156 
-  1   1   1   1   3   1   2   2   2   2   2   2   2   1   1   2   1   1   1   1 
-157 158 161 163 164 165 168 173 176 
-  1   1   2   1   1   1   1   1   1 </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(tabla)[tabla <span class="sc">==</span> <span class="fu">max</span>(tabla)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "135"</code></pre>
-</div>
-</div>
-<ol start="2" type="1">
-<li>Construimos un histograma</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(perimetros)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="ejercicio2.1_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Histograma con títulos</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  perimetros,</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">main =</span> <span class="st">"Histograma de perímetros basales"</span>,</span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">xlab =</span> <span class="st">"Perímetro basal (cm)"</span>,</span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">ylab =</span> <span class="st">"Frecuencia"</span></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="ejercicio2.1_files/figure-html/unnamed-chunk-6-2.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<section id="tabla-de-frecuencias-agrupadas" class="level3">
-<h3 class="anchored" data-anchor-id="tabla-de-frecuencias-agrupadas">Tabla de frecuencias Agrupadas</h3>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># TABLA DE FRECUENCIAS AGRUPADAS</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>intervalos <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">120</span>, <span class="dv">180</span>, <span class="at">by =</span> <span class="dv">10</span>)</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Tabla de frecuencias agrupadas</span></span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>tabla_agrupada <span class="ot">&lt;-</span> <span class="fu">table</span>(<span class="fu">cut</span>(perimetros, <span class="at">breaks =</span> intervalos))</span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Marcas de clase</span></span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>marcas_clase <span class="ot">&lt;-</span> (<span class="fu">head</span>(intervalos, <span class="sc">-</span><span class="dv">1</span>) <span class="sc">+</span> <span class="fu">tail</span>(intervalos, <span class="sc">-</span><span class="dv">1</span>)) <span class="sc">/</span> <span class="dv">2</span></span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>tabla_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">Intervalo =</span> <span class="fu">names</span>(tabla_agrupada),</span>
-<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">Marca_clase =</span> marcas_clase,</span>
-<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">Frecuencia =</span> <span class="fu">as.numeric</span>(tabla_agrupada)</span>
-<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>tabla_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  Intervalo Marca_clase Frecuencia
-1 (120,130]         125          3
-2 (130,140]         135          9
-3 (140,150]         145         14
-4 (150,160]         155          6
-5 (160,170]         165          6
-6 (170,180]         175          2</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>tabla_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  Intervalo Marca_clase Frecuencia
-1 (120,130]         125          3
-2 (130,140]         135          9
-3 (140,150]         145         14
-4 (150,160]         155          6
-5 (160,170]         165          6
-6 (170,180]         175          2</code></pre>
-</div>
-</div>
-</section>
-<section id="medidas-resumenes-datos-agrupados" class="level3">
-<h3 class="anchored" data-anchor-id="medidas-resumenes-datos-agrupados">Medidas resumenes datos agrupados</h3>
-<p>Media</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>media_agrupada <span class="ot">&lt;-</span> <span class="fu">sum</span>(</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  tabla_df<span class="sc">$</span>Marca_clase <span class="sc">*</span> tabla_df<span class="sc">$</span>Frecuencia</span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>) <span class="sc">/</span> <span class="fu">sum</span>(tabla_df<span class="sc">$</span>Frecuencia)</span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>media_agrupada</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 147.25</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Frecuencia acumulada</span></span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>tabla_df<span class="sc">$</span>Frecuencia_acum <span class="ot">&lt;-</span> <span class="fu">cumsum</span>(tabla_df<span class="sc">$</span>Frecuencia)</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>tabla_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  Intervalo Marca_clase Frecuencia Frecuencia_acum
-1 (120,130]         125          3               3
-2 (130,140]         135          9              12
-3 (140,150]         145         14              26
-4 (150,160]         155          6              32
-5 (160,170]         165          6              38
-6 (170,180]         175          2              40</code></pre>
-</div>
-</div>
-<p>Mediana</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Número total de datos</span></span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">sum</span>(tabla_df<span class="sc">$</span>Frecuencia)</span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Posición de la mediana</span></span>
-<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>n<span class="sc">/</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 20</code></pre>
-</div>
-</div>
-<p>Identifiacamos la clase de la mediana que es el clase (140,150] y reemplazamos en los objetos</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Datos de la clase mediana</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>Li <span class="ot">&lt;-</span> <span class="dv">140</span>          <span class="co">#  límite inferior</span></span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>F_anterior <span class="ot">&lt;-</span> <span class="dv">10</span>   <span class="co"># frecuencia acumulada anterior</span></span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>fm <span class="ot">&lt;-</span> <span class="dv">14</span>           <span class="co"># frecuencia de la clase mediana</span></span>
-<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>c <span class="ot">&lt;-</span> <span class="dv">10</span>            <span class="co"># amplitud de clase</span></span>
-<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Mediana agrupada</span></span>
-<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>Md <span class="ot">&lt;-</span> Li <span class="sc">+</span> (((n<span class="sc">/</span><span class="dv">2</span>) <span class="sc">-</span> F_anterior) <span class="sc">/</span> fm) <span class="sc">*</span> c</span>
-<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>Md</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 147.1429</code></pre>
-</div>
-</div>
 
 
 </section>
