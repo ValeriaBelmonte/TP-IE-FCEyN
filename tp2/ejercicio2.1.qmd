@@ -13,20 +13,11 @@ Tabla: Perímetros basales de troncos de quebracho blanco (cm)
 | 163 | 121 | 154 | 165 | 146 | 173 | 142 | 147 | 135 | 153 |
 | 140 | 135 | 161 | 145 | 135 | 161 | 145 | 142 | 150 | 156 |
 
-1\. Identifique:\
-\
-(a) el experimento que se realiza.\
-(b) la unidad experimental.\
-(c) la población de unidades y la población estadística.\
-(d) la variable de estudio y a qué tipo corresponde.\
-\
-2. Construya la distribución de frecuencias y grafique adecuadamente.\
-\
-3. Calcule la moda, la mediana y la media aritmética considerando el ítem 2.
+1)  Cargamos los datos en el programa R
 
-Ulizando el programa R
-
-### Cargamos los datos
+```{r}
+rm(list=ls())
+```
 
 ```{r}
 perimetros <- c(
@@ -37,7 +28,7 @@ perimetros <- c(
 )
 ```
 
-### pedimos las medidas de centralización
+2)  Pedimos las medidas de centralización
 
 ```{r}
 # Media 
@@ -59,7 +50,7 @@ names(tabla)[tabla == max(tabla)]
 
 ```
 
-### Construimos un histograma
+2.  Construimos un histograma
 
 ```{r}
 hist(perimetros)
@@ -141,5 +132,3 @@ Md <- Li + (((n/2) - F_anterior) / fm) * c
 
 Md
 ```
-
-## TRABAJO PRACTICO 3

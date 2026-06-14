@@ -29,12 +29,12 @@ str(gapminder) #vemos la estructura de la base datos
 
 3) Averigua el tamaño de la base de datos 
 ```{r}
-dim(gapminder) # vemos la dimenisón 
+dim(gapminder) # vemos la dimensión del data.frame
 ```
 
-**dim(df)**  indica la dimensión  de la base de datos df
+**dim(df)**  indica la dimensión  de la base de datos (df)
 
-3) Realiza un box plot que  muestre la esperanza de vida por continente y analiza los resultados. 
+4) Realiza un box plot que  muestre la esperanza de vida por continente y analiza los resultados. 
 
 ```{r}
 library(ggplot2)

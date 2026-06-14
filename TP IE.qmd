@@ -41,6 +41,22 @@ website:
           - href: tp3/ejercicio2.qmd
             text: Ejercicio 3.2
 
+      - section: "TRABAJO PRÁCTICO 4"
+        contents:
+          - href: tp7/ejercicio1.qmd
+            text: Ejercicio 7.1
+      
+      - section: "TRABAJO PRÁCTICO 5"
+        contents:
+          - href: tp7/ejercicio1.qmd
+            text: Ejercicio 7.1
+
+      - section: "TRABAJO PRÁCTICO 6"
+        contents:
+          - href: tp7/ejercicio1.qmd
+            text: Ejercicio 7.1
+
+            
       - section: "TRABAJO PRÁCTICO 7"
         contents:
           - href: tp7/ejercicio1.qmd
