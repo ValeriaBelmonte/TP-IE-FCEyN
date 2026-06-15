@@ -23,6 +23,18 @@ website:
             text: Ejercicio 2.1
           - href: tp2/ejercicio2.2.qmd
             text: Ejercicio 2.2
+          - href: tp2/ejercicio2.3.qmd
+            text: Ejercicio 2.3
+          - href: tp2/ejercicio2.4.qmd
+            text: Ejercicio 2.4
+          - href: tp2/ejercicio2.5.qmd
+            text: Ejercicio 2.5
+          - href: tp2/ejercicio2.6.qmd
+            text: Ejercicio 2.6
+          - href: tp2/ejercicio2.7.qmd
+            text: Ejercicio 2.7
+          - href: tp2/ejercicio2.8.qmd
+            text: Ejercicio 2.6
 
       - section: "TRABAJO PRÁCTICO 3"
         contents:
