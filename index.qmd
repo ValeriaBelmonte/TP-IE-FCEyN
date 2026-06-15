@@ -11,13 +11,13 @@ Los problemas y actividades propuestos tienen por objetivo orientar y ayudar a l
 Algunos ejercicios están señalados con un ícono particular que indica, según el caso:
 
 💻 Resolución escrita y utilizando un paquete estadístico adecuado.
+
 📊 Aplicación con datos reales utilizando un paquete estadístico adecuado.
+
 ⚙️ Actividad opcional pero recomendada a estudiantes de Licenciatura en Matemática.
 
 La incorporación, secuenciación y complejidad de los problemas y actividades propuestos son el resultado de la experiencia docente en el área y de la interacción con estudiantes de años anteriores, a quienes agradecemos sus críticas y sugerencias para mejorar esta guía año tras año.
 
-<div style="text-align:right">
-
+::: {style="text-align:right"}
 Las autoras, julio de 2026
-
-
+:::
