@@ -13,122 +13,22 @@ Tabla: Perímetros basales de troncos de quebracho blanco (cm)
 | 163 | 121 | 154 | 165 | 146 | 173 | 142 | 147 | 135 | 153 |
 | 140 | 135 | 161 | 145 | 135 | 161 | 145 | 142 | 150 | 156 |
 
-1)  Cargamos los datos en el programa R
 
-```{r}
-rm(list=ls())
-```
+1) Identifique:
 
-```{r}
-perimetros <- c(
-  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,
-  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,
-  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,
-  140, 135, 161, 145, 135, 161, 145, 142, 150, 156
-)
-```
+a) el experimento que se realiza.
 
-2)  Pedimos las medidas de centralización
+b) la unidad experimental.
 
-```{r}
-# Media 
-mean(perimetros)
-```
+c) la población de unidades y la población estadística.
 
-```{r}
-# mediana 
-median(perimetros)
+d) la variable de estudio y a qué tipo corresponde.
 
-```
-
-```{r}
-
-# Moda
-tabla <- table(perimetros)
-tabla
-names(tabla)[tabla == max(tabla)]
-
-```
-
-2.  Construimos un histograma
-
-```{r}
-hist(perimetros)
-
-# Histograma con títulos
-hist(
-  perimetros,
-  main = "Histograma de perímetros basales",
-  xlab = "Perímetro basal (cm)",
-  ylab = "Frecuencia"
-)
-```
-
-### Tabla de frecuencias Agrupadas
-
-```{r}
-# TABLA DE FRECUENCIAS AGRUPADAS
-
-intervalos <- seq(120, 180, by = 10)
-
-# Tabla de frecuencias agrupadas
-tabla_agrupada <- table(cut(perimetros, breaks = intervalos))
-# Marcas de clase
-marcas_clase <- (head(intervalos, -1) + tail(intervalos, -1)) / 2
-
-
-tabla_df <- data.frame(
-  Intervalo = names(tabla_agrupada),
-  Marca_clase = marcas_clase,
-  Frecuencia = as.numeric(tabla_agrupada)
-)
-
-tabla_df
-
-tabla_df
-```
-
-### Medidas resumenes datos agrupados
-
-Media
-
-```{r}
-media_agrupada <- sum(
-  tabla_df$Marca_clase * tabla_df$Frecuencia
-) / sum(tabla_df$Frecuencia)
-
-media_agrupada
-
-```
-
-```{r}
-# Frecuencia acumulada
-tabla_df$Frecuencia_acum <- cumsum(tabla_df$Frecuencia)
-
-tabla_df
-```
-
-Mediana
-
-```{r}
-# Número total de datos
-n <- sum(tabla_df$Frecuencia)
-
-# Posición de la mediana
-n/2
-```
-
-Identifiacamos la clase de la mediana que es el clase (140,150\] y reemplazamos en los objetos
-
-```{r}
-# Datos de la clase mediana
-Li <- 140          #  límite inferior
-F_anterior <- 10   # frecuencia acumulada anterior
-fm <- 14           # frecuencia de la clase mediana
-c <- 10            # amplitud de clase
-
-# Mediana agrupada
-Md <- Li + (((n/2) - F_anterior) / fm) * c
-
-Md
-```
+2. Construya la distribución de frecuencias y grafique adecuadamente.
+3. Calcule la moda, la mediana y la media aritmética considerando el ítem    
+4. Calcule las medidas del ítem 3 con los datos puros.
+      Utilice el programa R siguiendo la guía disponible aquí [ver para resolover R](pasos_R/ejercicio2.3_R)  
+5. ¿Qué puede usted afirmar respecto de los cálculos obtenidos en 3 y 4?  
+6. Calcule una medida de variabilidad apropiada para la media aritmética y otra para la mediana obtenidas en los ítems 3 y 4.  
+7. Construya el boxplot.  
+8. Elabore las conclusiones que crea convenientes a partir de los resultados obtenidos.  
