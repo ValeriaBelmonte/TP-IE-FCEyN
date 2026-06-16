@@ -27,7 +27,8 @@ d) la variable de estudio y a qué tipo corresponde.
 2. Construya la distribución de frecuencias y grafique adecuadamente.
 3. Calcule la moda, la mediana y la media aritmética considerando el ítem    
 4. Calcule las medidas del ítem 3 con los datos puros.
-      Utilice el programa R siguiendo la guía disponible aquí [ver para resolover R](pasos_R/ejercicio2.3_R)  
+      Utilice el programa R siguiendo la guía disponible aquí:
+[Ver pasos para resolver en R](pasos_R/ejercicio2.3_R.html)  
 5. ¿Qué puede usted afirmar respecto de los cálculos obtenidos en 3 y 4?  
 6. Calcule una medida de variabilidad apropiada para la media aritmética y otra para la mediana obtenidas en los ítems 3 y 4.  
 7. Construya el boxplot.  

@@ -1,5 +1,5 @@
 ---
-title: "Ejercicio 2.8_R"
+title: "Ejercicio 2.3_R"
 ---
 
 En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:
