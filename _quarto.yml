@@ -3,6 +3,9 @@ title: "Trabajos Prácticos IE"
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "pasos_R/*.qmd"
 
 website:
   title: "Trabajo Práctico IE"
@@ -33,8 +36,6 @@ website:
             text: Ejercicio 2.6
           - href: tp2/ejercicio2.7.qmd
             text: Ejercicio 2.7
-          - href: tp2/pasos_R/ejercicio2.3_R.qmd
-            text: Pasos en R - Ejercicio 2.3
 
       - section: "TRABAJO PRÁCTICO 3"
         contents:

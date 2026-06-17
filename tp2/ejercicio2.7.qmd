@@ -3,9 +3,9 @@ title: "Ejercicio 2.7"
 ---
 
 
-Sea $x_1, x_2, \ldots, x_n$ una muestra y suponga que los valores de la media muestral $\bar{x}$ y la varianza muestral $s_X^2$ son conocidos.
+Sea  $x_1, x_2, \ldots, x_n$ una muestra y suponga que los valores de la media muestral $\bar{x}$ y la varianza muestral $s_X^2$ son conocidos.
 
-1. Sea
+1. Sea 
 
    $$
    y_i=x_i-\bar{x},
@@ -14,7 +14,7 @@ Sea $x_1, x_2, \ldots, x_n$ una muestra y suponga que los valores de la media mu
 
    ¿Cómo se compara el valor de $s_Y^2$ con el de $s_X^2$?
 
-2. Sea
+2. Sea 
 
    $$
    z_i=\frac{x_i-\bar{x}}{s_X},

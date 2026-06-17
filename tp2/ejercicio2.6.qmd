@@ -1,5 +1,5 @@
 ---
-title: "Ejercicio 2.8"
+title: "Ejercicio 2.6"
 ---
 
 

@@ -1,0 +1,52 @@
+---
+title: "Ejercicio 2.3_R_2"
+---
+
+En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:
+
+Tabla: Perímetros basales de troncos de quebracho blanco (cm)
+
+|     |     |     |     |     |     |     |     |     |     |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 138 | 164 | 150 | 132 | 144 | 125 | 149 | 157 | 146 | 158 |
+| 140 | 147 | 136 | 148 | 152 | 144 | 168 | 128 | 138 | 176 |
+| 163 | 121 | 154 | 165 | 146 | 173 | 142 | 147 | 135 | 153 |
+| 140 | 135 | 161 | 145 | 135 | 161 | 145 | 142 | 150 | 156 |
+
+1)  Cargamos los datos en el programa R
+
+```{r}
+rm(list=ls())
+```
+
+```{r}
+perimetros <- c(
+  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,
+  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,
+  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,
+  140, 135, 161, 145, 135, 161, 145, 142, 150, 156
+)
+```
+
+2)  Pedimos las medidas de centralización
+
+```{r}
+# Media 
+mean(perimetros)
+```
+
+```{r}
+# mediana 
+median(perimetros)
+
+```
+
+```{r}
+
+# Moda
+tabla <- table(perimetros)
+tabla
+names(tabla)[tabla == max(tabla)]
+
+```
+

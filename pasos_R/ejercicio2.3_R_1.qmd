@@ -1,5 +1,5 @@
 ---
-title: "Ejercicio 2.3_R"
+title: "Ejercicio 2.3_R_1"
 ---
 
 En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:
@@ -16,10 +16,12 @@ Tabla: Perímetros basales de troncos de quebracho blanco (cm)
 1)  Cargamos los datos en el programa R
 
 ```{r}
+#borramos todo los objetos en el entorno
 rm(list=ls())
 ```
 
 ```{r}
+# con c() cargamos un vector llamado perimetros
 perimetros <- c(
   138, 164, 150, 132, 144, 125, 149, 157, 146, 158,
   140, 147, 136, 148, 152, 144, 168, 128, 138, 176,
@@ -28,41 +30,6 @@ perimetros <- c(
 )
 ```
 
-2)  Pedimos las medidas de centralización
-
-```{r}
-# Media 
-mean(perimetros)
-```
-
-```{r}
-# mediana 
-median(perimetros)
-
-```
-
-```{r}
-
-# Moda
-tabla <- table(perimetros)
-tabla
-names(tabla)[tabla == max(tabla)]
-
-```
-
-2.  Construimos un histograma
-
-```{r}
-hist(perimetros)
-
-# Histograma con títulos
-hist(
-  perimetros,
-  main = "Histograma de perímetros basales",
-  xlab = "Perímetro basal (cm)",
-  ylab = "Frecuencia"
-)
-```
 
 ### Tabla de frecuencias Agrupadas
 
@@ -86,6 +53,19 @@ tabla_df <- data.frame(
 tabla_df
 
 tabla_df
+```
+### Construimos un histograma
+
+```{r}
+hist(perimetros)
+
+# Histograma con títulos
+hist(
+  perimetros,
+  main = "Histograma de perímetros basales",
+  xlab = "Perímetro basal (cm)",
+  ylab = "Frecuencia"
+)
 ```
 
 ### Medidas resumenes datos agrupados
