@@ -1,0 +1,18 @@
+---
+title: "Ejercicio 4.1"
+---
+
+
+Un jabón para lavavajillas se vende en tres tamaños: **500 g**, **1 kg** y **3 kg**. De sus compradores, un 20 % selecciona la caja de 500 g, un 50 % la de 1 kg y el 30 % restante elige las cajas de 3 kg.
+
+Sean $X_1$ y $X_2$ los tamaños de caja elegidos por dos compradores independientes.
+
+1. Obtenga la distribución muestral de %\overline{X}$.
+
+2. Calcule $E(\overline{X})$ y compare con la media poblacional $\mu$.
+
+3. Calcule $V(\overline{X})$ y compárela con la varianza poblacional $\sigma^2$.
+
+4. Repita los ítems 1, 2 y 3 para tres compradores independientes.
+
+5. Justifique matemáticamente el comportamiento de $E(\overline{X})$ y $V(\overline{X})$ respecto de $\mu$ y $\sigma^2$.

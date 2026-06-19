@@ -1,0 +1,47 @@
+---
+title: "Ejercicio 4.1"
+---
+
+
+### Caso de Estudio: Planificación de Producción en Planta de producción de lavavajillas para el Hogar  
+**Contexto Real**:Trabajás en el equipo de Inteligencia de Negocios de una empresa de consumo masivo. La planta envasa su jabón para lavavajillas estrella en tres formatos según las necesidades del consumidor: **Chico** (500 g), **Estándar** (1 kg) y **Familiar** (3 kg).  
+El departamento de Trade Marketing indica que el comportamiento histórico de elección de los clientes es el siguiente:  
+20% selecciona el tamaño Chico ($p_1 = 0.2$)  
+50% selecciona el tamaño Estándar ($p_2 = 0.5$)  
+30% selecciona el tamaño Familiar ($p_3 = 0.3$)  
+El Gerente de Operaciones debe decidir cómo programar las máquinas envasadoras. Para evitar costos innecesarios de almacenamiento o quiebres de stock, necesita entender cómo se comporta el *promedio de compra* ($\overline{X}$) cuando se agrupan los pedidos.
+
+### Guía del Ejercicio Paso a Paso
+
+Antes de recibir los pedidos del día, la planta necesita conocer el comportamiento teórico de un consumidor individual.  
+
+#### Paso 1: Establecer la Línea de Base de la Población
+ 1.  Calcule la Media Poblacional ($\mu$): Representa el peso promedio a largo plazo que se proyecta vender por cliente
+ 2. Calcule la Varianza Poblacional ($\sigma ^{2}$): Mide el riesgo o incertidumbre individual de que un cliente se desvíe drásticamente del promedio.  
+
+El gerente evalúa qué pasa si toma decisiones de producción mirando únicamente los primeros 2 pedidos independientes de la mañana.
+
+#### Paso 2: Análisis de Lotes Pequeños (Muestra de $n = 2$ pedidos)
+
+ 3. Obtenga la distribución muestral del promedio ($\overline{X}$)  
+ 4. Calcule la Esperanza del lote $(\bar{X})$ y compárela con $\mu$    
+ 5. ¿El promedio del lote tiende a distorsionar la realidad del mercado?   
+ 6. Calcule la Varianza del lote $V(\bar{X}$ y compárela con $\sigma ^{2}$  
+ 7. ¿Qué le pasó al riesgo de planificación al juntar 2 pedidos en lugar de mirar 1 solo?
+
+#### Paso 3: Consolidación de Información (Muestra de $n=3$ pedidos)
+
+
+ 8. Repita el cálculo de la distribución muestral para $n = 3$:
+Sean $X_1$ y $X_2$ los tamaños de caja elegidos por dos compradores independientes.
+ 9. Calcule  la $E(\overline{X})$  y la $V(\overline{X})$ 
+
+
+#### Paso 4: Justificación Teórica y Toma de Decisiones
+ 10. ¿Por qué el promedio esperado $E(\bar{X}$ no cambia sin importar si $n=2$ o $n=3$? ¿Cambiará para un $n$ mayor?  
+
+ 11. Por qué la varianza disminuye a medida que aumenta el tamaño del lote $n$)? Explique el "efecto compensación".
+ 
+12. Imaginá que sos el Gerente de Producción de la planta. Si tuvieras que configurar las máquinas envasadoras mirando únicamente un lote de 2 pedidos (n=2), ¿qué problemas operativos y de almacenamiento enfrentarías en el día a día? Fundamentá usando los valores de promedio (X̄) y varianza (V(X̄)) obtenidos en el paso 2.  
+13. Si en lugar de producir de a 2 pedidos, decidís acumular 100 pedidos (n=100) antes de encender las máquinas:  
+¿Cuánto valdría la nueva varianza del promedio del lote?. Explicá cómo cambia tu estrategia para programar las máquinas bajo este nuevo escenario.

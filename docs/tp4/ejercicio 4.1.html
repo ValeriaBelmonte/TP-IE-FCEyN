@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ejercicio 2.6 – Trabajo Práctico IE</title>
+<title>Ejercicio 4.1 – Trabajo Práctico IE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,7 +110,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tp2/index.html">TRABAJO PRÁCTICO 2</a></li><li class="breadcrumb-item"><a href="../tp2/ejercicio2.6.html">Ejercicio 2.6</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Trabajo Práctico IE
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -188,7 +190,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp2/ejercicio2.6.html" class="sidebar-item-text sidebar-link active">
+  <a href="../tp2/ejercicio2.6.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 2.6</span></a>
   </div>
 </li>
@@ -338,15 +340,22 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#caso-de-estudio-planificación-de-producción-en-planta-de-producción-de-lavavajillas-para-el-hogar" id="toc-caso-de-estudio-planificación-de-producción-en-planta-de-producción-de-lavavajillas-para-el-hogar" class="nav-link active" data-scroll-target="#caso-de-estudio-planificación-de-producción-en-planta-de-producción-de-lavavajillas-para-el-hogar">Caso de Estudio: Planificación de Producción en Planta de producción de lavavajillas para el Hogar</a></li>
+  <li><a href="#guía-del-ejercicio-paso-a-paso" id="toc-guía-del-ejercicio-paso-a-paso" class="nav-link" data-scroll-target="#guía-del-ejercicio-paso-a-paso">Guía del Ejercicio Paso a Paso</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tp2/index.html">TRABAJO PRÁCTICO 2</a></li><li class="breadcrumb-item"><a href="../tp2/ejercicio2.6.html">Ejercicio 2.6</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ejercicio 2.6</h1>
+<h1 class="title">Ejercicio 4.1</h1>
 </div>
 
 
@@ -363,17 +372,61 @@ window.Quarto = {
 </header>
 
 
-<p>Sea <span class="math inline">\(x_1, x_2, \ldots, x_n\)</span> una muestra. Demuestre que</p>
-<p><span class="math display">\[
-s^2=
-\frac{
-\sum_{i=1}^{n} x_i^2
--\frac{1}{n}\left(\sum_{i=1}^{n} x_i\right)^2
-}
-{n-1}.
-\]</span></p>
+<section id="caso-de-estudio-planificación-de-producción-en-planta-de-producción-de-lavavajillas-para-el-hogar" class="level3">
+<h3 class="anchored" data-anchor-id="caso-de-estudio-planificación-de-producción-en-planta-de-producción-de-lavavajillas-para-el-hogar">Caso de Estudio: Planificación de Producción en Planta de producción de lavavajillas para el Hogar</h3>
+<p><strong>Contexto Real</strong>:Trabajás en el equipo de Inteligencia de Negocios de una empresa de consumo masivo. La planta envasa su jabón para lavavajillas estrella en tres formatos según las necesidades del consumidor: <strong>Chico</strong> (500 g), <strong>Estándar</strong> (1 kg) y <strong>Familiar</strong> (3 kg).<br>
+El departamento de Trade Marketing indica que el comportamiento histórico de elección de los clientes es el siguiente:<br>
+20% selecciona el tamaño Chico (<span class="math inline">\(p_1 = 0.2\)</span>)<br>
+50% selecciona el tamaño Estándar (<span class="math inline">\(p_2 = 0.5\)</span>)<br>
+30% selecciona el tamaño Familiar (<span class="math inline">\(p_3 = 0.3\)</span>)<br>
+El Gerente de Operaciones debe decidir cómo programar las máquinas envasadoras. Para evitar costos innecesarios de almacenamiento o quiebres de stock, necesita entender cómo se comporta el <em>promedio de compra</em> (<span class="math inline">\(\overline{X}\)</span>) cuando se agrupan los pedidos.</p>
+</section>
+<section id="guía-del-ejercicio-paso-a-paso" class="level3">
+<h3 class="anchored" data-anchor-id="guía-del-ejercicio-paso-a-paso">Guía del Ejercicio Paso a Paso</h3>
+<p>Antes de recibir los pedidos del día, la planta necesita conocer el comportamiento teórico de un consumidor individual.</p>
+<section id="paso-1-establecer-la-línea-de-base-de-la-población" class="level4">
+<h4 class="anchored" data-anchor-id="paso-1-establecer-la-línea-de-base-de-la-población">Paso 1: Establecer la Línea de Base de la Población</h4>
+<ol type="1">
+<li>Calcule la Media Poblacional (<span class="math inline">\(\mu\)</span>): Representa el peso promedio a largo plazo que se proyecta vender por cliente</li>
+<li>Calcule la Varianza Poblacional (<span class="math inline">\(\sigma ^{2}\)</span>): Mide el riesgo o incertidumbre individual de que un cliente se desvíe drásticamente del promedio.</li>
+</ol>
+<p>El gerente evalúa qué pasa si toma decisiones de producción mirando únicamente los primeros 2 pedidos independientes de la mañana.</p>
+</section>
+<section id="paso-2-análisis-de-lotes-pequeños-muestra-de-n-2-pedidos" class="level4">
+<h4 class="anchored" data-anchor-id="paso-2-análisis-de-lotes-pequeños-muestra-de-n-2-pedidos">Paso 2: Análisis de Lotes Pequeños (Muestra de <span class="math inline">\(n = 2\)</span> pedidos)</h4>
+<ol start="3" type="1">
+<li>Obtenga la distribución muestral del promedio (<span class="math inline">\(\overline{X}\)</span>)<br>
+</li>
+<li>Calcule la Esperanza del lote <span class="math inline">\((\bar{X})\)</span> y compárela con <span class="math inline">\(\mu\)</span><br>
+</li>
+<li>¿El promedio del lote tiende a distorsionar la realidad del mercado?<br>
+</li>
+<li>Calcule la Varianza del lote <span class="math inline">\(V(\bar{X}\)</span> y compárela con <span class="math inline">\(\sigma ^{2}\)</span><br>
+</li>
+<li>¿Qué le pasó al riesgo de planificación al juntar 2 pedidos en lugar de mirar 1 solo?</li>
+</ol>
+</section>
+<section id="paso-3-consolidación-de-información-muestra-de-n3-pedidos" class="level4">
+<h4 class="anchored" data-anchor-id="paso-3-consolidación-de-información-muestra-de-n3-pedidos">Paso 3: Consolidación de Información (Muestra de <span class="math inline">\(n=3\)</span> pedidos)</h4>
+<ol start="8" type="1">
+<li>Repita el cálculo de la distribución muestral para <span class="math inline">\(n = 3\)</span>: Sean <span class="math inline">\(X_1\)</span> y <span class="math inline">\(X_2\)</span> los tamaños de caja elegidos por dos compradores independientes.</li>
+<li>Calcule la <span class="math inline">\(E(\overline{X})\)</span> y la <span class="math inline">\(V(\overline{X})\)</span></li>
+</ol>
+</section>
+<section id="paso-4-justificación-teórica-y-toma-de-decisiones" class="level4">
+<h4 class="anchored" data-anchor-id="paso-4-justificación-teórica-y-toma-de-decisiones">Paso 4: Justificación Teórica y Toma de Decisiones</h4>
+<ol start="10" type="1">
+<li><p>¿Por qué el promedio esperado <span class="math inline">\(E(\bar{X}\)</span> no cambia sin importar si <span class="math inline">\(n=2\)</span> o <span class="math inline">\(n=3\)</span>? ¿Cambiará para un <span class="math inline">\(n\)</span> mayor?</p></li>
+<li><p>Por qué la varianza disminuye a medida que aumenta el tamaño del lote <span class="math inline">\(n\)</span>)? Explique el “efecto compensación”.</p></li>
+<li><p>Imaginá que sos el Gerente de Producción de la planta. Si tuvieras que configurar las máquinas envasadoras mirando únicamente un lote de 2 pedidos (n=2), ¿qué problemas operativos y de almacenamiento enfrentarías en el día a día? Fundamentá usando los valores de promedio (X̄) y varianza (V(X̄)) obtenidos en el paso 2.<br>
+</p></li>
+<li><p>Si en lugar de producir de a 2 pedidos, decidís acumular 100 pedidos (n=100) antes de encender las máquinas:<br>
+¿Cuánto valdría la nueva varianza del promedio del lote?. Explicá cómo cambia tu estrategia para programar las máquinas bajo este nuevo escenario.</p></li>
+</ol>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
