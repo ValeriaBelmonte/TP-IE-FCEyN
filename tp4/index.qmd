@@ -1,0 +1,13 @@
+---
+title: "Trabajo Práctico 4"
+---
+
+# Muestras  y distribuciones muestrales 
+
+## OBJETIVOS
+
+-   Establecer la relación entre las variables aleatorias, las muestras y la inferencia estadística usando el significado del muestreo aleatorio.
+
+-   Obtener la distribución de un estadístico a partir del muestreo aleatorio.
+
+

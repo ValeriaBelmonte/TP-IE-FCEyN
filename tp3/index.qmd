@@ -1,0 +1,13 @@
+---
+title: "Trabajo Práctico 3"
+---
+
+# "Análisis de datos bivariados"
+
+## OBJETIVOS
+
+- Ser capaz de resumir información muestral, relativa a dos variables en estudio, usando tablas y gráficos.
+
+- Analizar la relación entre variables cualitativas y establecer una medida de dependencia entre las mismas.
+
+- Analizar la relación entre variables cuantitativas y establecer una medida de correlación o dependencia entre las mismas.

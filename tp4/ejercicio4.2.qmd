@@ -4,6 +4,6 @@ title: "Ejercicio 4.2"
 
 La cantidad de líquido dosificada por cierta máquina, en mililitros, está uniformemente distribuida en el intervalo [240; 260].
 
-1. Simule, utilizando una computadora, 100 réplicas de una muestra aleatoria simple de n = 10, 20, 30 dosificaciones. Calcule el contenido medio de líquido de cada muestra. Realice los histogramas, compare y elabore conclusiones.[Ver pasos para resolver en R](../pasos_R/ejercicio4.2_R_1.html)
+💻 1. Simule, utilizando una computadora, 100 réplicas de una muestra aleatoria simple de n = 10, 20, 30 dosificaciones. Calcule el contenido medio de líquido de cada muestra. Realice los histogramas, compare y elabore conclusiones.[Ver pasos para resolver en R](../pasos_R/ejercicio4.2_R_1.html)
 
 2. Explique cómo simularía una dosificación usando el generador de números aleatorios de una calculadora o una tabla de números aleatorios.
