@@ -41,27 +41,22 @@ website:
         contents:
           - href: tp3/index.qmd
             text: Presentación
-          - href: tp3/ejercicio1.qmd
+          - href: tp3/ejercicio3.1.qmd
             text: Ejercicio 3.1
-          - href: tp3/ejercicio2.qmd
+          - href: tp3/ejercicio3.2.qmd
             text: Ejercicio 3.2
             
       - section: "TRABAJO PRÁCTICO 4"
         contents:
           - href: tp4/index.qmd
             text: Presentación
-          - href: tp4/ejercicio1.qmd
+          - href: tp4/ejercicio4.1.qmd
             text: Ejercicio 4.1
-          - href: tp4/ejercicio2.qmd
+          - href: tp4/ejercicio4.2.qmd
             text: Ejercicio 4.2
-          - href: tp4/ejercicio3.qmd
+          - href: tp4/ejercicio4.3.qmd
             text: Ejercicio 4.3
-          - href: tp4/ejercicio4.qmd
-            text: Ejercicio 4.4
-          - href: tp4/ejercicio5.qmd
-            text: Ejercicio 4.5
-          - href: tp4/ejercicio6.qmd
-            text: Ejercicio 4.6
+        
 
       - section: "TRABAJO PRÁCTICO 7"
         contents:
