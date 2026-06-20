@@ -3,3 +3,22 @@ title: "Ejercicio 4.3"
 ---
 
 
+
+Se sabe que el 80 % de todas las unidades del disco A, de marca Z, trabajan de manera satisfactoria durante el período de garantía. Suponga que $n = 10$ unidades del disco se seleccionan al azar y sea
+
+
+*X ={número de éxitos en la muestra}*
+
+El estadístico
+
+$$p = \frac{X}{n}$$
+
+es la proporción muestral de éxitos.  
+
+1. Identifique la distribución de $X$.  
+
+2. Obtenga la distribución muestral de $p$.  
+
+3. Simule, utilizando una computadora, 100 réplicas de una muestra aleatoria simple de $n = 20$, $30$ y $50$ unidades. Calcule $p$ para cada réplica, construya los histogramas y elabore conclusiones. [Ver pasos para resolver en R](../pasos_R/ejercicio4.3_R_1.html)
+
+4. Explique cómo simularía la observación de uno de estos discos usando el generador de números aleatorios de una calculadora o una tabla de números aleatorios.
