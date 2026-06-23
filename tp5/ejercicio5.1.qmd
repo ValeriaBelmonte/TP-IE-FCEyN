@@ -1,0 +1,13 @@
+---
+title: "Ejercicio 5.1"
+---
+
+Días atrás se dio a conocer el aumento de la venta de automóviles usados en las provincias argentinas. En una encuesta realizada en nuestra provincia a 200 propietarios de automóviles, 30 de ellos manifestaron la intención de cambiar su auto el mes próximo. Los propietarios encuestados se eligieron de manera independiente y aleatoria del registro de automotores.
+
+1. Defina la variable de interés e identifique su distribución.
+
+2. Encuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.
+
+3. Encuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.
+
+4. Encuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.

@@ -1,0 +1,19 @@
+---
+title: "Ejercicio 5.7"
+---
+
+
+
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X$. Encuentre un estimador basado en el método de los momentos de $\mu$ en cada uno de los siguientes casos:
+
+1. $X$ es una variable aleatoria continua cuya función de densidad está dada por la expresión siguiente, siendo $\mu > 0$:
+
+$$
+f(x)=\frac{x}{\mu^4}I_{[0,\mu^2]}(x)+\frac{2\mu^2-x}{\mu^4}I_{(\mu^2,2\mu^2]}(x)
+$$
+
+2. $X$ es una variable aleatoria discreta cuya función de probabilidad puntual está dada por la tabla siguiente, siendo $0<\mu<1$:
+
+| $k$ | 1 | 2 | 4 |
+|------|---|---|---|
+| $p(k)$ | $\mu^2$ | $2\mu(1-\mu)$ | $(1-\mu)^2$ |

@@ -1,0 +1,132 @@
+---
+title: "Ejercicio 3.1_R_1"
+---
+
+# Cargar los datos en una tabla de contingencia
+```{r}
+
+
+tabla <- matrix(
+  c(45, 25, 30,
+    26, 41, 33,
+    36, 33, 31,
+    28, 38, 34),
+  nrow = 4,
+  byrow = TRUE
+)
+
+rownames(tabla) <- c("Soltero", "Casado", "Divorciado", "Viudo")
+colnames(tabla) <- c("Policial", "Comedia", "Romance")
+
+tabla
+```
+## Tablas y proporciones
+
+```{r}
+# Totales por fila
+rowSums(tabla)
+
+# Totales por columna
+colSums(tabla)
+
+# Total general
+sum(tabla)
+
+# Proporciones por fila
+prop.table(tabla, margin = 1)
+
+# Proporciones por columna
+prop.table(tabla, margin = 2)
+
+# Proporciones sobre el total
+prop.table(tabla)
+```
+
+## Gráficos 
+
+```{r}
+# Gráfico de barras agrupadas
+barplot(tabla,
+        beside = TRUE,
+        legend.text = TRUE,
+        main = "Preferencia de películas según estado civil",
+        xlab = "Tipo de película",
+        ylab = "Frecuencia")
+
+# Gráfico de barras apiladas
+barplot(tabla,
+        beside = FALSE,
+        legend.text = TRUE,
+        main = "Preferencia de películas según estado civil",
+        xlab = "Tipo de película",
+        ylab = "Frecuencia")
+```
+
+
+
+## Graficos con ggplot
+```{r}
+library(tidyverse)
+
+datos <- data.frame(
+  EstadoCivil = rep(c("Soltero", "Casado", "Divorciado", "Viudo"), each = 3),
+  Pelicula = rep(c("Policial", "Comedia", "Romance"), times = 4),
+  Frecuencia = c(
+    45, 25, 30,
+    26, 41, 33,
+    36, 33, 31,
+    28, 38, 34
+  )
+)
+
+datos
+```
+
+
+
+## Totales y proporciones
+
+```{r}
+datos %>%
+  group_by(EstadoCivil) %>%
+  summarise(Total = sum(Frecuencia))
+```
+
+```{r}
+datos %>%
+  group_by(Pelicula) %>%
+  summarise(Total = sum(Frecuencia))
+```
+ ### Total general 
+ 
+```{r}
+datos %>%
+  summarise(Total = sum(Frecuencia))
+```
+ 
+```{r}
+datos %>%
+  group_by(EstadoCivil) %>%
+  mutate(Proporcion = Frecuencia / sum(Frecuencia))
+```
+
+
+ 
+
+## Gráficos 
+
+```{r}
+ggplot(datos,
+       aes(x = Pelicula,
+           y = Frecuencia,
+           fill = EstadoCivil)) +
+  geom_col(position = "dodge") +
+  labs(
+    title = "Preferencia de películas según estado civil",
+    x = "Tipo de película",
+    y = "Frecuencia"
+  ) +
+  theme_minimal()
+```
+
+

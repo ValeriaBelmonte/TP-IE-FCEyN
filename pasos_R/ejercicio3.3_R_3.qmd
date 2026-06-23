@@ -1,0 +1,41 @@
+---
+title: "ejercicio4.3_R_1"
+---
+
+### Resolución guiada en R para el híbrido Nueva GR80
+
+Primero cargamos los datos correspondientes al híbrido **Nueva GR80**.
+
+```{r}
+nueva_gr80 <- c(
+  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,
+  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,
+  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,
+  119, 128, 123, 142, 138, 145, 136, 147, 141, 137
+)
+```
+
+
+#Para datos puros 
+
+## 2. Media y varianza
+
+## 3. Mediana y MAD
+
+```{r}
+median(nueva_gr80)
+mad(nueva_gr80)
+```
+
+
+
+### 3. Mediana y MAD
+
+```{r}
+mediana <- median(nueva_gr80)
+mad_nueva <- mad(nueva_gr80)
+
+mediana
+mad_nueva
+```
+

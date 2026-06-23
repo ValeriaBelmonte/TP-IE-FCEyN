@@ -1,0 +1,18 @@
+---
+title: "Ejercicio 5.4"
+---
+
+
+## Ejercicio 5.4
+
+Una consultora laboral realiza cada día entrevistas a solicitantes de empleo destinados a industrias que requieren que sus empleados estén capacitados en programación de computadoras. Los candidatos son elegidos al azar entre la población y entrevistados en forma sucesiva. Durante la primera quincena de agosto se registró el número de entrevistas necesarias hasta encontrar el primer solicitante con conocimientos certificados de programación. Tales registros fueron:
+
+3 &nbsp;&nbsp; 5 &nbsp;&nbsp; 2 &nbsp;&nbsp; 2 &nbsp;&nbsp; 1 &nbsp;&nbsp; 6 &nbsp;&nbsp; 5 &nbsp;&nbsp; 5 &nbsp;&nbsp; 8 &nbsp;&nbsp; 2 &nbsp;&nbsp; 2 &nbsp;&nbsp; 2 &nbsp;&nbsp; 1 &nbsp;&nbsp; 3 &nbsp;&nbsp; 4
+
+1. Proponga un modelo que considere adecuado para la variable de interés.
+
+2. Encuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.
+
+3. Encuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.
+
+4. Encuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.

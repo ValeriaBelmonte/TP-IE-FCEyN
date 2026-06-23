@@ -1,0 +1,19 @@
+---
+title: "Ejercicio 5.2"
+---
+
+## Ejercicio 5.2
+
+La cantidad de polvo en la atmósfera puede ser estimada por medio de un ultramicroscopio. Para ello se ilumina un volumen de aire muy pequeño y el observador cuenta el número de partículas que ve. Si se repite esta operación, puede estimarse la cantidad de polvo que se ha observado por centímetro cúbico de aire. Al efectuar 300 ensayos se obtuvieron los siguientes resultados:
+
+| Número de partículas | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|----------------------|---|---|---|---|---|---|---|
+| Frecuencia observada | 38 | 75 | 89 | 54 | 20 | 19 | 5 |
+
+1. Proponga un modelo que considere adecuado para el número de partículas de polvo por centímetro cúbico de aire.
+
+2. Encuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.
+
+3. Encuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.
+
+4. Encuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.

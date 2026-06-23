@@ -1,0 +1,16 @@
+---
+title: "Ejercicio 5.3"
+---
+
+
+La concentración de monóxido de carbono, medida en ppm, en un período de una hora, en muestras de aire de una gran ciudad tiene aproximadamente una distribución exponencial de parámetro $\lambda$. Se obtuvieron las concentraciones de monóxido de carbono de 10 días laborales elegidos al azar siendo los resultados:
+
+3,6 &nbsp;&nbsp; 4,1 &nbsp;&nbsp; 3,8 &nbsp;&nbsp; 3,0 &nbsp;&nbsp; 3,8 &nbsp;&nbsp; 3,7 &nbsp;&nbsp; 4,0 &nbsp;&nbsp; 4,1 &nbsp;&nbsp; 3,3 &nbsp;&nbsp; 3,2
+
+1. Encuentre un estimador para el parámetro de la distribución basado en el primer momento. Obtenga la estimación basada en la muestra.
+
+2. Encuentre un estimador para el parámetro de la distribución basado en el segundo momento. Obtenga la estimación basada en la muestra.
+
+3. Encuentre un estimador por el método de los momentos de $q(\lambda)=P_{\lambda}(X\geq 1)$.
+
+4. Encuentre el estimador de máxima verosimilitud para el parámetro de la distribución. Obtenga la estimación basada en la muestra.

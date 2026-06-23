@@ -1,0 +1,38 @@
+---
+title: "Ejercicio 3.3"
+---
+
+
+Una compañía dedicada a la comercialización de semillas decidió poner a prueba el rendimiento de dos híbridos de sorgo granífero bajo riego. Se estudiaron dos muestras compuestas por parcelas sembradas, en cada caso, con los híbridos **Nueva GR80** y **Overa**. Los resultados, en tm/ha, fueron:
+
+### Nueva GR80
+
+| 110 | 112 | 135 | 140 | 128 | 132 | 123 | 125 | 140 | 142 |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 151 | 113 | 142 | 123 | 118 | 143 | 138 | 135 | 140 | 135 |
+| 112 | 128 | 152 | 136 | 152 | 139 | 142 | 129 | 150 | 135 |
+| 119 | 128 | 123 | 142 | 138 | 145 | 136 | 147 | 141 | 137 |
+
+### Overa
+
+| 115 | 158 | 139 | 143 | 151 | 152 | 148 | 139 | 153 | 125 | 136 |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 129 | 146 | 136 | 140 | 150 | 140 | 139 | 128 | 129 | 125 | 130 |
+| 140 | 149 | 150 | 139 | 142 | 138 | 129 | 126 | 137 | 148 | 146 |
+| 150 | 158 | 153 | 119 | 139 | 154 | 139 | 151 | 154 | 139 | 132 |
+
+💻 1. Construya una distribución de frecuencias de los datos para cada muestra y realice los histogramas correspondientes. [Ver pasos para resolver en R](../pasos_R/ejercicio3._R_1.html)
+
+💻 2. Calcule la media y la varianza de cada una de las muestras.
+[Ver pasos para resolver en R](../pasos_R/ejercicio3.3_R_2.html)
+
+💻 3. Calcule para cada muestra la mediana y el MAD.
+[Ver pasos para resolver en R](../pasos_R/ejercicio3.3_R_3.html)
+
+💻 4. Construya en una misma representación  boxplot para cada muestra.
+[Ver pasos para resolver en R](../pasos_R/ejercicio3.3_R_4.html)
+
+5. Compare los resultados obtenidos para cada muestra considerando los alcanzados en los incisos anteriores y elabore conclusiones.
+
+
+

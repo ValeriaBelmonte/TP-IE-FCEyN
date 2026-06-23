@@ -1,3 +1,23 @@
 ---
 title: "Ejercicio 3.2"
 ---
+
+La Figura 3.1 presenta información proveniente del Informe Anual Sociodemográfico del Sistema de Riesgos del Trabajo correspondiente al año 2024. Extraído de [Fuente](https://www.srt.gob.ar/estadisticas/infografias_genero.php#)
+
+En la sección de litigiosidad se muestra la distribución porcentual de los tipos de contingencias laborales para mujeres y varones.
+
+1.   Construya una tabla de contingencia con las frecuencias absolutas.
+
+2.   Obtenga las distribuciones marginales y conjuntas.
+
+3.   Calcule los perfiles fila y los perfiles columna.
+
+4.   Represente gráficamente la información mediante un gráfico adecuado.
+
+5.   Describa las principales diferencias observadas entre mujeres y varones.
+
+6.   Analice si existe asociación entre el sexo y el tipo de contingencia laboral utilizando una medida de relación apropiada.
+
+7.   Interprete el valor obtenido en el contexto del problema.
+
+![Figura 3. 1](images/Imagen 3 2.jfif)

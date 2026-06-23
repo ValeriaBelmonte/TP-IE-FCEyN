@@ -1,0 +1,113 @@
+---
+title: "Untitled"
+editor: visual
+---
+
+# 1. Simulación rápida de los datos de Spotify (Estructura idéntica al dataset real)
+
+```{r}
+set.seed(42)
+n <- 100
+
+df <- data.frame(
+  track_genre = rep(c("Classical", "Reggaeton", "Rock", "Metal"), each = n),
+  energy = c(
+    rbeta(n, 2, 8),  # Classical: Energía baja
+    rbeta(n, 7, 3),  # Reggaeton: Energía alta y constante
+    rbeta(n, 6, 4),  # Rock: Energía moderada-alta
+    rbeta(n, 9, 1)   # Metal: Energía extremadamente alta
+  )
+)
+```
+
+# ==============================================================================
+
+# OPCIÓN B: Usando ggplot2 (Da un acabado mucho más profesional)
+
+# ==============================================================================
+
+# Si no tienes instalado ggplot2, descomenta la siguiente línea:
+
+# install.packages("ggplot2")
+
+```{r}
+library(ggplot2)
+
+ggplot(df, aes(x = track_genre, y = energy, fill = track_genre)) +
+  geom_boxplot(width = 0.5, outlier.color = "red", outlier.shape = 16) +
+  scale_fill_brewer(palette = "Set2") + # Paleta de colores atractiva
+  labs(title = "Distribución de la 'Energía' en Spotify según el Género Musical",
+       x = "Género Musical",
+       y = "Nivel de Energía (0.0 a 1.0)") +
+  theme_minimal() +
+  theme(legend.position = "none", # Quita la leyenda porque ya se lee abajo
+        plot.title = element_text(face = "bold", size = 14)) 
+
+```
+# Base de datos de kaggle 
+```{r}
+library(readr)
+dataset <- read_csv(
+  "C:/Users/USUARIO/Desktop/copia de seguridad/trabajo/trabajo/EXACTAS/Inferencia Est Exactas/IE 2026/Trabajos Prácticos/TP-IE-FCEyN/base para crear ejercicios/dataset.csv"
+)
+
+```
+```{r}
+summary(dataset)
+```
+```{r}
+table(dataset$track_genre)
+```
+
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+library(dplyr)
+
+top_generos <- dataset %>%
+  count(track_genre, sort = TRUE) %>%
+  slice_head(n = 10) %>%
+  pull(track_genre)
+
+dataset_top <- dataset %>%
+  filter(track_genre %in% top_generos)
+
+ggplot(dataset_top, aes(x = track_genre, y = popularity, fill=track_genre)) +
+  geom_boxplot() +
+  labs(
+    title = "Popularidad según género musical (10 géneros más frecuentes)",
+    x = "Género musical",
+    y = "Popularidad"
+  ) +
+  theme_minimal() +
+  theme(legend.location = "none",
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+```
+
+
+```{r}
+g_popularidad<-ggplot(dataset_top, aes(x = track_genre, y = popularity)) +
+  geom_boxplot(
+    fill = "orange",
+    color = "black"
+  ) +
+  coord_flip() +
+  labs(
+    title = "Popularidad según género musical",
+    x = "Género musical",
+    y = "Popularidad",
+    caption ="Fuente:Datos obtenidos de bases de Kaggle" 
+  ) +
+  theme_minimal()
+g_popularidad
+```
+
+```{r}
+ggsave("../imagenes/musica_popular.png",plot=g_popularidad, bg="white")
+```
+

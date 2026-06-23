@@ -1,0 +1,11 @@
+---
+title: "Ejercicio 5.5"
+---
+
+La temperatura más alta diaria durante el mes de julio en una aldea rural ha variado uniformemente entre 0°C y $\theta$°C, según registros anteriores. Se registraron las temperaturas, en grados Celsius, de 10 días elegidos al azar del mes de julio pasado.
+
+3,4 &nbsp;&nbsp; 4,0 &nbsp;&nbsp; 2,1 &nbsp;&nbsp; 1,8 &nbsp;&nbsp; 2,1 &nbsp;&nbsp; 3,1 &nbsp;&nbsp; 0,5 &nbsp;&nbsp; 4,3 &nbsp;&nbsp; 3,8 &nbsp;&nbsp; 4,0
+
+1. Encuentre un estimador basado en el método de los momentos para $\theta$. Obtenga la estimación a partir de la muestra.
+
+2. Encuentre el estimador de máxima verosimilitud del parámetro $\theta$. Obtenga la estimación a partir de la muestra.

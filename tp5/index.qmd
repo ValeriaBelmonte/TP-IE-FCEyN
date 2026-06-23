@@ -1,0 +1,10 @@
+---
+title: "Trabajo Práctico 5"
+
+---
+# Estimación Puntual
+## OBJETIVOS
+
+-   Aplicar los conceptos generales de la estimación puntual de parámetros de una población o distribución de probabilidad.
+
+-   Obtener estimadores de los parámetros de una población o distribución de probabilidad por diferentes métodos.

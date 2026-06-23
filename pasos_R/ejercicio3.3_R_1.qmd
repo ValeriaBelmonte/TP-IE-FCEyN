@@ -1,0 +1,58 @@
+---
+title: "ejercicio4.3_R_1"
+---
+
+```{r}
+nueva_gr80 <- c(
+  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,
+  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,
+  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,
+  119, 128, 123, 142, 138, 145, 136, 147, 141, 137
+)
+```
+
+## 1. Distribución de frecuencias para datos agrupados
+
+Definimos intervalos de clase y contamos cuántos datos caen en cada intervalo.
+
+```{r}
+intervalos <- seq(110, 155, by = 5)
+
+clases <- cut(
+  nueva_gr80,
+  breaks = intervalos,
+  right = FALSE,
+  include.lowest = TRUE
+)
+
+tabla_frecuencias <- as.data.frame(table(clases))
+tabla_frecuencias
+```
+
+También podemos agregar la frecuencia relativa y porcentual.
+
+```{r}
+tabla_frecuencias$frecuencia_relativa <- tabla_frecuencias$Freq / sum(tabla_frecuencias$Freq)
+
+tabla_frecuencias$porcentaje <- tabla_frecuencias$frecuencia_relativa * 100
+
+tabla_frecuencias
+```
+
+## Histograma
+
+Usamos los mismos intervalos definidos para la tabla de frecuencias.
+
+```{r}
+hist(
+  nueva_gr80,
+  breaks = intervalos,
+  right = FALSE,
+  main = "Histograma del rendimiento - Nueva GR80",
+  xlab = "Rendimiento (tm/ha)",
+  ylab = "Frecuencia",
+  col = "lightblue",
+  border = "white"
+)
+```
+

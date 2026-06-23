@@ -1,0 +1,11 @@
+---
+title: "Ejercicio 3.4"
+---
+
+Se seleccionaron los 10 géneros musicales más frecuentes de una base de datos de canciones obtenida de Kaggle. Para cada género se registró la variable popularidad (escala de 0 a 100). Los datos fueron resumidos mediante diagramas de caja, obteniéndose el gráfico mostrado en la figura 3.4
+
+![Figura 3.4: Diagramas de caja y brazos de la popularidad de canciones para los 10 géneros musicales más frecuentes"]("C:\Users\USUARIO\Desktop\copia de seguridad\trabajo\trabajo\EXACTAS\Inferencia Est Exactas\IE 2026\Trabajos Prácticos\TP-IE-FCEyN\imagenes\musica_popular.png")
+
+A partir del gráfico, indique si las siguientes afirmaciones son verdaderas o falsas. Justifique brevemente su respuesta.
+
+Las canciones del género ambient tienden a presentar una popularidad mayor que las del género afrobeat. La popularidad de las canciones del género brazil es más homogénea que la del género blues. Todas las canciones del género anime poseen una popularidad superior a las del género black-metal. Los géneros alternative y alt-rock presentan una mayor dispersión en la popularidad que bluegrass. Existen valores atípicos en varios de los géneros representados. El género acoustic presenta una mediana de popularidad superior a la de bluegrass. La mitad central de las canciones del género afrobeat posee una popularidad comprendida aproximadamente entre 18 y 28 puntos. El género blues presenta una distribución más variable que la del género brazil. Puede afirmarse, a partir del gráfico, que las medianas de popularidad son iguales para todos los géneros musicales. Los géneros musicales difieren tanto en su nivel típico de popularidad como en la variabilidad de dicha popularidad. Preguntas de análisis más profundo Or
