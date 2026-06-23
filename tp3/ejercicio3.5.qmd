@@ -1,0 +1,26 @@
+---
+title: "Ejercicio 3.5"
+---
+
+### 
+
+Se sabe que la vitamina D extraída del hígado del pescado, sumada a la alimentación de los pollitos, los ayuda a ganar peso. Se quiere verificar si la vitamina retirada del pescado (**tratamiento A**) produce los mismos resultados que el tratamiento tradicional con aceite de hígado de bacalao (**tratamiento B**).
+
+Se les pidió a dos granjeros que cada uno adicionase una de las vitaminas a sus raciones, tomaran el peso de los pollitos a los ocho días y enviaran los resultados. Cada granja mandó dichos resultados de la siguiente manera:
+
+| Granja A |            |     | Granja B  |            |
+|----------|:----------:|-----|:---------:|:----------:|
+| Peso (g) | Frecuencia |     | Peso (g)  | Frecuencia |
+| 60 - 66  |    210     |     |  60 - 62  |    100     |
+| 66 - 68  |    280     |     |  62 - 64  |    210     |
+| 68 - 70  |    360     |     |  64 - 66  |    450     |
+| 70 - 72  |    200     |     |  66 - 69  |    400     |
+| 72 - 76  |    150     |     |  69 - 73  |    280     |
+|          |  **1200**  |     |  73 - 77  |     60     |
+|          |            |     | **Total** |  **1500**  |
+
+1.  Indique, para cada una de las granjas, el experimento que se realiza, la unidad experimental, la población de unidades y la población estadística, la variable de estudio y a qué tipo corresponde.
+
+2.  Construya los histogramas. ¿Qué tipo de conclusión daría cuando compara las dos fuentes de vitaminas?
+
+3.  Calcule la media y el desvío estándar de cada distribución. ¿Qué tipo de información adicional traen estos valores al problema?
