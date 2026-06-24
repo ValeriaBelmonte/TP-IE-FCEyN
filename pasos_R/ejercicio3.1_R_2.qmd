@@ -1,0 +1,45 @@
+---
+title: "Ejercicio3.1_R_1"
+---
+
+
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+peliculas <- data.frame(
+  EstadoCivil = rep(c("Soltero", "Casado", "Divorciado", "Viudo"), each = 3),
+  TipoFilm = rep(c("Policial", "Comedia", "Romance"), times = 4),
+  Frecuencia = c(
+    45, 25, 30,
+    26, 41, 33,
+    36, 33, 31,
+    28, 38, 34
+  )
+)
+
+peliculas
+```
+
+
+```{r}
+ggplot(peliculas,aes(x = EstadoCivil,y = Frecuencia,fill = TipoFilm)) +
+  geom_col(position = "dodge",) +
+   scale_fill_manual(
+    values = c(
+      "Policial" = "steelblue",
+      "Comedia" = "orange",
+      "Romance" = "firebrick"
+    ))+
+  labs(
+    x = "Estado civil",
+    y = "Frecuencia",
+    fill = "Tipo de película",
+    title = "Preferencia de películas según estado civil"
+  ) +
+  theme_linedraw() # exploará con los difrentes temas de ggplot
+
+```
+

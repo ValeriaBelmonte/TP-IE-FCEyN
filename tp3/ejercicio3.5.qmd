@@ -2,8 +2,6 @@
 title: "Ejercicio 3.5"
 ---
 
-### 
-
 Se sabe que la vitamina D extraída del hígado del pescado, sumada a la alimentación de los pollitos, los ayuda a ganar peso. Se quiere verificar si la vitamina retirada del pescado (**tratamiento A**) produce los mismos resultados que el tratamiento tradicional con aceite de hígado de bacalao (**tratamiento B**).
 
 Se les pidió a dos granjeros que cada uno adicionase una de las vitaminas a sus raciones, tomaran el peso de los pollitos a los ocho días y enviaran los resultados. Cada granja mandó dichos resultados de la siguiente manera:

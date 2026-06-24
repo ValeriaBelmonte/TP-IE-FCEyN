@@ -1,0 +1,21 @@
+---
+title: "Ejercicio 3.6"
+---
+
+Un grupo de estudiantes universitarios de física realizan experimentos para verificar la Ley de Hooke. Dicha ley establece que, cuando se aplica una fuerza a un cuerpo que es largo en comparación con su área transversal, el cambio de su longitud (mm) es proporcional a la fuerza aplicada (kg).
+
+En la siguiente tabla se muestran los resultados de un experimento de laboratorio, para el que se usaron diez piezas de alambre de acero de 0,34 mm de diámetro y 3 m de largo, para obtener las mediciones de fuerza y cambio de longitud.
+
+| Fuerza (kg) | 29,40 | 39,20 | 49,00 | 58,80 | 68,60 | 78,40 | 45,30 | 35,00 | 53,50 | 74,30 |
+|-------------|------:|------:|------:|------:|------:|------:|------:|------:|------:|------:|
+| Cambio (mm) | 4,25 | 5,25 | 6,50 | 7,85 | 8,75 | 10,00 | 6,16 | 4,92 | 7,14 | 9,64 |
+
+1. Dibuje el diagrama de dispersión entre la fuerza aplicada y el cambio de longitud.
+
+2. Calcule el coeficiente de correlación lineal de Pearson.
+
+3. Interprete el valor obtenido e indique la intensidad y dirección de la asociación entre ambas variables.
+
+4. Analice, a partir del diagrama de dispersión, si resulta razonable utilizar un modelo de regresión lineal para describir la relación entre las variables.
+
+5. Elabore una conclusión en el contexto del problema, indicando si los resultados experimentales respaldan la Ley de Hooke.

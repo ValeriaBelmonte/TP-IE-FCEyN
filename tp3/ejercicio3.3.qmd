@@ -2,7 +2,6 @@
 title: "Ejercicio 3.3"
 ---
 
-
 Una compañía dedicada a la comercialización de semillas decidió poner a prueba el rendimiento de dos híbridos de sorgo granífero bajo riego. Se estudiaron dos muestras compuestas por parcelas sembradas, en cada caso, con los híbridos **Nueva GR80** y **Overa**. Los resultados, en tm/ha, fueron:
 
 ### Nueva GR80

@@ -1,0 +1,22 @@
+---
+title: "Ejercicio 3.1"
+---
+
+
+
+Un estudio tiene por objetivo determinar si la preferencia por determinado tipo de películas se altera con el estado civil. Se seleccionan 100 individuos en cada una de las categorías: soltero, casado, divorciado y viudo. Los resultados obtenidos se muestran en la tabla siguiente:
+
+| Estado Civil | Policial | Comedia | Romance | Total |
+|--------------|---------:|--------:|--------:|------:|
+| Soltero      |       45 |      25 |      30 |   100 |
+| Casado       |       26 |      41 |      33 |   100 |
+| Divorciado   |       36 |      33 |      31 |   100 |
+| Viudo        |       28 |      38 |      34 |   100 |
+
+1.  Analice y exprese la información muestral proporcionada por la tabla de contingencia; represente gráficamente y de manera conveniente.
+
+2.  ¿El tipo de película elegido difiere según el estado civil de las personas? Concluya brindando una medida de relación o dependencia.
+
+💻 3.  Considerando que usted realizó el punto 2 "a mano", compárelos con los que haría R [Ver pasos para resolver en R](../pasos_R/ejercicio3.1_R_1.html)  
+
+💻 4.  Considerando que usted realizó los gráficos "a mano", compárelos con los que haría R [Ver pasos para resolver en R](../pasos_R/ejercicio3.1_R_2.html)

@@ -1,0 +1,8 @@
+---
+title: "Ejercicio 3.9"
+---
+
+Sea $(x_1,y_1)$, $(x_2,y_2)$, $\ldots$, $(x_n,y_n)$ una muestra y suponga que los valores de las medias muestrales $\bar{x}$ e $\bar{y}$ y las varianzas muestrales $s_x^2$ y $s_y^2$ son conocidos.  
+Sea $c$ una constante.
+1. Sea$z_i=x_i-c,\qquad i=1,2,\ldots,n.$  ¿Cómo se compara el valor de $r_{XY}$ con el de $r_{ZY}$?  
+2. Sea $z_i=cx_i,\qquad i=1,2,\ldots,n.$ ¿Cómo se compara el valor de $r_{XY}$ con el de $r_{ZY}$?

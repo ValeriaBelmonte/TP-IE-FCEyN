@@ -53,6 +53,12 @@ website:
             text: Ejercicio 3.5
           - href: tp3/ejercicio3.6.qmd
             text: Ejercicio 3.6
+          - href: tp3/ejercicio3.7.qmd
+            text: Ejercicio 3.7
+          - href: tp3/ejercicio3.8.qmd
+            text: Ejercicio 3.8
+          - href: tp3/ejercicio3.9.qmd
+            text: Ejercicio 3.9
             
       - section: "TRABAJO PRÁCTICO 4"
         contents:

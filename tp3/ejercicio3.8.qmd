@@ -1,0 +1,48 @@
+---
+title: "Ejercicio 3.8"
+---
+
+Anscombe utilizó los cuatro conjuntos de datos bidimensionales de la tabla adjunta para demostrar la importancia de los gráficos en el análisis de regresión.
+
+Para cada conjunto de datos:
+
+1.  Construya el diagrama de dispersión.
+2.  Calcule el coeficiente de correlación lineal de Pearson.
+3.  Estime la recta de regresión lineal de (y) en función de (x).
+4.  Interprete los resultados obtenidos.
+
+Finalmente:
+
+5.  Compare los resultados numéricos de los cuatro conjuntos de datos.
+6.  Analice conjuntamente los resultados obtenidos y los gráficos de dispersión.
+7.  Elabore una conclusión acerca de la importancia de la representación gráfica en el análisis de regresión.
+
+### Conjunto A
+
+| i   | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9     | 10   | 11   |
+|-----|------|------|------|------|------|------|------|------|-------|------|------|
+| x   | 10   | 8    | 13   | 9    | 11   | 14   | 6    | 4    | 12    | 7    | 5    |
+| y   | 8,04 | 6,95 | 7,58 | 8,81 | 8,33 | 9,96 | 7,24 | 4,26 | 10,84 | 4,82 | 5,68 |
+
+### Conjunto B
+
+| i   | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   |
+|-----|------|------|------|------|------|------|------|------|------|------|------|
+| x   | 10   | 8    | 13   | 9    | 11   | 14   | 6    | 4    | 12   | 7    | 5    |
+| y   | 9,14 | 8,14 | 8,74 | 8,77 | 9,26 | 8,10 | 6,13 | 3,10 | 9,13 | 7,26 | 4,74 |
+
+### Conjunto C
+
+| i   | 1    | 2    | 3     | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   |
+|-----|------|------|-------|------|------|------|------|------|------|------|------|
+| x   | 10   | 8    | 13    | 9    | 11   | 14   | 6    | 4    | 12   | 7    | 5    |
+| y   | 7,46 | 6,77 | 12,74 | 7,11 | 7,81 | 8,84 | 6,08 | 5,39 | 8,15 | 6,42 | 5,73 |
+
+### Conjunto D
+
+| i   | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8     | 9    | 10   | 11   |
+|-----|------|------|------|------|------|------|------|-------|------|------|------|
+| x   | 8    | 8    | 8    | 8    | 8    | 8    | 8    | 19    | 8    | 8    | 8    |
+| y   | 6,58 | 5,76 | 7,71 | 8,84 | 8,47 | 7,04 | 5,25 | 12,50 | 5,56 | 7,91 | 6,89 |
+
+![Figura 3.5: Diagrama de dispersión de los cuatro conjuntos de Anscombe](/imagenes/ascombe.png) \> **Nota:** Compare los coeficientes de correlación, las rectas de regresión y los diagramas de dispersión obtenidos. Discuta si las conclusiones serían las mismas si sólo se observaran los resultados numéricos y no los gráficos.
