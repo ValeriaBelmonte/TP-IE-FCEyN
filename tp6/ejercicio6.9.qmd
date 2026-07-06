@@ -1,0 +1,12 @@
+---
+title: "Ejercicio 6.9"
+editor: visual
+---
+
+
+El número de fallas en una pieza de tela, $X$, sigue una distribución de Poisson de parámetro $\lambda$. Considere $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X$. Demuestre, de dos maneras diferentes, que
+$$
+T=\sum_{i=1}^n X_i
+$$
+
+es un estadístico suficiente para $\lambda$.

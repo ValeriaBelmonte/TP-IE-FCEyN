@@ -1,0 +1,10 @@
+---
+title: "Ejercicio 6.6"
+editor: visual
+---
+
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X \sim \mathcal{P}(\lambda)$.
+
+1. Determine si $\overline{X}$ es consistente para $\lambda$.
+
+2. Determine si $S^2$ es consistente para $\lambda$.

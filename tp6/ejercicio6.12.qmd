@@ -1,0 +1,7 @@
+---
+title: "Ejercicio 6.12"
+editor: visual
+---
+
+
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X \sim N(\mu;\sigma^2)$. Encuentre los estimadores de mínima varianza para $\mu$ y $\sigma^2$.

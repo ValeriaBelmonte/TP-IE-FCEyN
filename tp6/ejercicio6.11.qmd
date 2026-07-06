@@ -1,0 +1,14 @@
+---
+title: "Ejercicio 6.11"
+editor: visual
+---
+
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X \sim \mathcal{P}(\lambda)$ y considere el estadístico suficiente
+
+$$
+T=\sum_{i=1}^n X_i
+$$
+
+1. Sea $\mu=\exp(-\lambda)$. Muestre que $\hat{\mu}=I_{\{X_1=0\}}$ es un estimador insesgado de $\mu$.
+
+2. Utilice el Teorema de Rao Blackwell para obtener un estimador insesgado $\delta(T)$ mejor que $\hat{\mu}$. Explique en qué sentido es $\delta(T)$ “mejor” que $\hat{\mu}$ y compruébelo.

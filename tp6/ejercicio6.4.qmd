@@ -1,0 +1,30 @@
+---
+title: "Ejercicio 6.4"
+editor: visual
+---
+
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X$ tal que $V(X)=\sigma^2$.
+
+1.  Determine si $\hat{\sigma}^2$ es insesgado, siendo
+
+$$
+\hat{\sigma}^2=\frac{1}{n}\sum_{i=1}^n (X_i-\overline{X})^2
+$$
+
+2.  Si $\hat{\sigma}^2$ es sesgado, obtenga a partir de él un estimador, $S^2$, insesgado para $\sigma^2$.
+
+3.  Suponga que $X \sim N(\mu;\sigma^2)$.
+
+    (a) Calcule $ECM(S^2)$.
+
+    (b) Calcule $ECM(\tilde{\sigma}^2)$ donde
+
+$$
+\tilde{\sigma}^2=\frac{n-1}{n+1}S^2
+$$
+
+```         
+(c) Compare $ECM(S^2)$ y $ECM(\tilde{\sigma}^2)$.
+
+(d) Explique cómo es la contribución del sesgo de $\tilde{\sigma}^2$ al $ECM(\tilde{\sigma}^2)$.
+```

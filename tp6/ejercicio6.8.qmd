@@ -1,0 +1,12 @@
+---
+title: "Ejercicio 6.8"
+editor: visual
+---
+
+⚙️Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de una variable aleatoria $X$ cuya función de densidad es
+
+$$
+f(x \mid \theta)=\frac{2x}{\theta^2} I_{[0,\theta]}(x)
+$$
+
+con $\theta>0$. Considere $\hat{\theta}_n=X_{(n)}$ un estimador de $\theta$, determine si es consistente y, en caso que no lo sea, encuentre a partir de él un estimador consistente para $\theta$.

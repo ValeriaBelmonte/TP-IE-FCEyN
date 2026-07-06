@@ -1,178 +1,441 @@
 [
   {
-    "objectID": "tp5/index.html",
-    "href": "tp5/index.html",
-    "title": "Trabajo Práctico 5",
+    "objectID": "tp6/ejercicio6.9.html",
+    "href": "tp6/ejercicio6.9.html",
+    "title": "Ejercicio 6.9",
     "section": "",
-    "text": "Aplicar los conceptos generales de la estimación puntual de parámetros de una población o distribución de probabilidad.\nObtener estimadores de los parámetros de una población o distribución de probabilidad por diferentes métodos.",
+    "text": "El número de fallas en una pieza de tela, \\(X\\), sigue una distribución de Poisson de parámetro \\(\\lambda\\). Considere \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X\\). Demuestre, de dos maneras diferentes, que \\[\nT=\\sum_{i=1}^n X_i\n\\]\nes un estadístico suficiente para \\(\\lambda\\).",
     "crumbs": [
-      "TRABAJO PRÁCTICO 5",
-      "Presentación"
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.9"
     ]
   },
   {
-    "objectID": "tp5/index.html#objetivos",
-    "href": "tp5/index.html#objetivos",
-    "title": "Trabajo Práctico 5",
+    "objectID": "tp6/ejercicio6.7.html",
+    "href": "tp6/ejercicio6.7.html",
+    "title": "Ejercicio 6.7",
     "section": "",
-    "text": "Aplicar los conceptos generales de la estimación puntual de parámetros de una población o distribución de probabilidad.\nObtener estimadores de los parámetros de una población o distribución de probabilidad por diferentes métodos.",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{G}(p)\\). Determine si\n\\[\nT=\\overline{X}\n\\]\nes consistente para\n\\[\n\\frac{1}{p}.\n\\]",
     "crumbs": [
-      "TRABAJO PRÁCTICO 5",
-      "Presentación"
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.7"
     ]
   },
   {
-    "objectID": "tp5/ejercicio5.6.html",
-    "href": "tp5/ejercicio5.6.html",
+    "objectID": "tp6/ejercicio6.5.html",
+    "href": "tp6/ejercicio6.5.html",
+    "title": "Ejercicio 6.5",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de $X$ cuya función de densidad es \\(f(x \\mid \\\\theta)\\). Sean \\(T_1\\) y \\(T_2\\) dos estimadores insesgados de \\(\\theta\\) tales que:\n\\[V(T_1)=\\sigma_1^2 &lt; V(T_2)=\\sigma_2^2\\]\nSe define un nuevo estimador de \\(\\theta\\) como \\(T_3=aT_1+(1-a)T_2\\).\n\n1. Determine si \\(T_3\\) es insesgado.\n\n2. Determine el valor de \\(a\\) para que \\(V(T_3)\\) sea mínima.\n\nSi \\(T_3\\) es insesgado, indique cuál de los estimadores \\(T_i\\), \\(i=1,2,3\\), prefiere. Justifique.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.5"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.3.html",
+    "href": "tp6/ejercicio6.3.html",
+    "title": "Ejercicio 6.3",
+    "section": "",
+    "text": "Suponga que \\(X\\), el tiempo de reacción a cierto estímulo en segundos, tiene una distribución uniforme en el intervalo que va de \\(0\\) a un límite superior \\(\\theta\\) desconocido. Se desea estimar \\(\\theta\\) con base en una muestra aleatoria simple \\(X_1, X_2, \\ldots, X_n\\) de \\(X\\). Sea \\(\\hat{\\theta}\\) el estimador de máxima verosimilitud de \\(\\theta\\) y \\(\\tilde{\\theta}\\) el estimador de \\(\\theta\\) basado en el primer momento.\n\nPruebe que \\(\\tilde{\\theta}\\) es insesgado y que \\(\\hat{\\theta}\\) es asintóticamente insesgado.\nObtenga otro estimador insesgado de \\(\\theta\\) a partir de \\(\\hat{\\theta}\\).\nCalcule el error cuadrático medio de los estimadores obtenidos y explique cuál preferiría desde este punto de vista.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.3"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.15.html",
+    "href": "tp6/ejercicio6.15.html",
+    "title": "Ejercicio 6.15",
+    "section": "",
+    "text": "⚙️ Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X\\), donde \\(X\\) sigue una distribución Weibull, esto es, su función de densidad viene dada por\n\\[\nf(x \\mid \\theta)=\\frac{2x}{\\theta}\\exp\\left(-\\frac{x^2}{\\theta}\\right) I_{(0,\\infty)}(x)\n\\]\nEncuentre un estimador insesgado de mínima varianza para \\(\\theta\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.15"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.13.html",
+    "href": "tp6/ejercicio6.13.html",
+    "title": "Ejercicio 6.13",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{E}(\\lambda)\\). Encuentre un estimador insesgado de mínima varianza para \\(V(X)\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.13"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.11.html",
+    "href": "tp6/ejercicio6.11.html",
+    "title": "Ejercicio 6.11",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{P}(\\lambda)\\) y considere el estadístico suficiente\n\\[\nT=\\sum_{i=1}^n X_i\n\\]\n\nSea \\(\\mu=\\exp(-\\lambda)\\). Muestre que \\(\\hat{\\mu}=I_{\\{X_1=0\\}}\\) es un estimador insesgado de \\(\\mu\\).\nUtilice el Teorema de Rao Blackwell para obtener un estimador insesgado \\(\\delta(T)\\) mejor que \\(\\hat{\\mu}\\). Explique en qué sentido es \\(\\delta(T)\\) “mejor” que \\(\\hat{\\mu}\\) y compruébelo.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.11"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.1.html",
+    "href": "tp6/ejercicio6.1.html",
+    "title": "Ejercicio 6.1",
+    "section": "",
+    "text": "Considere \\(X_1, X_2, X_3\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{E}(\\lambda)\\). Considere los siguientes estimadores de \\(E(X)=\\dfrac{1}{\\lambda}\\):\na)\\(T_1=X_1\\)\nb)\\(T_2=\\frac{1}{2}(X_1+X_2)\\)\nc)\\(T_3=\\frac{1}{3}(X_1+2X_2)\\) d)\\(T_4=\\min_{1\\leq i\\leq 3}\\{X_i\\}\\) e)\\(T_5=\\overline{X}\\)\n\nDetermine cuáles de los cinco estimadores son insesgados.\nIndique cuál estimador preferiría dentro de los insesgados encontrados.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.1"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.1.html#section",
+    "href": "tp6/ejercicio6.1.html#section",
+    "title": "Ejercicio 6.1",
+    "section": "",
+    "text": "Considere \\(X_1, X_2, X_3\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{E}(\\lambda)\\). Considere los siguientes estimadores de \\(E(X)=\\dfrac{1}{\\lambda}\\):\na)\\(T_1=X_1\\)\nb)\\(T_2=\\frac{1}{2}(X_1+X_2)\\)\nc)\\(T_3=\\frac{1}{3}(X_1+2X_2)\\) d)\\(T_4=\\min_{1\\leq i\\leq 3}\\{X_i\\}\\) e)\\(T_5=\\overline{X}\\)\n\nDetermine cuáles de los cinco estimadores son insesgados.\nIndique cuál estimador preferiría dentro de los insesgados encontrados.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.1"
+    ]
+  },
+  {
+    "objectID": "tp5/ejercicio5.7.html",
+    "href": "tp5/ejercicio5.7.html",
+    "title": "Ejercicio 5.7",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X\\). Encuentre un estimador basado en el método de los momentos de \\(\\mu\\) en cada uno de los siguientes casos:\n\n\\(X\\) es una variable aleatoria continua cuya función de densidad está dada por la expresión siguiente, siendo \\(\\mu &gt; 0\\):\n\n\\[\nf(x)=\\frac{x}{\\mu^4}I_{[0,\\mu^2]}(x)+\\frac{2\\mu^2-x}{\\mu^4}I_{(\\mu^2,2\\mu^2]}(x)\n\\]\n\n\\(X\\) es una variable aleatoria discreta cuya función de probabilidad puntual está dada por la tabla siguiente, siendo \\(0&lt;\\mu&lt;1\\):\n\n\n\n\n\\(k\\)\n1\n2\n4\n\n\n\n\n\\(p(k)\\)\n\\(\\mu^2\\)\n\\(2\\mu(1-\\mu)\\)\n\\((1-\\mu)^2\\)"
+  },
+  {
+    "objectID": "tp5/ejercicio5.5.html",
+    "href": "tp5/ejercicio5.5.html",
     "title": "Ejercicio 5.5",
     "section": "",
     "text": "La temperatura más alta diaria durante el mes de julio en una aldea rural ha variado uniformemente entre 0°C y \\(\\theta\\)°C, según registros anteriores. Se registraron las temperaturas, en grados Celsius, de 10 días elegidos al azar del mes de julio pasado.\n3,4    4,0    2,1    1,8    2,1    3,1    0,5    4,3    3,8    4,0\n\nEncuentre un estimador basado en el método de los momentos para \\(\\theta\\). Obtenga la estimación a partir de la muestra.\nEncuentre el estimador de máxima verosimilitud del parámetro \\(\\theta\\). Obtenga la estimación a partir de la muestra.",
     "crumbs": [
       "TRABAJO PRÁCTICO 5",
-      "Ejercicio 5.6"
+      "Ejercicio 5.5"
     ]
   },
   {
-    "objectID": "tp5/ejercicio5.4.html",
-    "href": "tp5/ejercicio5.4.html",
-    "title": "Ejercicio 5.4",
+    "objectID": "tp5/ejercicio5.3.html",
+    "href": "tp5/ejercicio5.3.html",
+    "title": "Ejercicio 5.3",
     "section": "",
-    "text": "Una consultora laboral realiza cada día entrevistas a solicitantes de empleo destinados a industrias que requieren que sus empleados estén capacitados en programación de computadoras. Los candidatos son elegidos al azar entre la población y entrevistados en forma sucesiva. Durante la primera quincena de agosto se registró el número de entrevistas necesarias hasta encontrar el primer solicitante con conocimientos certificados de programación. Tales registros fueron:\n3    5    2    2    1    6    5    5    8    2    2    2    1    3    4\n\nProponga un modelo que considere adecuado para la variable de interés.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
+    "text": "La concentración de monóxido de carbono, medida en ppm, en un período de una hora, en muestras de aire de una gran ciudad tiene aproximadamente una distribución exponencial de parámetro \\(\\lambda\\). Se obtuvieron las concentraciones de monóxido de carbono de 10 días laborales elegidos al azar siendo los resultados:\n3,6    4,1    3,8    3,0    3,8    3,7    4,0    4,1    3,3    3,2\n\nEncuentre un estimador para el parámetro de la distribución basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el parámetro de la distribución basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador por el método de los momentos de \\(q(\\lambda)=P_{\\lambda}(X\\geq 1)\\).\nEncuentre el estimador de máxima verosimilitud para el parámetro de la distribución. Obtenga la estimación basada en la muestra.",
     "crumbs": [
       "TRABAJO PRÁCTICO 5",
-      "Ejercicio 5.4"
+      "Ejercicio 5.3"
     ]
   },
   {
-    "objectID": "tp5/ejercicio5.4.html#ejercicio-5.4",
-    "href": "tp5/ejercicio5.4.html#ejercicio-5.4",
-    "title": "Ejercicio 5.4",
+    "objectID": "tp5/ejercicio5.1.html",
+    "href": "tp5/ejercicio5.1.html",
+    "title": "Ejercicio 5.1",
     "section": "",
-    "text": "Una consultora laboral realiza cada día entrevistas a solicitantes de empleo destinados a industrias que requieren que sus empleados estén capacitados en programación de computadoras. Los candidatos son elegidos al azar entre la población y entrevistados en forma sucesiva. Durante la primera quincena de agosto se registró el número de entrevistas necesarias hasta encontrar el primer solicitante con conocimientos certificados de programación. Tales registros fueron:\n3    5    2    2    1    6    5    5    8    2    2    2    1    3    4\n\nProponga un modelo que considere adecuado para la variable de interés.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
+    "text": "Días atrás se dio a conocer el aumento de la venta de automóviles usados en las provincias argentinas. En una encuesta realizada en nuestra provincia a 200 propietarios de automóviles, 30 de ellos manifestaron la intención de cambiar su auto el mes próximo. Los propietarios encuestados se eligieron de manera independiente y aleatoria del registro de automotores.\n\nDefina la variable de interés e identifique su distribución.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
     "crumbs": [
       "TRABAJO PRÁCTICO 5",
-      "Ejercicio 5.4"
+      "Ejercicio 5.1"
     ]
   },
   {
-    "objectID": "tp5/ejercicio5.2.html",
-    "href": "tp5/ejercicio5.2.html",
-    "title": "Ejercicio 5.2",
+    "objectID": "tp4/ejercicio4.3.html",
+    "href": "tp4/ejercicio4.3.html",
+    "title": "Ejercicio 4.3",
     "section": "",
-    "text": "La cantidad de polvo en la atmósfera puede ser estimada por medio de un ultramicroscopio. Para ello se ilumina un volumen de aire muy pequeño y el observador cuenta el número de partículas que ve. Si se repite esta operación, puede estimarse la cantidad de polvo que se ha observado por centímetro cúbico de aire. Al efectuar 300 ensayos se obtuvieron los siguientes resultados:\n\n\n\nNúmero de partículas\n0\n1\n2\n3\n4\n5\n6\n\n\n\n\nFrecuencia observada\n38\n75\n89\n54\n20\n19\n5\n\n\n\n\nProponga un modelo que considere adecuado para el número de partículas de polvo por centímetro cúbico de aire.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 5",
-      "Ejercicio 5.2"
-    ]
-  },
-  {
-    "objectID": "tp5/ejercicio5.2.html#ejercicio-5.2",
-    "href": "tp5/ejercicio5.2.html#ejercicio-5.2",
-    "title": "Ejercicio 5.2",
-    "section": "",
-    "text": "La cantidad de polvo en la atmósfera puede ser estimada por medio de un ultramicroscopio. Para ello se ilumina un volumen de aire muy pequeño y el observador cuenta el número de partículas que ve. Si se repite esta operación, puede estimarse la cantidad de polvo que se ha observado por centímetro cúbico de aire. Al efectuar 300 ensayos se obtuvieron los siguientes resultados:\n\n\n\nNúmero de partículas\n0\n1\n2\n3\n4\n5\n6\n\n\n\n\nFrecuencia observada\n38\n75\n89\n54\n20\n19\n5\n\n\n\n\nProponga un modelo que considere adecuado para el número de partículas de polvo por centímetro cúbico de aire.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 5",
-      "Ejercicio 5.2"
-    ]
-  },
-  {
-    "objectID": "tp4/index.html",
-    "href": "tp4/index.html",
-    "title": "Trabajo Práctico 4",
-    "section": "",
-    "text": "Establecer la relación entre las variables aleatorias, las muestras y la inferencia estadística usando el significado del muestreo aleatorio.\nObtener la distribución de un estadístico a partir del muestreo aleatorio.",
+    "text": "Se sabe que el 80 % de todas las unidades del disco A, de marca Z, trabajan de manera satisfactoria durante el período de garantía. Suponga que \\(n = 10\\) unidades del disco se seleccionan al azar y sea\nX ={número de éxitos en la muestra}\nEl estadístico\n\\[p = \\frac{X}{n}\\]\nes la proporción muestral de éxitos.\n\nIdentifique la distribución de \\(X\\).\nObtenga la distribución muestral de \\(p\\).\n\n💻 3. Simule, utilizando una computadora, 100 réplicas de una muestra aleatoria simple de \\(n = 20\\), \\(30\\) y \\(50\\) unidades. Calcule \\(p\\) para cada réplica, construya los histogramas y elabore conclusiones. Ver pasos para resolver en R\n\nExplique cómo simularía la observación de uno de estos discos usando el generador de números aleatorios de una calculadora o una tabla de números aleatorios.",
     "crumbs": [
       "TRABAJO PRÁCTICO 4",
-      "Presentación"
+      "Ejercicio 4.3"
     ]
   },
   {
-    "objectID": "tp4/index.html#objetivos",
-    "href": "tp4/index.html#objetivos",
-    "title": "Trabajo Práctico 4",
+    "objectID": "tp4/ejercicio4.1.html",
+    "href": "tp4/ejercicio4.1.html",
+    "title": "Ejercicio 4.1",
     "section": "",
-    "text": "Establecer la relación entre las variables aleatorias, las muestras y la inferencia estadística usando el significado del muestreo aleatorio.\nObtener la distribución de un estadístico a partir del muestreo aleatorio.",
+    "text": "Caso de Estudio: Planificación de Producción en Planta de producción de lavavajillas para el Hogar\nContexto Real:Trabajás en el equipo de Inteligencia de Negocios de una empresa de consumo masivo. La planta envasa su jabón para lavavajillas estrella en tres formatos según las necesidades del consumidor: Chico (500 g), Estándar (1 kg) y Familiar (3 kg).\nEl departamento de Trade Marketing indica que el comportamiento histórico de elección de los clientes es el siguiente:\n20% selecciona el tamaño Chico (\\(p_1 = 0.2\\))\n50% selecciona el tamaño Estándar (\\(p_2 = 0.5\\))\n30% selecciona el tamaño Familiar (\\(p_3 = 0.3\\))\nEl Gerente de Operaciones debe decidir cómo programar las máquinas envasadoras. Para evitar costos innecesarios de almacenamiento o quiebres de stock, necesita entender cómo se comporta el promedio de compra (\\(\\overline{X}\\)) cuando se agrupan los pedidos.\n\n\nGuía del Ejercicio Paso a Paso\nAntes de recibir los pedidos del día, la planta necesita conocer el comportamiento teórico de un consumidor individual.\n\nPaso 1: Establecer la Línea de Base de la Población\n\nCalcule la Media Poblacional (\\(\\mu\\)): Representa el peso promedio a largo plazo que se proyecta vender por cliente\nCalcule la Varianza Poblacional (\\(\\sigma ^{2}\\)): Mide el riesgo o incertidumbre individual de que un cliente se desvíe drásticamente del promedio.\n\nEl gerente evalúa qué pasa si toma decisiones de producción mirando únicamente los primeros 2 pedidos independientes de la mañana.\n\n\nPaso 2: Análisis de Lotes Pequeños (Muestra de \\(n = 2\\) pedidos)\n\nObtenga la distribución muestral del promedio (\\(\\overline{X}\\))\n\nCalcule la Esperanza del lote \\((\\bar{X})\\) y compárela con \\(\\mu\\)\n\n¿El promedio del lote tiende a distorsionar la realidad del mercado?\n\nCalcule la Varianza del lote \\(V(\\bar{X}\\) y compárela con \\(\\sigma ^{2}\\)\n\n¿Qué le pasó al riesgo de planificación al juntar 2 pedidos en lugar de mirar 1 solo?\n\n\n\nPaso 3: Consolidación de Información (Muestra de \\(n=3\\) pedidos)\n\nRepita el cálculo de la distribución muestral para \\(n = 3\\): Sean \\(X_1\\) y \\(X_2\\) los tamaños de caja elegidos por dos compradores independientes.\nCalcule la \\(E(\\overline{X})\\) y la \\(V(\\overline{X})\\)\n\n\n\nPaso 4: Justificación Teórica y Toma de Decisiones\n\n¿Por qué el promedio esperado \\(E(\\bar{X}\\) no cambia sin importar si \\(n=2\\) o \\(n=3\\)? ¿Cambiará para un \\(n\\) mayor?\nPor qué la varianza disminuye a medida que aumenta el tamaño del lote \\(n\\))? Explique el “efecto compensación”.\nImaginá que sos el Gerente de Producción de la planta. Si tuvieras que configurar las máquinas envasadoras mirando únicamente un lote de 2 pedidos (n=2), ¿qué problemas operativos y de almacenamiento enfrentarías en el día a día? Fundamentá usando los valores de promedio (X̄) y varianza (V(X̄)) obtenidos en el paso 2.\n\nSi en lugar de producir de a 2 pedidos, decidís acumular 100 pedidos (n=100) antes de encender las máquinas:\n¿Cuánto valdría la nueva varianza del promedio del lote?. Explicá cómo cambia tu estrategia para programar las máquinas bajo este nuevo escenario.",
     "crumbs": [
       "TRABAJO PRÁCTICO 4",
-      "Presentación"
+      "Ejercicio 4.1"
     ]
   },
   {
-    "objectID": "tp4/ejercicio4.2.html",
-    "href": "tp4/ejercicio4.2.html",
-    "title": "Ejercicio 4.2",
+    "objectID": "tp3/ejercicio3.9.html",
+    "href": "tp3/ejercicio3.9.html",
+    "title": "Ejercicio 3.9",
     "section": "",
-    "text": "La cantidad de líquido dosificada por cierta máquina, en mililitros, está uniformemente distribuida en el intervalo [240; 260].\n💻 1. Simule, utilizando una computadora, 100 réplicas de una muestra aleatoria simple de n = 10, 20, 30 dosificaciones. Calcule el contenido medio de líquido de cada muestra. Realice los histogramas, compare y elabore conclusiones.Ver pasos para resolver en R\n\nExplique cómo simularía una dosificación usando el generador de números aleatorios de una calculadora o una tabla de números aleatorios.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 4",
-      "Ejercicio 4.2"
-    ]
-  },
-  {
-    "objectID": "tp3/index.html",
-    "href": "tp3/index.html",
-    "title": "Trabajo Práctico 3",
-    "section": "",
-    "text": "Ser capaz de resumir información muestral, relativa a dos variables en estudio, usando tablas y gráficos.\nAnalizar la relación entre variables cualitativas y establecer una medida de dependencia entre las mismas.\nAnalizar la relación entre variables cuantitativas y establecer una medida de correlación o dependencia entre las mismas.",
+    "text": "Sea \\((x_1,y_1)\\), \\((x_2,y_2)\\), \\(\\ldots\\), \\((x_n,y_n)\\) una muestra y suponga que los valores de las medias muestrales \\(\\bar{x}\\) e \\(\\bar{y}\\) y las varianzas muestrales \\(s_x^2\\) y \\(s_y^2\\) son conocidos.\nSea \\(c\\) una constante. 1. Sea\\(z_i=x_i-c,\\qquad i=1,2,\\ldots,n.\\) ¿Cómo se compara el valor de \\(r_{XY}\\) con el de \\(r_{ZY}\\)?\n2. Sea \\(z_i=cx_i,\\qquad i=1,2,\\ldots,n.\\) ¿Cómo se compara el valor de \\(r_{XY}\\) con el de \\(r_{ZY}\\)?",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Presentación"
+      "Ejercicio 3.9"
     ]
   },
   {
-    "objectID": "tp3/index.html#objetivos",
-    "href": "tp3/index.html#objetivos",
-    "title": "Trabajo Práctico 3",
+    "objectID": "tp3/ejercicio3.7.html",
+    "href": "tp3/ejercicio3.7.html",
+    "title": "Ejercicio 3.7",
     "section": "",
-    "text": "Ser capaz de resumir información muestral, relativa a dos variables en estudio, usando tablas y gráficos.\nAnalizar la relación entre variables cualitativas y establecer una medida de dependencia entre las mismas.\nAnalizar la relación entre variables cuantitativas y establecer una medida de correlación o dependencia entre las mismas.",
+    "text": "En los últimos años se han vuelto comunes los problemas visuales y musculoesqueléticos relacionados con el empleo de pantallas. Algunos investigadores se han interesado en la dirección vertical de visualización como fuente de tensión o irritación ocular.\nSe sabe que esta dirección se relaciona en forma estrecha con el área superficial ocular (OSA), por lo tanto se necesita un método para medirla. La tabla adjunta muestra las mediciones obtenidas de 30 personas de la OSA (cm²), representada por la variable (y), y del ancho de la fisura palpebral, es decir, el ancho horizontal de la abertura del ojo abierto (cm), representada por (x).\nLos datos fueron tomados del artículo “Analysis of Ocular Surface Area for Comfortable VDT Workstation Layout” (Ergonomics, 1996, pp. 877–884).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\nxᵢ\nyᵢ\n\ni\nxᵢ\nyᵢ\n\ni\nxᵢ\nyᵢ\n\n\n\n\n1\n0,40\n1,02\n\n11\n0,84\n2,00\n\n21\n1,30\n4,27\n\n\n2\n0,42\n1,21\n\n12\n0,95\n2,80\n\n22\n1,34\n3,12\n\n\n3\n0,48\n0,88\n\n13\n0,99\n2,48\n\n23\n1,37\n3,99\n\n\n4\n0,51\n0,98\n\n14\n1,03\n2,47\n\n24\n1,40\n3,75\n\n\n5\n0,57\n1,52\n\n15\n1,12\n3,05\n\n25\n1,43\n4,10\n\n\n6\n0,60\n1,83\n\n16\n1,15\n3,18\n\n26\n1,46\n4,18\n\n\n7\n0,70\n1,50\n\n17\n1,20\n3,76\n\n27\n1,49\n3,77\n\n\n8\n0,75\n1,80\n\n18\n1,25\n3,68\n\n28\n1,55\n4,34\n\n\n9\n0,754\n1,74\n\n19\n1,25\n3,82\n\n29\n1,58\n4,21\n\n\n10\n0,78\n1,63\n\n20\n1,28\n3,21\n\n30\n1,60\n4,92\n\n\n\n\nRealice un diagrama de dispersión de los datos y describa la relación observada entre las variables.\nCalcule el coeficiente de correlación lineal de Pearson e interprete su valor.\nBasándose en el diagrama de dispersión y en el coeficiente de correlación obtenido, indique si resulta razonable utilizar un modelo de regresión lineal para describir la relación entre las variables.\nEstime la recta de regresión lineal de (y) sobre (x).\nInterprete los coeficientes estimados de la recta de regresión en el contexto del problema.\nUtilice el modelo ajustado para predecir el área superficial ocular de una persona cuyo ancho de fisura palpebral es de 1,50 cm.\nElabore una conclusión general acerca de la utilidad del ancho de la fisura palpebral como predictor del área superficial ocular.",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Presentación"
+      "Ejercicio 3.7"
     ]
   },
   {
-    "objectID": "tp3/ejercicio3.8.html",
-    "href": "tp3/ejercicio3.8.html",
-    "title": "Ejercicio 3.8",
+    "objectID": "tp3/ejercicio3.5.html",
+    "href": "tp3/ejercicio3.5.html",
+    "title": "Ejercicio 3.5",
     "section": "",
-    "text": "Anscombe utilizó los cuatro conjuntos de datos bidimensionales de la tabla adjunta para demostrar la importancia de los gráficos en el análisis de regresión.\nPara cada conjunto de datos:\n\nConstruya el diagrama de dispersión.\nCalcule el coeficiente de correlación lineal de Pearson.\nEstime la recta de regresión lineal de (y) en función de (x).\nInterprete los resultados obtenidos.\n\nFinalmente:\n\nCompare los resultados numéricos de los cuatro conjuntos de datos.\nAnalice conjuntamente los resultados obtenidos y los gráficos de dispersión.\nElabore una conclusión acerca de la importancia de la representación gráfica en el análisis de regresión.\n\n\nConjunto A\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n\n\n\n\nx\n10\n8\n13\n9\n11\n14\n6\n4\n12\n7\n5\n\n\ny\n8,04\n6,95\n7,58\n8,81\n8,33\n9,96\n7,24\n4,26\n10,84\n4,82\n5,68\n\n\n\n\n\nConjunto B\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n\n\n\n\nx\n10\n8\n13\n9\n11\n14\n6\n4\n12\n7\n5\n\n\ny\n9,14\n8,14\n8,74\n8,77\n9,26\n8,10\n6,13\n3,10\n9,13\n7,26\n4,74\n\n\n\n\n\nConjunto C\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n\n\n\n\nx\n10\n8\n13\n9\n11\n14\n6\n4\n12\n7\n5\n\n\ny\n7,46\n6,77\n12,74\n7,11\n7,81\n8,84\n6,08\n5,39\n8,15\n6,42\n5,73\n\n\n\n\n\nConjunto D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n\n\n\n\nx\n8\n8\n8\n8\n8\n8\n8\n19\n8\n8\n8\n\n\ny\n6,58\n5,76\n7,71\n8,84\n8,47\n7,04\n5,25\n12,50\n5,56\n7,91\n6,89\n\n\n\n &gt; Nota: Compare los coeficientes de correlación, las rectas de regresión y los diagramas de dispersión obtenidos. Discuta si las conclusiones serían las mismas si sólo se observaran los resultados numéricos y no los gráficos.",
+    "text": "Se sabe que la vitamina D extraída del hígado del pescado, sumada a la alimentación de los pollitos, los ayuda a ganar peso. Se quiere verificar si la vitamina retirada del pescado (tratamiento A) produce los mismos resultados que el tratamiento tradicional con aceite de hígado de bacalao (tratamiento B).\nSe les pidió a dos granjeros que cada uno adicionase una de las vitaminas a sus raciones, tomaran el peso de los pollitos a los ocho días y enviaran los resultados. Cada granja mandó dichos resultados de la siguiente manera:\n\n\n\nGranja A\n\n\nGranja B\n\n\n\n\n\nPeso (g)\nFrecuencia\n\nPeso (g)\nFrecuencia\n\n\n60 - 66\n210\n\n60 - 62\n100\n\n\n66 - 68\n280\n\n62 - 64\n210\n\n\n68 - 70\n360\n\n64 - 66\n450\n\n\n70 - 72\n200\n\n66 - 69\n400\n\n\n72 - 76\n150\n\n69 - 73\n280\n\n\n\n1200\n\n73 - 77\n60\n\n\n\n\n\nTotal\n1500\n\n\n\n\nIndique, para cada una de las granjas, el experimento que se realiza, la unidad experimental, la población de unidades y la población estadística, la variable de estudio y a qué tipo corresponde.\nConstruya los histogramas. ¿Qué tipo de conclusión daría cuando compara las dos fuentes de vitaminas?\nCalcule la media y el desvío estándar de cada distribución. ¿Qué tipo de información adicional traen estos valores al problema?",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Ejercicio 3.8"
+      "Ejercicio 3.5"
     ]
   },
   {
-    "objectID": "tp3/ejercicio3.6.html",
-    "href": "tp3/ejercicio3.6.html",
-    "title": "Ejercicio 3.6",
+    "objectID": "tp3/ejercicio3.3.html",
+    "href": "tp3/ejercicio3.3.html",
+    "title": "Ejercicio 3.3",
     "section": "",
-    "text": "Un grupo de estudiantes universitarios de física realizan experimentos para verificar la Ley de Hooke. Dicha ley establece que, cuando se aplica una fuerza a un cuerpo que es largo en comparación con su área transversal, el cambio de su longitud (mm) es proporcional a la fuerza aplicada (kg).\nEn la siguiente tabla se muestran los resultados de un experimento de laboratorio, para el que se usaron diez piezas de alambre de acero de 0,34 mm de diámetro y 3 m de largo, para obtener las mediciones de fuerza y cambio de longitud.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFuerza (kg)\n29,40\n39,20\n49,00\n58,80\n68,60\n78,40\n45,30\n35,00\n53,50\n74,30\n\n\n\n\nCambio (mm)\n4,25\n5,25\n6,50\n7,85\n8,75\n10,00\n6,16\n4,92\n7,14\n9,64\n\n\n\n\nDibuje el diagrama de dispersión entre la fuerza aplicada y el cambio de longitud.\nCalcule el coeficiente de correlación lineal de Pearson.\nInterprete el valor obtenido e indique la intensidad y dirección de la asociación entre ambas variables.\nAnalice, a partir del diagrama de dispersión, si resulta razonable utilizar un modelo de regresión lineal para describir la relación entre las variables.\nElabore una conclusión en el contexto del problema, indicando si los resultados experimentales respaldan la Ley de Hooke.",
+    "text": "Una compañía dedicada a la comercialización de semillas decidió poner a prueba el rendimiento de dos híbridos de sorgo granífero bajo riego. Se estudiaron dos muestras compuestas por parcelas sembradas, en cada caso, con los híbridos Nueva GR80 y Overa. Los resultados, en tm/ha, fueron:\n\nNueva GR80\n\n\n\n110\n112\n135\n140\n128\n132\n123\n125\n140\n142\n\n\n\n\n151\n113\n142\n123\n118\n143\n138\n135\n140\n135\n\n\n112\n128\n152\n136\n152\n139\n142\n129\n150\n135\n\n\n119\n128\n123\n142\n138\n145\n136\n147\n141\n137\n\n\n\n\n\nOvera\n\n\n\n115\n158\n139\n143\n151\n152\n148\n139\n153\n125\n136\n\n\n\n\n129\n146\n136\n140\n150\n140\n139\n128\n129\n125\n130\n\n\n140\n149\n150\n139\n142\n138\n129\n126\n137\n148\n146\n\n\n150\n158\n153\n119\n139\n154\n139\n151\n154\n139\n132\n\n\n\n💻 1. Construya una distribución de frecuencias de los datos para cada muestra y realice los histogramas correspondientes. Ver pasos para resolver en R\n💻 2. Calcule la media y la varianza de cada una de las muestras. Ver pasos para resolver en R\n💻 3. Calcule para cada muestra la mediana y el MAD. Ver pasos para resolver en R\n💻 4. Construya en una misma representación boxplot para cada muestra. Ver pasos para resolver en R\n\nCompare los resultados obtenidos para cada muestra considerando los alcanzados en los incisos anteriores y elabore conclusiones.",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Ejercicio 3.6"
+      "Ejercicio 3.3"
     ]
   },
   {
-    "objectID": "tp3/ejercicio3.4.html",
-    "href": "tp3/ejercicio3.4.html",
-    "title": "Ejercicio 3.4",
+    "objectID": "tp3/ejercicio3.1.html",
+    "href": "tp3/ejercicio3.1.html",
+    "title": "Ejercicio 3.1",
     "section": "",
-    "text": "Se seleccionaron los 10 géneros musicales más frecuentes de una base de datos de canciones obtenida de Kaggle. Para cada género se registró la variable popularidad (escala de 0 a 100). Los datos fueron resumidos mediante diagramas de caja, obteniéndose el gráfico mostrado en la figura 3.4\n\n\n\nFigura 3.4: Diagramas de caja y brazos de la popularidad de canciones para los 10 géneros musicales más frecuentes”\n\n\nA partir del gráfico, indique si las siguientes afirmaciones son verdaderas o falsas. Justifique brevemente su respuesta.\n\nLas canciones del género ambient tienden a presentar una popularidad mayor que las del género afrobeat.\nb)La popularidad de las canciones del género brazil es más homogénea que la del género blues.\n\nTodas las canciones del género anime poseen una popularidad superior a las del género black-metal.\n\nLos géneros alternative y alt-rock presentan una mayor dispersión en la popularidad que bluegrass.\n\nExisten valores atípicos en varios de los géneros representados.\nLa mitad central de las canciones del género afrobeat posee una popularidad comprendida aproximadamente entre 18 y 28 puntos.\n\nEl género blues presenta una distribución más variable que la del género brazil.\nPuede afirmarse, a partir del gráfico, que las medianas de popularidad son iguales para todos los géneros musicales.\n\nLos géneros musicales difieren tanto en su nivel típico de popularidad como en la variabilidad de dicha popularidad.\n\nEl género acoustic presenta una mediana de popularidad superior a la de bluegrass.",
+    "text": "Un estudio tiene por objetivo determinar si la preferencia por determinado tipo de películas se altera con el estado civil. Se seleccionan 100 individuos en cada una de las categorías: soltero, casado, divorciado y viudo. Los resultados obtenidos se muestran en la tabla siguiente:\n\n\n\nEstado Civil\nPolicial\nComedia\nRomance\nTotal\n\n\n\n\nSoltero\n45\n25\n30\n100\n\n\nCasado\n26\n41\n33\n100\n\n\nDivorciado\n36\n33\n31\n100\n\n\nViudo\n28\n38\n34\n100\n\n\n\n\nAnalice y exprese la información muestral proporcionada por la tabla de contingencia; represente gráficamente y de manera conveniente.\n¿El tipo de película elegido difiere según el estado civil de las personas? Concluya brindando una medida de relación o dependencia.\n\n💻 3. Considerando que usted realizó el punto 2 “a mano”, compárelos con los que haría R Ver pasos para resolver en R\n💻 4. Considerando que usted realizó los gráficos “a mano”, compárelos con los que haría R Ver pasos para resolver en R",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Ejercicio 3.4"
+      "Ejercicio 3.1"
     ]
   },
   {
-    "objectID": "tp3/ejercicio3.2.html",
-    "href": "tp3/ejercicio3.2.html",
-    "title": "Ejercicio 3.2",
+    "objectID": "tp2/ejercicio2.7.html",
+    "href": "tp2/ejercicio2.7.html",
+    "title": "Ejercicio 2.7",
     "section": "",
-    "text": "La Figura 3.1 presenta información proveniente del Informe Anual Sociodemográfico del Sistema de Riesgos del Trabajo correspondiente al año 2024. Extraído de Fuente\nEn la sección de litigiosidad se muestra la distribución porcentual de los tipos de contingencias laborales para mujeres y varones.\n\nConstruya una tabla de contingencia con las frecuencias absolutas.\nObtenga las distribuciones marginales y conjuntas.\nCalcule los perfiles fila y los perfiles columna.\nRepresente gráficamente la información mediante un gráfico adecuado.\nDescriba las principales diferencias observadas entre mujeres y varones.\nAnalice si existe asociación entre el sexo y el tipo de contingencia laboral utilizando una medida de relación apropiada.\nInterprete el valor obtenido en el contexto del problema.\n\n\n\n\nFigura 3. 1",
+    "text": "Sea \\(x_1, x_2, \\ldots, x_n\\) una muestra y suponga que los valores de la media muestral \\(\\bar{x}\\) y la varianza muestral \\(s_X^2\\) son conocidos.\n\nSea\n\\[\ny_i=x_i-\\bar{x},\n\\qquad i=1,2,\\ldots,n.\n\\]\n¿Cómo se compara el valor de \\(s_Y^2\\) con el de \\(s_X^2\\)?\nSea\n\\[\nz_i=\\frac{x_i-\\bar{x}}{s_X},\n\\qquad i=1,2,\\ldots,n.\n\\]\n¿Cuál es el valor de \\(s_Z^2\\)?",
     "crumbs": [
-      "TRABAJO PRÁCTICO 3",
-      "Ejercicio 3.2"
+      "TRABAJO PRÁCTICO 2",
+      "Ejercicio 2.7"
+    ]
+  },
+  {
+    "objectID": "tp2/ejercicio2.5.html",
+    "href": "tp2/ejercicio2.5.html",
+    "title": "ejercicio2.5",
+    "section": "",
+    "text": "En este sección trabajaremos con la base de datos Gapminder\nGapminder es una base de datos internacional que contiene información socioeconómica de distintos países a lo largo del tiempo. Cada observación corresponde a un país en un año específico, y las variables permiten estudiar fenómenos como esperanza de vida, crecimiento poblacional y desarrollo económico.\n\n# Instalar solo una vez\ninstall.packages(\"gapminder\",\n                 repos = \"https://cloud.r-project.org\")\n\npackage 'gapminder' successfully unpacked and MD5 sums checked\n\nThe downloaded binary packages are in\n    C:\\Users\\USUARIO\\AppData\\Local\\Temp\\Rtmpqcn8CO\\downloaded_packages\n\n# Luego, en el documento:\nlibrary(gapminder)\n\n\nObserva la base de datos\n\n\ngapminder\n\n# A tibble: 1,704 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1952    28.8  8425333      779.\n 2 Afghanistan Asia       1957    30.3  9240934      821.\n 3 Afghanistan Asia       1962    32.0 10267083      853.\n 4 Afghanistan Asia       1967    34.0 11537966      836.\n 5 Afghanistan Asia       1972    36.1 13079460      740.\n 6 Afghanistan Asia       1977    38.4 14880372      786.\n 7 Afghanistan Asia       1982    39.9 12881816      978.\n 8 Afghanistan Asia       1987    40.8 13867957      852.\n 9 Afghanistan Asia       1992    41.7 16317921      649.\n10 Afghanistan Asia       1997    41.8 22227415      635.\n# ℹ 1,694 more rows\n\n\n\nIdentifica las variables en estudio y su tipo\n\n\nstr(gapminder) #vemos la estructura de la base datos \n\ntibble [1,704 × 6] (S3: tbl_df/tbl/data.frame)\n $ country  : Factor w/ 142 levels \"Afghanistan\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ continent: Factor w/ 5 levels \"Africa\",\"Americas\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ year     : int [1:1704] 1952 1957 1962 1967 1972 1977 1982 1987 1992 1997 ...\n $ lifeExp  : num [1:1704] 28.8 30.3 32 34 36.1 ...\n $ pop      : int [1:1704] 8425333 9240934 10267083 11537966 13079460 14880372 12881816 13867957 16317921 22227415 ...\n $ gdpPercap: num [1:1704] 779 821 853 836 740 ...\n\n\nstr(df) indica las variables y su tipo en la base de datos df\n\nAverigua el tamaño de la base de datos\n\n\ndim(gapminder) # vemos la dimensión del data.frame\n\n[1] 1704    6\n\n\ndim(df) indica la dimensión de la base de datos (df)\n\nRealiza un box plot que muestre la esperanza de vida por continente y analiza los resultados.\n\n\nlibrary(ggplot2)\n\nggplot(gapminder,\n       aes(x = continent,\n           y = lifeExp)) +\n  geom_boxplot(fill = \"lightgreen\") +\n  labs(\n    title = \"Esperanza de vida por continente\",\n    x = \"Continente\",\n    y = \"Esperanza de vida\"\n  ) +\n  theme_minimal()",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 2",
+      "Ejercicio 2.5"
+    ]
+  },
+  {
+    "objectID": "tp2/ejercicio2.2.html",
+    "href": "tp2/ejercicio2.2.html",
+    "title": "Ejercicio 2.2",
+    "section": "",
+    "text": "Según la Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico, ante la pregunta “¿Con quién viven?”, realizada a 36 mujeres adolescentes atendidas en servicios de urgencias de hospitales públicos, se obtuvieron las siguientes observaciones experimentales:\nM  A  A  A  M  P  P  P  M\nM  O  O  M  M  M  P  P  A\nA  A  A  A  O  A  A  O  M\nM  M  M  A  A  A  O  A  A\ndonde:\n\nM corresponde a mamá.\nP corresponde a papá.\nA corresponde a ambos.\nO corresponde a otros.\n\n\n1. Identifique:\n\nEl experimento que se realiza y cuántas veces se repite.\nLa población de unidades y la población estadística.\nLa variable de estudio y su tipo.\n\n\n\n2. Tabule y grafique adecuadamente.\nComente la información resumida en la tabla.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 2",
+      "Ejercicio 2.2"
+    ]
+  },
+  {
+    "objectID": "pasos_R/ejercicio4.3_R_1.html",
+    "href": "pasos_R/ejercicio4.3_R_1.html",
+    "title": "Ejercicio 4.3_R_1",
+    "section": "",
+    "text": "1. Configurar los parámetros del experimento\n\nset.seed(123) # Asegura que los resultados sean replicables \nreplicas&lt;- 100 # Número de repeticiones (réplicas) \npi &lt;- 0.80 # Probabilidad de éxito de la marca Z\n\n\n\n2. Definir los tamaños de muestra a evaluar\n\ntamanos_n &lt;- c(20, 30, 50)\n\n\n\nConfigurar la pantalla para ver los 3 gráficos juntos (1 fila, 3 columnas)\n\npar(mfrow = c(1, 3))\n\n\n\n3. Bucle para simular, calcular p y graficar para cada n\n\nfor (n in tamanos_n) {\n\n# Simular 100 muestras binomiales de tamaño n \n# rbinom genera el número de éxitos 'X' directamente \nexitos_X &lt;- rbinom(n = replicas, size = n, prob = pi)\n\n# Calcular el estadístico p (proporción muestral) para cada réplica\nproporciones_p &lt;- exitos_X / n\n\n# Construir el histograma de las proporciones obtenidas\nhist(proporciones_p, \n     breaks = seq(0, 1, by = 0.05), # Intervalos de las barras \n     xlim =c(0.4, 1), # Límites del eje X enfocados en los datos \n     main = paste(\"n =\", n), # Título del gráfico \n     xlab = \"Proporción muestral (p)\", ylab = \"Frecuencia\", col = \"skyblue\", border = \"white\")\n\n# Línea roja para mostrar dónde está el valor real (0.80)\nabline(v = pi, col = \"red\", lwd = 2, lty = 2) \n}"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_4.html",
+    "href": "pasos_R/ejercicio3.3_R_4.html",
+    "title": "ejercicio4.3_R_1",
+    "section": "",
+    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_4.html#boxplot",
+    "href": "pasos_R/ejercicio3.3_R_4.html#boxplot",
+    "title": "ejercicio4.3_R_1",
+    "section": "Boxplot",
+    "text": "Boxplot\n\nboxplot(\n  nueva_gr80,\n  xlab=\" Nueva GR 80 \",\n  ylab=\"rendimiento\")"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_2.html",
+    "href": "pasos_R/ejercicio3.3_R_2.html",
+    "title": "ejercicio4.3_R_1",
+    "section": "",
+    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n#Para datos puros"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_2.html#media-y-varianza",
+    "href": "pasos_R/ejercicio3.3_R_2.html#media-y-varianza",
+    "title": "ejercicio4.3_R_1",
+    "section": "2. Media y varianza",
+    "text": "2. Media y varianza\n\nmean(nueva_gr80)\n\n[1] 133.9\n\nvar(nueva_gr80)\n\n[1] 130.8103\n\n\nmediana mad_nueva\n\n### 4. Boxplot\n\n\n::: {.cell}\n\n```{.r .cell-code}\nboxplot(\n  nueva_gr80,\n  main = \"Boxplot del rendimiento - Nueva GR80\",\n  ylab = \"Rendimiento (tm/ha)\",\n  col = \"lightblue\"\n)\n\n\n\n\n\n\n\n:::\n\nActividad para estudiantes\nRepitan el procedimiento anterior para el híbrido Overa.\n\novera &lt;- c(\n  115, 158, 139, 143, 151, 152, 148, 139, 153, 125, 136,\n  129, 146, 136, 140, 150, 140, 139, 128, 129, 125, 130,\n  140, 149, 150, 139, 142, 138, 129, 126, 137, 148, 146,\n  150, 158, 153, 119, 139, 154, 139, 151, 154, 139, 132\n)\n\nLuego comparen ambos híbridos considerando:\n\ncentro de la distribución: media y mediana;\nvariabilidad: varianza y MAD;\nforma de la distribución observada en los histogramas;\npresencia de valores extremos en los boxplots."
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.1_R_2.html",
+    "href": "pasos_R/ejercicio3.1_R_2.html",
+    "title": "Ejercicio3.1_R_1",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\npeliculas &lt;- data.frame(\n  EstadoCivil = rep(c(\"Soltero\", \"Casado\", \"Divorciado\", \"Viudo\"), each = 3),\n  TipoFilm = rep(c(\"Policial\", \"Comedia\", \"Romance\"), times = 4),\n  Frecuencia = c(\n    45, 25, 30,\n    26, 41, 33,\n    36, 33, 31,\n    28, 38, 34\n  )\n)\n\npeliculas\n\n   EstadoCivil TipoFilm Frecuencia\n1      Soltero Policial         45\n2      Soltero  Comedia         25\n3      Soltero  Romance         30\n4       Casado Policial         26\n5       Casado  Comedia         41\n6       Casado  Romance         33\n7   Divorciado Policial         36\n8   Divorciado  Comedia         33\n9   Divorciado  Romance         31\n10       Viudo Policial         28\n11       Viudo  Comedia         38\n12       Viudo  Romance         34\n\n\n\nggplot(peliculas,aes(x = EstadoCivil,y = Frecuencia,fill = TipoFilm)) +\n  geom_col(position = \"dodge\",) +\n   scale_fill_manual(\n    values = c(\n      \"Policial\" = \"steelblue\",\n      \"Comedia\" = \"orange\",\n      \"Romance\" = \"firebrick\"\n    ))+\n  labs(\n    x = \"Estado civil\",\n    y = \"Frecuencia\",\n    fill = \"Tipo de película\",\n    title = \"Preferencia de películas según estado civil\"\n  ) +\n  theme_linedraw() # exploará con los difrentes temas de ggplot"
+  },
+  {
+    "objectID": "pasos_R/ejercicio2.3_R_4.html",
+    "href": "pasos_R/ejercicio2.3_R_4.html",
+    "title": "Ejercicio 2.3_R_1",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n#borramos todo los objetos en el entorno\nrm(list=ls())"
+  },
+  {
+    "objectID": "pasos_R/ejercicio2.3_R_4.html#actividad-construcción-de-un-boxplot-con-ggplot2",
+    "href": "pasos_R/ejercicio2.3_R_4.html#actividad-construcción-de-un-boxplot-con-ggplot2",
+    "title": "Ejercicio 2.3_R_1",
+    "section": "Actividad: Construcción de un Boxplot con ggplot2",
+    "text": "Actividad: Construcción de un Boxplot con ggplot2\nEn esta actividad aprenderemos a construir un diagrama de cajas (boxplot) utilizando el paquete ggplot2, una de las herramientas más utilizadas para la visualización de datos en R.\n\nPaso 1. Instalar el paquete tidyverse\nLa primera vez que utilicen estas herramientas deberán instalar el paquete tidyverse. Esta instalación se realiza una sola vez.\n\n# No repetir si ya está instalado\n#install.packages(\"tidyverse\")\n\n\n\nPaso 2. Cargar el paquete\nCada vez que inicien una nueva sesión de R deberán cargar el paquete mediante la función library().\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nPaso 3. Cargamos los datos, si no lo están\n\n# con c() cargamos un vector llamado perimetros\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\n#transformamos los datos en un data.frame\nperimetros&lt;-as.data.frame(perimetros)\n\nPaso 4. Construir un boxplot\n\nggplot(perimetros, aes(y = perimetros)) +\n  geom_boxplot(fill = \"lightblue\") +\n  labs(\n    title = \"Diagrama de cajas y brazos  del perímetro\",\n    y = \"Perímetro\"\n  ) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "pasos_R/ejercicio2.3_R_2.html",
+    "href": "pasos_R/ejercicio2.3_R_2.html",
+    "title": "Ejercicio 2.3_R_2",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\nrm(list=ls())\n\n\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nPedimos las medidas de centralización\n\n\n# Media \nmean(perimetros)\n\n[1] 147.725\n\n\n\n# mediana \nmedian(perimetros)\n\n[1] 146.5\n\n\n\n# Moda\ntabla &lt;- table(perimetros)\ntabla\n\nperimetros\n121 125 128 132 135 136 138 140 142 144 145 146 147 148 149 150 152 153 154 156 \n  1   1   1   1   3   1   2   2   2   2   2   2   2   1   1   2   1   1   1   1 \n157 158 161 163 164 165 168 173 176 \n  1   1   2   1   1   1   1   1   1 \n\nnames(tabla)[tabla == max(tabla)]\n\n[1] \"135\""
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prólogo",
+    "section": "",
+    "text": "Prólogo\nLa presente Guía de Trabajos Prácticos está dirigida a los estudiantes que cursan la asignatura “Inferencia Estadística” correspondiente a las carreras de Profesorado en Matemática y Licenciatura en Matemática, respectivamente, del Departamento de Matemática “Prof. Lic. Juan Ernesto Macluf” de la Facultad de Ciencias Exactas y Naturales de la UNLPam, y sirve como complemento a las Notas de Clases “Inferencia Estadística”.\nLos problemas y actividades propuestos tienen por objetivo orientar y ayudar a los estudiantes en el aprendizaje de los conceptos estudiados en las asignaturas mencionadas y brindarles un espacio de aplicación de los mismos en situaciones problemáticas concretas y, en ocasiones, reales. Además, se incorporan actividades que implican desarrollo matemático formal, tales como demostraciones de propiedades y resultados, sugeridas principalmente a estudiantes de Licenciatura en Matemática.\nAlgunos ejercicios están señalados con un ícono particular que indica, según el caso:\n💻 Resolución escrita y utilizando un paquete estadístico adecuado.\n📊 Aplicación con datos reales utilizando un paquete estadístico adecuado.\n⚙️ Actividad opcional pero recomendada a estudiantes de Licenciatura en Matemática.\nLa incorporación, secuenciación y complejidad de los problemas y actividades propuestos son el resultado de la experiencia docente en el área y de la interacción con estudiantes de años anteriores, a quienes agradecemos sus críticas y sugerencias para mejorar esta guía año tras año.\n\nLas autoras, julio de 2026",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "pasos_R/ejercicio2.3_R_1.html",
+    "href": "pasos_R/ejercicio2.3_R_1.html",
+    "title": "Ejercicio 2.3_R_1",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\n#borramos todo los objetos en el entorno\nrm(list=ls())\n\n\n# con c() cargamos un vector llamado perimetros\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nTabla de frecuencias Agrupadas\n\n# TABLA DE FRECUENCIAS AGRUPADAS\n\nintervalos &lt;- seq(120, 180, by = 10)\n\n# Tabla de frecuencias agrupadas\ntabla_agrupada &lt;- table(cut(perimetros, breaks = intervalos))\n# Marcas de clase\nmarcas_clase &lt;- (head(intervalos, -1) + tail(intervalos, -1)) / 2\n\n\ntabla_df &lt;- data.frame(\n  Intervalo = names(tabla_agrupada),\n  Marca_clase = marcas_clase,\n  Frecuencia = as.numeric(tabla_agrupada)\n)\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia\n1 (120,130]         125          3\n2 (130,140]         135          9\n3 (140,150]         145         14\n4 (150,160]         155          6\n5 (160,170]         165          6\n6 (170,180]         175          2\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia\n1 (120,130]         125          3\n2 (130,140]         135          9\n3 (140,150]         145         14\n4 (150,160]         155          6\n5 (160,170]         165          6\n6 (170,180]         175          2\n\n\n\n\nConstruimos un histograma\n\nhist(perimetros)\n\n\n\n\n\n\n\n# Histograma con títulos\nhist(\n  perimetros,\n  main = \"Histograma de perímetros basales\",\n  xlab = \"Perímetro basal (cm)\",\n  ylab = \"Frecuencia\"\n)\n\n\n\n\n\n\n\n\n\n\nMedidas resumenes datos agrupados\nMedia\n\nmedia_agrupada &lt;- sum(\n  tabla_df$Marca_clase * tabla_df$Frecuencia\n) / sum(tabla_df$Frecuencia)\n\nmedia_agrupada\n\n[1] 147.25\n\n\n\n# Frecuencia acumulada\ntabla_df$Frecuencia_acum &lt;- cumsum(tabla_df$Frecuencia)\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia Frecuencia_acum\n1 (120,130]         125          3               3\n2 (130,140]         135          9              12\n3 (140,150]         145         14              26\n4 (150,160]         155          6              32\n5 (160,170]         165          6              38\n6 (170,180]         175          2              40\n\n\nMediana\n\n# Número total de datos\nn &lt;- sum(tabla_df$Frecuencia)\n\n# Posición de la mediana\nn/2\n\n[1] 20\n\n\nIdentifiacamos la clase de la mediana que es el clase (140,150] y reemplazamos en los objetos\n\n# Datos de la clase mediana\nLi &lt;- 140          #  límite inferior\nF_anterior &lt;- 10   # frecuencia acumulada anterior\nfm &lt;- 14           # frecuencia de la clase mediana\nc &lt;- 10            # amplitud de clase\n\n# Mediana agrupada\nMd &lt;- Li + (((n/2) - F_anterior) / fm) * c\n\nMd\n\n[1] 147.1429"
+  },
+  {
+    "objectID": "pasos_R/ejercicio2.3_R_3.html",
+    "href": "pasos_R/ejercicio2.3_R_3.html",
+    "title": "Ejercicio 2.3_R_2",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\nrm(list=ls())\n\n\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nPedimos las medidas de variabilidad para datos sin agrupar\n\n\n# desvio\nsd(perimetros)\n\n[1] 12.67946\n\n\n\n# Rango intercualtilico  \nIQR(perimetros)\n\n[1] 16.75"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.1_R_1.html",
+    "href": "pasos_R/ejercicio3.1_R_1.html",
+    "title": "Ejercicio 3.1_R_1",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nrm=list(ls)\npeliculas &lt;- data.frame(\n  EstadoCivil = rep(c(\"Soltero\", \"Casado\", \"Divorciado\", \"Viudo\"), each = 3),\n  TipoFilm = rep(c(\"Policial\", \"Comedia\", \"Romance\"), times = 4),\n  Frecuencia = c(\n    45, 25, 30,\n    26, 41, 33,\n    36, 33, 31,\n    28, 38, 34\n  )\n)\n\npeliculas\n\n   EstadoCivil TipoFilm Frecuencia\n1      Soltero Policial         45\n2      Soltero  Comedia         25\n3      Soltero  Romance         30\n4       Casado Policial         26\n5       Casado  Comedia         41\n6       Casado  Romance         33\n7   Divorciado Policial         36\n8   Divorciado  Comedia         33\n9   Divorciado  Romance         31\n10       Viudo Policial         28\n11       Viudo  Comedia         38\n12       Viudo  Romance         34"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.1_R_1.html#tablas-y-proporciones",
+    "href": "pasos_R/ejercicio3.1_R_1.html#tablas-y-proporciones",
+    "title": "Ejercicio 3.1_R_1",
+    "section": "Tablas y proporciones",
+    "text": "Tablas y proporciones"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.1_R_1.html#totales-y-proporciones",
+    "href": "pasos_R/ejercicio3.1_R_1.html#totales-y-proporciones",
+    "title": "Ejercicio 3.1_R_1",
+    "section": "Totales y proporciones",
+    "text": "Totales y proporciones\n\npeliculas  %&gt;%\n  group_by(EstadoCivil) %&gt;%\n  summarise(Total = sum(Frecuencia))\n\n# A tibble: 4 × 2\n  EstadoCivil Total\n  &lt;chr&gt;       &lt;dbl&gt;\n1 Casado        100\n2 Divorciado    100\n3 Soltero       100\n4 Viudo         100\n\n\n\npeliculas  %&gt;%\n  group_by(TipoFilm) %&gt;%\n  summarise(Total = sum(Frecuencia))\n\n# A tibble: 3 × 2\n  TipoFilm Total\n  &lt;chr&gt;    &lt;dbl&gt;\n1 Comedia    137\n2 Policial   135\n3 Romance    128\n\n\n### Total general\n\npeliculas %&gt;%\n  summarise(Total = sum(Frecuencia))\n\n  Total\n1   400\n\n\n\npeliculas %&gt;%\n  group_by(EstadoCivil) %&gt;%\n  mutate(Proporcion = Frecuencia / sum(Frecuencia))\n\n# A tibble: 12 × 4\n# Groups:   EstadoCivil [4]\n   EstadoCivil TipoFilm Frecuencia Proporcion\n   &lt;chr&gt;       &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;\n 1 Soltero     Policial         45       0.45\n 2 Soltero     Comedia          25       0.25\n 3 Soltero     Romance          30       0.3 \n 4 Casado      Policial         26       0.26\n 5 Casado      Comedia          41       0.41\n 6 Casado      Romance          33       0.33\n 7 Divorciado  Policial         36       0.36\n 8 Divorciado  Comedia          33       0.33\n 9 Divorciado  Romance          31       0.31\n10 Viudo       Policial         28       0.28\n11 Viudo       Comedia          38       0.38\n12 Viudo       Romance          34       0.34\n\n\n\n#constuyo la tabla\ntabla &lt;- xtabs(Frecuencia ~ EstadoCivil + TipoFilm,\n               data = peliculas)\n\ntabla\n\n            TipoFilm\nEstadoCivil  Comedia Policial Romance\n  Casado          41       26      33\n  Divorciado      33       36      31\n  Soltero         25       45      30\n  Viudo           38       28      34\n\n\n\n# Coeficiente de contingencia de Pearson y el corregido\nchi &lt;- chisq.test(tabla)\n\nchi2 &lt;- chi$statistic\nn &lt;- sum(tabla)\n\nC &lt;- sqrt(chi2 / (chi2 + n))\nk &lt;- min(nrow(tabla), ncol(tabla))\nC_corregido &lt;- C / sqrt((k - 1) / k)\nchi2\n\nX-squared \n 11.25643 \n\nC\n\nX-squared \n0.1654413 \n\nC_corregido \n\nX-squared \n0.2026234"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_1.html",
+    "href": "pasos_R/ejercicio3.3_R_1.html",
+    "title": "ejercicio4.3_R_1",
+    "section": "",
+    "text": "nueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_1.html#distribución-de-frecuencias-para-datos-agrupados",
+    "href": "pasos_R/ejercicio3.3_R_1.html#distribución-de-frecuencias-para-datos-agrupados",
+    "title": "ejercicio4.3_R_1",
+    "section": "1. Distribución de frecuencias para datos agrupados",
+    "text": "1. Distribución de frecuencias para datos agrupados\nDefinimos intervalos de clase y contamos cuántos datos caen en cada intervalo.\n\nintervalos &lt;- seq(110, 155, by = 5)\n\nclases &lt;- cut(\n  nueva_gr80,\n  breaks = intervalos,\n  right = FALSE,\n  include.lowest = TRUE\n)\n\ntabla_frecuencias &lt;- as.data.frame(table(clases))\ntabla_frecuencias\n\n     clases Freq\n1 [110,115)    4\n2 [115,120)    2\n3 [120,125)    3\n4 [125,130)    5\n5 [130,135)    1\n6 [135,140)   10\n7 [140,145)    9\n8 [145,150)    2\n9 [150,155]    4\n\n\nTambién podemos agregar la frecuencia relativa y porcentual.\n\ntabla_frecuencias$frecuencia_relativa &lt;- tabla_frecuencias$Freq / sum(tabla_frecuencias$Freq)\n\ntabla_frecuencias$porcentaje &lt;- tabla_frecuencias$frecuencia_relativa * 100\n\ntabla_frecuencias\n\n     clases Freq frecuencia_relativa porcentaje\n1 [110,115)    4               0.100       10.0\n2 [115,120)    2               0.050        5.0\n3 [120,125)    3               0.075        7.5\n4 [125,130)    5               0.125       12.5\n5 [130,135)    1               0.025        2.5\n6 [135,140)   10               0.250       25.0\n7 [140,145)    9               0.225       22.5\n8 [145,150)    2               0.050        5.0\n9 [150,155]    4               0.100       10.0"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_1.html#histograma",
+    "href": "pasos_R/ejercicio3.3_R_1.html#histograma",
+    "title": "ejercicio4.3_R_1",
+    "section": "Histograma",
+    "text": "Histograma\nUsamos los mismos intervalos definidos para la tabla de frecuencias.\n\nhist(\n  nueva_gr80,\n  breaks = intervalos,\n  right = FALSE,\n  main = \"Histograma del rendimiento - Nueva GR80\",\n  xlab = \"Rendimiento (tm/ha)\",\n  ylab = \"Frecuencia\",\n  col = \"lightblue\",\n  border = \"white\"\n)"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_3.html",
+    "href": "pasos_R/ejercicio3.3_R_3.html",
+    "title": "Ejercicio3.3_R_1",
+    "section": "",
+    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n\n#Para datos puros"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_3.html#media-y-varianza",
+    "href": "pasos_R/ejercicio3.3_R_3.html#media-y-varianza",
+    "title": "Ejercicio3.3_R_1",
+    "section": "2. Media y varianza",
+    "text": "2. Media y varianza"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_3.html#mediana-y-mad",
+    "href": "pasos_R/ejercicio3.3_R_3.html#mediana-y-mad",
+    "title": "Ejercicio3.3_R_1",
+    "section": "3. Mediana y MAD",
+    "text": "3. Mediana y MAD\n\nmedian(nueva_gr80)\n\n[1] 136\n\nmad(nueva_gr80)\n\n[1] 10.3782\n\n\n\n3. Mediana y MAD\n\nmediana &lt;- median(nueva_gr80)\nmad_nueva &lt;- mad(nueva_gr80)\n\nmediana\n\n[1] 136\n\nmad_nueva\n\n[1] 10.3782"
+  },
+  {
+    "objectID": "pasos_R/ejercicio4.2_R_1.html",
+    "href": "pasos_R/ejercicio4.2_R_1.html",
+    "title": "Ejercicio 4.2_R_1",
+    "section": "",
+    "text": "# Fijamos semilla para que los resultados sean reproducibles\nset.seed(123)\n# Cantidad de réplicas\nB &lt;- 100\n\n# Tamaños muestrales\nn &lt;- c(10, 20, 30)\n\n\n# Simulación de las medias muestrales\nmedias_n10 &lt;- replicate(B, mean(runif(10, min = 240, max = 260)))\nmedias_n20 &lt;- replicate(B, mean(runif(20, min = 240, max = 260)))\nmedias_n30 &lt;- replicate(B, mean(runif(30, min = 240, max = 260)))\n\n\n# Histogramas\npar(mfrow = c(1, 3))\n\nhist(medias_n10,\n     main = \"n = 10\",\n     xlab = \"Media muestral\",\n     col = \"lightblue\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n20,\n     main = \"n = 20\",\n     xlab = \"Media muestral\",\n     col = \"lightgreen\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n30,\n     main = \"n = 30\",\n     xlab = \"Media muestral\",\n     col = \"lightpink\",\n     border = \"white\",\n     xlim = c(240, 260))\n\n\n\n\n\n\n\npar(mfrow = c(1, 1))"
+  },
+  {
+    "objectID": "tp2/ejercicio2.1.html",
+    "href": "tp2/ejercicio2.1.html",
+    "title": "ejercicio2.1",
+    "section": "",
+    "text": "El contenido de minerales es fundamental para determinar la calidad de las aguas, en particular de las aguas subterráneas. A continuación se presenta una tabla de frecuencias basada en la concentración de cloruros (Cl⁻), expresada en ppm, medida en pozos de la Hoja Laguna Colorada Grande (Sudeste de La Pampa).\n\n\n\n\n\n\n\n\n\n\nClase\nMarca\nFrecuencia\nPorcentaje\nFrecuencia acumulada\n\n\n\n\n(0; 150]\n75\n\n23,08\n\n\n\n(150; 300]\n\n\n\n12\n\n\n(300; 600]\n\n3\n\n\n\n\n(600; 900]\n\n\n7,69\n\n\n\n(900; 1200]\n\n2\n\n\n\n\n(1200; 1500]\n\n2\n\n\n\n\n(1500; 1800]\n\n\n19,23\n\n\n\nTotal\n\n26\n\n\n\n\n\n\n\n\nIdentifique la variable de estudio y complete la tabla.\n¿Qué porcentaje de los pozos mostró una concentración de cloruros superior a 600 ppm?\nConstruya el histograma y el polígono de frecuencias correspondientes.\nObtenga medidas resúmenes que considere adecuadas e interprete los resultados.\nConstruya un boxplot y elabore conclusiones",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 2",
+      "Ejercicio 2.1"
+    ]
+  },
+  {
+    "objectID": "tp2/ejercicio2.3.html",
+    "href": "tp2/ejercicio2.3.html",
+    "title": "Ejercicio 2.3",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nIdentifique:\n\n\nel experimento que se realiza.\nla unidad experimental.\nla población de unidades y la población estadística.\nla variable de estudio y a qué tipo corresponde.\n\n\nConstruya la distribución de frecuencias y grafique adecuadamente.\nCalcule la moda, la mediana y la media aritmética considerando el ítem 2.\nConstruya la distribución de frecuencias y grafique adecuadamente, utlizando el programa estadístico Ver pasos para resolver en R\nCalcule las medidas del ítem 3 con los datos puros. Utilice el programa R siguiendo la guía disponible aquí: Ver pasos para resolver en R\n¿Qué puede usted afirmar respecto de los cálculos obtenidos en 3 y 5?\n\nCalcule una medida de variabilidad apropiada para la media aritmética y otra para la mediana obtenidas en los ítems 3 y 5. Utilice el programa R siguiendo la guía disponible aquí: Ver pasos para resolver en R\nConstruya el boxplot, en forma manual y usando el programa estadístico. Ver pasos para resolver en R\nElabore las conclusiones que crea convenientes a partir de los resultados obtenidos.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 2",
+      "Ejercicio 2.3"
+    ]
+  },
+  {
+    "objectID": "tp2/ejercicio2.6.html",
+    "href": "tp2/ejercicio2.6.html",
+    "title": "Ejercicio 2.6",
+    "section": "",
+    "text": "Sea \\(x_1, x_2, \\ldots, x_n\\) una muestra. Demuestre que\n\\[\ns^2=\n\\frac{\n\\sum_{i=1}^{n} x_i^2\n-\\frac{1}{n}\\left(\\sum_{i=1}^{n} x_i\\right)^2\n}\n{n-1}.\n\\]",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 2",
+      "Ejercicio 2.6"
     ]
   },
   {
@@ -198,343 +461,267 @@
     ]
   },
   {
-    "objectID": "tp2/ejercicio2.6.html",
-    "href": "tp2/ejercicio2.6.html",
-    "title": "Ejercicio 2.6",
+    "objectID": "tp3/ejercicio3.2.html",
+    "href": "tp3/ejercicio3.2.html",
+    "title": "Ejercicio 3.2",
     "section": "",
-    "text": "Sea \\(x_1, x_2, \\ldots, x_n\\) una muestra. Demuestre que\n\\[\ns^2=\n\\frac{\n\\sum_{i=1}^{n} x_i^2\n-\\frac{1}{n}\\left(\\sum_{i=1}^{n} x_i\\right)^2\n}\n{n-1}.\n\\]",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 2",
-      "Ejercicio 2.6"
-    ]
-  },
-  {
-    "objectID": "tp2/ejercicio2.3.html",
-    "href": "tp2/ejercicio2.3.html",
-    "title": "Ejercicio 2.3",
-    "section": "",
-    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nIdentifique:\n\n\nel experimento que se realiza.\nla unidad experimental.\nla población de unidades y la población estadística.\nla variable de estudio y a qué tipo corresponde.\n\n\nConstruya la distribución de frecuencias y grafique adecuadamente.\nCalcule la moda, la mediana y la media aritmética considerando el ítem 2.\nConstruya la distribución de frecuencias y grafique adecuadamente, utlizando el programa estadístico Ver pasos para resolver en R\nCalcule las medidas del ítem 3 con los datos puros. Utilice el programa R siguiendo la guía disponible aquí: Ver pasos para resolver en R\n¿Qué puede usted afirmar respecto de los cálculos obtenidos en 3 y 5?\n\nCalcule una medida de variabilidad apropiada para la media aritmética y otra para la mediana obtenidas en los ítems 3 y 5. Utilice el programa R siguiendo la guía disponible aquí: Ver pasos para resolver en R\nConstruya el boxplot, en forma manual y usando el programa estadístico. Ver pasos para resolver en R\nElabore las conclusiones que crea convenientes a partir de los resultados obtenidos.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 2",
-      "Ejercicio 2.3"
-    ]
-  },
-  {
-    "objectID": "tp2/ejercicio2.1.html",
-    "href": "tp2/ejercicio2.1.html",
-    "title": "ejercicio2.1",
-    "section": "",
-    "text": "El contenido de minerales es fundamental para determinar la calidad de las aguas, en particular de las aguas subterráneas. A continuación se presenta una tabla de frecuencias basada en la concentración de cloruros (Cl⁻), expresada en ppm, medida en pozos de la Hoja Laguna Colorada Grande (Sudeste de La Pampa).\n\n\n\n\n\n\n\n\n\n\nClase\nMarca\nFrecuencia\nPorcentaje\nFrecuencia acumulada\n\n\n\n\n(0; 150]\n75\n\n23,08\n\n\n\n(150; 300]\n\n\n\n12\n\n\n(300; 600]\n\n3\n\n\n\n\n(600; 900]\n\n\n7,69\n\n\n\n(900; 1200]\n\n2\n\n\n\n\n(1200; 1500]\n\n2\n\n\n\n\n(1500; 1800]\n\n\n19,23\n\n\n\nTotal\n\n26\n\n\n\n\n\n\n\n\nIdentifique la variable de estudio y complete la tabla.\n¿Qué porcentaje de los pozos mostró una concentración de cloruros superior a 600 ppm?\nConstruya el histograma y el polígono de frecuencias correspondientes.\nObtenga medidas resúmenes que considere adecuadas e interprete los resultados.\nConstruya un boxplot y elabore conclusiones",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 2",
-      "Ejercicio 2.1"
-    ]
-  },
-  {
-    "objectID": "pasos_R/ejercicio4.2_R_1.html",
-    "href": "pasos_R/ejercicio4.2_R_1.html",
-    "title": "Ejercicio 4.2_R_1",
-    "section": "",
-    "text": "# Fijamos semilla para que los resultados sean reproducibles\nset.seed(123)\n# Cantidad de réplicas\nB &lt;- 100\n\n# Tamaños muestrales\nn &lt;- c(10, 20, 30)\n\n\n# Simulación de las medias muestrales\nmedias_n10 &lt;- replicate(B, mean(runif(10, min = 240, max = 260)))\nmedias_n20 &lt;- replicate(B, mean(runif(20, min = 240, max = 260)))\nmedias_n30 &lt;- replicate(B, mean(runif(30, min = 240, max = 260)))\n\n\n# Histogramas\npar(mfrow = c(1, 3))\n\nhist(medias_n10,\n     main = \"n = 10\",\n     xlab = \"Media muestral\",\n     col = \"lightblue\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n20,\n     main = \"n = 20\",\n     xlab = \"Media muestral\",\n     col = \"lightgreen\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n30,\n     main = \"n = 30\",\n     xlab = \"Media muestral\",\n     col = \"lightpink\",\n     border = \"white\",\n     xlim = c(240, 260))\n\n\n\n\n\n\n\npar(mfrow = c(1, 1))"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_3.html",
-    "href": "pasos_R/ejercicio3.3_R_3.html",
-    "title": "Ejercicio3.3_R_1",
-    "section": "",
-    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n\n#Para datos puros"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_3.html#media-y-varianza",
-    "href": "pasos_R/ejercicio3.3_R_3.html#media-y-varianza",
-    "title": "Ejercicio3.3_R_1",
-    "section": "2. Media y varianza",
-    "text": "2. Media y varianza"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_3.html#mediana-y-mad",
-    "href": "pasos_R/ejercicio3.3_R_3.html#mediana-y-mad",
-    "title": "Ejercicio3.3_R_1",
-    "section": "3. Mediana y MAD",
-    "text": "3. Mediana y MAD\n\nmedian(nueva_gr80)\n\n[1] 136\n\nmad(nueva_gr80)\n\n[1] 10.3782\n\n\n\n3. Mediana y MAD\n\nmediana &lt;- median(nueva_gr80)\nmad_nueva &lt;- mad(nueva_gr80)\n\nmediana\n\n[1] 136\n\nmad_nueva\n\n[1] 10.3782"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_1.html",
-    "href": "pasos_R/ejercicio3.3_R_1.html",
-    "title": "ejercicio4.3_R_1",
-    "section": "",
-    "text": "nueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_1.html#distribución-de-frecuencias-para-datos-agrupados",
-    "href": "pasos_R/ejercicio3.3_R_1.html#distribución-de-frecuencias-para-datos-agrupados",
-    "title": "ejercicio4.3_R_1",
-    "section": "1. Distribución de frecuencias para datos agrupados",
-    "text": "1. Distribución de frecuencias para datos agrupados\nDefinimos intervalos de clase y contamos cuántos datos caen en cada intervalo.\n\nintervalos &lt;- seq(110, 155, by = 5)\n\nclases &lt;- cut(\n  nueva_gr80,\n  breaks = intervalos,\n  right = FALSE,\n  include.lowest = TRUE\n)\n\ntabla_frecuencias &lt;- as.data.frame(table(clases))\ntabla_frecuencias\n\n     clases Freq\n1 [110,115)    4\n2 [115,120)    2\n3 [120,125)    3\n4 [125,130)    5\n5 [130,135)    1\n6 [135,140)   10\n7 [140,145)    9\n8 [145,150)    2\n9 [150,155]    4\n\n\nTambién podemos agregar la frecuencia relativa y porcentual.\n\ntabla_frecuencias$frecuencia_relativa &lt;- tabla_frecuencias$Freq / sum(tabla_frecuencias$Freq)\n\ntabla_frecuencias$porcentaje &lt;- tabla_frecuencias$frecuencia_relativa * 100\n\ntabla_frecuencias\n\n     clases Freq frecuencia_relativa porcentaje\n1 [110,115)    4               0.100       10.0\n2 [115,120)    2               0.050        5.0\n3 [120,125)    3               0.075        7.5\n4 [125,130)    5               0.125       12.5\n5 [130,135)    1               0.025        2.5\n6 [135,140)   10               0.250       25.0\n7 [140,145)    9               0.225       22.5\n8 [145,150)    2               0.050        5.0\n9 [150,155]    4               0.100       10.0"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_1.html#histograma",
-    "href": "pasos_R/ejercicio3.3_R_1.html#histograma",
-    "title": "ejercicio4.3_R_1",
-    "section": "Histograma",
-    "text": "Histograma\nUsamos los mismos intervalos definidos para la tabla de frecuencias.\n\nhist(\n  nueva_gr80,\n  breaks = intervalos,\n  right = FALSE,\n  main = \"Histograma del rendimiento - Nueva GR80\",\n  xlab = \"Rendimiento (tm/ha)\",\n  ylab = \"Frecuencia\",\n  col = \"lightblue\",\n  border = \"white\"\n)"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.1_R_1.html",
-    "href": "pasos_R/ejercicio3.1_R_1.html",
-    "title": "Ejercicio 3.1_R_1",
-    "section": "",
-    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nrm=list(ls)\npeliculas &lt;- data.frame(\n  EstadoCivil = rep(c(\"Soltero\", \"Casado\", \"Divorciado\", \"Viudo\"), each = 3),\n  TipoFilm = rep(c(\"Policial\", \"Comedia\", \"Romance\"), times = 4),\n  Frecuencia = c(\n    45, 25, 30,\n    26, 41, 33,\n    36, 33, 31,\n    28, 38, 34\n  )\n)\n\npeliculas\n\n   EstadoCivil TipoFilm Frecuencia\n1      Soltero Policial         45\n2      Soltero  Comedia         25\n3      Soltero  Romance         30\n4       Casado Policial         26\n5       Casado  Comedia         41\n6       Casado  Romance         33\n7   Divorciado Policial         36\n8   Divorciado  Comedia         33\n9   Divorciado  Romance         31\n10       Viudo Policial         28\n11       Viudo  Comedia         38\n12       Viudo  Romance         34"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.1_R_1.html#tablas-y-proporciones",
-    "href": "pasos_R/ejercicio3.1_R_1.html#tablas-y-proporciones",
-    "title": "Ejercicio 3.1_R_1",
-    "section": "Tablas y proporciones",
-    "text": "Tablas y proporciones"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.1_R_1.html#totales-y-proporciones",
-    "href": "pasos_R/ejercicio3.1_R_1.html#totales-y-proporciones",
-    "title": "Ejercicio 3.1_R_1",
-    "section": "Totales y proporciones",
-    "text": "Totales y proporciones\n\npeliculas  %&gt;%\n  group_by(EstadoCivil) %&gt;%\n  summarise(Total = sum(Frecuencia))\n\n# A tibble: 4 × 2\n  EstadoCivil Total\n  &lt;chr&gt;       &lt;dbl&gt;\n1 Casado        100\n2 Divorciado    100\n3 Soltero       100\n4 Viudo         100\n\n\n\npeliculas  %&gt;%\n  group_by(TipoFilm) %&gt;%\n  summarise(Total = sum(Frecuencia))\n\n# A tibble: 3 × 2\n  TipoFilm Total\n  &lt;chr&gt;    &lt;dbl&gt;\n1 Comedia    137\n2 Policial   135\n3 Romance    128\n\n\n### Total general\n\npeliculas %&gt;%\n  summarise(Total = sum(Frecuencia))\n\n  Total\n1   400\n\n\n\npeliculas %&gt;%\n  group_by(EstadoCivil) %&gt;%\n  mutate(Proporcion = Frecuencia / sum(Frecuencia))\n\n# A tibble: 12 × 4\n# Groups:   EstadoCivil [4]\n   EstadoCivil TipoFilm Frecuencia Proporcion\n   &lt;chr&gt;       &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;\n 1 Soltero     Policial         45       0.45\n 2 Soltero     Comedia          25       0.25\n 3 Soltero     Romance          30       0.3 \n 4 Casado      Policial         26       0.26\n 5 Casado      Comedia          41       0.41\n 6 Casado      Romance          33       0.33\n 7 Divorciado  Policial         36       0.36\n 8 Divorciado  Comedia          33       0.33\n 9 Divorciado  Romance          31       0.31\n10 Viudo       Policial         28       0.28\n11 Viudo       Comedia          38       0.38\n12 Viudo       Romance          34       0.34\n\n\n\n#constuyo la tabla\ntabla &lt;- xtabs(Frecuencia ~ EstadoCivil + TipoFilm,\n               data = peliculas)\n\ntabla\n\n            TipoFilm\nEstadoCivil  Comedia Policial Romance\n  Casado          41       26      33\n  Divorciado      33       36      31\n  Soltero         25       45      30\n  Viudo           38       28      34\n\n\n\n# Coeficiente de contingencia de Pearson y el corregido\nchi &lt;- chisq.test(tabla)\n\nchi2 &lt;- chi$statistic\nn &lt;- sum(tabla)\n\nC &lt;- sqrt(chi2 / (chi2 + n))\nk &lt;- min(nrow(tabla), ncol(tabla))\nC_corregido &lt;- C / sqrt((k - 1) / k)\nchi2\n\nX-squared \n 11.25643 \n\nC\n\nX-squared \n0.1654413 \n\nC_corregido \n\nX-squared \n0.2026234"
-  },
-  {
-    "objectID": "pasos_R/ejercicio2.3_R_3.html",
-    "href": "pasos_R/ejercicio2.3_R_3.html",
-    "title": "Ejercicio 2.3_R_2",
-    "section": "",
-    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\nrm(list=ls())\n\n\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nPedimos las medidas de variabilidad para datos sin agrupar\n\n\n# desvio\nsd(perimetros)\n\n[1] 12.67946\n\n\n\n# Rango intercualtilico  \nIQR(perimetros)\n\n[1] 16.75"
-  },
-  {
-    "objectID": "pasos_R/ejercicio2.3_R_1.html",
-    "href": "pasos_R/ejercicio2.3_R_1.html",
-    "title": "Ejercicio 2.3_R_1",
-    "section": "",
-    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\n#borramos todo los objetos en el entorno\nrm(list=ls())\n\n\n# con c() cargamos un vector llamado perimetros\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nTabla de frecuencias Agrupadas\n\n# TABLA DE FRECUENCIAS AGRUPADAS\n\nintervalos &lt;- seq(120, 180, by = 10)\n\n# Tabla de frecuencias agrupadas\ntabla_agrupada &lt;- table(cut(perimetros, breaks = intervalos))\n# Marcas de clase\nmarcas_clase &lt;- (head(intervalos, -1) + tail(intervalos, -1)) / 2\n\n\ntabla_df &lt;- data.frame(\n  Intervalo = names(tabla_agrupada),\n  Marca_clase = marcas_clase,\n  Frecuencia = as.numeric(tabla_agrupada)\n)\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia\n1 (120,130]         125          3\n2 (130,140]         135          9\n3 (140,150]         145         14\n4 (150,160]         155          6\n5 (160,170]         165          6\n6 (170,180]         175          2\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia\n1 (120,130]         125          3\n2 (130,140]         135          9\n3 (140,150]         145         14\n4 (150,160]         155          6\n5 (160,170]         165          6\n6 (170,180]         175          2\n\n\n\n\nConstruimos un histograma\n\nhist(perimetros)\n\n\n\n\n\n\n\n# Histograma con títulos\nhist(\n  perimetros,\n  main = \"Histograma de perímetros basales\",\n  xlab = \"Perímetro basal (cm)\",\n  ylab = \"Frecuencia\"\n)\n\n\n\n\n\n\n\n\n\n\nMedidas resumenes datos agrupados\nMedia\n\nmedia_agrupada &lt;- sum(\n  tabla_df$Marca_clase * tabla_df$Frecuencia\n) / sum(tabla_df$Frecuencia)\n\nmedia_agrupada\n\n[1] 147.25\n\n\n\n# Frecuencia acumulada\ntabla_df$Frecuencia_acum &lt;- cumsum(tabla_df$Frecuencia)\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia Frecuencia_acum\n1 (120,130]         125          3               3\n2 (130,140]         135          9              12\n3 (140,150]         145         14              26\n4 (150,160]         155          6              32\n5 (160,170]         165          6              38\n6 (170,180]         175          2              40\n\n\nMediana\n\n# Número total de datos\nn &lt;- sum(tabla_df$Frecuencia)\n\n# Posición de la mediana\nn/2\n\n[1] 20\n\n\nIdentifiacamos la clase de la mediana que es el clase (140,150] y reemplazamos en los objetos\n\n# Datos de la clase mediana\nLi &lt;- 140          #  límite inferior\nF_anterior &lt;- 10   # frecuencia acumulada anterior\nfm &lt;- 14           # frecuencia de la clase mediana\nc &lt;- 10            # amplitud de clase\n\n# Mediana agrupada\nMd &lt;- Li + (((n/2) - F_anterior) / fm) * c\n\nMd\n\n[1] 147.1429"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Prólogo",
-    "section": "",
-    "text": "Prólogo\nLa presente Guía de Trabajos Prácticos está dirigida a los estudiantes que cursan la asignatura “Inferencia Estadística” correspondiente a las carreras de Profesorado en Matemática y Licenciatura en Matemática, respectivamente, del Departamento de Matemática “Prof. Lic. Juan Ernesto Macluf” de la Facultad de Ciencias Exactas y Naturales de la UNLPam, y sirve como complemento a las Notas de Clases “Inferencia Estadística”.\nLos problemas y actividades propuestos tienen por objetivo orientar y ayudar a los estudiantes en el aprendizaje de los conceptos estudiados en las asignaturas mencionadas y brindarles un espacio de aplicación de los mismos en situaciones problemáticas concretas y, en ocasiones, reales. Además, se incorporan actividades que implican desarrollo matemático formal, tales como demostraciones de propiedades y resultados, sugeridas principalmente a estudiantes de Licenciatura en Matemática.\nAlgunos ejercicios están señalados con un ícono particular que indica, según el caso:\n💻 Resolución escrita y utilizando un paquete estadístico adecuado.\n📊 Aplicación con datos reales utilizando un paquete estadístico adecuado.\n⚙️ Actividad opcional pero recomendada a estudiantes de Licenciatura en Matemática.\nLa incorporación, secuenciación y complejidad de los problemas y actividades propuestos son el resultado de la experiencia docente en el área y de la interacción con estudiantes de años anteriores, a quienes agradecemos sus críticas y sugerencias para mejorar esta guía año tras año.\n\nLas autoras, julio de 2026",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "pasos_R/ejercicio2.3_R_2.html",
-    "href": "pasos_R/ejercicio2.3_R_2.html",
-    "title": "Ejercicio 2.3_R_2",
-    "section": "",
-    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\nrm(list=ls())\n\n\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nPedimos las medidas de centralización\n\n\n# Media \nmean(perimetros)\n\n[1] 147.725\n\n\n\n# mediana \nmedian(perimetros)\n\n[1] 146.5\n\n\n\n# Moda\ntabla &lt;- table(perimetros)\ntabla\n\nperimetros\n121 125 128 132 135 136 138 140 142 144 145 146 147 148 149 150 152 153 154 156 \n  1   1   1   1   3   1   2   2   2   2   2   2   2   1   1   2   1   1   1   1 \n157 158 161 163 164 165 168 173 176 \n  1   1   2   1   1   1   1   1   1 \n\nnames(tabla)[tabla == max(tabla)]\n\n[1] \"135\""
-  },
-  {
-    "objectID": "pasos_R/ejercicio2.3_R_4.html",
-    "href": "pasos_R/ejercicio2.3_R_4.html",
-    "title": "Ejercicio 2.3_R_1",
-    "section": "",
-    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n#borramos todo los objetos en el entorno\nrm(list=ls())"
-  },
-  {
-    "objectID": "pasos_R/ejercicio2.3_R_4.html#actividad-construcción-de-un-boxplot-con-ggplot2",
-    "href": "pasos_R/ejercicio2.3_R_4.html#actividad-construcción-de-un-boxplot-con-ggplot2",
-    "title": "Ejercicio 2.3_R_1",
-    "section": "Actividad: Construcción de un Boxplot con ggplot2",
-    "text": "Actividad: Construcción de un Boxplot con ggplot2\nEn esta actividad aprenderemos a construir un diagrama de cajas (boxplot) utilizando el paquete ggplot2, una de las herramientas más utilizadas para la visualización de datos en R.\n\nPaso 1. Instalar el paquete tidyverse\nLa primera vez que utilicen estas herramientas deberán instalar el paquete tidyverse. Esta instalación se realiza una sola vez.\n\n# No repetir si ya está instalado\n#install.packages(\"tidyverse\")\n\n\n\nPaso 2. Cargar el paquete\nCada vez que inicien una nueva sesión de R deberán cargar el paquete mediante la función library().\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nPaso 3. Cargamos los datos, si no lo están\n\n# con c() cargamos un vector llamado perimetros\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\n#transformamos los datos en un data.frame\nperimetros&lt;-as.data.frame(perimetros)\n\nPaso 4. Construir un boxplot\n\nggplot(perimetros, aes(y = perimetros)) +\n  geom_boxplot(fill = \"lightblue\") +\n  labs(\n    title = \"Diagrama de cajas y brazos  del perímetro\",\n    y = \"Perímetro\"\n  ) +\n  theme_minimal()"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.1_R_2.html",
-    "href": "pasos_R/ejercicio3.1_R_2.html",
-    "title": "Ejercicio3.1_R_1",
-    "section": "",
-    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\npeliculas &lt;- data.frame(\n  EstadoCivil = rep(c(\"Soltero\", \"Casado\", \"Divorciado\", \"Viudo\"), each = 3),\n  TipoFilm = rep(c(\"Policial\", \"Comedia\", \"Romance\"), times = 4),\n  Frecuencia = c(\n    45, 25, 30,\n    26, 41, 33,\n    36, 33, 31,\n    28, 38, 34\n  )\n)\n\npeliculas\n\n   EstadoCivil TipoFilm Frecuencia\n1      Soltero Policial         45\n2      Soltero  Comedia         25\n3      Soltero  Romance         30\n4       Casado Policial         26\n5       Casado  Comedia         41\n6       Casado  Romance         33\n7   Divorciado Policial         36\n8   Divorciado  Comedia         33\n9   Divorciado  Romance         31\n10       Viudo Policial         28\n11       Viudo  Comedia         38\n12       Viudo  Romance         34\n\n\n\nggplot(peliculas,aes(x = EstadoCivil,y = Frecuencia,fill = TipoFilm)) +\n  geom_col(position = \"dodge\",) +\n   scale_fill_manual(\n    values = c(\n      \"Policial\" = \"steelblue\",\n      \"Comedia\" = \"orange\",\n      \"Romance\" = \"firebrick\"\n    ))+\n  labs(\n    x = \"Estado civil\",\n    y = \"Frecuencia\",\n    fill = \"Tipo de película\",\n    title = \"Preferencia de películas según estado civil\"\n  ) +\n  theme_linedraw() # exploará con los difrentes temas de ggplot"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_2.html",
-    "href": "pasos_R/ejercicio3.3_R_2.html",
-    "title": "ejercicio4.3_R_1",
-    "section": "",
-    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n#Para datos puros"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_2.html#media-y-varianza",
-    "href": "pasos_R/ejercicio3.3_R_2.html#media-y-varianza",
-    "title": "ejercicio4.3_R_1",
-    "section": "2. Media y varianza",
-    "text": "2. Media y varianza\n\nmean(nueva_gr80)\n\n[1] 133.9\n\nvar(nueva_gr80)\n\n[1] 130.8103\n\n\nmediana mad_nueva\n\n### 4. Boxplot\n\n\n::: {.cell}\n\n```{.r .cell-code}\nboxplot(\n  nueva_gr80,\n  main = \"Boxplot del rendimiento - Nueva GR80\",\n  ylab = \"Rendimiento (tm/ha)\",\n  col = \"lightblue\"\n)\n\n\n\n\n\n\n\n:::\n\nActividad para estudiantes\nRepitan el procedimiento anterior para el híbrido Overa.\n\novera &lt;- c(\n  115, 158, 139, 143, 151, 152, 148, 139, 153, 125, 136,\n  129, 146, 136, 140, 150, 140, 139, 128, 129, 125, 130,\n  140, 149, 150, 139, 142, 138, 129, 126, 137, 148, 146,\n  150, 158, 153, 119, 139, 154, 139, 151, 154, 139, 132\n)\n\nLuego comparen ambos híbridos considerando:\n\ncentro de la distribución: media y mediana;\nvariabilidad: varianza y MAD;\nforma de la distribución observada en los histogramas;\npresencia de valores extremos en los boxplots."
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_4.html",
-    "href": "pasos_R/ejercicio3.3_R_4.html",
-    "title": "ejercicio4.3_R_1",
-    "section": "",
-    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_4.html#boxplot",
-    "href": "pasos_R/ejercicio3.3_R_4.html#boxplot",
-    "title": "ejercicio4.3_R_1",
-    "section": "Boxplot",
-    "text": "Boxplot\n\nboxplot(\n  nueva_gr80,\n  xlab=\" Nueva GR 80 \",\n  ylab=\"rendimiento\")"
-  },
-  {
-    "objectID": "pasos_R/ejercicio4.3_R_1.html",
-    "href": "pasos_R/ejercicio4.3_R_1.html",
-    "title": "Ejercicio 4.3_R_1",
-    "section": "",
-    "text": "1. Configurar los parámetros del experimento\n\nset.seed(123) # Asegura que los resultados sean replicables \nreplicas&lt;- 100 # Número de repeticiones (réplicas) \npi &lt;- 0.80 # Probabilidad de éxito de la marca Z\n\n\n\n2. Definir los tamaños de muestra a evaluar\n\ntamanos_n &lt;- c(20, 30, 50)\n\n\n\nConfigurar la pantalla para ver los 3 gráficos juntos (1 fila, 3 columnas)\n\npar(mfrow = c(1, 3))\n\n\n\n3. Bucle para simular, calcular p y graficar para cada n\n\nfor (n in tamanos_n) {\n\n# Simular 100 muestras binomiales de tamaño n \n# rbinom genera el número de éxitos 'X' directamente \nexitos_X &lt;- rbinom(n = replicas, size = n, prob = pi)\n\n# Calcular el estadístico p (proporción muestral) para cada réplica\nproporciones_p &lt;- exitos_X / n\n\n# Construir el histograma de las proporciones obtenidas\nhist(proporciones_p, \n     breaks = seq(0, 1, by = 0.05), # Intervalos de las barras \n     xlim =c(0.4, 1), # Límites del eje X enfocados en los datos \n     main = paste(\"n =\", n), # Título del gráfico \n     xlab = \"Proporción muestral (p)\", ylab = \"Frecuencia\", col = \"skyblue\", border = \"white\")\n\n# Línea roja para mostrar dónde está el valor real (0.80)\nabline(v = pi, col = \"red\", lwd = 2, lty = 2) \n}"
-  },
-  {
-    "objectID": "tp2/ejercicio2.2.html",
-    "href": "tp2/ejercicio2.2.html",
-    "title": "Ejercicio 2.2",
-    "section": "",
-    "text": "Según la Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico, ante la pregunta “¿Con quién viven?”, realizada a 36 mujeres adolescentes atendidas en servicios de urgencias de hospitales públicos, se obtuvieron las siguientes observaciones experimentales:\nM  A  A  A  M  P  P  P  M\nM  O  O  M  M  M  P  P  A\nA  A  A  A  O  A  A  O  M\nM  M  M  A  A  A  O  A  A\ndonde:\n\nM corresponde a mamá.\nP corresponde a papá.\nA corresponde a ambos.\nO corresponde a otros.\n\n\n1. Identifique:\n\nEl experimento que se realiza y cuántas veces se repite.\nLa población de unidades y la población estadística.\nLa variable de estudio y su tipo.\n\n\n\n2. Tabule y grafique adecuadamente.\nComente la información resumida en la tabla.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 2",
-      "Ejercicio 2.2"
-    ]
-  },
-  {
-    "objectID": "tp2/ejercicio2.5.html",
-    "href": "tp2/ejercicio2.5.html",
-    "title": "ejercicio2.5",
-    "section": "",
-    "text": "En este sección trabajaremos con la base de datos Gapminder\nGapminder es una base de datos internacional que contiene información socioeconómica de distintos países a lo largo del tiempo. Cada observación corresponde a un país en un año específico, y las variables permiten estudiar fenómenos como esperanza de vida, crecimiento poblacional y desarrollo económico.\n\n# Instalar solo una vez\ninstall.packages(\"gapminder\",\n                 repos = \"https://cloud.r-project.org\")\n\npackage 'gapminder' successfully unpacked and MD5 sums checked\n\nThe downloaded binary packages are in\n    C:\\Users\\USUARIO\\AppData\\Local\\Temp\\RtmpElsXtQ\\downloaded_packages\n\n# Luego, en el documento:\nlibrary(gapminder)\n\n\nObserva la base de datos\n\n\ngapminder\n\n# A tibble: 1,704 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1952    28.8  8425333      779.\n 2 Afghanistan Asia       1957    30.3  9240934      821.\n 3 Afghanistan Asia       1962    32.0 10267083      853.\n 4 Afghanistan Asia       1967    34.0 11537966      836.\n 5 Afghanistan Asia       1972    36.1 13079460      740.\n 6 Afghanistan Asia       1977    38.4 14880372      786.\n 7 Afghanistan Asia       1982    39.9 12881816      978.\n 8 Afghanistan Asia       1987    40.8 13867957      852.\n 9 Afghanistan Asia       1992    41.7 16317921      649.\n10 Afghanistan Asia       1997    41.8 22227415      635.\n# ℹ 1,694 more rows\n\n\n\nIdentifica las variables en estudio y su tipo\n\n\nstr(gapminder) #vemos la estructura de la base datos \n\ntibble [1,704 × 6] (S3: tbl_df/tbl/data.frame)\n $ country  : Factor w/ 142 levels \"Afghanistan\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ continent: Factor w/ 5 levels \"Africa\",\"Americas\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ year     : int [1:1704] 1952 1957 1962 1967 1972 1977 1982 1987 1992 1997 ...\n $ lifeExp  : num [1:1704] 28.8 30.3 32 34 36.1 ...\n $ pop      : int [1:1704] 8425333 9240934 10267083 11537966 13079460 14880372 12881816 13867957 16317921 22227415 ...\n $ gdpPercap: num [1:1704] 779 821 853 836 740 ...\n\n\nstr(df) indica las variables y su tipo en la base de datos df\n\nAverigua el tamaño de la base de datos\n\n\ndim(gapminder) # vemos la dimensión del data.frame\n\n[1] 1704    6\n\n\ndim(df) indica la dimensión de la base de datos (df)\n\nRealiza un box plot que muestre la esperanza de vida por continente y analiza los resultados.\n\n\nlibrary(ggplot2)\n\nggplot(gapminder,\n       aes(x = continent,\n           y = lifeExp)) +\n  geom_boxplot(fill = \"lightgreen\") +\n  labs(\n    title = \"Esperanza de vida por continente\",\n    x = \"Continente\",\n    y = \"Esperanza de vida\"\n  ) +\n  theme_minimal()",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 2",
-      "Ejercicio 2.5"
-    ]
-  },
-  {
-    "objectID": "tp2/ejercicio2.7.html",
-    "href": "tp2/ejercicio2.7.html",
-    "title": "Ejercicio 2.7",
-    "section": "",
-    "text": "Sea \\(x_1, x_2, \\ldots, x_n\\) una muestra y suponga que los valores de la media muestral \\(\\bar{x}\\) y la varianza muestral \\(s_X^2\\) son conocidos.\n\nSea\n\\[\ny_i=x_i-\\bar{x},\n\\qquad i=1,2,\\ldots,n.\n\\]\n¿Cómo se compara el valor de \\(s_Y^2\\) con el de \\(s_X^2\\)?\nSea\n\\[\nz_i=\\frac{x_i-\\bar{x}}{s_X},\n\\qquad i=1,2,\\ldots,n.\n\\]\n¿Cuál es el valor de \\(s_Z^2\\)?",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 2",
-      "Ejercicio 2.7"
-    ]
-  },
-  {
-    "objectID": "tp3/ejercicio3.1.html",
-    "href": "tp3/ejercicio3.1.html",
-    "title": "Ejercicio 3.1",
-    "section": "",
-    "text": "Un estudio tiene por objetivo determinar si la preferencia por determinado tipo de películas se altera con el estado civil. Se seleccionan 100 individuos en cada una de las categorías: soltero, casado, divorciado y viudo. Los resultados obtenidos se muestran en la tabla siguiente:\n\n\n\nEstado Civil\nPolicial\nComedia\nRomance\nTotal\n\n\n\n\nSoltero\n45\n25\n30\n100\n\n\nCasado\n26\n41\n33\n100\n\n\nDivorciado\n36\n33\n31\n100\n\n\nViudo\n28\n38\n34\n100\n\n\n\n\nAnalice y exprese la información muestral proporcionada por la tabla de contingencia; represente gráficamente y de manera conveniente.\n¿El tipo de película elegido difiere según el estado civil de las personas? Concluya brindando una medida de relación o dependencia.\n\n💻 3. Considerando que usted realizó el punto 2 “a mano”, compárelos con los que haría R Ver pasos para resolver en R\n💻 4. Considerando que usted realizó los gráficos “a mano”, compárelos con los que haría R Ver pasos para resolver en R",
+    "text": "La Figura 3.1 presenta información proveniente del Informe Anual Sociodemográfico del Sistema de Riesgos del Trabajo correspondiente al año 2024. Extraído de Fuente\nEn la sección de litigiosidad se muestra la distribución porcentual de los tipos de contingencias laborales para mujeres y varones.\n\nConstruya una tabla de contingencia con las frecuencias absolutas.\nObtenga las distribuciones marginales y conjuntas.\nCalcule los perfiles fila y los perfiles columna.\nRepresente gráficamente la información mediante un gráfico adecuado.\nDescriba las principales diferencias observadas entre mujeres y varones.\nAnalice si existe asociación entre el sexo y el tipo de contingencia laboral utilizando una medida de relación apropiada.\nInterprete el valor obtenido en el contexto del problema.\n\n\n\n\nFigura 3. 1",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Ejercicio 3.1"
+      "Ejercicio 3.2"
     ]
   },
   {
-    "objectID": "tp3/ejercicio3.3.html",
-    "href": "tp3/ejercicio3.3.html",
-    "title": "Ejercicio 3.3",
+    "objectID": "tp3/ejercicio3.4.html",
+    "href": "tp3/ejercicio3.4.html",
+    "title": "Ejercicio 3.4",
     "section": "",
-    "text": "Una compañía dedicada a la comercialización de semillas decidió poner a prueba el rendimiento de dos híbridos de sorgo granífero bajo riego. Se estudiaron dos muestras compuestas por parcelas sembradas, en cada caso, con los híbridos Nueva GR80 y Overa. Los resultados, en tm/ha, fueron:\n\nNueva GR80\n\n\n\n110\n112\n135\n140\n128\n132\n123\n125\n140\n142\n\n\n\n\n151\n113\n142\n123\n118\n143\n138\n135\n140\n135\n\n\n112\n128\n152\n136\n152\n139\n142\n129\n150\n135\n\n\n119\n128\n123\n142\n138\n145\n136\n147\n141\n137\n\n\n\n\n\nOvera\n\n\n\n115\n158\n139\n143\n151\n152\n148\n139\n153\n125\n136\n\n\n\n\n129\n146\n136\n140\n150\n140\n139\n128\n129\n125\n130\n\n\n140\n149\n150\n139\n142\n138\n129\n126\n137\n148\n146\n\n\n150\n158\n153\n119\n139\n154\n139\n151\n154\n139\n132\n\n\n\n💻 1. Construya una distribución de frecuencias de los datos para cada muestra y realice los histogramas correspondientes. Ver pasos para resolver en R\n💻 2. Calcule la media y la varianza de cada una de las muestras. Ver pasos para resolver en R\n💻 3. Calcule para cada muestra la mediana y el MAD. Ver pasos para resolver en R\n💻 4. Construya en una misma representación boxplot para cada muestra. Ver pasos para resolver en R\n\nCompare los resultados obtenidos para cada muestra considerando los alcanzados en los incisos anteriores y elabore conclusiones.",
+    "text": "Se seleccionaron los 10 géneros musicales más frecuentes de una base de datos de canciones obtenida de Kaggle. Para cada género se registró la variable popularidad (escala de 0 a 100). Los datos fueron resumidos mediante diagramas de caja, obteniéndose el gráfico mostrado en la figura 3.4\n\n\n\nFigura 3.4: Diagramas de caja y brazos de la popularidad de canciones para los 10 géneros musicales más frecuentes”\n\n\nA partir del gráfico, indique si las siguientes afirmaciones son verdaderas o falsas. Justifique brevemente su respuesta.\n\nLas canciones del género ambient tienden a presentar una popularidad mayor que las del género afrobeat.\nb)La popularidad de las canciones del género brazil es más homogénea que la del género blues.\n\nTodas las canciones del género anime poseen una popularidad superior a las del género black-metal.\n\nLos géneros alternative y alt-rock presentan una mayor dispersión en la popularidad que bluegrass.\n\nExisten valores atípicos en varios de los géneros representados.\nLa mitad central de las canciones del género afrobeat posee una popularidad comprendida aproximadamente entre 18 y 28 puntos.\n\nEl género blues presenta una distribución más variable que la del género brazil.\nPuede afirmarse, a partir del gráfico, que las medianas de popularidad son iguales para todos los géneros musicales.\n\nLos géneros musicales difieren tanto en su nivel típico de popularidad como en la variabilidad de dicha popularidad.\n\nEl género acoustic presenta una mediana de popularidad superior a la de bluegrass.",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Ejercicio 3.3"
+      "Ejercicio 3.4"
     ]
   },
   {
-    "objectID": "tp3/ejercicio3.5.html",
-    "href": "tp3/ejercicio3.5.html",
-    "title": "Ejercicio 3.5",
+    "objectID": "tp3/ejercicio3.6.html",
+    "href": "tp3/ejercicio3.6.html",
+    "title": "Ejercicio 3.6",
     "section": "",
-    "text": "Se sabe que la vitamina D extraída del hígado del pescado, sumada a la alimentación de los pollitos, los ayuda a ganar peso. Se quiere verificar si la vitamina retirada del pescado (tratamiento A) produce los mismos resultados que el tratamiento tradicional con aceite de hígado de bacalao (tratamiento B).\nSe les pidió a dos granjeros que cada uno adicionase una de las vitaminas a sus raciones, tomaran el peso de los pollitos a los ocho días y enviaran los resultados. Cada granja mandó dichos resultados de la siguiente manera:\n\n\n\nGranja A\n\n\nGranja B\n\n\n\n\n\nPeso (g)\nFrecuencia\n\nPeso (g)\nFrecuencia\n\n\n60 - 66\n210\n\n60 - 62\n100\n\n\n66 - 68\n280\n\n62 - 64\n210\n\n\n68 - 70\n360\n\n64 - 66\n450\n\n\n70 - 72\n200\n\n66 - 69\n400\n\n\n72 - 76\n150\n\n69 - 73\n280\n\n\n\n1200\n\n73 - 77\n60\n\n\n\n\n\nTotal\n1500\n\n\n\n\nIndique, para cada una de las granjas, el experimento que se realiza, la unidad experimental, la población de unidades y la población estadística, la variable de estudio y a qué tipo corresponde.\nConstruya los histogramas. ¿Qué tipo de conclusión daría cuando compara las dos fuentes de vitaminas?\nCalcule la media y el desvío estándar de cada distribución. ¿Qué tipo de información adicional traen estos valores al problema?",
+    "text": "Un grupo de estudiantes universitarios de física realizan experimentos para verificar la Ley de Hooke. Dicha ley establece que, cuando se aplica una fuerza a un cuerpo que es largo en comparación con su área transversal, el cambio de su longitud (mm) es proporcional a la fuerza aplicada (kg).\nEn la siguiente tabla se muestran los resultados de un experimento de laboratorio, para el que se usaron diez piezas de alambre de acero de 0,34 mm de diámetro y 3 m de largo, para obtener las mediciones de fuerza y cambio de longitud.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFuerza (kg)\n29,40\n39,20\n49,00\n58,80\n68,60\n78,40\n45,30\n35,00\n53,50\n74,30\n\n\n\n\nCambio (mm)\n4,25\n5,25\n6,50\n7,85\n8,75\n10,00\n6,16\n4,92\n7,14\n9,64\n\n\n\n\nDibuje el diagrama de dispersión entre la fuerza aplicada y el cambio de longitud.\nCalcule el coeficiente de correlación lineal de Pearson.\nInterprete el valor obtenido e indique la intensidad y dirección de la asociación entre ambas variables.\nAnalice, a partir del diagrama de dispersión, si resulta razonable utilizar un modelo de regresión lineal para describir la relación entre las variables.\nElabore una conclusión en el contexto del problema, indicando si los resultados experimentales respaldan la Ley de Hooke.",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Ejercicio 3.5"
+      "Ejercicio 3.6"
     ]
   },
   {
-    "objectID": "tp3/ejercicio3.7.html",
-    "href": "tp3/ejercicio3.7.html",
-    "title": "Ejercicio 3.7",
+    "objectID": "tp3/ejercicio3.8.html",
+    "href": "tp3/ejercicio3.8.html",
+    "title": "Ejercicio 3.8",
     "section": "",
-    "text": "En los últimos años se han vuelto comunes los problemas visuales y musculoesqueléticos relacionados con el empleo de pantallas. Algunos investigadores se han interesado en la dirección vertical de visualización como fuente de tensión o irritación ocular.\nSe sabe que esta dirección se relaciona en forma estrecha con el área superficial ocular (OSA), por lo tanto se necesita un método para medirla. La tabla adjunta muestra las mediciones obtenidas de 30 personas de la OSA (cm²), representada por la variable (y), y del ancho de la fisura palpebral, es decir, el ancho horizontal de la abertura del ojo abierto (cm), representada por (x).\nLos datos fueron tomados del artículo “Analysis of Ocular Surface Area for Comfortable VDT Workstation Layout” (Ergonomics, 1996, pp. 877–884).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\nxᵢ\nyᵢ\n\ni\nxᵢ\nyᵢ\n\ni\nxᵢ\nyᵢ\n\n\n\n\n1\n0,40\n1,02\n\n11\n0,84\n2,00\n\n21\n1,30\n4,27\n\n\n2\n0,42\n1,21\n\n12\n0,95\n2,80\n\n22\n1,34\n3,12\n\n\n3\n0,48\n0,88\n\n13\n0,99\n2,48\n\n23\n1,37\n3,99\n\n\n4\n0,51\n0,98\n\n14\n1,03\n2,47\n\n24\n1,40\n3,75\n\n\n5\n0,57\n1,52\n\n15\n1,12\n3,05\n\n25\n1,43\n4,10\n\n\n6\n0,60\n1,83\n\n16\n1,15\n3,18\n\n26\n1,46\n4,18\n\n\n7\n0,70\n1,50\n\n17\n1,20\n3,76\n\n27\n1,49\n3,77\n\n\n8\n0,75\n1,80\n\n18\n1,25\n3,68\n\n28\n1,55\n4,34\n\n\n9\n0,754\n1,74\n\n19\n1,25\n3,82\n\n29\n1,58\n4,21\n\n\n10\n0,78\n1,63\n\n20\n1,28\n3,21\n\n30\n1,60\n4,92\n\n\n\n\nRealice un diagrama de dispersión de los datos y describa la relación observada entre las variables.\nCalcule el coeficiente de correlación lineal de Pearson e interprete su valor.\nBasándose en el diagrama de dispersión y en el coeficiente de correlación obtenido, indique si resulta razonable utilizar un modelo de regresión lineal para describir la relación entre las variables.\nEstime la recta de regresión lineal de (y) sobre (x).\nInterprete los coeficientes estimados de la recta de regresión en el contexto del problema.\nUtilice el modelo ajustado para predecir el área superficial ocular de una persona cuyo ancho de fisura palpebral es de 1,50 cm.\nElabore una conclusión general acerca de la utilidad del ancho de la fisura palpebral como predictor del área superficial ocular.",
+    "text": "Anscombe utilizó los cuatro conjuntos de datos bidimensionales de la tabla adjunta para demostrar la importancia de los gráficos en el análisis de regresión.\nPara cada conjunto de datos:\n\nConstruya el diagrama de dispersión.\nCalcule el coeficiente de correlación lineal de Pearson.\nEstime la recta de regresión lineal de (y) en función de (x).\nInterprete los resultados obtenidos.\n\nFinalmente:\n\nCompare los resultados numéricos de los cuatro conjuntos de datos.\nAnalice conjuntamente los resultados obtenidos y los gráficos de dispersión.\nElabore una conclusión acerca de la importancia de la representación gráfica en el análisis de regresión.\n\n\nConjunto A\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n\n\n\n\nx\n10\n8\n13\n9\n11\n14\n6\n4\n12\n7\n5\n\n\ny\n8,04\n6,95\n7,58\n8,81\n8,33\n9,96\n7,24\n4,26\n10,84\n4,82\n5,68\n\n\n\n\n\nConjunto B\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n\n\n\n\nx\n10\n8\n13\n9\n11\n14\n6\n4\n12\n7\n5\n\n\ny\n9,14\n8,14\n8,74\n8,77\n9,26\n8,10\n6,13\n3,10\n9,13\n7,26\n4,74\n\n\n\n\n\nConjunto C\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n\n\n\n\nx\n10\n8\n13\n9\n11\n14\n6\n4\n12\n7\n5\n\n\ny\n7,46\n6,77\n12,74\n7,11\n7,81\n8,84\n6,08\n5,39\n8,15\n6,42\n5,73\n\n\n\n\n\nConjunto D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ni\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n\n\n\n\nx\n8\n8\n8\n8\n8\n8\n8\n19\n8\n8\n8\n\n\ny\n6,58\n5,76\n7,71\n8,84\n8,47\n7,04\n5,25\n12,50\n5,56\n7,91\n6,89\n\n\n\n &gt; Nota: Compare los coeficientes de correlación, las rectas de regresión y los diagramas de dispersión obtenidos. Discuta si las conclusiones serían las mismas si sólo se observaran los resultados numéricos y no los gráficos.",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Ejercicio 3.7"
+      "Ejercicio 3.8"
     ]
   },
   {
-    "objectID": "tp3/ejercicio3.9.html",
-    "href": "tp3/ejercicio3.9.html",
-    "title": "Ejercicio 3.9",
+    "objectID": "tp3/index.html",
+    "href": "tp3/index.html",
+    "title": "Trabajo Práctico 3",
     "section": "",
-    "text": "Sea \\((x_1,y_1)\\), \\((x_2,y_2)\\), \\(\\ldots\\), \\((x_n,y_n)\\) una muestra y suponga que los valores de las medias muestrales \\(\\bar{x}\\) e \\(\\bar{y}\\) y las varianzas muestrales \\(s_x^2\\) y \\(s_y^2\\) son conocidos.\nSea \\(c\\) una constante. 1. Sea\\(z_i=x_i-c,\\qquad i=1,2,\\ldots,n.\\) ¿Cómo se compara el valor de \\(r_{XY}\\) con el de \\(r_{ZY}\\)?\n2. Sea \\(z_i=cx_i,\\qquad i=1,2,\\ldots,n.\\) ¿Cómo se compara el valor de \\(r_{XY}\\) con el de \\(r_{ZY}\\)?",
+    "text": "Ser capaz de resumir información muestral, relativa a dos variables en estudio, usando tablas y gráficos.\nAnalizar la relación entre variables cualitativas y establecer una medida de dependencia entre las mismas.\nAnalizar la relación entre variables cuantitativas y establecer una medida de correlación o dependencia entre las mismas.",
     "crumbs": [
       "TRABAJO PRÁCTICO 3",
-      "Ejercicio 3.9"
+      "Presentación"
     ]
   },
   {
-    "objectID": "tp4/ejercicio4.1.html",
-    "href": "tp4/ejercicio4.1.html",
-    "title": "Ejercicio 4.1",
+    "objectID": "tp3/index.html#objetivos",
+    "href": "tp3/index.html#objetivos",
+    "title": "Trabajo Práctico 3",
     "section": "",
-    "text": "Caso de Estudio: Planificación de Producción en Planta de producción de lavavajillas para el Hogar\nContexto Real:Trabajás en el equipo de Inteligencia de Negocios de una empresa de consumo masivo. La planta envasa su jabón para lavavajillas estrella en tres formatos según las necesidades del consumidor: Chico (500 g), Estándar (1 kg) y Familiar (3 kg).\nEl departamento de Trade Marketing indica que el comportamiento histórico de elección de los clientes es el siguiente:\n20% selecciona el tamaño Chico (\\(p_1 = 0.2\\))\n50% selecciona el tamaño Estándar (\\(p_2 = 0.5\\))\n30% selecciona el tamaño Familiar (\\(p_3 = 0.3\\))\nEl Gerente de Operaciones debe decidir cómo programar las máquinas envasadoras. Para evitar costos innecesarios de almacenamiento o quiebres de stock, necesita entender cómo se comporta el promedio de compra (\\(\\overline{X}\\)) cuando se agrupan los pedidos.\n\n\nGuía del Ejercicio Paso a Paso\nAntes de recibir los pedidos del día, la planta necesita conocer el comportamiento teórico de un consumidor individual.\n\nPaso 1: Establecer la Línea de Base de la Población\n\nCalcule la Media Poblacional (\\(\\mu\\)): Representa el peso promedio a largo plazo que se proyecta vender por cliente\nCalcule la Varianza Poblacional (\\(\\sigma ^{2}\\)): Mide el riesgo o incertidumbre individual de que un cliente se desvíe drásticamente del promedio.\n\nEl gerente evalúa qué pasa si toma decisiones de producción mirando únicamente los primeros 2 pedidos independientes de la mañana.\n\n\nPaso 2: Análisis de Lotes Pequeños (Muestra de \\(n = 2\\) pedidos)\n\nObtenga la distribución muestral del promedio (\\(\\overline{X}\\))\n\nCalcule la Esperanza del lote \\((\\bar{X})\\) y compárela con \\(\\mu\\)\n\n¿El promedio del lote tiende a distorsionar la realidad del mercado?\n\nCalcule la Varianza del lote \\(V(\\bar{X}\\) y compárela con \\(\\sigma ^{2}\\)\n\n¿Qué le pasó al riesgo de planificación al juntar 2 pedidos en lugar de mirar 1 solo?\n\n\n\nPaso 3: Consolidación de Información (Muestra de \\(n=3\\) pedidos)\n\nRepita el cálculo de la distribución muestral para \\(n = 3\\): Sean \\(X_1\\) y \\(X_2\\) los tamaños de caja elegidos por dos compradores independientes.\nCalcule la \\(E(\\overline{X})\\) y la \\(V(\\overline{X})\\)\n\n\n\nPaso 4: Justificación Teórica y Toma de Decisiones\n\n¿Por qué el promedio esperado \\(E(\\bar{X}\\) no cambia sin importar si \\(n=2\\) o \\(n=3\\)? ¿Cambiará para un \\(n\\) mayor?\nPor qué la varianza disminuye a medida que aumenta el tamaño del lote \\(n\\))? Explique el “efecto compensación”.\nImaginá que sos el Gerente de Producción de la planta. Si tuvieras que configurar las máquinas envasadoras mirando únicamente un lote de 2 pedidos (n=2), ¿qué problemas operativos y de almacenamiento enfrentarías en el día a día? Fundamentá usando los valores de promedio (X̄) y varianza (V(X̄)) obtenidos en el paso 2.\n\nSi en lugar de producir de a 2 pedidos, decidís acumular 100 pedidos (n=100) antes de encender las máquinas:\n¿Cuánto valdría la nueva varianza del promedio del lote?. Explicá cómo cambia tu estrategia para programar las máquinas bajo este nuevo escenario.",
+    "text": "Ser capaz de resumir información muestral, relativa a dos variables en estudio, usando tablas y gráficos.\nAnalizar la relación entre variables cualitativas y establecer una medida de dependencia entre las mismas.\nAnalizar la relación entre variables cuantitativas y establecer una medida de correlación o dependencia entre las mismas.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 3",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp4/ejercicio4.2.html",
+    "href": "tp4/ejercicio4.2.html",
+    "title": "Ejercicio 4.2",
+    "section": "",
+    "text": "La cantidad de líquido dosificada por cierta máquina, en mililitros, está uniformemente distribuida en el intervalo [240; 260].\n💻 1. Simule, utilizando una computadora, 100 réplicas de una muestra aleatoria simple de n = 10, 20, 30 dosificaciones. Calcule el contenido medio de líquido de cada muestra. Realice los histogramas, compare y elabore conclusiones.Ver pasos para resolver en R\n\nExplique cómo simularía una dosificación usando el generador de números aleatorios de una calculadora o una tabla de números aleatorios.",
     "crumbs": [
       "TRABAJO PRÁCTICO 4",
-      "Ejercicio 4.1"
+      "Ejercicio 4.2"
     ]
   },
   {
-    "objectID": "tp4/ejercicio4.3.html",
-    "href": "tp4/ejercicio4.3.html",
-    "title": "Ejercicio 4.3",
+    "objectID": "tp4/index.html",
+    "href": "tp4/index.html",
+    "title": "Trabajo Práctico 4",
     "section": "",
-    "text": "Se sabe que el 80 % de todas las unidades del disco A, de marca Z, trabajan de manera satisfactoria durante el período de garantía. Suponga que \\(n = 10\\) unidades del disco se seleccionan al azar y sea\nX ={número de éxitos en la muestra}\nEl estadístico\n\\[p = \\frac{X}{n}\\]\nes la proporción muestral de éxitos.\n\nIdentifique la distribución de \\(X\\).\nObtenga la distribución muestral de \\(p\\).\n\n💻 3. Simule, utilizando una computadora, 100 réplicas de una muestra aleatoria simple de \\(n = 20\\), \\(30\\) y \\(50\\) unidades. Calcule \\(p\\) para cada réplica, construya los histogramas y elabore conclusiones. Ver pasos para resolver en R\n\nExplique cómo simularía la observación de uno de estos discos usando el generador de números aleatorios de una calculadora o una tabla de números aleatorios.",
+    "text": "Establecer la relación entre las variables aleatorias, las muestras y la inferencia estadística usando el significado del muestreo aleatorio.\nObtener la distribución de un estadístico a partir del muestreo aleatorio.",
     "crumbs": [
       "TRABAJO PRÁCTICO 4",
-      "Ejercicio 4.3"
+      "Presentación"
     ]
   },
   {
-    "objectID": "tp5/ejercicio5.1.html",
-    "href": "tp5/ejercicio5.1.html",
-    "title": "Ejercicio 5.1",
+    "objectID": "tp4/index.html#objetivos",
+    "href": "tp4/index.html#objetivos",
+    "title": "Trabajo Práctico 4",
     "section": "",
-    "text": "Días atrás se dio a conocer el aumento de la venta de automóviles usados en las provincias argentinas. En una encuesta realizada en nuestra provincia a 200 propietarios de automóviles, 30 de ellos manifestaron la intención de cambiar su auto el mes próximo. Los propietarios encuestados se eligieron de manera independiente y aleatoria del registro de automotores.\n\nDefina la variable de interés e identifique su distribución.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
+    "text": "Establecer la relación entre las variables aleatorias, las muestras y la inferencia estadística usando el significado del muestreo aleatorio.\nObtener la distribución de un estadístico a partir del muestreo aleatorio.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 4",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp5/ejercicio5.2.html",
+    "href": "tp5/ejercicio5.2.html",
+    "title": "Ejercicio 5.2",
+    "section": "",
+    "text": "La cantidad de polvo en la atmósfera puede ser estimada por medio de un ultramicroscopio. Para ello se ilumina un volumen de aire muy pequeño y el observador cuenta el número de partículas que ve. Si se repite esta operación, puede estimarse la cantidad de polvo que se ha observado por centímetro cúbico de aire. Al efectuar 300 ensayos se obtuvieron los siguientes resultados:\n\n\n\nNúmero de partículas\n0\n1\n2\n3\n4\n5\n6\n\n\n\n\nFrecuencia observada\n38\n75\n89\n54\n20\n19\n5\n\n\n\n\nProponga un modelo que considere adecuado para el número de partículas de polvo por centímetro cúbico de aire.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
     "crumbs": [
       "TRABAJO PRÁCTICO 5",
-      "Ejercicio 5.1"
+      "Ejercicio 5.2"
     ]
   },
   {
-    "objectID": "tp5/ejercicio5.3.html",
-    "href": "tp5/ejercicio5.3.html",
-    "title": "Ejercicio 5.3",
+    "objectID": "tp5/ejercicio5.2.html#ejercicio-5.2",
+    "href": "tp5/ejercicio5.2.html#ejercicio-5.2",
+    "title": "Ejercicio 5.2",
     "section": "",
-    "text": "La concentración de monóxido de carbono, medida en ppm, en un período de una hora, en muestras de aire de una gran ciudad tiene aproximadamente una distribución exponencial de parámetro \\(\\lambda\\). Se obtuvieron las concentraciones de monóxido de carbono de 10 días laborales elegidos al azar siendo los resultados:\n3,6    4,1    3,8    3,0    3,8    3,7    4,0    4,1    3,3    3,2\n\nEncuentre un estimador para el parámetro de la distribución basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el parámetro de la distribución basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador por el método de los momentos de \\(q(\\lambda)=P_{\\lambda}(X\\geq 1)\\).\nEncuentre el estimador de máxima verosimilitud para el parámetro de la distribución. Obtenga la estimación basada en la muestra.",
+    "text": "La cantidad de polvo en la atmósfera puede ser estimada por medio de un ultramicroscopio. Para ello se ilumina un volumen de aire muy pequeño y el observador cuenta el número de partículas que ve. Si se repite esta operación, puede estimarse la cantidad de polvo que se ha observado por centímetro cúbico de aire. Al efectuar 300 ensayos se obtuvieron los siguientes resultados:\n\n\n\nNúmero de partículas\n0\n1\n2\n3\n4\n5\n6\n\n\n\n\nFrecuencia observada\n38\n75\n89\n54\n20\n19\n5\n\n\n\n\nProponga un modelo que considere adecuado para el número de partículas de polvo por centímetro cúbico de aire.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
     "crumbs": [
       "TRABAJO PRÁCTICO 5",
-      "Ejercicio 5.3"
+      "Ejercicio 5.2"
     ]
   },
   {
-    "objectID": "tp5/ejercicio5.5.html",
-    "href": "tp5/ejercicio5.5.html",
+    "objectID": "tp5/ejercicio5.4.html",
+    "href": "tp5/ejercicio5.4.html",
+    "title": "Ejercicio 5.4",
+    "section": "",
+    "text": "Una consultora laboral realiza cada día entrevistas a solicitantes de empleo destinados a industrias que requieren que sus empleados estén capacitados en programación de computadoras. Los candidatos son elegidos al azar entre la población y entrevistados en forma sucesiva. Durante la primera quincena de agosto se registró el número de entrevistas necesarias hasta encontrar el primer solicitante con conocimientos certificados de programación. Tales registros fueron:\n3    5    2    2    1    6    5    5    8    2    2    2    1    3    4\n\nProponga un modelo que considere adecuado para la variable de interés.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 5",
+      "Ejercicio 5.4"
+    ]
+  },
+  {
+    "objectID": "tp5/ejercicio5.4.html#ejercicio-5.4",
+    "href": "tp5/ejercicio5.4.html#ejercicio-5.4",
+    "title": "Ejercicio 5.4",
+    "section": "",
+    "text": "Una consultora laboral realiza cada día entrevistas a solicitantes de empleo destinados a industrias que requieren que sus empleados estén capacitados en programación de computadoras. Los candidatos son elegidos al azar entre la población y entrevistados en forma sucesiva. Durante la primera quincena de agosto se registró el número de entrevistas necesarias hasta encontrar el primer solicitante con conocimientos certificados de programación. Tales registros fueron:\n3    5    2    2    1    6    5    5    8    2    2    2    1    3    4\n\nProponga un modelo que considere adecuado para la variable de interés.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el primer momento. Obtenga la estimación basada en la muestra.\nEncuentre un estimador para el(los) parámetro(s) de la distribución indicada en el ítem 1 basado en el segundo momento. Obtenga la estimación basada en la muestra.\nEncuentre el estimador de máxima verosimilitud para el(los) parámetro(s) de la distribución indicada en el ítem 1. Obtenga la estimación basada en la muestra.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 5",
+      "Ejercicio 5.4"
+    ]
+  },
+  {
+    "objectID": "tp5/ejercicio5.6.html",
+    "href": "tp5/ejercicio5.6.html",
     "title": "Ejercicio 5.5",
     "section": "",
     "text": "La temperatura más alta diaria durante el mes de julio en una aldea rural ha variado uniformemente entre 0°C y \\(\\theta\\)°C, según registros anteriores. Se registraron las temperaturas, en grados Celsius, de 10 días elegidos al azar del mes de julio pasado.\n3,4    4,0    2,1    1,8    2,1    3,1    0,5    4,3    3,8    4,0\n\nEncuentre un estimador basado en el método de los momentos para \\(\\theta\\). Obtenga la estimación a partir de la muestra.\nEncuentre el estimador de máxima verosimilitud del parámetro \\(\\theta\\). Obtenga la estimación a partir de la muestra.",
     "crumbs": [
       "TRABAJO PRÁCTICO 5",
-      "Ejercicio 5.5"
+      "Ejercicio 5.6"
     ]
   },
   {
-    "objectID": "tp5/ejercicio5.7.html",
-    "href": "tp5/ejercicio5.7.html",
-    "title": "Ejercicio 5.7",
+    "objectID": "tp5/index.html",
+    "href": "tp5/index.html",
+    "title": "Trabajo Práctico 5",
     "section": "",
-    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X\\). Encuentre un estimador basado en el método de los momentos de \\(\\mu\\) en cada uno de los siguientes casos:\n\n\\(X\\) es una variable aleatoria continua cuya función de densidad está dada por la expresión siguiente, siendo \\(\\mu &gt; 0\\):\n\n\\[\nf(x)=\\frac{x}{\\mu^4}I_{[0,\\mu^2]}(x)+\\frac{2\\mu^2-x}{\\mu^4}I_{(\\mu^2,2\\mu^2]}(x)\n\\]\n\n\\(X\\) es una variable aleatoria discreta cuya función de probabilidad puntual está dada por la tabla siguiente, siendo \\(0&lt;\\mu&lt;1\\):\n\n\n\n\n\\(k\\)\n1\n2\n4\n\n\n\n\n\\(p(k)\\)\n\\(\\mu^2\\)\n\\(2\\mu(1-\\mu)\\)\n\\((1-\\mu)^2\\)"
+    "text": "Aplicar los conceptos generales de la estimación puntual de parámetros de una población o distribución de probabilidad.\nObtener estimadores de los parámetros de una población o distribución de probabilidad por diferentes métodos.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 5",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp5/index.html#objetivos",
+    "href": "tp5/index.html#objetivos",
+    "title": "Trabajo Práctico 5",
+    "section": "",
+    "text": "Aplicar los conceptos generales de la estimación puntual de parámetros de una población o distribución de probabilidad.\nObtener estimadores de los parámetros de una población o distribución de probabilidad por diferentes métodos.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 5",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.10.html",
+    "href": "tp6/ejercicio6.10.html",
+    "title": "Ejercicio 6.10",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X\\). Pruebe que:\n\nSi \\(X \\sim \\mathcal{G}(\\alpha;\\lambda)\\) entonces\n\n\\[\n\\left(\n\\prod_{i=1}^n X_i;\n\\sum_{i=1}^n X_i\n\\right)\n\\]\nes suficiente para \\((\\alpha;\\lambda)\\).\n\nSi \\(X\\) tiene función de probabilidad puntual\n\n\\[\np(x \\mid (\\theta;p))=(1-p)p^{x-\\theta}\n\\]\npara \\(x=\\theta,\\theta+1,\\theta+2,\\ldots\\), con \\((\\theta;p)\\in \\mathbb{R}\\times(0;1)\\) entonces\n\\[\n\\left(\nX_{(1)};\n\\sum_{i=1}^n X_i\n\\right)\n\\]\nes suficiente para \\((\\theta;p)\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.10"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.12.html",
+    "href": "tp6/ejercicio6.12.html",
+    "title": "Ejercicio 6.12",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim N(\\mu;\\sigma^2)\\). Encuentre los estimadores de mínima varianza para \\(\\mu\\) y \\(\\sigma^2\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.12"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.14.html",
+    "href": "tp6/ejercicio6.14.html",
+    "title": "Ejercicio 6.14",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de una variable aleatoria \\(X\\) con función de densidad\n\\[\nf(x \\mid \\theta)=\\frac{1}{\\theta}x \\exp\\left(-\\frac{x}{\\theta}\\right) I_{(0,\\infty)}(x),\n\\qquad \\theta&gt;0\n\\]\n\nObtenga \\(\\hat{\\theta}\\) el estimador de máxima verosimilitud de \\(\\theta\\).\nDetermine la esperanza y varianza de \\(\\hat{\\theta}\\).\nDetermine si \\(\\hat{\\theta}\\) es insesgado de mínima varianza. Justifique su respuesta.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.14"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.2.html",
+    "href": "tp6/ejercicio6.2.html",
+    "title": "Ejercicio 6.2",
+    "section": "",
+    "text": "Considere una muestra aleatoria simple \\(X_1, X_2, \\ldots, X_n\\) de una distribución, comúnmente utilizada en física de partículas, cuya función de densidad es\n\\[ f(x\\mid\\theta)=0.5(1+\\theta x)\\,I_{[-1,1]}(x), \\qquad \\theta\\in[-1,1]. \\]\nEncuentre el estimador basado en el primer momento de \\(\\theta\\) y determine si es o no insesgado.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.2"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.2.html#section",
+    "href": "tp6/ejercicio6.2.html#section",
+    "title": "Ejercicio 6.2",
+    "section": "",
+    "text": "Considere una muestra aleatoria simple \\(X_1, X_2, \\ldots, X_n\\) de una distribución, comúnmente utilizada en física de partículas, cuya función de densidad es\n\\[ f(x\\mid\\theta)=0.5(1+\\theta x)\\,I_{[-1,1]}(x), \\qquad \\theta\\in[-1,1]. \\]\nEncuentre el estimador basado en el primer momento de \\(\\theta\\) y determine si es o no insesgado.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.2"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.4.html",
+    "href": "tp6/ejercicio6.4.html",
+    "title": "Ejercicio 6.4",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X\\) tal que \\(V(X)=\\sigma^2\\).\n\nDetermine si \\(\\hat{\\sigma}^2\\) es insesgado, siendo\n\n\\[\n\\hat{\\sigma}^2=\\frac{1}{n}\\sum_{i=1}^n (X_i-\\overline{X})^2\n\\]\n\nSi \\(\\hat{\\sigma}^2\\) es sesgado, obtenga a partir de él un estimador, \\(S^2\\), insesgado para \\(\\sigma^2\\).\nSuponga que \\(X \\sim N(\\mu;\\sigma^2)\\).\n\nCalcule \\(ECM(S^2)\\).\nCalcule \\(ECM(\\tilde{\\sigma}^2)\\) donde\n\n\n\\[\n\\tilde{\\sigma}^2=\\frac{n-1}{n+1}S^2\n\\]\n(c) Compare $ECM(S^2)$ y $ECM(\\tilde{\\sigma}^2)$.\n\n(d) Explique cómo es la contribución del sesgo de $\\tilde{\\sigma}^2$ al $ECM(\\tilde{\\sigma}^2)$.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.4"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.6.html",
+    "href": "tp6/ejercicio6.6.html",
+    "title": "Ejercicio 6.6",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{P}(\\lambda)\\).\n\nDetermine si \\(\\overline{X}\\) es consistente para \\(\\lambda\\).\nDetermine si \\(S^2\\) es consistente para \\(\\lambda\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.6"
+    ]
+  },
+  {
+    "objectID": "tp6/ejercicio6.8.html",
+    "href": "tp6/ejercicio6.8.html",
+    "title": "Ejercicio 6.8",
+    "section": "",
+    "text": "⚙️Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de una variable aleatoria \\(X\\) cuya función de densidad es\n\\[\nf(x \\mid \\theta)=\\frac{2x}{\\theta^2} I_{[0,\\theta]}(x)\n\\]\ncon \\(\\theta&gt;0\\). Considere \\(\\hat{\\theta}_n=X_{(n)}\\) un estimador de \\(\\theta\\), determine si es consistente y, en caso que no lo sea, encuentre a partir de él un estimador consistente para \\(\\theta\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 6",
+      "Ejercicio 6.8"
+    ]
   }
 ]

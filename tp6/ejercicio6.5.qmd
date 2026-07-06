@@ -1,0 +1,16 @@
+---
+title: "Ejercicio 6.5"
+editor: visual
+---
+
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de \$X\$ cuya función de densidad es $f(x \mid \\theta)$. Sean $T_1$ y $T_2$ dos estimadores insesgados de $\theta$ tales que:
+
+$$V(T_1)=\sigma_1^2 < V(T_2)=\sigma_2^2$$
+
+Se define un nuevo estimador de $\theta$ como $T_3=aT_1+(1-a)T_2$.  
+\
+1. Determine si $T_3$ es insesgado.\
+\
+2. Determine el valor de $a$ para que $V(T_3)$ sea mínima.
+
+3. Si $T_3$ es insesgado, indique cuál de los estimadores $T_i$, $i=1,2,3$, prefiere. Justifique.

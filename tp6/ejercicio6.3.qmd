@@ -1,0 +1,12 @@
+---
+title: "Ejercicio 6.3"
+editor: visual
+---
+
+Suponga que $X$, el tiempo de reacción a cierto estímulo en segundos, tiene una distribución uniforme en el intervalo que va de $0$ a un límite superior $\theta$ desconocido. Se desea estimar $\theta$ con base en una muestra aleatoria simple $X_1, X_2, \ldots, X_n$ de $X$. Sea $\hat{\theta}$ el estimador de máxima verosimilitud de $\theta$ y $\tilde{\theta}$ el estimador de $\theta$ basado en el primer momento.
+
+1.  Pruebe que $\tilde{\theta}$ es insesgado y que $\hat{\theta}$ es asintóticamente insesgado.
+
+2.  Obtenga otro estimador insesgado de $\theta$ a partir de $\hat{\theta}$.
+
+3.  Calcule el error cuadrático medio de los estimadores obtenidos y explique cuál preferiría desde este punto de vista.

@@ -1,0 +1,34 @@
+---
+title: "Ejercicio 6.10"
+editor: visual
+---
+
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X$. Pruebe que:
+
+1.  Si $X \sim \mathcal{G}(\alpha;\lambda)$ entonces
+
+$$
+\left(
+\prod_{i=1}^n X_i;
+\sum_{i=1}^n X_i
+\right)
+$$
+
+es suficiente para $(\alpha;\lambda)$.
+
+2.  Si $X$ tiene función de probabilidad puntual
+
+$$
+p(x \mid (\theta;p))=(1-p)p^{x-\theta}
+$$
+
+para $x=\theta,\theta+1,\theta+2,\ldots$, con $(\theta;p)\in \mathbb{R}\times(0;1)$ entonces
+
+$$
+\left(
+X_{(1)};
+\sum_{i=1}^n X_i
+\right)
+$$
+
+es suficiente para $(\theta;p)$.

@@ -88,11 +88,56 @@ website:
           - href: tp5/ejercicio5.6.qmd
             text: Ejercicio 5.6
 
-
+      - section: "TRABAJO PRÁCTICO 6"
+        contents:
+           
+          - href: tp6/index.qmd
+            text: Presentación
+          - href: tp6/ejercicio6.1.qmd
+            text: Ejercicio 6.1
+          - href: tp6/ejercicio6.2.qmd
+            text: Ejercicio 6.2
+          - href: tp6/ejercicio6.3.qmd
+            text: Ejercicio 6.3
+          - href: tp6/ejercicio6.4.qmd
+            text: Ejercicio 6.4
+          - href: tp6/ejercicio6.5.qmd
+            text: Ejercicio 6.5
+          - href: tp6/ejercicio6.6.qmd
+            text: Ejercicio 6.6
+          - href: tp6/ejercicio6.7.qmd
+            text: Ejercicio 6.7
+          - href: tp6/ejercicio6.8.qmd
+            text: Ejercicio 6.8
+          - href: tp6/ejercicio6.9.qmd
+            text: Ejercicio 6.9
+          - href: tp6/ejercicio6.10.qmd
+            text: Ejercicio 6.10
+          - href: tp6/ejercicio6.11.qmd
+            text: Ejercicio 6.11
+          - href: tp6/ejercicio6.12.qmd
+            text: Ejercicio 6.12
+          - href: tp6/ejercicio6.13.qmd
+            text: Ejercicio 6.13
+          - href: tp6/ejercicio6.14.qmd
+            text: Ejercicio 6.14
+          - href: tp6/ejercicio6.15.qmd
+            text: Ejercicio 6.15
+            
       - section: "TRABAJO PRÁCTICO 7"
         contents:
-          - href: tp7/ejercicio1.qmd
+          - href: tp6/index.qmd
+            text: Presentación
+          - href: tp7/ejercicio7.1.qmd
             text: Ejercicio 7.1
+          - href: tp7/ejercicio7.2.qmd
+            text: Ejercicio 7.2
+          - href: tp7/ejercicio7.3.qmd
+            text: Ejercicio 7.3
+          - href: tp7/ejercicio7.4.qmd
+            text: Ejercicio 7.4
+          - href: tp7/ejercicio7.5.qmd
+            text: Ejercicio 7.5
 
       - section: "TRABAJO PRÁCTICO 8"
         contents:

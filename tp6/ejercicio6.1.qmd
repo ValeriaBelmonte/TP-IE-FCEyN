@@ -1,0 +1,22 @@
+---
+title: "Ejercicio 6.1"
+editor: visual
+---
+
+## 
+
+Considere $X_1, X_2, X_3$ una muestra aleatoria simple de $X \sim \mathcal{E}(\lambda)$. Considere los siguientes estimadores de $E(X)=\dfrac{1}{\lambda}$:
+
+a)$T_1=X_1$  
+b)$T_2=\frac{1}{2}(X_1+X_2)$  
+c)$T_3=\frac{1}{3}(X_1+2X_2)$ 
+d)$T_4=\min_{1\leq i\leq 3}\{X_i\}$
+e)$T_5=\overline{X}$
+
+1.  Determine cuáles de los cinco estimadores son insesgados.
+
+2.  Indique cuál estimador preferiría dentro de los insesgados encontrados.
+
+------------------------------------------------------------------------
+
+## 

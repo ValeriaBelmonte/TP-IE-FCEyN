@@ -1,0 +1,18 @@
+---
+title: "Ejercicio 6.14"
+editor: visual
+---
+
+
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de una variable aleatoria $X$ con función de densidad
+
+$$
+f(x \mid \theta)=\frac{1}{\theta}x \exp\left(-\frac{x}{\theta}\right) I_{(0,\infty)}(x),
+\qquad \theta>0
+$$
+
+1. Obtenga $\hat{\theta}$ el estimador de máxima verosimilitud de $\theta$.
+
+2. Determine la esperanza y varianza de $\hat{\theta}$.
+
+3. Determine si $\hat{\theta}$ es insesgado de mínima varianza. Justifique su respuesta.

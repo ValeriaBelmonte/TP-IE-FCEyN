@@ -1,0 +1,16 @@
+---
+title: "Ejercicio 6.7"
+editor: visual
+---
+
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X \sim \mathcal{G}(p)$. Determine si
+
+$$
+T=\overline{X}
+$$
+
+es consistente para
+
+$$
+\frac{1}{p}.
+$$

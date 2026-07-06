@@ -1,0 +1,12 @@
+---
+title: "Ejercicio 6.2"
+editor: visual
+---
+
+## 
+
+Considere una muestra aleatoria simple $X_1, X_2, \ldots, X_n$ de una distribución, comúnmente utilizada en física de partículas, cuya función de densidad es
+
+$$ f(x\mid\theta)=0.5(1+\theta x)\,I_{[-1,1]}(x), \qquad \theta\in[-1,1]. $$
+
+Encuentre el estimador basado en el primer momento de $\theta$ y determine si es o no insesgado.

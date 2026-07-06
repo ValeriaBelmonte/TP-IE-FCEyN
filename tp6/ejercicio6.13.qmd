@@ -1,0 +1,5 @@
+---
+title: "Ejercicio 6.13"
+editor: visual
+---
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X \sim \mathcal{E}(\lambda)$. Encuentre un estimador insesgado de mínima varianza para $V(X)$.
