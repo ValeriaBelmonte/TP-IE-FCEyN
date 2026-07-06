@@ -138,7 +138,26 @@ website:
             text: Ejercicio 7.4
           - href: tp7/ejercicio7.5.qmd
             text: Ejercicio 7.5
-
+          - href: tp7/ejercicio7.6.qmd
+            text: Ejercicio 7.6
+          - href: tp7/ejercicio7.7.qmd
+            text: Ejercicio 7.7
+          - href: tp7/ejercicio7.8.qmd
+            text: Ejercicio 7.8
+          - href: tp7/ejercicio7.9.qmd
+            text: Ejercicio 7.9
+          - href: tp7/ejercicio7.10.qmd
+            text: Ejercicio 7.10
+          - href: tp7/ejercicio7.11.qmd
+            text: Ejercicio 7.11
+          - href: tp7/ejercicio7.12.qmd
+            text: Ejercicio 7.12
+          - href: tp7/ejercicio7.13.qmd
+            text: Ejercicio 7.13
+          - href: tp7/ejercicio7.14.qmd
+            text: Ejercicio 7.14
+          - href: tp7/ejercicio7.15.qmd
+            text: Ejercicio 7.15
       - section: "TRABAJO PRÁCTICO 8"
         contents:
           - href: tp8/ejercicio1.qmd

@@ -1,0 +1,20 @@
+---
+title: "Ejercicio 7.3"
+editor: visual
+---
+
+El espárrago es una planta perenne cuyo cultivo comercial puede tener una duración de 15 años y su implantación es costosa. Dada la extensión del sistema radicular, la profundidad del suelo es fundamental, considerándose indispensable contar con un promedio mínimo de 80 cm de sustrato permeable. Se realizan 14 determinaciones de la profundidad del sustrato permeable (en cm) en puntos tomados al azar en dos campos (A y B). Los resultados fueron los siguientes:
+
+| Campo A | 72 | 78 | 86 | 78 | 90 | 104 | 76 | 70 | 83 | 75 | 90 | 81 | 85 | 72 |
+|---------:|---:|---:|---:|---:|---:|----:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Campo B | 78 | 82 | 68 | 68 | 74 | 81 | 85 | 73 | 75 | 89 | 100 | 91 | 82 | 75 |
+
+1. A partir de los intervalos de confianza al 95 %, determine si estos campos son aptos para el cultivo. Realice las suposiciones que sean necesarias respecto de la distribución de la variable y los gráficos que crea convenientes para analizar su validez.
+
+2. Se toman 14 observaciones de un campo C y se obtiene el siguiente intervalo de confianza para la profundidad media (en cm):
+
+$$
+IC(\mu;95\%)=[77;\,85]
+$$
+
+¿Cuáles son los valores de la media muestral y la varianza muestral?

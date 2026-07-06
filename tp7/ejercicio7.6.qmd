@@ -1,0 +1,32 @@
+---
+title: "Ejercicio 7.6"
+editor: visual
+---
+
+ 
+ La distribución del índice de colesterol en cierta población se supone normal con media $\mu$ y desviación típica $\sigma$. Se hacen análisis a 25 personas elegidas al azar entre los individuos de esta población y se obtienen los siguientes valores:
+
+| 1,52 | 1,65 | 1,72 | 1,65 | 1,72 | 1,83 | 1,62 | 1,75 | 1,72 | 1,68 | 1,51 | 1,65 | 1,58 |
+|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| 1,65 | 1,61 | 1,70 | 1,60 | 1,73 | 1,61 | 1,52 | 1,81 | 1,72 | 1,50 | 1,82 | 1,65 |      |
+
+💻1.  Realice un gráfico de probabilidad normal. ¿Sugiere el gráfico que los datos, efectivamente, provienen de una distribución normal?  
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.6_R_1.html)
+
+2.  Construya un intervalo de confianza para el índice medio de colesterol de esta población de nivel $\alpha$.
+
+💻3.  Obtenga el intervalo de confianza para el índice medio de colesterol a partir de la muestra de nivel $0,05$.  
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.6_R_3.html)
+
+c4.  ¿Cuántos datos adicionales se necesitan para poder construir un intervalo para $\mu$ de nivel $0,05$ pero con una longitud no mayor que $0,05$? ¿Qué forma tendría este intervalo?  
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.6_R_4.html)
+
+💻5.  Encuentre un intervalo de confianza para $\exp(-\mu)$ de coeficiente de confianza $0,95$.
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.6_R_5.html)
+
+💻 6.  Encuentre un intervalo de confianza para la desviación típica de esta población de nivel $0,10$.
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.6_R_6.html)
+
+
+💻 7.  Estime, con un nivel de confianza del $5\%$, el nivel de colesterol de un nuevo individuo.  
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.6_R_7.html)

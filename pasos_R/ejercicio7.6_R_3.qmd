@@ -1,0 +1,46 @@
+---
+title: "Untitled"
+editor: visual
+---
+
+```{r}
+colesterol <- c(
+  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,
+  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,
+  1.81,1.72,1.50,1.82,1.65
+)
+
+n <- length(colesterol)
+
+n
+```
+
+### Estadísticos descriptivos
+
+```{r}
+mean(colesterol)
+sd(colesterol)
+var(colesterol)
+
+summary(colesterol)
+```
+
+Manualmente.
+
+```{r}
+xbarra <- mean(colesterol)
+s <- sd(colesterol)
+
+t <- qt(0.975,n-1)
+
+LI <- xbarra-t*s/sqrt(n)
+LS <- xbarra+t*s/sqrt(n)
+
+c(LI,LS)
+```
+
+Utlizando una función predetermianda en R
+```{r}
+t.test(colesterol,conf.level=0.95)$conf.int
+
+```

@@ -1,0 +1,41 @@
+---
+title: "Ejercicio 7.7"
+editor: visual
+---
+
+
+Considere nuevamente los datos del *Ejercicio 3.3*.
+
+1. Suponga que los rendimientos para las variedades de sorgo **Nueva GR80** ($X$) y **Overa** ($Y$) siguen distribuciones normales con medias $\mu_X$ y $\mu_Y$, respectivamente, siendo la varianza común $\sigma^2 = 120$. Suponga además que las parcelas fueron sembradas y seleccionadas de manera independiente entre sí.
+
+   a. Construya el *estadístico pivotal* adecuado para obtener un intervalo de confianza para $\mu_X-\mu_Y$ e indique la distribución que sigue.
+
+💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.7_R_1_b.html)
+
+💻 c. Construya un intervalo de confianza que permita sugerir si hubo diferencia en los rendimientos medios de ambas variedades. Utilice $\alpha = 0,05$.  
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.7_R_1_c.html)  
+
+   d. ¿Cómo resultaría el intervalo de confianza con un nivel de confianza mayor?
+
+   e. ¿Cómo resultaría el intervalo de confianza si se considerara un mayor tamaño muestral?  
+
+2.  Intervalo de confianza para la *varianza del rendimiento de sorgo* 
+
+  a. Construya previamente el *estadístico pivotal* correspondiente e indique su distribución.  
+
+💻 b. con nivel de significación $0,01$. ¿Cómo resultaría el intervalo para la desviación típica?   
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.7_R_2_b.html)  
+
+3. Suponga que las varianzas de los rendimientos de cada una de las variedades de sorgo *no son conocidas*.  
+
+   a. Construya el *estadístico pivotal* adecuado para obtener un intervalo de confianza para $\mu_X-\mu_Y$ e indique la distribución que sigue.  
+
+💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.  
+
+💻 c. Construya un intervalo de confianza que permita sugerir si existe diferencia en los rendimientos.  
+
+💻 4. Si, en lugar de sembrarse parcelas diferentes en cada una de las variedades, se hubiera dividido una parcela a la mitad y cada una de ellas se sembrara con una de estas variedades, ¿podría afirmar que los rendimientos de cada variedad de sorgo difieren? Utilice un nivel de confianza del $5\%$.   
+No considere los datos de la muestra correspondientes a la última columna de la variedad *Overa*.  
+
+💻 5. Se quiere predecir el rendimiento de una parcela sembrada con la variedad *Nueva GR80*.¿Cuál sería dicho rendimiento utilizando un coeficiente de confianza del $95\%$?  

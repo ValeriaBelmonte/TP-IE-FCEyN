@@ -1,0 +1,33 @@
+---
+title: "Untitled"
+editor: visual
+---
+
+### Carga de datos
+
+```{r}
+colesterol <- c(
+  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,
+  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,
+  1.81,1.72,1.50,1.82,1.65
+)
+```
+
+# 7. Intervalo de predicción para un nuevo individuo
+
+```{r}
+alpha <- 0.05
+n<-length(colesterol)
+
+xbarra <- mean(colesterol)
+
+s <- sd(colesterol)
+
+t <- qt(1-alpha/2,n-1)
+
+LI <- xbarra-t*s*sqrt(1+1/n)
+
+LS <- xbarra+t*s*sqrt(1+1/n)
+
+c(LI,LS)
+```

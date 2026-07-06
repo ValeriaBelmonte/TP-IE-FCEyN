@@ -1,0 +1,16 @@
+---
+title: "Ejercicio 7.10"
+editor: visual
+---
+
+Una droga cura cierta enfermedad con probabilidad $p$. En una prueba con 100 enfermos, se curaron 30.
+
+1. Defina la *variable aleatoria de interés* e indique su *distribución *.  
+
+2. Identifique el **estimador puntual** del parámetro $p$.  
+
+3. Construya el *estadístico pivotal asintótico* adecuado para obtener un intervalo de confianza para $p$ e indique la distribución aproximada que sigue. Justifique su respuesta.  
+
+💻 4. Obtenga un intervalo de confianza para $p$ de nivel asintótico $0,05$.  
+
+💻 5. ¿Qué tamaño muestral se debe elegir para que la longitud del intervalo sea menor que $0,1$?  

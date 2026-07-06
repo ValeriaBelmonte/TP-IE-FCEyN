@@ -1,0 +1,42 @@
+---
+title: "Ejercicio 7.1"
+editor: visual
+---
+
+## 
+
+Se sabe que la varianza de las notas de un test psicológico, cuando es aplicado a una población de niños de 10 años de edad, es 255. En una particular localidad se sortearon 9 mujeres y 25 varones, todos con 10 años de edad, y las notas medias obtenidas fueron 86,6 y 84,0, respectivamente.
+
+### Parte A. Análisis previo del problema
+
+Antes de construir los intervalos de confianza, responda las siguientes preguntas:
+
+1.  ¿Cuál es la **variable aleatoria de interés**?
+
+2.  ¿Cuál es la **unidad de observación**?
+
+3.  ¿Qué **modelo probabilístico** puede suponerse para la variable de interés?
+
+4.  ¿Cuáles son los **parámetros del modelo probabilístico**?
+
+5.  ¿Cuál es el **parámetro de interés** que se desea estimar?
+
+6.  ¿Cuál es el **estadístico pivotal** que se utilizará para construir el intervalo de confianza?
+
+7.  ¿Qué **distribución** sigue dicho pivote? Justifique su respuesta.
+
+8.  ¿Qué **suposiciones** deben cumplirse sobre la variable de interés para que el procedimiento sea válido?
+
+------------------------------------------------------------------------
+
+### Parte B. Construcción de intervalos de confianza
+
+1.  Construya un intervalo de confianza del **95 %** para la nota media de la población de **niñas**.
+
+2.  Construya un intervalo de confianza del **95 %** para la nota media de la población de **niños**.
+
+3.  Repita los incisos anteriores utilizando un **coeficiente de confianza del 99 %**.
+
+4.  Compare los intervalos obtenidos para ambos niveles de confianza. ¿Qué efecto tiene aumentar el nivel de confianza sobre la amplitud del intervalo?
+
+5.  Interprete cada uno de los intervalos obtenidos en el contexto del problema.

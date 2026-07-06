@@ -1,0 +1,20 @@
+---
+title: "Ejercicio 7.5"
+editor: visual
+---
+
+Una muestra de 10 tabletas de aspirinas producidas por cierta empresa farmacéutica arrojó los siguientes pesos expresados en miligramos:
+
+1190, 1230, 1180, 1210, 1270, 1170, 1150, 1140, 1190, 1200.
+
+Si se supone que los pesos se distribuyen normalmente, responda:
+
+1. Identifique el *estadítico* que permite construir un intervalo de confianza para la varianza poblacional.
+
+2. Determine la *distribución muestral* del *estadítico* e indique bajo qué supuesto es válida.
+
+3. Construya un intervalo de confianza para la *varianza poblacional* de los pesos de las tabletas producidas por la compañía.
+
+4. Obtenga el correspondiente intervalo de confianza para el *desvío estándar poblacional*.
+
+Utilice un *nivel de significación del 5 %*.

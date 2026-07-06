@@ -28,10 +28,6 @@ var(nueva_gr80)
 
 
 
-mediana
-mad_nueva
-```
-
 ### 4. Boxplot
 
 ```{r}
@@ -43,7 +39,6 @@ boxplot(
 )
 ```
 
-### Actividad para estudiantes
 
 Repitan el procedimiento anterior para el híbrido **Overa**.
 
@@ -55,7 +50,7 @@ overa <- c(
   150, 158, 153, 119, 139, 154, 139, 151, 154, 139, 132
 )
 ```
-
+0
 Luego comparen ambos híbridos considerando:
 
 - centro de la distribución: media y mediana;

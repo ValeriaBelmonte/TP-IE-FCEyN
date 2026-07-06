@@ -1,0 +1,8 @@
+---
+title: "Ejercicio 7.9"
+editor: visual
+---
+
+Se desea establecer el contenido vitamínico medio de un alimento balanceado para pollos. Se toma una muestra de 50 bolsas y se encuentra que el contenido promedio de vitaminas por cada 100 g es de 12 mg y que la desviación estándar es de 2 mg. \
+\
+Determine un intervalo de confianza para la media con un coeficiente de confianza del 95 %. ¿Dicho intervalo de confianza es exacto o asintótico? Fundamente.

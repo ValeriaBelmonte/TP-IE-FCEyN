@@ -1,0 +1,127 @@
+---
+title: "Ejercicio 7.6_R_1"
+---
+
+
+
+
+
+## Resolución en R
+
+### Carga de los datos
+
+```{r}
+colesterol <- c(
+  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,
+  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,
+  1.81,1.72,1.50,1.82,1.65
+)
+
+n <- length(colesterol)
+
+n
+```
+
+### Estadísticos descriptivos
+
+```{r}
+mean(colesterol)
+sd(colesterol)
+var(colesterol)
+
+summary(colesterol)
+```
+
+---
+
+# 1. Análisis de normalidad
+
+### Histograma
+
+```{r}
+hist(colesterol,
+     probability = TRUE,
+     col="lightblue",
+     xlab="Índice de colesterol",
+     main="Histograma")
+
+curve(dnorm(x,
+            mean(colesterol),
+            sd(colesterol)),
+      add=TRUE,
+      col="red",
+      lwd=2)
+```
+
+### Gráfico Q-Q
+
+```{r}
+qqnorm(colesterol)
+qqline(colesterol,col=2,lwd=2)
+```
+
+### Prueba de Shapiro-Wilk
+
+```{r}
+shapiro.test(colesterol)
+```
+
+**Conclusión:** si el valor-p es mayor que 0,05, no existen evidencias para rechazar la hipótesis de normalidad.
+
+---
+
+
+
+
+
+
+
+
+
+# 6. Intervalo para la desviación típica
+
+El pivote utilizado es
+
+$$
+\frac{(n-1)S^2}{\sigma^2}
+\sim\chi^2_{n-1}.
+$$
+
+Para un nivel de confianza del 90 %:
+
+```{r}
+alpha <- 0.10 # asigamos el nivel de confianza 
+
+s2 <- var(colesterol) #obtememos la varianza muestral
+
+LI.var <- (n-1)*s2/qchisq(1-alpha/2,n-1) #obtenemos el límite inferior 
+
+LS.var <- (n-1)*s2/qchisq(alpha/2,n-1) #obtenemos el límite superior
+
+IC.sigma <- sqrt(c(LI.var,LS.var)) 
+
+IC.sigma
+```
+
+---
+
+# 7. Intervalo de predicción para un nuevo individuo
+
+```{r}
+alpha <- 0.05
+
+xbarra <- mean(colesterol)
+
+s <- sd(colesterol)
+
+t <- qt(1-alpha/2,n-1)
+
+LI <- xbarra-t*s*sqrt(1+1/n)
+
+LS <- xbarra+t*s*sqrt(1+1/n)
+
+c(LI,LS)
+```
+
+Este intervalo permite estimar, con un 95 % de confianza, el índice de colesterol que podría presentar un nuevo individuo de la población.
+

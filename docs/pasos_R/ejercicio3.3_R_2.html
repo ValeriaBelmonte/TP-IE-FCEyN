@@ -491,32 +491,92 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp7/ejercicio7.1.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../tp7/ejercicio7.1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 7.1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp7/ejercicio7.2.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../tp7/ejercicio7.2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 7.2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp7/ejercicio7.3.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../tp7/ejercicio7.3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 7.3</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp7/ejercicio7.4.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../tp7/ejercicio7.4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 7.4</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp7/ejercicio7.5.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../tp7/ejercicio7.5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 7.5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.7</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.8</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.9</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.10</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.12</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.13</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.14</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp7/ejercicio7.15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 7.15</span></a>
   </div>
 </li>
       </ul>
@@ -567,7 +627,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#media-y-varianza" id="toc-media-y-varianza" class="nav-link active" data-scroll-target="#media-y-varianza">2. Media y varianza</a>
   <ul class="collapse">
-  <li><a href="#actividad-para-estudiantes" id="toc-actividad-para-estudiantes" class="nav-link" data-scroll-target="#actividad-para-estudiantes">Actividad para estudiantes</a></li>
+  <li><a href="#boxplot" id="toc-boxplot" class="nav-link" data-scroll-target="#boxplot">4. Boxplot</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -616,20 +676,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>[1] 130.8103</code></pre>
 </div>
 </div>
-<p>mediana mad_nueva</p>
-<pre><code>
-### 4. Boxplot
-
-
-::: {.cell}
-
-```{.r .cell-code}
-boxplot(
-  nueva_gr80,
-  main = "Boxplot del rendimiento - Nueva GR80",
-  ylab = "Rendimiento (tm/ha)",
-  col = "lightblue"
-)</code></pre>
+<section id="boxplot" class="level3">
+<h3 class="anchored" data-anchor-id="boxplot">4. Boxplot</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">boxplot</span>(</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  nueva_gr80,</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">main =</span> <span class="st">"Boxplot del rendimiento - Nueva GR80"</span>,</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">ylab =</span> <span class="st">"Rendimiento (tm/ha)"</span>,</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">col =</span> <span class="st">"lightblue"</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -637,9 +692,7 @@ boxplot(
 </figure>
 </div>
 </div>
-<p>:::</p>
-<section id="actividad-para-estudiantes" class="level3">
-<h3 class="anchored" data-anchor-id="actividad-para-estudiantes">Actividad para estudiantes</h3>
+</div>
 <p>Repitan el procedimiento anterior para el híbrido <strong>Overa</strong>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>overa <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
@@ -649,7 +702,7 @@ boxplot(
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="dv">150</span>, <span class="dv">158</span>, <span class="dv">153</span>, <span class="dv">119</span>, <span class="dv">139</span>, <span class="dv">154</span>, <span class="dv">139</span>, <span class="dv">151</span>, <span class="dv">154</span>, <span class="dv">139</span>, <span class="dv">132</span></span>
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Luego comparen ambos híbridos considerando:</p>
+<p>0 Luego comparen ambos híbridos considerando:</p>
 <ul>
 <li>centro de la distribución: media y mediana;</li>
 <li>variabilidad: varianza y MAD;</li>
