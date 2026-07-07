@@ -3,3 +3,33 @@ title: "Ejercicio 7.14"
 editor: visual
 ---
 
+Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X \sim \mathcal{E}(\lambda)$.
+
+1.  Demuestre que
+
+$$Y=2\lambda X$$
+
+tiene distribución chi-cuadrado con 2 grados de libertad.
+
+2.  Demuestre que
+
+$$T=2\lambda(X_1+X_2+\cdots+X_n)$$
+
+tiene distribución chi-cuadrado con $2n$ grados de libertad.
+
+3.  En base al ítem 2, construya un intervalo de confianza para $\lambda$ de nivel $\alpha$.
+
+💻 4. Se sabe que el tiempo de duración de cierto tipo de lámparas tiene distribución exponencial de parámetro $\lambda$. Se han probado 20 lámparas y los tiempos de duración, en días, fueron los siguientes:
+
+|     |     |     |     |     |     |     |     |     |     |
+|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
+|  25 |  45 |  50 |  61 |  39 |  40 |  45 |  47 |  38 |  39 |
+|  54 |  60 |  39 |  46 |  39 |  50 |  42 |  50 |  62 |  50 |
+
+Encuentre un intervalo de confianza para $\lambda$ de nivel $0,01$.
+
+5.  Se toma otra muestra de tamaño 30 de esta población, obteniéndose un intervalo de confianza del 95 % para $\lambda$, cuyos límites inferior y superior coinciden con el intervalo obtenido en el ítem 4. ¿Cuál es la duración media de estas 30 lámparas?
+
+------------------------------------------------------------------------
+
+## 

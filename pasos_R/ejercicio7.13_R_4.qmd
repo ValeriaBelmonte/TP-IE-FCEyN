@@ -1,0 +1,63 @@
+---
+title: "Ejercicio 7.13 4 con R"
+---
+
+a. Evaluación del estadístico
+
+Con los datos muestrales,
+
+```{r}
+llamadas <- c(
+40,33,43,35,40,41,51,54,42,54,
+42,51,45,42,44,38,35,47,37,48,
+33,47,47,44,29,36,46,39,45,48,
+37,51,37,45,56,40,51,42,42,33
+)
+
+n <- length(llamadas)
+
+lambda_gorro <- mean(llamadas)
+
+lambda_gorro
+```
+
+El error estándar estimado es
+
+```{r}
+EE <- sqrt(lambda_gorro/n)
+
+EE
+```
+
+Evaluando el pivote para el caso
+
+$$
+\lambda=0,
+$$
+
+```{r}
+Z <- lambda_gorro/EE
+
+Z
+```
+
+
+
+b. Intervalo de confianza 
+
+```{r}
+alpha <- 0.10
+
+z <- qnorm(1-alpha/2)
+
+LI <- lambda_gorro-z*EE
+LS <- lambda_gorro+z*EE
+
+IC <- c(Límite_inferior=LI,
+        Límite_superior=LS)
+
+IC
+```
+
+
+

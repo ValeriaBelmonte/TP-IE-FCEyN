@@ -1,0 +1,64 @@
+---
+title: "Ejercicio  7.12.3"
+---
+
+### 3. Intervalo de confianza del 95 % para la diferencia de proporciones
+
+```{r}
+# Datos
+
+p1 <- 0.80
+p2 <- 0.88
+
+n1 <- 400
+n2 <- 400
+
+# Nivel de significación
+
+alpha <- 0.05
+
+# Valor crítico
+
+z <- qnorm(1 - alpha/2)
+
+# Error estándar
+
+EE <- sqrt(p1*(1-p1)/n1 +
+           p2*(1-p2)/n2)
+
+# Intervalo de confianza
+
+LI <- (p1 - p2) - z * EE
+LS <- (p1 - p2) + z * EE
+
+IC <- c(Límite_inferior = LI,
+        Límite_superior = LS)
+
+IC
+```
+
+
+###  otra maneras
+
+
+####  prop.test
+```{r}
+x <- c(320, 352)
+n <- c(400, 400)
+
+prop.test(x, n,
+          conf.level = 0.95,
+          correct = FALSE)
+```
+
+
+#### BinomDiffCI
+
+
+```{r}
+library(DescTools)
+
+BinomDiffCI(320,400,352,400,
+            method="wald")
+```
+

@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -608,6 +637,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Sea <span class="math inline">\(X_1, X_2, \ldots, X_n\)</span> una muestra aleatoria simple de <span class="math inline">\(X \sim \mathcal{P}(\lambda)\)</span>.<br>
+</p>
+<ol type="1">
+<li><p>Construya el <em>estadístico pivotal</em> adecuado e indique la distribución que sigue.</p></li>
+<li><p>Construya un intervalo de confianza para <span class="math inline">\(\lambda\)</span> de nivel asintótico <span class="math inline">\(\alpha\)</span>.</p></li>
+</ol>
+<p>💻 4. El número de llamadas diarias a una central telefónica sigue un proceso de Poisson con media <span class="math inline">\(\lambda\)</span>.<br>
+Se ha registrado el número de llamadas durante 40 días, obteniéndose los siguientes valores:</p>
+<div class="line-block">40 | 33 | 43 | 35 | 40 | 41 | 51 | 54 | 42 | 54 |<br>
+42 | 51 | 45 | 42 | 44 | 38 | 35 | 47 | 37 | 48 |<br>
+33 | 47 | 47 | 44 | 29 | 36 | 46 | 39 | 45 | 48 |<br>
+37 | 51 | 37 | 45 | 56 | 40 | 51 | 42 | 42 | 33 |</div>
+<ol type="a">
+<li>Evalúe el valor del estadístico utilizando los datos muestrales.<br>
+</li>
+<li>Obtenga un intervalo de confianza para $\lambda$ de nivel asintótico <span class="math inline">\(0,10\)</span>.</li>
+</ol>
+<p><a href="../pasos_R/ejercicio7.13_R_4.html">Ver pasos para resolver enR</a></p>
 
 
 

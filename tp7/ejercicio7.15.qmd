@@ -3,3 +3,10 @@ title: "Ejercicio 7.15"
 editor: visual
 ---
 
+⚙️Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X \sim U(0;\theta)$ y sea el estadístico
+
+$$T=\max\{X_1,X_2,\ldots,X_n\}.$$
+
+1.  Demuestre que $T/\theta$ tiene distribución independiente de $\theta$.
+
+2.  En base a lo obtenido en el ítem 1, construya un intervalo de confianza de longitud mínima para $\theta$ de nivel $\alpha$.

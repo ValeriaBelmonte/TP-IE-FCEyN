@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -608,6 +637,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>⚙️Sea <span class="math inline">\(X_1, X_2, \ldots, X_n\)</span> una muestra aleatoria simple de <span class="math inline">\(X \sim U(0;\theta)\)</span> y sea el estadístico</p>
+<p><span class="math display">\[T=\max\{X_1,X_2,\ldots,X_n\}.\]</span></p>
+<ol type="1">
+<li><p>Demuestre que <span class="math inline">\(T/\theta\)</span> tiene distribución independiente de <span class="math inline">\(\theta\)</span>.</p></li>
+<li><p>En base a lo obtenido en el ítem 1, construya un intervalo de confianza de longitud mínima para <span class="math inline">\(\theta\)</span> de nivel <span class="math inline">\(\alpha\)</span>.</p></li>
+</ol>
 
 
 

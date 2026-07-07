@@ -3,3 +3,12 @@ title: "Ejercicio 7.11"
 editor: visual
 ---
 
+El nivel de colesterol es un factor de alto riesgo en el desarrollo de la enfermedad de arterioesclerosis cardíaca y de la enfermedad de arteria coronaria; por lo tanto, es importante determinar los niveles que se esperan en los diferentes grupos de edad de acuerdo al sexo. Para comparar el nivel de colesterol en varones de entre 20 y 29 años de edad frente a las mujeres del mismo grupo etario, se realizó un estudio cuyos resultados fueron los siguientes:  
+
+| Estadístico | Hombres | Mujeres |
+|:------------|--------:|--------:|
+| Tamaño muestral | 96 | 85 |
+| Media muestral (mg/dl) | 170,8 | 181,1 |
+| Desvío estándar (mg/dl) | 30,6 | 30,8 |
+
+Calcule un intervalo de confianza del *90 %* para la diferencia de medias del nivel de colesterol entre hombres y mujeres.

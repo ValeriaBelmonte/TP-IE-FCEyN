@@ -21,52 +21,46 @@ Los resultados obtenidos fueron los siguientes:
 |-------------|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
 | 60 minutos  | 196 | 190 | 191 | 189 | 159 | 185 | 182 | 190 | 170 | 197 |
 
----
+------------------------------------------------------------------------
 
 ### 1. Variación del nivel de glucosa dentro de cada grupo
 
 ¿Se detecta una variación significativa del nivel de glucosa en sangre en cada grupo?
 
-Para responder esta pregunta:  
+Para responder esta pregunta:
 
-a. Defina la variable de interés.  
+a.  Defina la variable de interés.
 
-b. Construya el *estadístico pivotal* adecuado e indique la distribución que sigue.
+b.  Construya el *estadístico pivotal* adecuado e indique la distribución que sigue.
 
-c. Evalúe el valor del estadístico utilizando los datos muestrales.  
+c.  Evalúe el valor del estadístico utilizando los datos muestrales.
 
-💻 d. Construya un intervalo de confianza del *99 %* para la diferencia media correspondiente e interprete el resultado.  
-
-
+💻 d. Construya un intervalo de confianza del *99 %* para la diferencia media correspondiente e interprete el resultado.
 
 ### 2. Comparación del nivel basal entre adultos y jóvenes
 
-¿El contenido basal de glucosa en sangre difiere entre adultos y jóvenes?  
+¿El contenido basal de glucosa en sangre difiere entre adultos y jóvenes?
 
-Para responder esta pregunta:  
+Para responder esta pregunta:
 
-a. Indique el *estadístico pivotal* adecuado y su distribución.  
+a.  Indique el *estadístico pivotal* adecuado y su distribución.
 
-💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.  
+💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.
 
-💻 c. Construya un intervalo de confianza del *99 %* para la diferencia entre las medias poblacionales e interprete el resultado.  
-
-
+💻 c. Construya un intervalo de confianza del *99 %* para la diferencia entre las medias poblacionales e interprete el resultado.
 
 ### 3. Comparación del nivel de glucosa a los 60 minutos entre adultos y jóvenes
 
-¿Es diferente la concentración de glucosa en sangre a los 60 minutos entre adultos y jóvenes?  
+¿Es diferente la concentración de glucosa en sangre a los 60 minutos entre adultos y jóvenes?
 
-Para responder esta pregunta:  
+Para responder esta pregunta:
 
-a. Indique el *estadístico pivotal* adecuado y su distribución.  
+a.  Indique el *estadístico pivotal* adecuado y su distribución.
 
-💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.  
+💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.
 
-💻 c. Construya un intervalo de confianza del *99 %* para la diferencia entre las medias poblacionales e interprete el resultado.  
+💻 c. Construya un intervalo de confianza del *99 %* para la diferencia entre las medias poblacionales e interprete el resultado.
 
+### 4. Predicción para un nuevo paciente
 
-
-### 4. Predicción para un nuevo paciente  
-
-Estime el nivel de glucosa basal para un nuevo paciente joven y para un nuevo paciente adulto utilizando un *coeficiente de confianza del 95 %*.  
+Estime el nivel de glucosa basal para un nuevo paciente joven y para un nuevo paciente adulto utilizando un *coeficiente de confianza del 95 %*.

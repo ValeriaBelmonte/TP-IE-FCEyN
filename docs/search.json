@@ -44,6 +44,39 @@
     ]
   },
   {
+    "objectID": "tp7/ejercicio7.15.html",
+    "href": "tp7/ejercicio7.15.html",
+    "title": "Ejercicio 7.15",
+    "section": "",
+    "text": "⚙️Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim U(0;\\theta)\\) y sea el estadístico\n\\[T=\\max\\{X_1,X_2,\\ldots,X_n\\}.\\]\n\nDemuestre que \\(T/\\theta\\) tiene distribución independiente de \\(\\theta\\).\nEn base a lo obtenido en el ítem 1, construya un intervalo de confianza de longitud mínima para \\(\\theta\\) de nivel \\(\\alpha\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.15"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.13.html",
+    "href": "tp7/ejercicio7.13.html",
+    "title": "Ejercicio 7.13",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{P}(\\lambda)\\).\n\n\nConstruya el estadístico pivotal adecuado e indique la distribución que sigue.\nConstruya un intervalo de confianza para \\(\\lambda\\) de nivel asintótico \\(\\alpha\\).\n\n💻 4. El número de llamadas diarias a una central telefónica sigue un proceso de Poisson con media \\(\\lambda\\).\nSe ha registrado el número de llamadas durante 40 días, obteniéndose los siguientes valores:\n40 | 33 | 43 | 35 | 40 | 41 | 51 | 54 | 42 | 54 |\n42 | 51 | 45 | 42 | 44 | 38 | 35 | 47 | 37 | 48 |\n33 | 47 | 47 | 44 | 29 | 36 | 46 | 39 | 45 | 48 |\n37 | 51 | 37 | 45 | 56 | 40 | 51 | 42 | 42 | 33 |\n\nEvalúe el valor del estadístico utilizando los datos muestrales.\n\nObtenga un intervalo de confianza para $\\lambda$ de nivel asintótico \\(0,10\\).\n\nVer pasos para resolver enR",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.13"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.11.html",
+    "href": "tp7/ejercicio7.11.html",
+    "title": "Ejercicio 7.11",
+    "section": "",
+    "text": "El nivel de colesterol es un factor de alto riesgo en el desarrollo de la enfermedad de arterioesclerosis cardíaca y de la enfermedad de arteria coronaria; por lo tanto, es importante determinar los niveles que se esperan en los diferentes grupos de edad de acuerdo al sexo. Para comparar el nivel de colesterol en varones de entre 20 y 29 años de edad frente a las mujeres del mismo grupo etario, se realizó un estudio cuyos resultados fueron los siguientes:\n\n\n\nEstadístico\nHombres\nMujeres\n\n\n\n\nTamaño muestral\n96\n85\n\n\nMedia muestral (mg/dl)\n170,8\n181,1\n\n\nDesvío estándar (mg/dl)\n30,6\n30,8\n\n\n\nCalcule un intervalo de confianza del 90 % para la diferencia de medias del nivel de colesterol entre hombres y mujeres.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.11"
+    ]
+  },
+  {
     "objectID": "tp7/ejercicio7.1.html",
     "href": "tp7/ejercicio7.1.html",
     "title": "Ejercicio 7.1",
@@ -413,6 +446,13 @@
     "text": "colesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\nn\n\n[1] 25\n\n\n\nEstadísticos descriptivos\n\nmean(colesterol)\n\n[1] 1.6608\n\nsd(colesterol)\n\n[1] 0.09371588\n\nvar(colesterol)\n\n[1] 0.008782667\n\nsummary(colesterol)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  1.500   1.610   1.650   1.661   1.720   1.830 \n\n\nManualmente.\n\nxbarra &lt;- mean(colesterol)\ns &lt;- sd(colesterol)\n\nt &lt;- qt(0.975,n-1)\n\nLI &lt;- xbarra-t*s/sqrt(n)\nLS &lt;- xbarra+t*s/sqrt(n)\n\nc(LI,LS)\n\n[1] 1.622116 1.699484\n\n\nUtlizando una función predetermianda en R\n\nt.test(colesterol,conf.level=0.95)$conf.int\n\n[1] 1.622116 1.699484\nattr(,\"conf.level\")\n[1] 0.95"
   },
   {
+    "objectID": "pasos_R/ejercicio7.13_R_4.html",
+    "href": "pasos_R/ejercicio7.13_R_4.html",
+    "title": "Ejercicio 7.13 4 con R",
+    "section": "",
+    "text": "Evaluación del estadístico\n\nCon los datos muestrales,\n\nllamadas &lt;- c(\n40,33,43,35,40,41,51,54,42,54,\n42,51,45,42,44,38,35,47,37,48,\n33,47,47,44,29,36,46,39,45,48,\n37,51,37,45,56,40,51,42,42,33\n)\n\nn &lt;- length(llamadas)\n\nlambda_gorro &lt;- mean(llamadas)\n\nlambda_gorro\n\n[1] 42.75\n\n\nEl error estándar estimado es\n\nEE &lt;- sqrt(lambda_gorro/n)\n\nEE\n\n[1] 1.033804\n\n\nEvaluando el pivote para el caso\n\\[\n\\lambda=0,\n\\]\n\nZ &lt;- lambda_gorro/EE\n\nZ\n\n[1] 41.35215\n\n\n\nIntervalo de confianza\n\n\nalpha &lt;- 0.10\n\nz &lt;- qnorm(1-alpha/2)\n\nLI &lt;- lambda_gorro-z*EE\nLS &lt;- lambda_gorro+z*EE\n\nIC &lt;- c(Límite_inferior=LI,\n        Límite_superior=LS)\n\nIC\n\nLímite_inferior Límite_superior \n       41.04954        44.45046"
+  },
+  {
     "objectID": "pasos_R/ejercicio4.3_R_1.html",
     "href": "pasos_R/ejercicio4.3_R_1.html",
     "title": "Ejercicio 4.3_R_1",
@@ -570,6 +610,13 @@
     "text": "# Fijamos semilla para que los resultados sean reproducibles\nset.seed(123)\n# Cantidad de réplicas\nB &lt;- 100\n\n# Tamaños muestrales\nn &lt;- c(10, 20, 30)\n\n\n# Simulación de las medias muestrales\nmedias_n10 &lt;- replicate(B, mean(runif(10, min = 240, max = 260)))\nmedias_n20 &lt;- replicate(B, mean(runif(20, min = 240, max = 260)))\nmedias_n30 &lt;- replicate(B, mean(runif(30, min = 240, max = 260)))\n\n\n# Histogramas\npar(mfrow = c(1, 3))\n\nhist(medias_n10,\n     main = \"n = 10\",\n     xlab = \"Media muestral\",\n     col = \"lightblue\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n20,\n     main = \"n = 20\",\n     xlab = \"Media muestral\",\n     col = \"lightgreen\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n30,\n     main = \"n = 30\",\n     xlab = \"Media muestral\",\n     col = \"lightpink\",\n     border = \"white\",\n     xlim = c(240, 260))\n\n\n\n\n\n\n\npar(mfrow = c(1, 1))"
   },
   {
+    "objectID": "pasos_R/ejercicio7.12_R_1.html",
+    "href": "pasos_R/ejercicio7.12_R_1.html",
+    "title": "Ejercicio 7.12.3",
+    "section": "",
+    "text": "3. Intervalo de confianza del 95 % para la diferencia de proporciones\n\n# Datos\n\np1 &lt;- 0.80\np2 &lt;- 0.88\n\nn1 &lt;- 400\nn2 &lt;- 400\n\n# Nivel de significación\n\nalpha &lt;- 0.05\n\n# Valor crítico\n\nz &lt;- qnorm(1 - alpha/2)\n\n# Error estándar\n\nEE &lt;- sqrt(p1*(1-p1)/n1 +\n           p2*(1-p2)/n2)\n\n# Intervalo de confianza\n\nLI &lt;- (p1 - p2) - z * EE\nLS &lt;- (p1 - p2) + z * EE\n\nIC &lt;- c(Límite_inferior = LI,\n        Límite_superior = LS)\n\nIC\n\nLímite_inferior Límite_superior \n    -0.13050474     -0.02949526 \n\n\n\n\notra maneras\n\nprop.test\n\nx &lt;- c(320, 352)\nn &lt;- c(400, 400)\n\nprop.test(x, n,\n          conf.level = 0.95,\n          correct = FALSE)\n\n\n    2-sample test for equality of proportions without continuity correction\n\ndata:  x out of n\nX-squared = 9.5238, df = 1, p-value = 0.002028\nalternative hypothesis: two.sided\n95 percent confidence interval:\n -0.13050474 -0.02949526\nsample estimates:\nprop 1 prop 2 \n  0.80   0.88 \n\n\n\n\nBinomDiffCI\n\nlibrary(DescTools)\n\nBinomDiffCI(320,400,352,400,\n            method=\"wald\")\n\n       est     lwr.ci      upr.ci\n[1,] -0.08 -0.1305047 -0.02949526"
+  },
+  {
     "objectID": "pasos_R/ejercicio7.6_R_1.html",
     "href": "pasos_R/ejercicio7.6_R_1.html",
     "title": "Ejercicio 7.6_R_1",
@@ -620,7 +667,7 @@
     "href": "tp2/ejercicio2.5.html",
     "title": "ejercicio2.5",
     "section": "",
-    "text": "En este sección trabajaremos con la base de datos Gapminder\nGapminder es una base de datos internacional que contiene información socioeconómica de distintos países a lo largo del tiempo. Cada observación corresponde a un país en un año específico, y las variables permiten estudiar fenómenos como esperanza de vida, crecimiento poblacional y desarrollo económico.\n\n# Instalar solo una vez\ninstall.packages(\"gapminder\",\n                 repos = \"https://cloud.r-project.org\")\n\npackage 'gapminder' successfully unpacked and MD5 sums checked\n\nThe downloaded binary packages are in\n    C:\\Users\\USUARIO\\AppData\\Local\\Temp\\RtmpM9s1fk\\downloaded_packages\n\n# Luego, en el documento:\nlibrary(gapminder)\n\n\nObserva la base de datos\n\n\ngapminder\n\n# A tibble: 1,704 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1952    28.8  8425333      779.\n 2 Afghanistan Asia       1957    30.3  9240934      821.\n 3 Afghanistan Asia       1962    32.0 10267083      853.\n 4 Afghanistan Asia       1967    34.0 11537966      836.\n 5 Afghanistan Asia       1972    36.1 13079460      740.\n 6 Afghanistan Asia       1977    38.4 14880372      786.\n 7 Afghanistan Asia       1982    39.9 12881816      978.\n 8 Afghanistan Asia       1987    40.8 13867957      852.\n 9 Afghanistan Asia       1992    41.7 16317921      649.\n10 Afghanistan Asia       1997    41.8 22227415      635.\n# ℹ 1,694 more rows\n\n\n\nIdentifica las variables en estudio y su tipo\n\n\nstr(gapminder) #vemos la estructura de la base datos \n\ntibble [1,704 × 6] (S3: tbl_df/tbl/data.frame)\n $ country  : Factor w/ 142 levels \"Afghanistan\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ continent: Factor w/ 5 levels \"Africa\",\"Americas\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ year     : int [1:1704] 1952 1957 1962 1967 1972 1977 1982 1987 1992 1997 ...\n $ lifeExp  : num [1:1704] 28.8 30.3 32 34 36.1 ...\n $ pop      : int [1:1704] 8425333 9240934 10267083 11537966 13079460 14880372 12881816 13867957 16317921 22227415 ...\n $ gdpPercap: num [1:1704] 779 821 853 836 740 ...\n\n\nstr(df) indica las variables y su tipo en la base de datos df\n\nAverigua el tamaño de la base de datos\n\n\ndim(gapminder) # vemos la dimensión del data.frame\n\n[1] 1704    6\n\n\ndim(df) indica la dimensión de la base de datos (df)\n\nRealiza un box plot que muestre la esperanza de vida por continente y analiza los resultados.\n\n\nlibrary(ggplot2)\n\nggplot(gapminder,\n       aes(x = continent,\n           y = lifeExp)) +\n  geom_boxplot(fill = \"lightgreen\") +\n  labs(\n    title = \"Esperanza de vida por continente\",\n    x = \"Continente\",\n    y = \"Esperanza de vida\"\n  ) +\n  theme_minimal()",
+    "text": "En este sección trabajaremos con la base de datos Gapminder\nGapminder es una base de datos internacional que contiene información socioeconómica de distintos países a lo largo del tiempo. Cada observación corresponde a un país en un año específico, y las variables permiten estudiar fenómenos como esperanza de vida, crecimiento poblacional y desarrollo económico.\n\n# Instalar solo una vez\ninstall.packages(\"gapminder\",\n                 repos = \"https://cloud.r-project.org\")\n\npackage 'gapminder' successfully unpacked and MD5 sums checked\n\nThe downloaded binary packages are in\n    C:\\Users\\USUARIO\\AppData\\Local\\Temp\\RtmpC0IOZb\\downloaded_packages\n\n# Luego, en el documento:\nlibrary(gapminder)\n\n\nObserva la base de datos\n\n\ngapminder\n\n# A tibble: 1,704 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1952    28.8  8425333      779.\n 2 Afghanistan Asia       1957    30.3  9240934      821.\n 3 Afghanistan Asia       1962    32.0 10267083      853.\n 4 Afghanistan Asia       1967    34.0 11537966      836.\n 5 Afghanistan Asia       1972    36.1 13079460      740.\n 6 Afghanistan Asia       1977    38.4 14880372      786.\n 7 Afghanistan Asia       1982    39.9 12881816      978.\n 8 Afghanistan Asia       1987    40.8 13867957      852.\n 9 Afghanistan Asia       1992    41.7 16317921      649.\n10 Afghanistan Asia       1997    41.8 22227415      635.\n# ℹ 1,694 more rows\n\n\n\nIdentifica las variables en estudio y su tipo\n\n\nstr(gapminder) #vemos la estructura de la base datos \n\ntibble [1,704 × 6] (S3: tbl_df/tbl/data.frame)\n $ country  : Factor w/ 142 levels \"Afghanistan\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ continent: Factor w/ 5 levels \"Africa\",\"Americas\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ year     : int [1:1704] 1952 1957 1962 1967 1972 1977 1982 1987 1992 1997 ...\n $ lifeExp  : num [1:1704] 28.8 30.3 32 34 36.1 ...\n $ pop      : int [1:1704] 8425333 9240934 10267083 11537966 13079460 14880372 12881816 13867957 16317921 22227415 ...\n $ gdpPercap: num [1:1704] 779 821 853 836 740 ...\n\n\nstr(df) indica las variables y su tipo en la base de datos df\n\nAverigua el tamaño de la base de datos\n\n\ndim(gapminder) # vemos la dimensión del data.frame\n\n[1] 1704    6\n\n\ndim(df) indica la dimensión de la base de datos (df)\n\nRealiza un box plot que muestre la esperanza de vida por continente y analiza los resultados.\n\n\nlibrary(ggplot2)\n\nggplot(gapminder,\n       aes(x = continent,\n           y = lifeExp)) +\n  geom_boxplot(fill = \"lightgreen\") +\n  labs(\n    title = \"Esperanza de vida por continente\",\n    x = \"Continente\",\n    y = \"Esperanza de vida\"\n  ) +\n  theme_minimal()",
     "crumbs": [
       "TRABAJO PRÁCTICO 2",
       "Ejercicio 2.5"
@@ -862,6 +909,28 @@
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
       "Ejercicio 7.10"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.12.html",
+    "href": "tp7/ejercicio7.12.html",
+    "title": "Ejercicio 7.12",
+    "section": "",
+    "text": "Dos vacunas diferentes, producidas con la finalidad de prevenir una enfermedad en aves domésticas, mostraron una eficiencia del 80 % y 88 %, respectivamente, sobre dos muestras independientes de 400 aves cada una.\n\nConstruya el estadístico pivotal adecuado e indique la distribución que sigue.\nEvalúe el valor del estadístico utilizando los datos muestrales.\n\n💻 3. Construya un intervalo de confianza del 95 % para la diferencia de porcentajes de aves vacunadas que sobreviven a la peste. ¿Cuál es el significado de su intervalo de confianza?\nVer pasos para resolver en R",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.12"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.14.html",
+    "href": "tp7/ejercicio7.14.html",
+    "title": "Ejercicio 7.14",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{E}(\\lambda)\\).\n\\[Y=2\\lambda X\\]\ntiene distribución chi-cuadrado con 2 grados de libertad.\n\\[T=2\\lambda(X_1+X_2+\\cdots+X_n)\\]\ntiene distribución chi-cuadrado con \\(2n\\) grados de libertad.\n💻 4. Se sabe que el tiempo de duración de cierto tipo de lámparas tiene distribución exponencial de parámetro \\(\\lambda\\). Se han probado 20 lámparas y los tiempos de duración, en días, fueron los siguientes:\nEncuentre un intervalo de confianza para \\(\\lambda\\) de nivel \\(0,01\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.14"
     ]
   },
   {
