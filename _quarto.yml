@@ -126,7 +126,7 @@ website:
             
       - section: "TRABAJO PRÁCTICO 7"
         contents:
-          - href: tp6/index.qmd
+          - href: tp7/index.qmd
             text: Presentación
           - href: tp7/ejercicio7.1.qmd
             text: Ejercicio 7.1
