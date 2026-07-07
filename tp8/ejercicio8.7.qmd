@@ -1,0 +1,12 @@
+---
+title: "Ejercicio 8.7"
+editor: visual
+---
+
+En un INTA de la Pcia. de Bs. As. se desea probar si existen diferencias en la cosecha de soja si se tratan las malezas anuales de hoja angosta con distintos herbicidas. En este caso se usó *Galant LPU* y *Poast*, ambos aplicados a las malezas cuando no superaban los $35$ cm de altura. Se eligieron al azar $8$ parcelas para cada herbicida, obteniéndose los siguientes rindes por parcela:  
+
+| Galant LPU | 22,0 | 24,2 | 19,8 | 25,0 | 27,3 | 26,0 | 23,9 | 27,4 |
+|------------|------|------|------|------|------|------|------|------|
+| Poast | 23,5 | 20,2 | 21,6 | 24,3 | 25,7 | 28,0 | 23,6 | 26,2 |
+
+¿Qué se puede decir acerca del rendimiento? Concluya a partir del valor $p$.

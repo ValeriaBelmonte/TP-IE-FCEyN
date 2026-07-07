@@ -1,0 +1,7 @@
+---
+title: "Ejercicio 8.6"
+editor: visual
+---
+
+
+Un fabricante de máquinas para envasar detergente afirma que su máquina llena las cajas con un desvío no mayor a $0,4$ onzas. Un comerciante compra $8$ de estas cajas siendo la media y varianza de los pesos de la muestra $3,1$ y $0,18$, respectivamente. El comerciante decide seguir comprando al fabricante siempre que las especificaciones dadas por él se cumplan. Si la probabilidad de que el comerciante decida no hacer otra compra cuando el fabricante dice la verdad es $0,05$, ¿qué decisión tomaría para esta muestra?

@@ -1,0 +1,14 @@
+---
+title: "Ejercicio 8.10"
+editor: visual
+---
+
+En un experimento se desea determinar si el contenido de hemoglobina en la sangre de perros cambia al aplicar un tratamiento de niacina. Para ello se tomaron $8$ perros, y se midió el contenido de hemoglobina antes y después del tratamiento, obteniéndose las siguientes mediciones:
+
+| Antes | 12,6 | 12,6 | 13,7 | 11,1 | 11,3 | 12,2 | 10,0 | 11,0 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Después | 10,4 | 11,5 | 13,6 | 12,0 | 19,3 | 8,8 | 9,4 | 10,7 |
+
+1. Al nivel del $5\%$, ¿modifica el tratamiento el contenido medio de hemoglobina?
+
+2. En caso de rechazar la hipótesis nula, construya un intervalo de confianza.

@@ -1,8 +1,7 @@
 ---
-title: "Untitled"
+title: "Ejercicio 7.6 5 R"
 editor: visual
 ---
-
 
 # 5. Intervalo para $e^{-\mu}$
 
@@ -17,18 +16,18 @@ colesterol <- c(
 
 n <- length(colesterol)
 ```
-### Primero se obtiene el intervalo para la media poblacional 
+
+### Primero se obtiene el intervalo para la media poblacional
 
 ```{r}
 IC_mu <- t.test(colesterol)$conf.int # se asigna a IC_mu los LI y Ls del IC para la media poblacional
 
 ```
 
-
 Luego se aplica la transformación
 
 $$g(\mu)=e^{-\mu}.$$
+
 ```{r}
 exp(-rev(IC_mu))
 ```
-

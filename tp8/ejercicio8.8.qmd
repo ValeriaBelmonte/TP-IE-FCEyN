@@ -1,0 +1,23 @@
+---
+title: "Ejercicio 8.8"
+editor: visual
+---
+
+Con el objetivo de comparar el contenido total de nitrógeno (en gramos por $100\ \text{cm}^3$) en plasma de ratas albinas normales en distintos momentos de vida, se seleccionaron $6$ ratas de $37$ días y $6$ ratas de $180$ días y se determinó el contenido de nitrógeno obteniéndose los siguientes valores:
+
+| Tratamiento  | Contenido de nitrógeno                  |
+|--------------|-----------------------------------------|
+| **37 días**  | 0,98   0,83   0,99   0,86   0,90   0,91 |
+| **180 días** | 1,20   1,18   1,33   1,21   1,20   1,07 |
+
+1.  Según los resultados de la tabla siguiente, ¿hay evidencia estadísticamente significativa para afirmar que los contenidos medios totales de nitrógeno a los $37$ y a los $180$ días son diferentes?
+
+| Prueba                                              | Valor $p$ |
+|-----------------------------------------------------|----------:|
+| Homogeneidad de Varianzas                           |    0,5786 |
+| Igualdad de Medias (suponiendo varianzas iguales)   |    0,0001 |
+| Igualdad de Medias (suponiendo varianzas distintas) |    0,0001 |
+
+2.  Utilizando los datos y $\alpha = 0,05$, ¿hay evidencia significativa para afirmar que los contenidos medios totales de nitrógeno a los $37$ y a los $180$ días son diferentes?
+
+3.  ¿En qué se diferencian los procedimientos de los ítems 1 y 2?

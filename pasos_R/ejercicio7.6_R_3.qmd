@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Ejercicio 7.6 3 R"
 editor: visual
 ---
 
@@ -15,9 +15,10 @@ n <- length(colesterol)
 n
 ```
 
-### Estadísticos descriptivos
+
 
 ```{r}
+# Estadísticos descriptivos
 mean(colesterol)
 sd(colesterol)
 var(colesterol)
@@ -25,21 +26,22 @@ var(colesterol)
 summary(colesterol)
 ```
 
-Manualmente.
+### IC manualmente
 
 ```{r}
-xbarra <- mean(colesterol)
-s <- sd(colesterol)
+xbarra <- mean(colesterol) #obtenemos la media de los datos 
+s <- sd(colesterol) #obtenemos el desvío de los datos 
 
-t <- qt(0.975,n-1)
+t <- qt(0.975,n-1) # obtenemos el cuantil correspondiente para la distribución T con n-1 de libertad
 
-LI <- xbarra-t*s/sqrt(n)
-LS <- xbarra+t*s/sqrt(n)
+LI <- xbarra-t*s/sqrt(n) #limite inferior 
+LS <- xbarra+t*s/sqrt(n) #limite Superior  
 
-c(LI,LS)
+c(LI,LS) #intervalo
 ```
 
-Utlizando una función predetermianda en R
+###  IC Utlizando una función predetermianda en R
+
 ```{r}
 t.test(colesterol,conf.level=0.95)$conf.int
 

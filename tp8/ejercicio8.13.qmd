@@ -1,0 +1,12 @@
+---
+title: "Ejercicio 8.13"
+editor: visual
+---
+
+El número de personas que llega a la boletería de una estación de trenes entre las $14{:}00$ y $14{:}30$ horas tiene una distribución de Poisson. El jefe de la estación está evaluando la posibilidad de abrir otra ventanilla en ese horario y considera que es necesario sólo si la media de arribos es superior a $20$ individuos. Además, quiere que la probabilidad de abrir una nueva ventanilla cuando en realidad no es necesario sea a lo sumo \$0,01\$. Durante $45$ días se observa el número de personas que arriba en dicho horario y se calcula una media muestral de $21$ individuos.  
+
+1. Proponga un test para este problema. ¿Qué decisión toma en base a estos datos?  
+
+2. ¿Cuál es la probabilidad de dejar una sola boletería cuando en realidad la media verdadera es de $22$ personas?  
+
+3. Si se hubiera querido que la probabilidad calculada en el ítem 2 fuera a lo sumo $0,05$, ¿qué tamaño muestral debería haberse tomado?  

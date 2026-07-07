@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -555,8 +584,98 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp8/ejercicio1.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../tp8/ejercicio8.1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 8.1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.4</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.7</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.8</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.9</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.10</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.12</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.13</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.14</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.15</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.16</span></a>
   </div>
 </li>
       </ul>
@@ -588,11 +707,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
-  <ul class="collapse">
-  <li><a href="#parte-a.-análisis-previo-del-problema" id="toc-parte-a.-análisis-previo-del-problema" class="nav-link" data-scroll-target="#parte-a.-análisis-previo-del-problema">Parte A. Análisis previo del problema</a></li>
-  <li><a href="#parte-b.-construcción-de-intervalos-de-confianza" id="toc-parte-b.-construcción-de-intervalos-de-confianza" class="nav-link" data-scroll-target="#parte-b.-construcción-de-intervalos-de-confianza">Parte B. Construcción de intervalos de confianza</a></li>
-  </ul></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -621,27 +736,27 @@ ul.task-list li input[type="checkbox"] {
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section"></h2>
 <p>Se sabe que la varianza de las notas de un test psicológico, cuando es aplicado a una población de niños de 10 años de edad, es 255. En una particular localidad se sortearon 9 mujeres y 25 varones, todos con 10 años de edad, y las notas medias obtenidas fueron 86,6 y 84,0, respectivamente.</p>
-<section id="parte-a.-análisis-previo-del-problema" class="level3">
-<h3 class="anchored" data-anchor-id="parte-a.-análisis-previo-del-problema">Parte A. Análisis previo del problema</h3>
+<section id="parte-a.-análisis-previo-del-problema" class="level4">
+<h4 class="anchored" data-anchor-id="parte-a.-análisis-previo-del-problema">Parte A. Análisis previo del problema</h4>
 <p>Antes de construir los intervalos de confianza, responda las siguientes preguntas:</p>
 <ol type="1">
-<li><p>¿Cuál es la <strong>variable aleatoria de interés</strong>?</p></li>
-<li><p>¿Cuál es la <strong>unidad de observación</strong>?</p></li>
-<li><p>¿Qué <strong>modelo probabilístico</strong> puede suponerse para la variable de interés?</p></li>
-<li><p>¿Cuáles son los <strong>parámetros del modelo probabilístico</strong>?</p></li>
-<li><p>¿Cuál es el <strong>parámetro de interés</strong> que se desea estimar?</p></li>
-<li><p>¿Cuál es el <strong>estadístico pivotal</strong> que se utilizará para construir el intervalo de confianza?</p></li>
-<li><p>¿Qué <strong>distribución</strong> sigue dicho pivote? Justifique su respuesta.</p></li>
-<li><p>¿Qué <strong>suposiciones</strong> deben cumplirse sobre la variable de interés para que el procedimiento sea válido?</p></li>
+<li><p>¿Cuál es la variable aleatoria de interés?</p></li>
+<li><p>¿Cuál es la unidad de análisis?</p></li>
+<li><p>¿Qué modelo probabilístico puede suponerse para la variable de interés?</p></li>
+<li><p>¿Cuáles son los parámetros del modelo probabilístico?</p></li>
+<li><p>¿Cuál es el parámetro de interés que se desea estimar?</p></li>
+<li><p>¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?</p></li>
+<li><p>¿Qué distribución sigue dicho pivote? Justifique su respuesta.</p></li>
+<li><p>En función del pivote determine un intervalo de confianza con un coeficiente de confianza de <span class="math inline">\((1-\alpha)\)</span>.</p></li>
+<li><p>¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?</p></li>
 </ol>
-<hr>
 </section>
-<section id="parte-b.-construcción-de-intervalos-de-confianza" class="level3">
-<h3 class="anchored" data-anchor-id="parte-b.-construcción-de-intervalos-de-confianza">Parte B. Construcción de intervalos de confianza</h3>
+<section id="parte-b.-construcción-de-intervalos-de-confianza" class="level4">
+<h4 class="anchored" data-anchor-id="parte-b.-construcción-de-intervalos-de-confianza">Parte B. Construcción de intervalos de confianza</h4>
 <ol type="1">
-<li><p>Construya un intervalo de confianza del <strong>95 %</strong> para la nota media de la población de <strong>niñas</strong>.</p></li>
-<li><p>Construya un intervalo de confianza del <strong>95 %</strong> para la nota media de la población de <strong>niños</strong>.</p></li>
-<li><p>Repita los incisos anteriores utilizando un <strong>coeficiente de confianza del 99 %</strong>.</p></li>
+<li><p>Construya un intervalo de confianza del <em>95 %</em> para la nota media de la población de <em>niñas</em>.</p></li>
+<li><p>Construya un intervalo de confianza del <em>95 %</em> para la nota media de la población de <em>niños</em>.</p></li>
+<li><p>Repita los incisos anteriores utilizando un <em>coeficiente de confianza del 99 %</em>.</p></li>
 <li><p>Compare los intervalos obtenidos para ambos niveles de confianza. ¿Qué efecto tiene aumentar el nivel de confianza sobre la amplitud del intervalo?</p></li>
 <li><p>Interprete cada uno de los intervalos obtenidos en el contexto del problema.</p></li>
 </ol>

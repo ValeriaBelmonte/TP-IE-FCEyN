@@ -1,0 +1,11 @@
+---
+title: "Ejercicio 8.2"
+editor: visual
+---
+
+
+El calcio se presenta normalmente en la sangre de los mamíferos en concentraciones de alrededor de $6$ mg por cada $100$ ml de sangre. La desviación típica normal de esta variable es $1$ mg de calcio por cada $100$ ml de volumen de sangre. Una variabilidad mayor a ésta puede ocasionar graves trastornos de la coagulación de la sangre. Una serie de pruebas sobre $9$ pacientes reveló una media muestral de $6,2$ mg y una desviación muestral de $2$ mg de calcio por cada $100$ ml de sangre.  
+
+1. ¿Hay alguna evidencia, a un nivel del $5\%$, de que el contenido medio de calcio para estos pacientes sea superior al nivel normal?  
+
+2. Si la desviación típica normal fuera desconocida, responda la pregunta anterior basándose en los resultados obtenidos para la muestra.  

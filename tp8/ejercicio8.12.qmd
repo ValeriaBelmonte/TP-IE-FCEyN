@@ -1,0 +1,15 @@
+---
+title: "Ejercicio 8.12"
+editor: visual
+---
+
+
+Una de las más célebres “Leyes de Murphy” establece que si se deja caer al suelo una tostada untada con dulce, la probabilidad de que caiga del lado del dulce es mayor que la de que caiga del lado del pan. Para verificarla, se realizó un experimento en la *University of Southwestern Louisiana*, en el que se dejaron caer $1000$ tostadas untadas con dulce de grosellas, de las cuales cayeron $540$ del lado del dulce.  
+
+1. ¿Qué se podría concluir? Tome la decisión en base al valor $p$.  
+
+2. El comité de investigaciones de la Universidad decreta que, para que el experimento sea considerado concluyente, deberá cumplir con:  
+   (1) si la Ley de Murphy es falsa, la probabilidad de que el test la confirme debe ser no mayor a $0,01$;   
+   (2) si la Ley es cierta, y la probabilidad de caer del lado del dulce es superior a $0,6$, entonces la probabilidad de confirmarla debe ser no inferior a $0,95$.    
+   
+   ¿Cuántas tostadas hay que arrojar para que se cumplan estas condiciones?  

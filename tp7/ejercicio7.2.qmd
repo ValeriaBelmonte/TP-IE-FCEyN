@@ -3,11 +3,11 @@ title: "Ejercicio 7.2"
 editor: visual
 ---
 
-Se trata de medir el período de un péndulo y se dispone de un cronómetro de precisión conocida, es decir, se conoce la varianza del error. Se supone que las observaciones son de la forma $X_i=\mu+e_i$, donde  $e_i \sim N(0;0,25)$ y son independientes.  
+Se trata de medir el período de un péndulo y se dispone de un cronómetro de precisión conocida, es decir, se conoce la varianza del error. Se supone que las observaciones son de la forma $X_i=\mu+e_i$, donde $e_i \sim N(0;0,25)$ y son independientes.
 
-Los datos obtenidos son:  
+Los datos obtenidos son:
 
-5,1 &nbsp;&nbsp; 5,2 &nbsp;&nbsp; 5,6 &nbsp;&nbsp; 5,1 &nbsp;&nbsp; 5,5 &nbsp;&nbsp; 5,8 &nbsp;&nbsp; 5,9 &nbsp;&nbsp; 4,9 &nbsp;&nbsp; 5,2 &nbsp;&nbsp; 5,6  
+5,1    5,2    5,6    5,1    5,5    5,8    5,9    4,9    5,2    5,6
 
-1. Encuentre un intervalo de confianza para $\mu$ de coeficiente 0,95.
-2. ¿Cuál debería haber sido el tamaño de la muestra si se hubiera deseado que la longitud del intervalo fuese a lo sumo 0,10?
+1.  Encuentre un intervalo de confianza para $\mu$ de coeficiente 0,95.
+2.  ¿Cuál debería haber sido el tamaño de la muestra si se hubiera deseado que la longitud del intervalo fuese a lo sumo 0,10?

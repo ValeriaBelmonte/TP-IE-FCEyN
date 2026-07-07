@@ -1,0 +1,19 @@
+---
+title: "Ejercicio 8.9"
+editor: visual
+---
+
+El dolor de espalda baja (DEB) es un serio problema de salud en muchos entornos industriales. El artículo “Isodynamic Evaluation of Trunk Muscles and Low-Back Pain Among Workers in a Steel Factory” (*Ergonomics*, 1995: 2107-2117) reportó los datos adjuntos sobre el grado de movimiento lateral para una muestra de trabajadores sin antecedentes de dolor de espalda baja y otra muestra con antecedentes de esta dolencia. Parte de los datos obtenidos se muestran en el Cuadro 8.1.
+
+| Condición | Tamaño muestral | Media muestral | Desvío muestral | IC $(\mu;95\%)$ |
+|---|---:|---:|---:|---|
+| Sin DEB | 28 |  |  | $[89,7296;\ 93,2704]$ |
+| Con DEB | 31 | $88,3$ | $7,8$ |  |
+
+**Cuadro 8.1:** Resumen estadístico.
+
+1. Complete el Cuadro 8.1.
+
+2. Según los resultados del Cuadro 8.1, ¿hay evidencia estadísticamente significativa para afirmar que el grado de movimiento lateral medio entre ambas condiciones difiere? Ponga a prueba con un nivel de significancia del $10\%$.
+
+3. ¿Cuál sería su conclusión si se asume que la probabilidad de concluir que las medias de movimiento lateral son diferentes cuando en realidad no lo son es a lo sumo $5\%$?

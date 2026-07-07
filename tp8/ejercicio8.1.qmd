@@ -1,0 +1,16 @@
+---
+title: "Ejercicio 8.1"
+editor: visual
+---
+
+Para cada una de las siguientes situaciones plantee las hipótesis a contrastar y responda las preguntas de acuerdo al valor $p$ obtenido en base a una muestra de la población en estudio, compárelo con los siguientes valores del nivel de significancia:
+
+- $\alpha = 0,01$
+- $\alpha = 0,05$
+- $\alpha = 0,1$
+
+1. Investigaciones anteriores han determinado que la duración media de sobrevida de los pacientes afectados por cierta enfermedad es de $3,4$ meses. Un investigador afirma que una nueva droga prolonga la vida de estos pacientes. Para un valor $p = 0,006$, ¿qué se puede afirmar sobre el efecto de la nueva droga?
+
+2. Un inspector del Instituto Nacional de Tecnología Agropecuaria sospecha que el contenido medio de semillas de un cierto producto agrícola es inferior al indicado en la etiqueta (que es de $45$ g). Si el valor $p = 0,075$, ¿sancionará el inspector al establecimiento que fabrica y envasa dicho producto?
+
+3. En una investigación se midió el tiempo de reacción en segundos a un estímulo a un grupo de animales de cierta raza. Se afirma que el tiempo medio de reacción es inferior a los $50$ segundos. Para un valor $p = 0,32$, ¿a qué conclusión se llega respecto del tiempo de reacción promedio?

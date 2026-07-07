@@ -5,10 +5,7 @@ editor: visual
 
 Dos vacunas diferentes, producidas con la finalidad de prevenir una enfermedad en aves domésticas, mostraron una eficiencia del 80 % y 88 %, respectivamente, sobre dos muestras independientes de 400 aves cada una.
 
-
-1. Construya el *estadístico pivotal* adecuado e indique la distribución que sigue.
-
-2. Evalúe el valor del estadístico utilizando los datos muestrales.
-
-💻 3. Construya un intervalo de confianza del 95 % para la diferencia de porcentajes de aves vacunadas que sobreviven a la peste. ¿Cuál es el significado de su intervalo de confianza?  
+💻1. Construya un intervalo de confianza del 95 % para la diferencia de porcentajes de aves vacunadas que sobreviven a la peste. \
 [Ver pasos para resolver en R](../pasos_R/ejercicio7.12_R_1.html)
+
+2.  ¿Cuál es el significado de su intervalo de confianza?

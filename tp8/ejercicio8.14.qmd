@@ -1,0 +1,6 @@
+---
+title: "Ejercicio 8.14"
+editor: visual
+---
+
+Otra famosa “Ley de Murphy” indica que la probabilidad de un suceso es función creciente del daño que causa. Para verificar esto, en la *University of Southwestern Louisiana* se dejaron caer $1000$ tostadas untadas con dulce de grosellas silvestres: $400$ en la cancha de basket, y $600$ sobre una valiosa alfombra persa. De las primeras, cayeron \$220\$ del lado del dulce; y de las segundas, $350$. ¿Qué conclusión puede sacar?

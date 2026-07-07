@@ -3,64 +3,62 @@ title: "Ejercicio 7.8"
 editor: visual
 ---
 
-## Ejercicio 7.8
 
-Para comprobar si la tolerancia a la glucosa en sujetos sanos tiende a decrecer con la edad, se realizó un test oral de glucosa a dos muestras de pacientes sanos: jóvenes y adultos. El test consistió en medir el nivel de glucosa en sangre en el momento de la ingestión de 100 g de glucosa, denominado *nivel basal*, y a los 60 minutos de la toma. Suponga que las variables involucradas en el estudio siguen una distribución normal.
+Para comprobar si la tolerancia a la glucosa en sujetos sanos tiende a decrecer con la edad, se realizó un test oral de glucosa a dos muestras de pacientes sanos: jóvenes y adultos.
 
-Los resultados obtenidos fueron los siguientes:
+El test consistió en medir el nivel de glucosa en sangre al momento de la ingestión de 100 g de glucosa (nivel basal) y a los 60 minutos de la toma.
+
+Suponga que todas las variables involucradas siguen una distribución normal.
+
+## Datos
 
 ### Pacientes jóvenes
 
-| Nivel basal |  81 |  89 |  80 |  75 |  74 |  97 |  76 |  89 |  83 |  77 |
-|-------------|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
-| 60 minutos  | 136 | 150 | 149 | 141 | 138 | 154 | 141 | 155 | 145 | 147 |
+| Nivel basal | 81 | 89 | 80 | 75 | 74 | 97 | 76 | 89 | 83 | 77 |
+|-------------|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 60 minutos  |136 |150 |149 |141 |138 |154 |141 |155 |145 |147 |
 
 ### Pacientes adultos
 
-| Nivel basal |  98 |  94 |  93 |  88 |  79 |  90 |  86 |  89 |  81 |  90 |
-|-------------|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
-| 60 minutos  | 196 | 190 | 191 | 189 | 159 | 185 | 182 | 190 | 170 | 197 |
+| Nivel basal |98 |94 |93 |88 |79 |90 |86 |89 |81 |90 |
+|-------------|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| 60 minutos  |196|190|191|189|159|185|182|190|170|197|
 
-------------------------------------------------------------------------
+---
 
-### 1. Variación del nivel de glucosa dentro de cada grupo
+# Parte práctica
 
-¿Se detecta una variación significativa del nivel de glucosa en sangre en cada grupo?
+## 1. Variación del nivel de glucosa dentro de cada grupo
 
-Para responder esta pregunta:
+Se desea evaluar si el nivel de glucosa en sangre cambia luego de 60 minutos respecto del nivel basal.
 
-a.  Defina la variable de interés.
+a. Construya un intervalo de confianza del *99 %* para la diferencia media entre las mediciones de nivel basal y a los 60 minutos en los *pacientes jóvenes*.
 
-b.  Construya el *estadístico pivotal* adecuado e indique la distribución que sigue.
+b. Interprete el intervalo obtenido y concluya si existe evidencia de una variación significativa del nivel de glucosa.
 
-c.  Evalúe el valor del estadístico utilizando los datos muestrales.
+c. Repita los incisos anteriores para los *pacientes adultos*.
 
-💻 d. Construya un intervalo de confianza del *99 %* para la diferencia media correspondiente e interprete el resultado.
+---
 
-### 2. Comparación del nivel basal entre adultos y jóvenes
+## 2. Comparación del nivel basal entre adultos y jóvenes
 
-¿El contenido basal de glucosa en sangre difiere entre adultos y jóvenes?
+a. Construya un intervalo de confianza del *99 %* para la diferencia entre las medias poblacionales del nivel basal de glucosa de ambos grupos.
 
-Para responder esta pregunta:
+b. Interprete el intervalo obtenido y concluya si el nivel basal medio difiere entre adultos y jóvenes.
 
-a.  Indique el *estadístico pivotal* adecuado y su distribución.
+---
 
-💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.
+## 3. Comparación del nivel de glucosa a los 60 minutos
 
-💻 c. Construya un intervalo de confianza del *99 %* para la diferencia entre las medias poblacionales e interprete el resultado.
+a. Construya un intervalo de confianza del *99 %* para la diferencia entre las medias poblacionales del nivel de glucosa a los 60 minutos de ambos grupos.
 
-### 3. Comparación del nivel de glucosa a los 60 minutos entre adultos y jóvenes
+b. Interprete el intervalo obtenido y concluya si la concentración media de glucosa a los 60 minutos difiere entre adultos y jóvenes.
 
-¿Es diferente la concentración de glucosa en sangre a los 60 minutos entre adultos y jóvenes?
 
-Para responder esta pregunta:
+## 4. Predicción para un nuevo paciente
 
-a.  Indique el *estadístico pivotal* adecuado y su distribución.
+a. Construya un intervalo de predicción del *95 %* para el nivel basal de glucosa de un nuevo paciente joven.
 
-💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.
+b. Construya un intervalo de predicción del *95 %* para el nivel basal de glucosa de un nuevo paciente adulto.
 
-💻 c. Construya un intervalo de confianza del *99 %* para la diferencia entre las medias poblacionales e interprete el resultado.
-
-### 4. Predicción para un nuevo paciente
-
-Estime el nivel de glucosa basal para un nuevo paciente joven y para un nuevo paciente adulto utilizando un *coeficiente de confianza del 95 %*.
+c. Interprete ambos intervalos en el contexto del problema.

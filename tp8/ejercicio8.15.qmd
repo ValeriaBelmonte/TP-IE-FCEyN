@@ -1,0 +1,20 @@
+---
+title: "Ejercicio 8.15"
+editor: visual
+---
+
+Se ha tomado una muestra aleatoria de tamaño \$30\$ de los días que demora una empresa en instalar una línea telefónica a partir del momento de su solicitud:\
+\
+\$\$\
+begin{aligned}\
+&3 \\quad 4 \\quad 5 \\quad 3 \\quad 2 \\quad 7 \\quad 6 \\quad 4 \\quad 6 \\quad 4 \\quad 7 \\quad 2 \\quad 3 \\quad 4 \\quad 6 \\\\\
+&7 \\quad 3 \\quad 5 \\quad 6 \\quad 6 \\quad 4 \\quad 5 \\quad 5 \\quad 7 \\quad 3 \\quad 2 \\quad 2 \\quad 4 \\quad 3 \\quad 5\
+\\end{aligned}\
+\$\$
+
+
+La compañía por contrato, debe tener un valor medio de demora no mayor que $4$ días. El gobierno le inició juicio a la compañía porque cree que ésta no cumplió con el contrato. El juez considera que su veredicto debe ser hecho de manera que la probabilidad de fallar contra la compañía cuando ésta ha cumplido con lo estipulado sea $0,05$.
+
+1. Suponiendo que la distribución de los tiempos de espera es exponencial de parámetro $\lambda$, encuentre el test asintótico en el cual el juez debe basar su decisión y el veredicto al que arribaría con la muestra dada.  
+
+2. ¿Qué tamaño de muestra debería utilizarse si se quiere que la probabilidad de condenar a la compañía sea $0,99$ cuando el valor medio de la demora es de $5$ días?

@@ -1,0 +1,15 @@
+---
+title: "Ejercicio 8.5"
+editor: visual
+---
+
+Para evaluar la homogeneidad de la fertilidad de un suelo se tomaron alícuotas de 20 extracciones de suelo midiéndose su contenido de nitrógeno, en ppm.
+
+$$
+\begin{aligned}
+&0,50 \quad 0,48 \quad 0,39 \quad 0,41 \quad 0,43 \quad 0,49 \quad 0,54 \quad 0,48 \quad 0,52 \quad 0,51 \\
+&0,49 \quad 0,47 \quad 0,44 \quad 0,45 \quad 0,40 \quad 0,38 \quad 0,50 \quad 0,51 \quad 0,52 \quad 0,45
+\end{aligned}
+$$
+
+Se acepta que un suelo es homogéneo en fertilidad, si el contenido de nitrógeno presenta una varianza de a lo sumo $0,005$. Con los datos de la muestra, decida si el suelo es homogéneo o no en su fertilidad utilizando un nivel de significancia del $1\%$.

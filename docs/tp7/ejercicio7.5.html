@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -555,8 +584,98 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp8/ejercicio1.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../tp8/ejercicio8.1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 8.1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.4</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.7</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.8</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.9</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.10</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.12</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.13</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.14</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.15</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tp8/ejercicio8.16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 8.16</span></a>
   </div>
 </li>
       </ul>
@@ -610,16 +729,31 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Una muestra de 10 tabletas de aspirinas producidas por cierta empresa farmacéutica arrojó los siguientes pesos expresados en miligramos:</p>
 <p>1190, 1230, 1180, 1210, 1270, 1170, 1150, 1140, 1190, 1200.</p>
-<p>Si se supone que los pesos se distribuyen normalmente, responda:</p>
+<p>Si se supone que los pesos se distribuyen normalmente.</p>
+<section id="parte-a.-análisis-previo-del-problema" class="level4">
+<h4 class="anchored" data-anchor-id="parte-a.-análisis-previo-del-problema">Parte A. Análisis previo del problema</h4>
+<p>Antes de construir los intervalos de confianza, responda las siguientes preguntas:</p>
 <ol type="1">
-<li><p>Identifique el <em>estadítico</em> que permite construir un intervalo de confianza para la varianza poblacional.</p></li>
-<li><p>Determine la <em>distribución muestral</em> del <em>estadítico</em> e indique bajo qué supuesto es válida.</p></li>
-<li><p>Construya un intervalo de confianza para la <em>varianza poblacional</em> de los pesos de las tabletas producidas por la compañía.</p></li>
-<li><p>Obtenga el correspondiente intervalo de confianza para el <em>desvío estándar poblacional</em>.</p></li>
+<li><p>¿Cuál es la variable aleatoria de interés?</p></li>
+<li><p>¿Cuál es la unidad de análisis?</p></li>
+<li><p>¿Qué modelo probabilístico puede suponerse para la variable de interés?</p></li>
+<li><p>¿Cuáles son los parámetros del modelo probabilístico?</p></li>
+<li><p>¿Cuál es el parámetro de interés que se desea estimar?</p></li>
+<li><p>¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?</p></li>
+<li><p>¿Qué distribución sigue dicho pivote? Justifique su respuesta.</p></li>
+<li><p>En función del pivote determine un intervalo de confianza con un coeficiente de confianza de <span class="math inline">\((1-\alpha)\)</span>.</p></li>
+<li><p>¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?</p></li>
+</ol>
+</section>
+<section id="parte-b.-construcción-de-intervalos-de-confianza" class="level4">
+<h4 class="anchored" data-anchor-id="parte-b.-construcción-de-intervalos-de-confianza">Parte B. Construcción de intervalos de confianza</h4>
+<ol type="1">
+<li>Obtenga el correspondiente intervalo de confianza para el <em>desvío estándar poblacional</em>.</li>
 </ol>
 <p>Utilice un <em>nivel de significación del 5 %</em>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

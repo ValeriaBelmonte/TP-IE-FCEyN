@@ -1,0 +1,6 @@
+---
+title: "Ejercicio 8.3"
+editor: visual
+---
+
+Según el *Environment News* de septiembre de 1975, la "lluvia ácida", causada por la reacción de ciertos factores de polución del aire con gotas de lluvia, parece ser un problema creciente en la región norte de los Estados Unidos. La lluvia ácida afecta el suelo y causa corrosión en metales expuestos al sol. La lluvia cristalina, cayendo a través del aire puro, provoca un registro de pH (valores menores a $7$ indican un pH ácido y mayores a este valor un pH alcalino) igual a $5,7$. Suponga que se analicen muestras de agua obtenidas en $40$ temporadas, registrándose los pH. Los resultados fueron: $\bar{x}=3,7$ y $s=0,5$. ¿Los datos dan evidencia suficiente como para indicar que esos temporales tienen, en media, pH más ácido que la lluvia pura? Ponga a prueba esta hipótesis, considerando que la probabilidad de decir que la lluvia es más ácida cuando en realidad no lo es sea $0,01$.

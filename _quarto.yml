@@ -160,8 +160,38 @@ website:
             text: Ejercicio 7.15
       - section: "TRABAJO PRÁCTICO 8"
         contents:
-          - href: tp8/ejercicio1.qmd
+          - href: tp8/ejercicio8.1.qmd
             text: Ejercicio 8.1
+          - href: tp8/ejercicio8.2.qmd
+            text: Ejercicio 8.2
+          - href: tp8/ejercicio8.3.qmd
+            text: Ejercicio 8.3
+          - href: tp8/ejercicio8.4.qmd
+            text: Ejercicio 8.4
+          - href: tp8/ejercicio8.5.qmd
+            text: Ejercicio 8.5
+          - href: tp8/ejercicio8.6.qmd
+            text: Ejercicio 8.6
+          - href: tp8/ejercicio8.7.qmd
+            text: Ejercicio 8.7
+          - href: tp8/ejercicio8.8.qmd
+            text: Ejercicio 8.8
+          - href: tp8/ejercicio8.9.qmd
+            text: Ejercicio 8.9
+          - href: tp8/ejercicio8.10.qmd
+            text: Ejercicio 8.10
+          - href: tp8/ejercicio8.11.qmd
+            text: Ejercicio 8.11
+          - href: tp8/ejercicio8.12.qmd
+            text: Ejercicio 8.12
+          - href: tp8/ejercicio8.13.qmd
+            text: Ejercicio 8.13
+          - href: tp8/ejercicio8.14.qmd
+            text: Ejercicio 8.14
+          - href: tp8/ejercicio8.15.qmd
+            text: Ejercicio 8.15
+          - href: tp8/ejercicio8.16.qmd
+            text: Ejercicio 8.16
 
       - section: "TRABAJO PRÁCTICO 9"
         contents:

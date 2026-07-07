@@ -4,38 +4,144 @@ editor: visual
 ---
 
 
-Considere nuevamente los datos del *Ejercicio 3.3*.
+Suponga que los rendimientos para las variedades de sorgo **Nueva GR80** ($X$) y **Overa** ($Y$) siguen distribuciones normales con medias $\mu_X$ y $\mu_Y$, respectivamente, siendo la varianza común $\sigma^2 = 120$. Suponga además que las parcelas fueron sembradas y seleccionadas de manera independiente entre sí.
+Se desea estudiar si existen diferencias entre los rendimientos medios de ambas variedades.
 
-1. Suponga que los rendimientos para las variedades de sorgo **Nueva GR80** ($X$) y **Overa** ($Y$) siguen distribuciones normales con medias $\mu_X$ y $\mu_Y$, respectivamente, siendo la varianza común $\sigma^2 = 120$. Suponga además que las parcelas fueron sembradas y seleccionadas de manera independiente entre sí.
+---
 
-   a. Construya el *estadístico pivotal* adecuado para obtener un intervalo de confianza para $\mu_X-\mu_Y$ e indique la distribución que sigue.
 
-💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.
-[Ver pasos para resolver en R](../pasos_R/ejercicio7.7_R_1_b.html)
 
-💻 c. Construya un intervalo de confianza que permita sugerir si hubo diferencia en los rendimientos medios de ambas variedades. Utilice $\alpha = 0,05$.  
+
+## Parte teórica
+
+Antes de construir los intervalos de confianza, responda las siguientes preguntas:
+
+1. ¿Cuál es la variable aleatoria de interés?
+
+2. ¿Cuál es la unidad de análisis?
+
+3. ¿Qué modelo probabilístico puede suponerse para la variable de interés?
+
+4. ¿Cuáles son los parámetros del modelo probabilístico?
+
+5. ¿Cuál es el parámetro de interés que se desea estimar?
+
+6. ¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?
+
+7. ¿Qué distribución sigue dicho pivote? Justifique su respuesta.
+
+8. En función del pivote determine un intervalo de confianza con un coeficiente de confianza de $(1-\alpha)$.
+
+9. ¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?
+
+
+
+## Parte B. Construcción de intervalos de confianza
+
+9. Evalúe el valor del estadístico utilizando los datos muestrales.
+
+10. Construya un intervalo de confianza para:
+
+$$
+\mu_1-\mu_2
+$$
+
+utilizando un nivel de significación:
+
+$$
+\alpha=0,05.
+$$
+
+11. A partir del intervalo obtenido, indique si hay evidencia para sugerir que existen diferencias entre los rendimientos medios de ambas variedades.
+
+12. Responda:
+
+- ¿Cómo resultaría el intervalo de confianza si se utilizara un nivel de confianza mayor?
+- ¿Cómo resultaría el intervalo de confianza si se considerara un mayor tamaño muestral?
+
+---
+
+
+# Parte A. Análisis previo 
+
+##  Diferencia de medias con varianzas conocidas
+
+
+1. Identifique el parámetro de interés.
+
+2. Construya el pivote correspondiente para obtener un intervalo de confianza para:
+
+
+$$
+\mu_1-\mu_2
+$$
+suponiendo *varianzas conocidas*
+3. Indique qué distribución sigue dicho estadístico y bajo qué supuesto es válida.
+
+4. Obtenga la expresión general del intervalo de confianza para la $\mu_1-\mu_2$.
+
+
+##  Diferencia de medias con varianzas desconocidas
+5. Construya el pivote correspondiente para obtener un intervalo de confianza para:
+
+
+$$
+\mu_1-\mu_2
+$$
+suponiendo *varianzas desconocidas*
+6. Indique qué distribución sigue dicho estadístico y bajo qué supuesto es válida.
+
+7. Obtenga la expresión general del intervalo de confianza para la $\mu_1-\mu_2$.
+
+
+## Diferencia de medias para muestras apareadas
+
+Suponga ahora que, en lugar de sembrarse parcelas diferentes para cada variedad, cada parcela se divide en dos mitades: una mitad se siembra con Nueva GR80 y la otra con Overa.
+
+En este caso, las observaciones quedan apareadas por parcela.
+
+No considere los datos de la muestra correspondientes a la última columna de la variedad Overa.
+
+
+
+8. Explique por qué este diseño corresponde a muestras apareadas.
+
+9. Defina la variable diferencia:
+
+$$
+D_i=X_{1i}-X_{2i}
+$$
+y  Identifique el parámetro de interés.
+
+10. Construya el pivote adecuado para obtener un intervalo de confianza para:
+
+$$
+\mu_D
+$$
+
+11. Indique qué distribución sigue dicho pivote.
+
+11. Obtenga la expresión general del intervalo de confianza para la media de las diferencias.
+
+# Parte práctica
+
+
+
+💻 a. Construya un intervalo de confianza que permita sugerir si hubo diferencia en los rendimientos medios de ambas variedades, suponiendo *varianzas conocidas*. Utilice $\alpha = 0,05$.\
+[Ver pasos para resolver en R](../pasos_R/ejercicio7.7_R_1_c.html)
+
+b.  ¿Cómo resultaría el intervalo de confianza con un nivel de confianza mayor?
+
+c.  ¿Cómo resultaría el intervalo de confianza si se considerara un mayor tamaño muestral?
+
+💻 d. Construya un intervalo de confianza que permita sugerir si hubo diferencia en los rendimientos medios de ambas variedades, suponiendo *varianzas desconocidas*. Utilice $\alpha = 0,05$.\
 [Ver pasos para resolver en R](../pasos_R/ejercicio7.7_R_1_c.html)  
 
-   d. ¿Cómo resultaría el intervalo de confianza con un nivel de confianza mayor?
 
-   e. ¿Cómo resultaría el intervalo de confianza si se considerara un mayor tamaño muestral?  
+e. Construya un intervalo de predicción para el rendimiento de una nueva parcela sembrada con Nueva GR80 utilizando un coeficiente de confianza del 95 %.
 
-2.  Intervalo de confianza para la *varianza del rendimiento de sorgo* 
+💻 f. Si, en lugar de sembrarse parcelas diferentes en cada una de las variedades, se hubiera dividido una parcela a la mitad y cada una de ellas se sembrara con una de estas variedades, ¿podría afirmar que los rendimientos de cada variedad de sorgo difieren? Utilice un nivel de confianza del $5\%$.\
+No considere los datos de la muestra correspondientes a la última columna de la variedad *Overa*.
 
-  a. Construya previamente el *estadístico pivotal* correspondiente e indique su distribución.  
+💻 g. Se quiere predecir el rendimiento de una parcela sembrada con la variedad *Nueva GR80*.¿Cuál sería dicho rendimiento utilizando un coeficiente de confianza del $95\%$?
 
-💻 b. con nivel de significación $0,01$. ¿Cómo resultaría el intervalo para la desviación típica?   
-[Ver pasos para resolver en R](../pasos_R/ejercicio7.7_R_2_b.html)  
-
-3. Suponga que las varianzas de los rendimientos de cada una de las variedades de sorgo *no son conocidas*.  
-
-   a. Construya el *estadístico pivotal* adecuado para obtener un intervalo de confianza para $\mu_X-\mu_Y$ e indique la distribución que sigue.  
-
-💻 b. Evalúe el valor del estadístico utilizando los datos muestrales.  
-
-💻 c. Construya un intervalo de confianza que permita sugerir si existe diferencia en los rendimientos.  
-
-💻 4. Si, en lugar de sembrarse parcelas diferentes en cada una de las variedades, se hubiera dividido una parcela a la mitad y cada una de ellas se sembrara con una de estas variedades, ¿podría afirmar que los rendimientos de cada variedad de sorgo difieren? Utilice un nivel de confianza del $5\%$.   
-No considere los datos de la muestra correspondientes a la última columna de la variedad *Overa*.  
-
-💻 5. Se quiere predecir el rendimiento de una parcela sembrada con la variedad *Nueva GR80*.¿Cuál sería dicho rendimiento utilizando un coeficiente de confianza del $95\%$?  

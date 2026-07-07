@@ -1,5 +1,5 @@
 ---
-title: "Ejercicio 7.6_R_1"
+title: "Ejercicio 7.6 1 R"
 ---
 
 

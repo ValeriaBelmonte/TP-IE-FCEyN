@@ -7,14 +7,33 @@ Una muestra de 10 tabletas de aspirinas producidas por cierta empresa farmacéut
 
 1190, 1230, 1180, 1210, 1270, 1170, 1150, 1140, 1190, 1200.
 
-Si se supone que los pesos se distribuyen normalmente, responda:
+Si se supone que los pesos se distribuyen normalmente.
 
-1. Identifique el *estadítico* que permite construir un intervalo de confianza para la varianza poblacional.
+#### Parte A. Análisis previo del problema
 
-2. Determine la *distribución muestral* del *estadítico* e indique bajo qué supuesto es válida.
+Antes de construir los intervalos de confianza, responda las siguientes preguntas:
 
-3. Construya un intervalo de confianza para la *varianza poblacional* de los pesos de las tabletas producidas por la compañía.
+1.  ¿Cuál es la variable aleatoria de interés?
 
-4. Obtenga el correspondiente intervalo de confianza para el *desvío estándar poblacional*.
+2.  ¿Cuál es la unidad de análisis?
+
+3.  ¿Qué modelo probabilístico puede suponerse para la variable de interés?
+
+4.  ¿Cuáles son los parámetros del modelo probabilístico?
+
+5.  ¿Cuál es el parámetro de interés que se desea estimar?
+
+6.  ¿Cuál es el  pivote que se utilizará para construir el intervalo de confianza?
+
+7.  ¿Qué distribución sigue dicho pivote? Justifique su respuesta.
+
+8.  En función del pivote determine un intervalo de confianza con un coeficiente de confianza de $(1-\alpha)$.  
+
+9. ¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?
+
+
+#### Parte B. Construcción de intervalos de confianza
+
+1.  Obtenga el correspondiente intervalo de confianza para el *desvío estándar poblacional*.
 
 Utilice un *nivel de significación del 5 %*.

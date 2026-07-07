@@ -1,12 +1,12 @@
 ---
-title: "Untitled"
+title: "Ejercicio 7.6 4 R"
 editor: visual
 ---
-
 
 # 4. Tamaño muestral para una longitud máxima de 0,05
 
 ```{r}
+#Carga de datos 
 colesterol <- c(
   1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,
   1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,
@@ -17,6 +17,7 @@ n <- length(colesterol)
 
 n
 ```
+
 Como
 
 $$L=2t_{\alpha/2}\frac{s}{\sqrt n},$$
@@ -28,7 +29,7 @@ $$L\le0,05.$$
 ```{r}
 s <- sd(colesterol)
 
-nuevo_n <- ceiling((2*qt(0.975,24)*s/0.05)^2)
+nuevo_n <- ((2*qt(0.975,24)*s/0.05)^2)
 
 nuevo_n
 ```

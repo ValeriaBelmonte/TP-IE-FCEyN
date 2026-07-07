@@ -1,10 +1,12 @@
 ---
-title: "Untitled"
+title: "Ejercicio 7.6 6 R"
 editor: visual
 ---
+
 # 6. Intervalo para la desviación típica
 
-### Carga de datos   
+### Carga de datos
+
 ```{r}
 colesterol <- c(
   1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,
@@ -13,6 +15,7 @@ colesterol <- c(
 )
 
 ```
+
 El pivote utilizado es
 
 $$\frac{(n-1)S^2}{\sigma^2}
@@ -23,7 +26,7 @@ Para un nivel de confianza del 90 %:
 ```{r}
 alpha <- 0.10
 n <- length(colesterol)
-s2 <- var(colesterol) #calculamos la varinza de los datos 
+s2 <- var(colesterol) #calculamos la varianza de los datos 
 
 LI.var <- (n-1)*s2/qchisq(1-alpha/2,n-1) #límite inferior de la IC de la varianza pob
 
@@ -33,5 +36,3 @@ IC.sigma <- sqrt(c(LI.var,LS.var)) #intervalo de confianza para el desvío pobla
 
 IC.sigma
 ```
-
-

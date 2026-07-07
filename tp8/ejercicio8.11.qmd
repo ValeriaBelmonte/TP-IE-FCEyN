@@ -1,0 +1,14 @@
+---
+title: "Ejercicio 8.11"
+editor: visual
+---
+
+En un programa de control de enfermedades crónicas, la hipertensión está incluida como la primera patología a controlar. Diez pacientes hipertensos son sometidos al programa y controlados en su tensión sistólica antes y después de $6$ meses de tratamiento. Los datos obtenidos se muestran en la tabla siguiente:
+
+| Antes | 180 | 200 | 160 | 170 | 180 | 190 | 190 | 180 | 190 | 200 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Después | 140 | 170 | 160 | 140 | 130 | 150 | 140 | 150 | 190 | 170 |
+
+1. ¿Los datos muestran evidencia estadísticamente significativa para afirmar que el tratamiento es efectivo? Use $\alpha = 0,10$.
+
+2. En caso de rechazar la hipótesis nula, construya un intervalo de confianza.
