@@ -3,17 +3,18 @@ title: "Ejercicio 8.4"
 editor: visual
 ---
 
-
-En una estancia ubicada al SO de la ciudad de Hernando (Córdoba), su administrador asegura que con sus técnicas de conservación de suelos aumenta los rendimientos de maní FLORUNNER. Se sabe que el rendimiento promedio de maní, en esa zona, es de $18$ q/ha. Para tomar una decisión se eligieron en un mismo lote de esa estancia $10$ parcelas al azar con los siguientes rindes en q/ha:
+En una estancia ubicada al SO de la ciudad de Hernando (Córdoba), su administrador asegura que con sus técnicas de conservación de suelos aumenta los rendimientos de maní FLORUNNER. Se sabe que el rendimiento promedio de maní, en esa zona, es de $14$ q/ha. Para tomar una decisión se eligieron en un mismo lote de esa estancia $10$ parcelas al azar con los siguientes rindes en q/ha:
 
 $$
 10,\;12,\;18,\;22,\;19,\;15,\;18,\;20,\;13,\;19
 $$
 
-1. ¿Qué se desea probar? Dígalo con palabras y plantéelo estadísticamente.
+1.  ¿Qué se desea probar? Dígalo con palabras y plantéelo estadísticamente.
 
-2. Explique para este caso, cuál sería el error de Tipo I y cuál el de Tipo II.
+2.  Explique para este caso, cuál sería el error de Tipo I y cuál el de Tipo II.
 
-3. A un nivel de significancia del $5\%$, ¿es cierta la afirmación del administrador?
+3.  A un nivel de significancia del $5\%$, ¿es cierta la afirmación del administrador?
 
-4. Calcule el valor del test.
+4.  Calcule el valor del test.
+
+[Ver pasos para resolver en R](../pasos_R/ejercicio8.4_R_1.html)

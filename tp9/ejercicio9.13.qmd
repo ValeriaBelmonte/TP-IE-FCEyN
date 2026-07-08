@@ -1,0 +1,12 @@
+---
+title: "Ejercicio 9.13"
+editor: visual
+---
+
+Un estudio de la *Universidad de Wisconsin* dividió, al azar, en tres grupos a 2400 personas a encuestar. A todos se les preguntó si alguna vez habían consumido cocaína; sin embargo a 800 personas se les entrevistó por teléfono, a otras 800 se las entrevistó directamente y a las 800 restantes se les permitió responder por escrito de forma anónima.
+
+Los porcentajes de personas en cada grupo que manifestó haber consumido cocaína fue 21%, 25% y 28%, respectivamente.
+
+1. Exprese la información proporcionada en una tabla de contingencia.
+
+2. ¿Existen diferencias estadísticamente significativas entre estas proporciones? Realice el test adecuado que le permita responder a esta pregunta. Elabore conclusiones a partir del valor p.

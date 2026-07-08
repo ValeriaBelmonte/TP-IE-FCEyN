@@ -1,0 +1,73 @@
+---
+title: "Ejercicio 8.7 con  R"
+editor: visual
+---
+
+## Paso 1. Ingresar los datos
+
+```{r}
+# Rendimientos (q/ha)
+
+galant <- c(22.0, 24.2, 19.8, 25.0, 27.3, 26.0, 23.9, 27.4)
+
+poast <- c(23.5, 20.2, 21.6, 24.3, 25.7, 28.0, 23.6, 26.2)
+```
+
+## Paso 2. Estadísticos descriptivos
+
+```{r}
+mean(galant)
+sd(galant)
+
+mean(poast)
+sd(poast)
+```
+
+## Paso 3. Verificar el supuesto de normalidad
+
+```{r}
+shapiro.test(galant)
+
+shapiro.test(poast)
+```
+
+Como los valores $p$ son mayores que $0,05$, no se rechaza la hipótesis de normalidad para ninguno de los dos grupos.
+
+## Paso 4. Verificar la igualdad de varianzas
+
+```{r}
+var.test(galant, poast)
+```
+
+Como el valor $p$ es mayor que $0,05$, puede asumirse igualdad de varianzas.
+
+## Paso 5. Plantear las hipótesis
+
+Se desea determinar si existen diferencias en el rendimiento medio entre ambos herbicidas.
+
+$H_0:\mu_{Galant}=\mu_{Poast} \quad vs\quad H_1:\mu_{Galant}\neq\mu_{Poast}$
+
+## Paso 6. Realizar el test t
+
+```{r}
+resultado <- t.test(galant,
+                    poast,
+                    var.equal = TRUE,
+                    alternative = "two.sided")
+
+resultado
+```
+
+## Paso 7. Estadístico de prueba y valor p
+
+```{r}
+resultado$statistic
+
+resultado$p.value
+```
+
+## Conclusión
+
+Como el valor $p$ es mayor que $0,05$, no se rechaza la hipótesis nula.
+
+No existe evidencia estadísticamente significativa para afirmar que el rendimiento medio de soja difiera entre los herbicidas **Galant LPU** y **Poast**.

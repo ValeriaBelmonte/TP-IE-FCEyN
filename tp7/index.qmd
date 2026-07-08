@@ -1,0 +1,20 @@
+---
+title: "Trabajo Práctico 7"
+---
+
+## Estimación por intervalos de confianza
+### Objetivos
+
+
+
+- Saber recurrir a las distribuciones apropiadas cuando el objetivo es la construcción de un estimador de confianza de un parámetro poblacional para muestras pequeñas.
+
+- Ser capaz de usar el Teorema Central del Límite para la construcción de estimadores por intervalos de confianza de la media poblacional, así como también de la proporción poblacional, de la diferencia entre dos medias o de la diferencia entre dos proporciones.
+
+- Determinar y explicar la precisión de estimación de un parámetro.
+
+------------------------------------------------------------------------
+
+::: callout-warning
+🚨 Atención\
+**En todos los ejercicios a seguir**, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés.

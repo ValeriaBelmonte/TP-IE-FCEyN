@@ -1,0 +1,59 @@
+---
+title: "Untitled"
+editor: visual
+---
+
+```{r}
+# Datos
+nitrogeno <- c(0.50, 0.48, 0.39, 0.41, 0.43, 0.49, 0.54, 0.48, 0.52, 0.51,
+               0.49, 0.47, 0.44, 0.45, 0.40, 0.38, 0.50, 0.51, 0.52, 0.45)
+
+# Datos muestrales
+n <- length(nitrogeno)
+s2 <- var(nitrogeno)
+
+n
+s2
+```
+
+Hipótesis:
+
+$H_0:sigma^2≤0,005 \quad vs\quad H_1:sigma^2>0,005$
+
+Como se quiere decidir si la varianza supera $0,005$, el test es unilateral derecho.
+
+```{r}
+# Varianza máxima aceptada
+sigma2_0 <- 0.005
+
+# Estadístico de prueba
+chi_obs <- (n - 1) * s2 / sigma2_0
+chi_obs
+```
+
+```{r}
+# Valor crítico para alpha = 0.01
+alpha <- 0.01
+chi_crit <- qchisq(1 - alpha, df = n - 1)
+chi_crit
+```
+
+```{r}
+# Valor p
+p_valor <- 1 - pchisq(chi_obs, df = n - 1)
+p_valor
+```
+
+Con estos datos se obtiene aproximadamente:
+
+$S^2=0,0024$ $\chi^2_{obs}=9,12$
+
+y el valor crítico es: $\chi^2_{0,99;19}=36,19$
+
+Como:
+
+$\chi^2_{obs}=9,12$ es menor a $\chi^2_{0,99;19}=36,19$ no se rechaza $H_0$.
+
+Además, el valor $p$ es mayor que $0,01$.
+
+**Conclusión**: No se rechaza la $H_0$ con un nivel de significanción del $0,01$, no hay evidencia suficiente para afirmar que la varianza del contenido de nitrógeno sea mayor que $0,005$. Por lo tanto, se puede considerar que el suelo es homogéneo en fertilidad.

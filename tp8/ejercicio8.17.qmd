@@ -2,3 +2,5 @@
 title: "Ejercicio 8.17"
 editor: visual
 ---
+
+📊 Considere la experiencia del Ejercicio 2.10 en la que se le solicitó el análisis descriptivo de algún conjunto de datos. Realice la inferencia estadística, test de hipótesis y/o estimación, sobre los parámetros poblacionales, que crea necesaria de acuerdo a los objetivos planteados.

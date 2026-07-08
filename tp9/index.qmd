@@ -1,0 +1,19 @@
+---
+title: "Trabajo Práctico 9"
+---
+
+## Pruebas chi-cuadrado
+ 
+### Objetivos
+
+
+
+- Utilizar la distribución chi-cuadrado en algunos de los numerosos usos que la misma posee: pruebas de independencia, pruebas de homogeneidad y pruebas de bondad de ajuste.
+- Analizar datos que indican el número de respuestas en cada clase de experimentos que resultan de observaciones de variables cualitativas.
+- Ser capaz de determinar los grados de libertad de una distribución chi-cuadrado, asociada a un problema específico.
+
+------------------------------------------------------------------------
+
+::: callout-warning
+🚨 Atención\
+**En todos los ejercicios a seguir**, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés. Asimismo, describa el pivote utilizado, su distribución y construya el TH a utilizar.

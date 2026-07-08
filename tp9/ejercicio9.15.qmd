@@ -1,0 +1,15 @@
+---
+title: "Ejercicio 9.15"
+editor: visual
+---
+📊 Una de las cualidades de un buen generador de números aleatorios es que cada número tenga la misma probabilidad de ser emitido. Evalúe el generador de números aleatorios de su computadora, generando 100 números al azar entre 0 y 1, agrupándolos en las siguientes clases:
+
+| Clase | Intervalo |
+|:------|:----------|
+| Clase 1 | Números desde 0,0 y menores que 0,2 |
+| Clase 2 | Números desde 0,2 y menores que 0,4 |
+| Clase 3 | Números desde 0,4 y menores que 0,6 |
+| Clase 4 | Números desde 0,6 y menores que 0,8 |
+| Clase 5 | Números desde 0,8 y menores que 1,0 |
+
+Luego use un software adecuado y una prueba de bondad de ajuste para determinar si estos números aleatorios están distribuidos uniformemente.

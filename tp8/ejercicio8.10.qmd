@@ -12,3 +12,5 @@ En un experimento se desea determinar si el contenido de hemoglobina en la sangr
 1. Al nivel del $5\%$, ¿modifica el tratamiento el contenido medio de hemoglobina?
 
 2. En caso de rechazar la hipótesis nula, construya un intervalo de confianza.
+
+[Ver pasos para resolver en R](../pasos_R/ejercicio8.10_R_1.html)

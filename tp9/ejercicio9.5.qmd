@@ -1,0 +1,47 @@
+---
+title: "Ejercicio 9.5"
+editor: visual
+---
+
+La prueba de la d-xilosa permite la diferenciación entre una esteatorrea originada por una mala absorción intestinal y la debida a una insuficiencia pancreática, de modo que cifras inferiores a la media $4$ g de d-xilosa indican una mala absorción intestinal.
+
+Se realiza la prueba a 300 individuos, cuyos resultados se muestran en el gráfico de la Figura 9.1.
+
+Proponga una distribución teórica apropiada para la variable de interés y estime los parámetros desconocidos. Pruebe o refute su hipótesis utilizando ($\alpha = 0,01$).
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(ggplot2)
+
+histograma <- data.frame(
+  li = c(2.11, 2.51, 2.92, 3.32, 3.72, 4.13, 4.53),
+  ls = c(2.51, 2.92, 3.32, 3.72, 4.13, 4.53, 4.94),
+  frecuencia = c(9, 22, 69, 97, 75, 26, 2)
+)
+
+histograma$centro <- (histograma$li + histograma$ls) / 2
+
+ggplot(histograma) +
+  geom_rect(aes(xmin = li, xmax = ls,
+                ymin = 0, ymax = frecuencia),
+            fill = "orange", color = "black") +
+  geom_text(aes(x = centro, y = frecuencia, label = frecuencia),
+            vjust = -0.3, size = 5) +
+  scale_x_continuous(
+    breaks = c(2.11, 2.51, 2.92, 3.32, 3.72, 4.13, 4.53, 4.94)
+  ) +
+  scale_y_continuous(
+    limits = c(0, 120),
+    breaks = seq(0, 120, 20),
+    expand = expansion(mult = c(0, 0.05))
+  ) +
+  labs(
+    title = "Resultados de la prueba de d-xilosa\nrealizada a 300 individuos",
+    x = "",
+    y = "Frecuencia"
+  ) +
+  theme_classic()
+```
+Figura 9.1.:Resultados de la prueba de d-xilosa

@@ -1,0 +1,14 @@
+---
+title: "Ejercicio 9.10"
+editor: visual
+---
+
+En un estudio realizado a un grupo de estudiantes de entre 10 y 12 años se les preguntó a qué daban más prioridad de entre tres posibilidades: tener buenas calificaciones, destacarse en los deportes, o ser popular entre sus compañeros. El número de casos por categoría es:
+
+| Sexo | Deportes | Calificaciones | Popularidad | Total |
+|:-----|---------:|---------------:|------------:|------:|
+| Niña | 17 | 101 | 75 | 193 |
+| Niño | 51 | 95 | 38 | 184 |
+| Total | 68 | 196 | 113 | 377 |
+
+A un nivel del $5\%$, ¿puede usted decir si hay independencia o no entre las prioridades y el género de cada escolar?

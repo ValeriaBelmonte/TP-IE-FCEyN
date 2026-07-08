@@ -1,0 +1,13 @@
+---
+title: "Ejercicio 9.4"
+editor: visual
+---
+
+Durante la Segunda Guerra Mundial se dividió el mapa de Londres en cuadrículas de \\(0{,}25\\ \\text{km}\^2\\) y se contó el número de bombas caídas en cada cuadrícula durante un bombardeo alemán. Los resultados son los siguientes:
+
+|                                     |     |     |     |     |     |          |
+|:-----------------------------------:|----:|----:|----:|----:|----:|:--------:|
+| Número de impactos en la cuadrícula |   0 |   1 |   2 |   3 |   4 | $\geq 5$ |
+|        Frecuencia observada         | 229 | 211 |  93 |  35 |   7 |    1     |
+
+A partir de estos datos, ¿puede deducir si el bombardeo se hacía en forma aleatoria o se perseguía un determinado objetivo militar?

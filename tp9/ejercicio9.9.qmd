@@ -1,0 +1,19 @@
+---
+title: "Ejercicio 9.9"
+editor: visual
+---
+
+Un profesor de Geología le dice a sus alumnos si pueden contestar la siguiente pregunta: ¿Serán independientes las características litología del clasto de un cierto afloramiento y el hecho de que algunos clastos estén facetados o no?
+
+El alumnado decide dar una respuesta con fundamentos, para ello toman una muestra aleatoria de 200 clastos de ese afloramiento y logran la siguiente clasificación:
+
+| Litología | Facetados | No facetados | Total |
+|:----------|----------:|-------------:|------:|
+| Granitos | 45 | 102 | 147 |
+| Metamórfico | 15 | 38 | 53 |
+| Total | 60 | 140 | 200 |
+
+La respuesta dada al profesor fue “No hay razón para rechazar la independencia entre esas dos características”. ¿Puede usted verificar tal resultado, sabiendo que el nivel de significación fue $\alpha = 0{,}05$?
+
+---
+

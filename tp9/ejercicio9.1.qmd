@@ -1,0 +1,13 @@
+---
+title: "Ejercicio 9.1"
+editor: visual
+---
+
+Una alarma contra incendios emplea cinco celdas sensibles a la temperatura, que operan de manera independiente, de tal forma que una o varias pueden activarla. Se realizaron 200 pruebas de control de estas alarmas contabilizándose en cada una de ellas el número de celdas sensibles que activaron la alarma cuando la temperatura alcanzó los $100^{\circ}C$. Los resultados obtenidos se muestran en la siguiente tabla.
+
+|                      |     |     |     |     |     |     |
+|:--------------------:|----:|----:|----:|----:|----:|----:|
+|   Número de celdas   |   0 |   1 |   2 |   3 |   4 |   5 |
+| Frecuencia observada |   0 |   2 |   6 |  47 |  65 |  80 |
+
+Proponga una distribución teórica apropiada para la variable de interés y estime su(s) parámetro(s). Pruebe o refute su hipótesis con un nivel de significancia de $0,05$.

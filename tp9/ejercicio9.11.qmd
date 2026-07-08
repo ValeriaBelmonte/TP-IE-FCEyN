@@ -1,0 +1,6 @@
+---
+title: "Ejercicio 9.11"
+editor: visual
+---
+
+Considere los resultados obtenidos en el Ejercicio 3.1. ¿Puede concluir que la preferencia por determinado tipo de películas se altera con el estado civil usando un nivel de significancia del $2\%$?

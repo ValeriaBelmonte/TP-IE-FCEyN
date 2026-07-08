@@ -1,0 +1,27 @@
+---
+title: "Untitledejercicio8.4  con R"
+editor: visual
+---
+
+### Cargo los datos
+
+```{r}
+# Datos
+rendimiento <- c(10, 12, 18, 22, 19, 15, 18, 20, 13, 19)
+
+
+```
+
+```{r}
+# Estadísticos descriptivos
+mean(rendimiento)
+sd(rendimiento)
+length(rendimiento)
+```
+
+```{r}
+t.test(rendimiento,
+       mu = 14,
+       alternative = "greater",
+       conf.level = 0.95)
+```

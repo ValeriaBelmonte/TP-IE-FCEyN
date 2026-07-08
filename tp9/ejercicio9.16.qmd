@@ -1,0 +1,10 @@
+---
+title: "Ejercicio 9.16"
+editor: visual
+---
+
+📊 ¿Están relacionados el sexo y el tabaquismo?
+
+Tome una muestra aleatoria de 100 individuos (explicando claramente cómo la seleccionó, entre quiénes, etc.) y resuma la información obtenida en una tabla de contingencia ($2 \times 2$).
+
+Realice la prueba adecuada para determinar la respuesta a esta pregunta.

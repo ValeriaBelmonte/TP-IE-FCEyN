@@ -7,7 +7,7 @@ Sea $X_1, X_2, \ldots, X_n$ una muestra aleatoria simple de $X \sim N(\mu; \sigm
 
 Explique cómo influyen sobre un intervalo de confianza para la media poblacional:
 
-1. El tamaño muestral.
-2. La varianza, muestral o poblacional, según corresponda.
-3. La media muestral.
-4. El nivel de confianza.
+1.  El tamaño muestral.
+2.  La varianza, muestral o poblacional, según corresponda.
+3.  La media muestral.
+4.  El nivel de confianza.

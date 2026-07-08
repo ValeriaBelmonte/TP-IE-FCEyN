@@ -1,0 +1,18 @@
+---
+title: "Ejercicio 9.14"
+editor: visual
+---
+
+En julio la gente está de vacaciones. El éxito de una encuesta puede depender de la estación del año. El *Instituto Nacional de Estadística de Italia* guardó los datos sobre las no-respuestas de una de sus encuestas telefónicas a nivel nacional. Todas las llamadas se hicieron entre las 7 y las 10 de la noche. He aquí una tabla con los porcentajes de tres tipos de no-respuestas en diferentes estaciones del año. Los porcentajes de cada fila suman el 100% salvo error de redondeo.
+
+| Temporada | Llamadas efectuadas | Exitosas | Sin respuesta | Línea ocupada | Rechaza participar |
+|:----------|--------------------:|---------:|--------------:|--------------:|-------------------:|
+| 1 ene - 13 abr | 1558 | 68,5% | 21,4% | 5,8% | 4,3% |
+| 21 abr - 20 jun | 1589 | 52,4% | 35,8% | 6,4% | 5,4% |
+| 1 jul - 31 ago | 2075 | 43,4% | 41,5% | 8,6% | 6,5% |
+| 1 sep - 15 dic | 2638 | 60,0% | 30,0% | 5,3% | 4,7% |
+
+1. Construya la tabla de contingencia que le permita resumir la información sobre el tipo de respuesta o no respuesta y la época del año.
+
+2. Realice el test adecuado que le permita poner a prueba la hipótesis de que la distribución del tipo de respuestas obtenidas varía con la estación. ¿Le sorprende la conclusión obtenida? Justifique.
+

@@ -160,6 +160,8 @@ website:
             text: Ejercicio 7.15
       - section: "TRABAJO PRÁCTICO 8"
         contents:
+          - href: tp8/index.qmd
+            text: Presentación
           - href: tp8/ejercicio8.1.qmd
             text: Ejercicio 8.1
           - href: tp8/ejercicio8.2.qmd
@@ -192,11 +194,42 @@ website:
             text: Ejercicio 8.15
           - href: tp8/ejercicio8.16.qmd
             text: Ejercicio 8.16
-
       - section: "TRABAJO PRÁCTICO 9"
         contents:
-          - href: tp9/ejercicio1.qmd
+          - href: tp9/index.qmd
+            text: Presentación
+          - href: tp9/ejercicio9.1.qmd
             text: Ejercicio 9.1
+          - href: tp9/ejercicio9.2.qmd
+            text: Ejercicio 9.2
+          - href: tp9/ejercicio9.3.qmd
+            text: Ejercicio 9.3
+          - href: tp9/ejercicio9.4.qmd
+            text: Ejercicio 9.4
+          - href: tp9/ejercicio9.5.qmd
+            text: Ejercicio 9.5
+          - href: tp9/ejercicio9.6.qmd
+            text: Ejercicio 9.6
+          - href: tp9/ejercicio9.7.qmd
+            text: Ejercicio 9.7
+          - href: tp9/ejercicio9.8.qmd
+            text: Ejercicio 9.8
+          - href: tp9/ejercicio9.9.qmd
+            text: Ejercicio 9.9
+          - href: tp9/ejercicio9.10.qmd
+            text: Ejercicio 9.10
+          - href: tp9/ejercicio9.11.qmd
+            text: Ejercicio 9.11
+          - href: tp9/ejercicio9.12.qmd
+            text: Ejercicio 9.12
+          - href: tp9/ejercicio9.13.qmd
+            text: Ejercicio 9.13
+          - href: tp9/ejercicio9.14.qmd
+            text: Ejercicio 9.14
+          - href: tp9/ejercicio9.15.qmd
+            text: Ejercicio 9.15
+          - href: tp9/ejercicio9.16.qmd
+            text: Ejercicio 9.16
 
 format:
   html:

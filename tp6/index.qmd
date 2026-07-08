@@ -1,0 +1,19 @@
+---
+title: "Trabajo Práctico 6"
+---
+
+## Propiedades de los estimadores puntuales
+### Objetivos
+
+
+- S Aplicar los conceptos generales de la estimación puntual de los parámetros de una población o distribución de probabilidad.
+
+- Conocer y determinar las propiedades importantes de los estimadores puntuales, incluidos sesgo, varianza y error cuadrático medio.
+
+- Determinar y explicar la precisión de estimación de un parámetro.
+
+------------------------------------------------------------------------
+
+::: callout-warning
+🚨 Atención\
+**En todos los ejercicios a seguir**, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés.

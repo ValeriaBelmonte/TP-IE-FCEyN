@@ -2,3 +2,5 @@
 title: "Ejercicio 8.16"
 editor: visual
 ---
+
+⚙️Considere nuevamente el Ejercicio 7.15. Construya un test de hipótesis bilateral para $\theta$.

@@ -1,0 +1,13 @@
+---
+title: "Ejercicio 9.2"
+editor: visual
+---
+
+En cierto estudio referido a técnicas de fertilización *in vitro* en parejas que no pueden procrear normalmente, se incluyeron los datos de las transferencias realizadas con 8 embriones de buena calidad en madres menores de 40 años, y se registró el número de sacos con embriones que continuaron su desarrollo. Dichos resultados fueron confirmados por análisis químicos y ecografía después de 5 semanas de la transferencia embrionaria.
+
+|                     |     |     |     |     |     |     |     |
+|:-------------------:|----:|----:|----:|----:|----:|----:|----:|
+| Sacos con embriones |   0 |   1 |   2 |   3 |   4 |   5 |   6 |
+|   Número de casos   |  35 |  38 |  15 |   5 |   4 |   2 |   1 |
+
+Proponga una distribución teórica que considere apropiada y estime su(s) parámetro(s) a partir de la muestra. Pruebe su hipótesis con un nivel de confianza del 10%.

@@ -1,0 +1,15 @@
+---
+title: "Ejercicio 9.8"
+editor: visual
+---
+
+
+¿Odia usted los lunes? Investigadores de Alemania presentaron otra razón para hacerlo: concluyeron que el riesgo de que un trabajador sufra un ataque al corazón un lunes es 50% superior al riesgo de que lo sufra cualquier otro día (*Riverside Press - Enterprise*, 17 de noviembre de 1992).
+
+Los investigadores registraron los ataques al corazón y paros cardíacos de 330000 personas que vivían cerca de Augsberg, Alemania, durante un período de 5 años. Para comprobar lo que afirman los investigadores, 200 trabajadores que habían sufrido recientemente un ataque al corazón participaron en una encuesta. Se indican los días en que ocurrieron los ataques al corazón:
+
+| Domingo | Lunes | Martes | Miércoles | Jueves | Viernes | Sábado |
+|--------:|------:|-------:|----------:|-------:|--------:|-------:|
+| 24 | 36 | 27 | 26 | 32 | 26 | 29 |
+
+¿La evidencia que proporcionan los datos es suficiente para concluir que existe diferencia en los porcentajes de ataques al corazón que ocurren en cada día de la semana? Utilice un nivel de significación del 5%.

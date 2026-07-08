@@ -1,0 +1,39 @@
+---
+title: "Ejercicio 8.10 1 y 2 con R"
+editor: visual
+---
+
+### Paso 1 cargo los datos 
+```{r}
+#ingreso los datos 
+
+# Datos
+antes <- c(12.6, 12.6, 13.7, 11.1, 11.3, 12.2, 10.0, 11.0)
+despues <- c(10.4, 11.5, 13.6, 12.0, 19.3, 8.8, 9.4, 10.7)
+```
+
+### Paso 2. Verificar el supuesto de normalidad de las diferencias
+```{r}
+# Diferencias
+dif <- despues - antes
+
+# Test de Shapiro-Wilk
+shapiro.test(dif)
+```
+Como se desea saber si el tratamiento modifica el contenido medio de hemoglobina:
+ ###Paso 3. Plantear las hipótesis
+
+
+$H_0:\mu_D=0 \quad vs\quad H_1:\mu_D\neq 0$
+
+
+
+### Paso 4. Realizar el test t apareado
+```{r}
+t.test(despues,
+       antes,
+       paired = TRUE,
+       alternative = "two.sided",
+       conf.level = 0.95)
+```
+

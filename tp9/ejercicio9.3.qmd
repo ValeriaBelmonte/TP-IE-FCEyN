@@ -1,0 +1,6 @@
+---
+title: "Ejercicio 9.3"
+editor: visual
+---
+
+Considere nuevamente los datos del Ejercicio 5.2. ¿Podría afirmar, a través del análisis estadístico correspondiente, si la variable en estudio tiene una distribución de Poisson considerando una probabilidad de error $\alpha = 0,05$?

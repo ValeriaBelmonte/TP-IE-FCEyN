@@ -1,0 +1,18 @@
+---
+title: "Trabajo Práctico 8"
+---
+
+## Test de Hipótesis
+
+### Objetivos
+
+-   Usar los conceptos básicos de la Inferencia Estadística en situaciones prácticas con la finalidad de tomar decisiones relativas al valor del (los) parámetro(s) que caracterizan la población de interés.
+
+-   Formular una medida de error que permita descubrir la eficiencia de una inferencia particular en una situación teórica dada.
+
+------------------------------------------------------------------------
+
+::: callout-warning
+🚨 Atención\
+**En todos los ejercicios a seguir**, describa la variable de interés, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés. Asimismo, describa el pivote utilizado, su distribución y construya el TH a utilizar. En ejercicios con datos significativos, construya el IC y calcule la potencia del test.
+:::

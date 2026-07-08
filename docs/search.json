@@ -1,5 +1,115 @@
 [
   {
+    "objectID": "tp9/index.html",
+    "href": "tp9/index.html",
+    "title": "Trabajo Práctico 9",
+    "section": "",
+    "text": "Utilizar la distribución chi-cuadrado en algunos de los numerosos usos que la misma posee: pruebas de independencia, pruebas de homogeneidad y pruebas de bondad de ajuste.\nAnalizar datos que indican el número de respuestas en cada clase de experimentos que resultan de observaciones de variables cualitativas.\nSer capaz de determinar los grados de libertad de una distribución chi-cuadrado, asociada a un problema específico.\n\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés. Asimismo, describa el pivote utilizado, su distribución y construya el TH a utilizar.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp9/index.html#pruebas-chi-cuadrado",
+    "href": "tp9/index.html#pruebas-chi-cuadrado",
+    "title": "Trabajo Práctico 9",
+    "section": "",
+    "text": "Utilizar la distribución chi-cuadrado en algunos de los numerosos usos que la misma posee: pruebas de independencia, pruebas de homogeneidad y pruebas de bondad de ajuste.\nAnalizar datos que indican el número de respuestas en cada clase de experimentos que resultan de observaciones de variables cualitativas.\nSer capaz de determinar los grados de libertad de una distribución chi-cuadrado, asociada a un problema específico.\n\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés. Asimismo, describa el pivote utilizado, su distribución y construya el TH a utilizar.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.8.html",
+    "href": "tp9/ejercicio9.8.html",
+    "title": "Ejercicio 9.8",
+    "section": "",
+    "text": "¿Odia usted los lunes? Investigadores de Alemania presentaron otra razón para hacerlo: concluyeron que el riesgo de que un trabajador sufra un ataque al corazón un lunes es 50% superior al riesgo de que lo sufra cualquier otro día (Riverside Press - Enterprise, 17 de noviembre de 1992).\nLos investigadores registraron los ataques al corazón y paros cardíacos de 330000 personas que vivían cerca de Augsberg, Alemania, durante un período de 5 años. Para comprobar lo que afirman los investigadores, 200 trabajadores que habían sufrido recientemente un ataque al corazón participaron en una encuesta. Se indican los días en que ocurrieron los ataques al corazón:\n\n\n\nDomingo\nLunes\nMartes\nMiércoles\nJueves\nViernes\nSábado\n\n\n\n\n24\n36\n27\n26\n32\n26\n29\n\n\n\n¿La evidencia que proporcionan los datos es suficiente para concluir que existe diferencia en los porcentajes de ataques al corazón que ocurren en cada día de la semana? Utilice un nivel de significación del 5%.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.8"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.6.html",
+    "href": "tp9/ejercicio9.6.html",
+    "title": "Ejercicio 9.6",
+    "section": "",
+    "text": "Uno de los supuestos necesarios para obtener un estimador por mínimos cuadrados de un parámetro \\(\\theta\\) para el modelo\n\\[\nX_i = S_i(\\theta) + e_i\n\\]\nes que los errores \\(e_i\\) sean independientes con media \\(0\\) y varianza \\(\\sigma^2\\). En particular, si tales errores siguen una distribución normal, el estimador por mínimos cuadrados coincide con el de máxima verosimilitud. Para un determinado modelo se obtuvieron los siguientes errores:\n\n\n\n\n\n\n\n\n\n\n\n\n\n-0,3002\n-1,2777\n0,2443\n1,2765\n1,1984\n1,7331\n-2,1836\n2,3757\n\n\n-0,6902\n-1,6904\n-1,8469\n-0,9776\n-0,7735\n-2,1179\n-0,5679\n-0,6549\n\n\n-0,3270\n-0,3702\n1,3426\n-0,0853\n-0,1862\n-0,5132\n1,9722\n0,8657\n\n\n1,6615\n-1,6124\n0,5389\n0,9022\n1,9189\n-0,0845\n-0,5238\n0,6751\n\n\n-1,4442\n-0,8472\n-1,5216\n-0,3629\n-0,0325\n0,0281\n-0,3227\n2,1945\n\n\n-0,2342\n1,0950\n-1,0867\n-0,4040\n0,1349\n-0,3655\n-0,3813\n0,7576\n\n\n\nPonga a prueba la hipótesis de que los errores siguen una distribución normal de parámetros \\(0\\) y \\(\\sigma^2\\). Elabore conclusiones en base al valor \\(p\\).\nVer pasos para resolver en R",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.6"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.4.html",
+    "href": "tp9/ejercicio9.4.html",
+    "title": "Ejercicio 9.4",
+    "section": "",
+    "text": "Durante la Segunda Guerra Mundial se dividió el mapa de Londres en cuadrículas de \\(0{,}25\\ \\text{km}^2\\) y se contó el número de bombas caídas en cada cuadrícula durante un bombardeo alemán. Los resultados son los siguientes:\n\n\n\n\n\n\n\n\n\n\n\n\nNúmero de impactos en la cuadrícula\n0\n1\n2\n3\n4\n\\(\\geq 5\\)\n\n\nFrecuencia observada\n229\n211\n93\n35\n7\n1\n\n\n\nA partir de estos datos, ¿puede deducir si el bombardeo se hacía en forma aleatoria o se perseguía un determinado objetivo militar?",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.4"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.2.html",
+    "href": "tp9/ejercicio9.2.html",
+    "title": "Ejercicio 9.2",
+    "section": "",
+    "text": "En cierto estudio referido a técnicas de fertilización in vitro en parejas que no pueden procrear normalmente, se incluyeron los datos de las transferencias realizadas con 8 embriones de buena calidad en madres menores de 40 años, y se registró el número de sacos con embriones que continuaron su desarrollo. Dichos resultados fueron confirmados por análisis químicos y ecografía después de 5 semanas de la transferencia embrionaria.\n\n\n\nSacos con embriones\n0\n1\n2\n3\n4\n5\n6\n\n\nNúmero de casos\n35\n38\n15\n5\n4\n2\n1\n\n\n\nProponga una distribución teórica que considere apropiada y estime su(s) parámetro(s) a partir de la muestra. Pruebe su hipótesis con un nivel de confianza del 10%.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.2"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.15.html",
+    "href": "tp9/ejercicio9.15.html",
+    "title": "Ejercicio 9.15",
+    "section": "",
+    "text": "📊 Una de las cualidades de un buen generador de números aleatorios es que cada número tenga la misma probabilidad de ser emitido. Evalúe el generador de números aleatorios de su computadora, generando 100 números al azar entre 0 y 1, agrupándolos en las siguientes clases:\n\n\n\nClase\nIntervalo\n\n\n\n\nClase 1\nNúmeros desde 0,0 y menores que 0,2\n\n\nClase 2\nNúmeros desde 0,2 y menores que 0,4\n\n\nClase 3\nNúmeros desde 0,4 y menores que 0,6\n\n\nClase 4\nNúmeros desde 0,6 y menores que 0,8\n\n\nClase 5\nNúmeros desde 0,8 y menores que 1,0\n\n\n\nLuego use un software adecuado y una prueba de bondad de ajuste para determinar si estos números aleatorios están distribuidos uniformemente.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.15"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.13.html",
+    "href": "tp9/ejercicio9.13.html",
+    "title": "Ejercicio 9.13",
+    "section": "",
+    "text": "Un estudio de la Universidad de Wisconsin dividió, al azar, en tres grupos a 2400 personas a encuestar. A todos se les preguntó si alguna vez habían consumido cocaína; sin embargo a 800 personas se les entrevistó por teléfono, a otras 800 se las entrevistó directamente y a las 800 restantes se les permitió responder por escrito de forma anónima.\nLos porcentajes de personas en cada grupo que manifestó haber consumido cocaína fue 21%, 25% y 28%, respectivamente.\n\nExprese la información proporcionada en una tabla de contingencia.\n¿Existen diferencias estadísticamente significativas entre estas proporciones? Realice el test adecuado que le permita responder a esta pregunta. Elabore conclusiones a partir del valor p.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.13"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.11.html",
+    "href": "tp9/ejercicio9.11.html",
+    "title": "Ejercicio 9.11",
+    "section": "",
+    "text": "Considere los resultados obtenidos en el Ejercicio 3.1. ¿Puede concluir que la preferencia por determinado tipo de películas se altera con el estado civil usando un nivel de significancia del \\(2\\%\\)?",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.11"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.1.html",
+    "href": "tp9/ejercicio9.1.html",
+    "title": "Ejercicio 9.1",
+    "section": "",
+    "text": "Una alarma contra incendios emplea cinco celdas sensibles a la temperatura, que operan de manera independiente, de tal forma que una o varias pueden activarla. Se realizaron 200 pruebas de control de estas alarmas contabilizándose en cada una de ellas el número de celdas sensibles que activaron la alarma cuando la temperatura alcanzó los \\(100^{\\circ}C\\). Los resultados obtenidos se muestran en la siguiente tabla.\n\n\n\nNúmero de celdas\n0\n1\n2\n3\n4\n5\n\n\nFrecuencia observada\n0\n2\n6\n47\n65\n80\n\n\n\nProponga una distribución teórica apropiada para la variable de interés y estime su(s) parámetro(s). Pruebe o refute su hipótesis con un nivel de significancia de \\(0,05\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.1"
+    ]
+  },
+  {
     "objectID": "tp8/ejercicio8.9.html",
     "href": "tp8/ejercicio8.9.html",
     "title": "Ejercicio 8.9",
@@ -15,7 +125,7 @@
     "href": "tp8/ejercicio8.7.html",
     "title": "Ejercicio 8.7",
     "section": "",
-    "text": "En un INTA de la Pcia. de Bs. As. se desea probar si existen diferencias en la cosecha de soja si se tratan las malezas anuales de hoja angosta con distintos herbicidas. En este caso se usó Galant LPU y Poast, ambos aplicados a las malezas cuando no superaban los \\(35\\) cm de altura. Se eligieron al azar \\(8\\) parcelas para cada herbicida, obteniéndose los siguientes rindes por parcela:\n\n\n\nGalant LPU\n22,0\n24,2\n19,8\n25,0\n27,3\n26,0\n23,9\n27,4\n\n\n\n\nPoast\n23,5\n20,2\n21,6\n24,3\n25,7\n28,0\n23,6\n26,2\n\n\n\n¿Qué se puede decir acerca del rendimiento? Concluya a partir del valor \\(p\\).",
+    "text": "💻 En un INTA de la Pcia. de Bs. As. se desea probar si existen diferencias en la cosecha de soja si se tratan las malezas anuales de hoja angosta con distintos herbicidas. En este caso se usó Galant LPU y Poast, ambos aplicados a las malezas cuando no superaban los \\(35\\) cm de altura. Se eligieron al azar \\(8\\) parcelas para cada herbicida, obteniéndose los siguientes rindes por parcela:\n\n\n\nGalant LPU\n22,0\n24,2\n19,8\n25,0\n27,3\n26,0\n23,9\n27,4\n\n\nPoast\n23,5\n20,2\n21,6\n24,3\n25,7\n28,0\n23,6\n26,2\n\n\n\n¿Qué se puede decir acerca del rendimiento? Concluya a partir del valor \\(p\\).\nVer pasos para resolver en R",
     "crumbs": [
       "TRABAJO PRÁCTICO 8",
       "Ejercicio 8.7"
@@ -26,7 +136,7 @@
     "href": "tp8/ejercicio8.5.html",
     "title": "Ejercicio 8.5",
     "section": "",
-    "text": "Para evaluar la homogeneidad de la fertilidad de un suelo se tomaron alícuotas de 20 extracciones de suelo midiéndose su contenido de nitrógeno, en ppm.\n\\[\n\\begin{aligned}\n&0,50 \\quad 0,48 \\quad 0,39 \\quad 0,41 \\quad 0,43 \\quad 0,49 \\quad 0,54 \\quad 0,48 \\quad 0,52 \\quad 0,51 \\\\\n&0,49 \\quad 0,47 \\quad 0,44 \\quad 0,45 \\quad 0,40 \\quad 0,38 \\quad 0,50 \\quad 0,51 \\quad 0,52 \\quad 0,45\n\\end{aligned}\n\\]\nSe acepta que un suelo es homogéneo en fertilidad, si el contenido de nitrógeno presenta una varianza de a lo sumo \\(0,005\\). Con los datos de la muestra, decida si el suelo es homogéneo o no en su fertilidad utilizando un nivel de significancia del \\(1\\%\\).",
+    "text": "💻 Para evaluar la homogeneidad de la fertilidad de un suelo se tomaron alícuotas de 20 extracciones de suelo midiéndose su contenido de nitrógeno, en ppm.\n\\[\n\\begin{aligned}\n&0,50 \\quad 0,48 \\quad 0,39 \\quad 0,41 \\quad 0,43 \\quad 0,49 \\quad 0,54 \\quad 0,48 \\quad 0,52 \\quad 0,51 \\\\\n&0,49 \\quad 0,47 \\quad 0,44 \\quad 0,45 \\quad 0,40 \\quad 0,38 \\quad 0,50 \\quad 0,51 \\quad 0,52 \\quad 0,45\n\\end{aligned}\n\\]\nSe acepta que un suelo es homogéneo en fertilidad, si el contenido de nitrógeno presenta una varianza de a lo sumo \\(0,005\\). Con los datos de la muestra, decida si el suelo es homogéneo o no en su fertilidad utilizando un nivel de significancia del \\(1\\%\\).\nVer pasos para resolver en R",
     "crumbs": [
       "TRABAJO PRÁCTICO 8",
       "Ejercicio 8.5"
@@ -42,6 +152,13 @@
       "TRABAJO PRÁCTICO 8",
       "Ejercicio 8.3"
     ]
+  },
+  {
+    "objectID": "tp8/ejercicio8.17.html",
+    "href": "tp8/ejercicio8.17.html",
+    "title": "Ejercicio 8.17",
+    "section": "",
+    "text": "📊 Considere la experiencia del Ejercicio 2.10 en la que se le solicitó el análisis descriptivo de algún conjunto de datos. Realice la inferencia estadística, test de hipótesis y/o estimación, sobre los parámetros poblacionales, que crea necesaria de acuerdo a los objetivos planteados."
   },
   {
     "objectID": "tp8/ejercicio8.15.html",
@@ -88,135 +205,157 @@
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.8.html",
-    "href": "tp7/ejercicio7.8.html",
-    "title": "Ejercicio 7.8",
+    "objectID": "tp7/ejercicio7.9.html",
+    "href": "tp7/ejercicio7.9.html",
+    "title": "Ejercicio 7.9",
     "section": "",
-    "text": "Para comprobar si la tolerancia a la glucosa en sujetos sanos tiende a decrecer con la edad, se realizó un test oral de glucosa a dos muestras de pacientes sanos: jóvenes y adultos.\nEl test consistió en medir el nivel de glucosa en sangre al momento de la ingestión de 100 g de glucosa (nivel basal) y a los 60 minutos de la toma.\nSuponga que todas las variables involucradas siguen una distribución normal.",
+    "text": "Se desea establecer el contenido vitamínico medio de un alimento balanceado para pollos. Se toma una muestra de 50 bolsas y se encuentra que el contenido promedio de vitaminas por cada 100 g es de 12 mg y que la desviación estándar es de 2 mg.\n\nDetermine un intervalo de confianza para la media con un coeficiente de confianza del 95 %. ¿Dicho intervalo de confianza es exacto o asintótico? Fundamente.",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.8"
+      "Ejercicio 7.9"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.8.html#datos",
-    "href": "tp7/ejercicio7.8.html#datos",
-    "title": "Ejercicio 7.8",
-    "section": "Datos",
-    "text": "Datos\n\nPacientes jóvenes\n\n\n\nNivel basal\n81\n89\n80\n75\n74\n97\n76\n89\n83\n77\n\n\n\n\n60 minutos\n136\n150\n149\n141\n138\n154\n141\n155\n145\n147\n\n\n\n\n\nPacientes adultos\n\n\n\nNivel basal\n98\n94\n93\n88\n79\n90\n86\n89\n81\n90\n\n\n\n\n60 minutos\n196\n190\n191\n189\n159\n185\n182\n190\n170\n197",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.8"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.8.html#variación-del-nivel-de-glucosa-dentro-de-cada-grupo",
-    "href": "tp7/ejercicio7.8.html#variación-del-nivel-de-glucosa-dentro-de-cada-grupo",
-    "title": "Ejercicio 7.8",
-    "section": "1. Variación del nivel de glucosa dentro de cada grupo",
-    "text": "1. Variación del nivel de glucosa dentro de cada grupo\nSe desea evaluar si el nivel de glucosa en sangre cambia luego de 60 minutos respecto del nivel basal.\n\nConstruya un intervalo de confianza del 99 % para la diferencia media entre las mediciones de nivel basal y a los 60 minutos en los pacientes jóvenes.\nInterprete el intervalo obtenido y concluya si existe evidencia de una variación significativa del nivel de glucosa.\nRepita los incisos anteriores para los pacientes adultos.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.8"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.8.html#comparación-del-nivel-basal-entre-adultos-y-jóvenes",
-    "href": "tp7/ejercicio7.8.html#comparación-del-nivel-basal-entre-adultos-y-jóvenes",
-    "title": "Ejercicio 7.8",
-    "section": "2. Comparación del nivel basal entre adultos y jóvenes",
-    "text": "2. Comparación del nivel basal entre adultos y jóvenes\n\nConstruya un intervalo de confianza del 99 % para la diferencia entre las medias poblacionales del nivel basal de glucosa de ambos grupos.\nInterprete el intervalo obtenido y concluya si el nivel basal medio difiere entre adultos y jóvenes.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.8"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.8.html#comparación-del-nivel-de-glucosa-a-los-60-minutos",
-    "href": "tp7/ejercicio7.8.html#comparación-del-nivel-de-glucosa-a-los-60-minutos",
-    "title": "Ejercicio 7.8",
-    "section": "3. Comparación del nivel de glucosa a los 60 minutos",
-    "text": "3. Comparación del nivel de glucosa a los 60 minutos\n\nConstruya un intervalo de confianza del 99 % para la diferencia entre las medias poblacionales del nivel de glucosa a los 60 minutos de ambos grupos.\nInterprete el intervalo obtenido y concluya si la concentración media de glucosa a los 60 minutos difiere entre adultos y jóvenes.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.8"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.8.html#predicción-para-un-nuevo-paciente",
-    "href": "tp7/ejercicio7.8.html#predicción-para-un-nuevo-paciente",
-    "title": "Ejercicio 7.8",
-    "section": "4. Predicción para un nuevo paciente",
-    "text": "4. Predicción para un nuevo paciente\n\nConstruya un intervalo de predicción del 95 % para el nivel basal de glucosa de un nuevo paciente joven.\nConstruya un intervalo de predicción del 95 % para el nivel basal de glucosa de un nuevo paciente adulto.\nInterprete ambos intervalos en el contexto del problema.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.8"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.6.html",
-    "href": "tp7/ejercicio7.6.html",
-    "title": "Ejercicio 7.6",
+    "objectID": "tp7/ejercicio7.7.html",
+    "href": "tp7/ejercicio7.7.html",
+    "title": "Ejercicio 7.7",
     "section": "",
-    "text": "La distribución del índice de colesterol en cierta población se supone normal con media \\(\\mu\\) y desviación típica \\(\\sigma\\). Se hacen análisis a 25 personas elegidas al azar entre los individuos de esta población y se obtienen los siguientes valores:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1,52\n1,65\n1,72\n1,65\n1,72\n1,83\n1,62\n1,75\n1,72\n1,68\n1,51\n1,65\n1,58\n\n\n1,65\n1,61\n1,70\n1,60\n1,73\n1,61\n1,52\n1,81\n1,72\n1,50\n1,82\n1,65\n\n\n\n\n💻1. Realice un gráfico de probabilidad normal. ¿Sugiere el gráfico que los datos, efectivamente, provienen de una distribución normal?\nVer pasos para resolver en R\n\nindique el intervalo de confianza para el índice medio de colesterol de esta población de nivel de confianza de \\(\\alpha\\).\n\n💻3. Obtenga el intervalo de confianza para el índice medio de colesterol a partir de la muestra de nivel de confianza de \\(0,05\\).\nVer pasos para resolver en R\n💻4. ¿Cuántos datos adicionales se necesitan para poder construir un intervalo para \\(\\mu\\) de nivel \\(0,05\\) pero con una longitud no mayor que \\(0,05\\)? ¿Qué forma tendría este intervalo?\nVer pasos para resolver en R\n💻5. Encuentre un intervalo de confianza para \\(\\exp(-\\mu)\\) de coeficiente de confianza \\(0,95\\).\nVer pasos para resolver en R\n💻 6. Encuentre un intervalo de confianza para la desviación típica de esta población de nivel de confianza de \\(0,10\\).\nVer pasos para resolver en R\n💻 7. Estime, con un nivel de confianza del \\(5\\%\\), el nivel de colesterol de un nuevo individuo.\nVer pasos para resolver en R",
+    "text": "Suponga que los rendimientos para las variedades de sorgo Nueva GR80 (\\(X\\)) y Overa (\\(Y\\)) siguen distribuciones normales con medias \\(\\mu_X\\) y \\(\\mu_Y\\), respectivamente, siendo la varianza común \\(\\sigma^2 = 120\\). Suponga además que las parcelas fueron sembradas y seleccionadas de manera independiente entre sí. Se desea estudiar si existen diferencias entre los rendimientos medios de ambas variedades.",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.6"
+      "Ejercicio 7.7"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.4.html",
-    "href": "tp7/ejercicio7.4.html",
-    "title": "Ejercicio 7.4",
-    "section": "",
-    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim N(\\mu; \\sigma^2)\\).\nExplique cómo influyen sobre un intervalo de confianza para la media poblacional:\n\nEl tamaño muestral.\nLa varianza, muestral o poblacional, según corresponda.\nLa media muestral.\nEl nivel de confianza.",
+    "objectID": "tp7/ejercicio7.7.html#parte-teórica",
+    "href": "tp7/ejercicio7.7.html#parte-teórica",
+    "title": "Ejercicio 7.7",
+    "section": "Parte teórica",
+    "text": "Parte teórica\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.4"
+      "Ejercicio 7.7"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.2.html",
-    "href": "tp7/ejercicio7.2.html",
-    "title": "Ejercicio 7.2",
-    "section": "",
-    "text": "Se trata de medir el período de un péndulo y se dispone de un cronómetro de precisión conocida, es decir, se conoce la varianza del error. Se supone que las observaciones son de la forma \\(X_i=\\mu+e_i\\), donde \\(e_i \\sim N(0;0,25)\\) y son independientes.\nLos datos obtenidos son:\n5,1    5,2    5,6    5,1    5,5    5,8    5,9    4,9    5,2    5,6\n\nEncuentre un intervalo de confianza para \\(\\mu\\) de coeficiente 0,95.\n¿Cuál debería haber sido el tamaño de la muestra si se hubiera deseado que la longitud del intervalo fuese a lo sumo 0,10?",
+    "objectID": "tp7/ejercicio7.7.html#parte-b.-construcción-de-intervalos-de-confianza",
+    "href": "tp7/ejercicio7.7.html#parte-b.-construcción-de-intervalos-de-confianza",
+    "title": "Ejercicio 7.7",
+    "section": "Parte B. Construcción de intervalos de confianza",
+    "text": "Parte B. Construcción de intervalos de confianza\n\nEvalúe el valor del estadístico utilizando los datos muestrales.\nConstruya un intervalo de confianza para:\n\n\\[\n\\mu_1-\\mu_2\n\\]\nutilizando un nivel de significación:\n\\[\n\\alpha=0,05.\n\\]\n\nA partir del intervalo obtenido, indique si hay evidencia para sugerir que existen diferencias entre los rendimientos medios de ambas variedades.\nResponda:\n\n\n¿Cómo resultaría el intervalo de confianza si se utilizara un nivel de confianza mayor?\n¿Cómo resultaría el intervalo de confianza si se considerara un mayor tamaño muestral?",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.2"
+      "Ejercicio 7.7"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.14.html",
-    "href": "tp7/ejercicio7.14.html",
-    "title": "Ejercicio 7.14",
-    "section": "",
-    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{E}(\\lambda)\\).\n\\[Y=2\\lambda X\\]\ntiene distribución chi-cuadrado con 2 grados de libertad.\n\\[T=2\\lambda(X_1+X_2+\\cdots+X_n)\\]\ntiene distribución chi-cuadrado con \\(2n\\) grados de libertad.\n💻 4. Se sabe que el tiempo de duración de cierto tipo de lámparas tiene distribución exponencial de parámetro \\(\\lambda\\). Se han probado 20 lámparas y los tiempos de duración, en días, fueron los siguientes:\nEncuentre un intervalo de confianza para \\(\\lambda\\) de nivel \\(0,01\\).",
+    "objectID": "tp7/ejercicio7.7.html#diferencia-de-medias-con-varianzas-conocidas",
+    "href": "tp7/ejercicio7.7.html#diferencia-de-medias-con-varianzas-conocidas",
+    "title": "Ejercicio 7.7",
+    "section": "Diferencia de medias con varianzas conocidas",
+    "text": "Diferencia de medias con varianzas conocidas\n\nIdentifique el parámetro de interés.\nConstruya el pivote correspondiente para obtener un intervalo de confianza para:\n\n\\[\n\\mu_1-\\mu_2\n\\] suponiendo varianzas conocidas 3. Indique qué distribución sigue dicho estadístico y bajo qué supuesto es válida.\n\nObtenga la expresión general del intervalo de confianza para la \\(\\mu_1-\\mu_2\\).",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.14"
+      "Ejercicio 7.7"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.12.html",
-    "href": "tp7/ejercicio7.12.html",
-    "title": "Ejercicio 7.12",
-    "section": "",
-    "text": "Dos vacunas diferentes, producidas con la finalidad de prevenir una enfermedad en aves domésticas, mostraron una eficiencia del 80 % y 88 %, respectivamente, sobre dos muestras independientes de 400 aves cada una.\n💻1. Construya un intervalo de confianza del 95 % para la diferencia de porcentajes de aves vacunadas que sobreviven a la peste.\nVer pasos para resolver en R\n\n¿Cuál es el significado de su intervalo de confianza?",
+    "objectID": "tp7/ejercicio7.7.html#diferencia-de-medias-con-varianzas-desconocidas",
+    "href": "tp7/ejercicio7.7.html#diferencia-de-medias-con-varianzas-desconocidas",
+    "title": "Ejercicio 7.7",
+    "section": "Diferencia de medias con varianzas desconocidas",
+    "text": "Diferencia de medias con varianzas desconocidas\n\nConstruya el pivote correspondiente para obtener un intervalo de confianza para:\n\n\\[\n\\mu_1-\\mu_2\n\\] suponiendo varianzas desconocidas 6. Indique qué distribución sigue dicho estadístico y bajo qué supuesto es válida.\n\nObtenga la expresión general del intervalo de confianza para la \\(\\mu_1-\\mu_2\\).",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.12"
+      "Ejercicio 7.7"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.10.html",
-    "href": "tp7/ejercicio7.10.html",
-    "title": "Ejercicio 7.10",
-    "section": "",
-    "text": "Una droga cura cierta enfermedad con probabilidad \\(p\\). En una prueba con 100 enfermos, se curaron 30.\n\nDefina la variable aleatoria de interés e indique su distribución .\nIdentifique el estimador puntual del parámetro \\(p\\).\nConstruya el estadístico pivotal asintótico adecuado para obtener un intervalo de confianza para \\(p\\) e indique la distribución aproximada que sigue. Justifique su respuesta.\n\n💻 4. Obtenga un intervalo de confianza para \\(p\\) de nivel asintótico \\(0,05\\).\n💻 5. ¿Qué tamaño muestral se debe elegir para que la longitud del intervalo sea menor que \\(0,1\\)?",
+    "objectID": "tp7/ejercicio7.7.html#diferencia-de-medias-para-muestras-apareadas",
+    "href": "tp7/ejercicio7.7.html#diferencia-de-medias-para-muestras-apareadas",
+    "title": "Ejercicio 7.7",
+    "section": "Diferencia de medias para muestras apareadas",
+    "text": "Diferencia de medias para muestras apareadas\nSuponga ahora que, en lugar de sembrarse parcelas diferentes para cada variedad, cada parcela se divide en dos mitades: una mitad se siembra con Nueva GR80 y la otra con Overa.\nEn este caso, las observaciones quedan apareadas por parcela.\nNo considere los datos de la muestra correspondientes a la última columna de la variedad Overa.\n\nExplique por qué este diseño corresponde a muestras apareadas.\nDefina la variable diferencia:\n\n\\[\nD_i=X_{1i}-X_{2i}\n\\] y Identifique el parámetro de interés.\n\nConstruya el pivote adecuado para obtener un intervalo de confianza para:\n\n\\[\n\\mu_D\n\\]\n\nIndique qué distribución sigue dicho pivote.\nObtenga la expresión general del intervalo de confianza para la media de las diferencias.",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.10"
+      "Ejercicio 7.7"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.5.html",
+    "href": "tp7/ejercicio7.5.html",
+    "title": "Ejercicio 7.5",
+    "section": "",
+    "text": "Una muestra de 10 tabletas de aspirinas producidas por cierta empresa farmacéutica arrojó los siguientes pesos expresados en miligramos:\n1190, 1230, 1180, 1210, 1270, 1170, 1150, 1140, 1190, 1200.\nSi se supone que los pesos se distribuyen normalmente.\n\nParte A. Análisis previo del problema\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?\n\n\n\nParte B. Construcción de intervalos de confianza\n\nObtenga el correspondiente intervalo de confianza para el desvío estándar poblacional.\n\nUtilice un nivel de significación del 5 %.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.5"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.3.html",
+    "href": "tp7/ejercicio7.3.html",
+    "title": "Ejercicio 7.3",
+    "section": "",
+    "text": "El espárrago es una planta perenne cuyo cultivo comercial puede tener una duración de 15 años y su implantación es costosa. Dada la extensión del sistema radicular, la profundidad del suelo es fundamental, considerándose indispensable contar con un promedio mínimo de 80 cm de sustrato permeable. Se realizan 14 determinaciones de la profundidad del sustrato permeable (en cm) en puntos tomados al azar en dos campos (A y B). Los resultados fueron los siguientes:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCampo A\n72\n78\n86\n78\n90\n104\n76\n70\n83\n75\n90\n81\n85\n72\n\n\nCampo B\n78\n82\n68\n68\n74\n81\n85\n73\n75\n89\n100\n91\n82\n75\n\n\n\n\nParte A. Análisis previo del problema\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?\n\n\n\nParte B. Construcción de intervalos de confianza\n\nA partir de los intervalos de confianza al 95 %, determine si estos campos son aptos para el cultivo. Realice las suposiciones que sean necesarias respecto de la distribución de la variable y los gráficos que crea convenientes para analizar su validez.\nSe toman 14 observaciones de un campo C y se obtiene el siguiente intervalo de confianza para la profundidad media (en cm):\n\n\\[\nIC(\\mu;95\\%)=[77;\\,85]\n\\]\n¿Cuáles son los valores de la media muestral y la varianza muestral?",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.3"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.15.html",
+    "href": "tp7/ejercicio7.15.html",
+    "title": "Ejercicio 7.15",
+    "section": "",
+    "text": "⚙️Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim U(0;\\theta)\\) y sea el estadístico\n\\[T=\\max\\{X_1,X_2,\\ldots,X_n\\}.\\]\n\nDemuestre que \\(T/\\theta\\) tiene distribución independiente de \\(\\theta\\).\nEn base a lo obtenido en el ítem 1, construya un intervalo de confianza de longitud mínima para \\(\\theta\\) de nivel \\(\\alpha\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.15"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.13.html",
+    "href": "tp7/ejercicio7.13.html",
+    "title": "Ejercicio 7.13",
+    "section": "",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{P}(\\lambda)\\).\n\n\nConstruya el estadístico pivotal adecuado e indique la distribución que sigue.\nConstruya un intervalo de confianza para \\(\\lambda\\) de nivel asintótico \\(\\alpha\\).\n\n💻 4. El número de llamadas diarias a una central telefónica sigue un proceso de Poisson con media \\(\\lambda\\).\nSe ha registrado el número de llamadas durante 40 días, obteniéndose los siguientes valores:\n40 | 33 | 43 | 35 | 40 | 41 | 51 | 54 | 42 | 54 |\n42 | 51 | 45 | 42 | 44 | 38 | 35 | 47 | 37 | 48 |\n33 | 47 | 47 | 44 | 29 | 36 | 46 | 39 | 45 | 48 |\n37 | 51 | 37 | 45 | 56 | 40 | 51 | 42 | 42 | 33 |\n\nEvalúe el valor del estadístico utilizando los datos muestrales.\n\nObtenga un intervalo de confianza para $\\lambda$ de nivel asintótico \\(0,10\\).\n\nVer pasos para resolver enR",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.13"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.11.html",
+    "href": "tp7/ejercicio7.11.html",
+    "title": "Ejercicio 7.11",
+    "section": "",
+    "text": "El nivel de colesterol es un factor de alto riesgo en el desarrollo de la enfermedad de arterioesclerosis cardíaca y de la enfermedad de arteria coronaria; por lo tanto, es importante determinar los niveles que se esperan en los diferentes grupos de edad de acuerdo al sexo. Para comparar el nivel de colesterol en varones de entre 20 y 29 años de edad frente a las mujeres del mismo grupo etario, se realizó un estudio cuyos resultados fueron los siguientes:\n\n\n\nEstadístico\nHombres\nMujeres\n\n\n\n\nTamaño muestral\n96\n85\n\n\nMedia muestral (mg/dl)\n170,8\n181,1\n\n\nDesvío estándar (mg/dl)\n30,6\n30,8\n\n\n\nCalcule un intervalo de confianza del 90 % para la diferencia de medias del nivel de colesterol entre hombres y mujeres.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.11"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.1.html",
+    "href": "tp7/ejercicio7.1.html",
+    "title": "Ejercicio 7.1",
+    "section": "",
+    "text": "Se sabe que la varianza de las notas de un test psicológico, cuando es aplicado a una población de niños de 10 años de edad, es 255. En una particular localidad se sortearon 9 mujeres y 25 varones, todos con 10 años de edad, y las notas medias obtenidas fueron 86,6 y 84,0, respectivamente.\n\n\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?\n\n\n\n\n\nConstruya un intervalo de confianza del 95 % para la nota media de la población de niñas.\nConstruya un intervalo de confianza del 95 % para la nota media de la población de niños.\nRepita los incisos anteriores utilizando un coeficiente de confianza del 99 %.\nCompare los intervalos obtenidos para ambos niveles de confianza. ¿Qué efecto tiene aumentar el nivel de confianza sobre la amplitud del intervalo?\nInterprete cada uno de los intervalos obtenidos en el contexto del problema.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.1"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.1.html#section",
+    "href": "tp7/ejercicio7.1.html#section",
+    "title": "Ejercicio 7.1",
+    "section": "",
+    "text": "Se sabe que la varianza de las notas de un test psicológico, cuando es aplicado a una población de niños de 10 años de edad, es 255. En una particular localidad se sortearon 9 mujeres y 25 varones, todos con 10 años de edad, y las notas medias obtenidas fueron 86,6 y 84,0, respectivamente.\n\n\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?\n\n\n\n\n\nConstruya un intervalo de confianza del 95 % para la nota media de la población de niñas.\nConstruya un intervalo de confianza del 95 % para la nota media de la población de niños.\nRepita los incisos anteriores utilizando un coeficiente de confianza del 99 %.\nCompare los intervalos obtenidos para ambos niveles de confianza. ¿Qué efecto tiene aumentar el nivel de confianza sobre la amplitud del intervalo?\nInterprete cada uno de los intervalos obtenidos en el contexto del problema.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.1"
     ]
   },
   {
@@ -451,7 +590,7 @@
     "href": "tp2/ejercicio2.5.html",
     "title": "ejercicio2.5",
     "section": "",
-    "text": "En este sección trabajaremos con la base de datos Gapminder\nGapminder es una base de datos internacional que contiene información socioeconómica de distintos países a lo largo del tiempo. Cada observación corresponde a un país en un año específico, y las variables permiten estudiar fenómenos como esperanza de vida, crecimiento poblacional y desarrollo económico.\n\n# Instalar solo una vez\ninstall.packages(\"gapminder\",\n                 repos = \"https://cloud.r-project.org\")\n# Luego, en el documento:\nlibrary(gapminder)\n\n\nObserva la base de datos\n\n\ngapminder\n\n# A tibble: 1,704 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1952    28.8  8425333      779.\n 2 Afghanistan Asia       1957    30.3  9240934      821.\n 3 Afghanistan Asia       1962    32.0 10267083      853.\n 4 Afghanistan Asia       1967    34.0 11537966      836.\n 5 Afghanistan Asia       1972    36.1 13079460      740.\n 6 Afghanistan Asia       1977    38.4 14880372      786.\n 7 Afghanistan Asia       1982    39.9 12881816      978.\n 8 Afghanistan Asia       1987    40.8 13867957      852.\n 9 Afghanistan Asia       1992    41.7 16317921      649.\n10 Afghanistan Asia       1997    41.8 22227415      635.\n# ℹ 1,694 more rows\n\n\n\nIdentifica las variables en estudio y su tipo\n\n\nstr(gapminder) #vemos la estructura de la base datos \n\ntibble [1,704 × 6] (S3: tbl_df/tbl/data.frame)\n $ country  : Factor w/ 142 levels \"Afghanistan\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ continent: Factor w/ 5 levels \"Africa\",\"Americas\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ year     : int [1:1704] 1952 1957 1962 1967 1972 1977 1982 1987 1992 1997 ...\n $ lifeExp  : num [1:1704] 28.8 30.3 32 34 36.1 ...\n $ pop      : int [1:1704] 8425333 9240934 10267083 11537966 13079460 14880372 12881816 13867957 16317921 22227415 ...\n $ gdpPercap: num [1:1704] 779 821 853 836 740 ...\n\n\nstr(df) indica las variables y su tipo en la base de datos df\n\nAverigua el tamaño de la base de datos\n\n\ndim(gapminder) # vemos la dimensión del data.frame\n\n[1] 1704    6\n\n\ndim(df) indica la dimensión de la base de datos (df)\n\nRealiza un box plot que muestre la esperanza de vida por continente y analiza los resultados.\n\n\nlibrary(ggplot2)\n\nggplot(gapminder,\n       aes(x = continent,\n           y = lifeExp)) +\n  geom_boxplot(fill = \"lightgreen\") +\n  labs(\n    title = \"Esperanza de vida por continente\",\n    x = \"Continente\",\n    y = \"Esperanza de vida\"\n  ) +\n  theme_minimal()",
+    "text": "En este sección trabajaremos con la base de datos Gapminder\nGapminder es una base de datos internacional que contiene información socioeconómica de distintos países a lo largo del tiempo. Cada observación corresponde a un país en un año específico, y las variables permiten estudiar fenómenos como esperanza de vida, crecimiento poblacional y desarrollo económico.\n\n# Instalar solo una vez\ninstall.packages(\"gapminder\",\n                 repos = \"https://cloud.r-project.org\")\n\npackage 'gapminder' successfully unpacked and MD5 sums checked\n\nThe downloaded binary packages are in\n    C:\\Users\\USUARIO\\AppData\\Local\\Temp\\RtmpmM9DxB\\downloaded_packages\n\n# Luego, en el documento:\nlibrary(gapminder)\n\n\nObserva la base de datos\n\n\ngapminder\n\n# A tibble: 1,704 × 6\n   country     continent  year lifeExp      pop gdpPercap\n   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;\n 1 Afghanistan Asia       1952    28.8  8425333      779.\n 2 Afghanistan Asia       1957    30.3  9240934      821.\n 3 Afghanistan Asia       1962    32.0 10267083      853.\n 4 Afghanistan Asia       1967    34.0 11537966      836.\n 5 Afghanistan Asia       1972    36.1 13079460      740.\n 6 Afghanistan Asia       1977    38.4 14880372      786.\n 7 Afghanistan Asia       1982    39.9 12881816      978.\n 8 Afghanistan Asia       1987    40.8 13867957      852.\n 9 Afghanistan Asia       1992    41.7 16317921      649.\n10 Afghanistan Asia       1997    41.8 22227415      635.\n# ℹ 1,694 more rows\n\n\n\nIdentifica las variables en estudio y su tipo\n\n\nstr(gapminder) #vemos la estructura de la base datos \n\ntibble [1,704 × 6] (S3: tbl_df/tbl/data.frame)\n $ country  : Factor w/ 142 levels \"Afghanistan\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ continent: Factor w/ 5 levels \"Africa\",\"Americas\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ year     : int [1:1704] 1952 1957 1962 1967 1972 1977 1982 1987 1992 1997 ...\n $ lifeExp  : num [1:1704] 28.8 30.3 32 34 36.1 ...\n $ pop      : int [1:1704] 8425333 9240934 10267083 11537966 13079460 14880372 12881816 13867957 16317921 22227415 ...\n $ gdpPercap: num [1:1704] 779 821 853 836 740 ...\n\n\nstr(df) indica las variables y su tipo en la base de datos df\n\nAverigua el tamaño de la base de datos\n\n\ndim(gapminder) # vemos la dimensión del data.frame\n\n[1] 1704    6\n\n\ndim(df) indica la dimensión de la base de datos (df)\n\nRealiza un box plot que muestre la esperanza de vida por continente y analiza los resultados.\n\n\nlibrary(ggplot2)\n\nggplot(gapminder,\n       aes(x = continent,\n           y = lifeExp)) +\n  geom_boxplot(fill = \"lightgreen\") +\n  labs(\n    title = \"Esperanza de vida por continente\",\n    x = \"Continente\",\n    y = \"Esperanza de vida\"\n  ) +\n  theme_minimal()",
     "crumbs": [
       "TRABAJO PRÁCTICO 2",
       "Ejercicio 2.5"
@@ -469,95 +608,147 @@
     ]
   },
   {
-    "objectID": "pasos_R/ejercicio7.7_R_1_b.html",
-    "href": "pasos_R/ejercicio7.7_R_1_b.html",
-    "title": "ejercicio7.7_R_1",
+    "objectID": "pasos_R/ejercicio9.6_R_1.html",
+    "href": "pasos_R/ejercicio9.6_R_1.html",
+    "title": "Ejercicio 9.6 con R",
     "section": "",
-    "text": "Cargamos los datos\n\novera &lt;- c(\n  115, 158, 139, 143, 151, 152, 148, 139, 153, 125, 136,\n  129, 146, 136, 140, 150, 140, 139, 128, 129, 125, 130,\n  140, 149, 150, 139, 142, 138, 129, 126, 137, 148, 146,\n  150, 158, 153, 119, 139, 154, 139, 151, 154, 139, 132\n)\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n\n\nDatos descriptivos\n\nsigma2 &lt;- 120\nsigma &lt;- sqrt(sigma2)\n\nnx &lt;- length(nueva_gr80)\nny &lt;- length(overa)\n\nxbarra &lt;- mean(nueva_gr80)\nybarra &lt;- mean(overa)\n\n\n\nEstadistico\n\nz0 &lt;- (xbarra-ybarra)/\n      (sigma*sqrt(1/nx+1/ny))\n\nz0\n\n[1] -2.767343"
+    "text": "$ H_0: e_i~N(,^2)vs H_1: Loserorres no siguienesadistribución $\n\nPaso 1. Ingresar los datos\n\nerrores &lt;- c(\n  -0.3002,-1.2777,0.2443,1.2765,1.1984,1.7331,-2.1836,2.3757,\n  -0.6902,-1.6904,-1.8469,-0.9776,-0.7735,-2.1179,-0.5679,-0.6549,\n  -0.3270,-0.3702,1.3426,-0.0853,-0.1862,-0.5132,1.9722,0.8657,\n   1.6615,-1.6124,0.5389,0.9022,1.9189,-0.0845,-0.5238,0.6751,\n  -1.4442,-0.8472,-1.5216,-0.3629,-0.0325,0.0281,-0.3227,2.1945,\n  -0.2342,1.0950,-1.0867,-0.4040,0.1349,-0.3655,-0.3813,0.7576\n)\n\nn &lt;- length(errores)\nsigma &lt;- sqrt(mean(errores^2))   # estimador de σ suponiendo μ=0\nsigma\n\n[1] 1.148513\n\n\n\n\nPaso 2. Construir los intervalos\n\nk &lt;- 6\n\nbreaks &lt;- seq(min(errores)-0.01,\n              max(errores)+0.01,\n              length.out = k+1)\n\nbreaks\n\n[1] -2.1936000 -1.4303833 -0.6671667  0.0960500  0.8592667  1.6224833  2.3857000\n\n\n\n\nPaso 3. Frecuencias observadas\n\nFO &lt;- table(cut(errores,\n                breaks = breaks,\n                include.lowest = TRUE))\n\nFO\n\n\n [-2.19,-1.43] (-1.43,-0.667] (-0.667,0.096]  (0.096,0.859]   (0.859,1.62] \n             7              6             18              5              6 \n   (1.62,2.39] \n             6 \n\n\n\n\nPaso 4. Frecuencias esperadas\n\nprob &lt;- pnorm(breaks[-1],0,sigma)-\n        pnorm(breaks[-length(breaks)],0,sigma)\n\nFE &lt;- n*prob\n\ncbind(FO,FE)\n\n               FO        FE\n[-2.19,-1.43]   7  3.764081\n(-1.43,-0.667]  6  8.360013\n(-0.667,0.096] 18 12.128134\n(0.096,0.859]   5 11.495631\n(0.859,1.62]    6  7.118804\n(1.62,2.39]     6  2.879205\n\n\n\n\nPaso 5. Verificar que todas las frecuencias esperadas sean mayores que 5\n\nFE\n\n[1]  3.764081  8.360013 12.128134 11.495631  7.118804  2.879205\n\n\nSi alguna resulta menor que 5, unir intervalos extremos.\n\n\nPaso 6. Estadístico de prueba\n\nchi &lt;- sum((FO-FE)^2/FE)\n\nchi\n\n[1] 13.51983\n\n\n\n\nPaso 7. Valor crítico y valor p\nComo se estimó un parámetro (\\(\\sigma\\)),\n\\[gl=k-1-1.\\]\n\ngl &lt;- length(FE)-1-1\n\npvalor &lt;- 1-pchisq(chi,gl)\n\nc(Chi_cuadrado=chi,\n  gl=gl,\n  pvalor=pvalor)\n\nChi_cuadrado           gl       pvalor \n13.519833491  4.000000000  0.008996271 \n\n\nAsí todas las frecuencias esperadas son iguales y es mucho más elegante.\nPor ejemplo, con 6 clases:\n\nbreaks &lt;- qnorm(seq(0,1,length=7),0,sigma)\n\nbreaks[1] &lt;- -Inf\nbreaks[7] &lt;- Inf\n\nFO &lt;- table(cut(errores, breaks, include.lowest = TRUE))\n\nFE &lt;- rep(n/6,6)"
   },
   {
-    "objectID": "pasos_R/ejercicio7.6_R_6.html",
-    "href": "pasos_R/ejercicio7.6_R_6.html",
-    "title": "Ejercicio 7.6 6 R",
+    "objectID": "pasos_R/ejercicio8.5_R_1.html",
+    "href": "pasos_R/ejercicio8.5_R_1.html",
+    "title": "Untitled",
     "section": "",
-    "text": "6. Intervalo para la desviación típica\n\nCarga de datos\n\ncolesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nEl pivote utilizado es\n\\[\\frac{(n-1)S^2}{\\sigma^2}\n\\sim\\chi^2_{n-1}.\\]\nPara un nivel de confianza del 90 %:\n\nalpha &lt;- 0.10\nn &lt;- length(colesterol)\ns2 &lt;- var(colesterol) #calculamos la varianza de los datos \n\nLI.var &lt;- (n-1)*s2/qchisq(1-alpha/2,n-1) #límite inferior de la IC de la varianza pob\n\nLS.var &lt;- (n-1)*s2/qchisq(alpha/2,n-1)#límite superior de la IC de la varianza pob\n\nIC.sigma &lt;- sqrt(c(LI.var,LS.var)) #intervalo de confianza para el desvío poblacional\n\nIC.sigma\n\n[1] 0.0760814 0.1233726"
+    "text": "# Datos\nnitrogeno &lt;- c(0.50, 0.48, 0.39, 0.41, 0.43, 0.49, 0.54, 0.48, 0.52, 0.51,\n               0.49, 0.47, 0.44, 0.45, 0.40, 0.38, 0.50, 0.51, 0.52, 0.45)\n\n# Datos muestrales\nn &lt;- length(nitrogeno)\ns2 &lt;- var(nitrogeno)\n\nn\n\n[1] 20\n\ns2\n\n[1] 0.002216842\n\n\nHipótesis:\n\\(H_0:sigma^2≤0,005 \\quad vs\\quad H_1:sigma^2&gt;0,005\\)\nComo se quiere decidir si la varianza supera \\(0,005\\), el test es unilateral derecho.\n\n# Varianza máxima aceptada\nsigma2_0 &lt;- 0.005\n\n# Estadístico de prueba\nchi_obs &lt;- (n - 1) * s2 / sigma2_0\nchi_obs\n\n[1] 8.424\n\n\n\n# Valor crítico para alpha = 0.01\nalpha &lt;- 0.01\nchi_crit &lt;- qchisq(1 - alpha, df = n - 1)\nchi_crit\n\n[1] 36.19087\n\n\n\n# Valor p\np_valor &lt;- 1 - pchisq(chi_obs, df = n - 1)\np_valor\n\n[1] 0.9818725\n\n\nCon estos datos se obtiene aproximadamente:\n\\(S^2=0,0024\\) \\(\\chi^2_{obs}=9,12\\)\ny el valor crítico es: \\(\\chi^2_{0,99;19}=36,19\\)\nComo:\n\\(\\chi^2_{obs}=9,12\\) es menor a \\(\\chi^2_{0,99;19}=36,19\\) no se rechaza \\(H_0\\).\nAdemás, el valor \\(p\\) es mayor que \\(0,01\\).\nConclusión: No se rechaza la \\(H_0\\) con un nivel de significanción del \\(0,01\\), no hay evidencia suficiente para afirmar que la varianza del contenido de nitrógeno sea mayor que \\(0,005\\). Por lo tanto, se puede considerar que el suelo es homogéneo en fertilidad."
   },
   {
-    "objectID": "pasos_R/ejercicio7.6_R_4.html",
-    "href": "pasos_R/ejercicio7.6_R_4.html",
-    "title": "Ejercicio 7.6 4 R",
+    "objectID": "pasos_R/ejercicio8.10_R_1.html",
+    "href": "pasos_R/ejercicio8.10_R_1.html",
+    "title": "Ejercicio 8.10 1 y 2 con R",
     "section": "",
-    "text": "4. Tamaño muestral para una longitud máxima de 0,05\n\n#Carga de datos \ncolesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\nn\n\n[1] 25\n\n\nComo\n\\[L=2t_{\\alpha/2}\\frac{s}{\\sqrt n},\\]\ndebe cumplirse\n\\[L\\le0,05.\\]\n\ns &lt;- sd(colesterol)\n\nnuevo_n &lt;- ((2*qt(0.975,24)*s/0.05)^2)\n\nnuevo_n\n\n[1] 59.85812"
+    "text": "Paso 1 cargo los datos\n\n#ingreso los datos \n\n# Datos\nantes &lt;- c(12.6, 12.6, 13.7, 11.1, 11.3, 12.2, 10.0, 11.0)\ndespues &lt;- c(10.4, 11.5, 13.6, 12.0, 19.3, 8.8, 9.4, 10.7)\n\n\n\nPaso 2. Verificar el supuesto de normalidad de las diferencias\n\n# Diferencias\ndif &lt;- despues - antes\n\n# Test de Shapiro-Wilk\nshapiro.test(dif)\n\n\n    Shapiro-Wilk normality test\n\ndata:  dif\nW = 0.78754, p-value = 0.02102\n\n\nComo se desea saber si el tratamiento modifica el contenido medio de hemoglobina: ###Paso 3. Plantear las hipótesis\n\\(H_0:\\mu_D=0 \\quad vs\\quad H_1:\\mu_D\\neq 0\\)\n\n\nPaso 4. Realizar el test t apareado\n\nt.test(despues,\n       antes,\n       paired = TRUE,\n       alternative = \"two.sided\",\n       conf.level = 0.95)\n\n\n    Paired t-test\n\ndata:  despues and antes\nt = 0.12343, df = 7, p-value = 0.9052\nalternative hypothesis: true mean difference is not equal to 0\n95 percent confidence interval:\n -2.723564  3.023564\nsample estimates:\nmean difference \n           0.15"
   },
   {
-    "objectID": "pasos_R/ejercicio7.6_R_1.html",
-    "href": "pasos_R/ejercicio7.6_R_1.html",
-    "title": "Ejercicio 7.6 1 R",
+    "objectID": "pasos_R/ejercicio7.7_R_1_c.html",
+    "href": "pasos_R/ejercicio7.7_R_1_c.html",
+    "title": "ejercicio7.7_R_1_c",
     "section": "",
-    "text": "colesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\nn\n\n[1] 25\n\n\n\n\n\n\nmean(colesterol)\n\n[1] 1.6608\n\nsd(colesterol)\n\n[1] 0.09371588\n\nvar(colesterol)\n\n[1] 0.008782667\n\nsummary(colesterol)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  1.500   1.610   1.650   1.661   1.720   1.830"
+    "text": "Cargamos los datos\n\novera &lt;- c(\n  115, 158, 139, 143, 151, 152, 148, 139, 153, 125, 136,\n  129, 146, 136, 140, 150, 140, 139, 128, 129, 125, 130,\n  140, 149, 150, 139, 142, 138, 129, 126, 137, 148, 146,\n  150, 158, 153, 119, 139, 154, 139, 151, 154, 139, 132\n)\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n\n\nsigma2 &lt;- 120\nsigma &lt;- sqrt(sigma2)\n\nnx &lt;- length(nueva_gr80)\nny &lt;- length(overa)\n\nxbarra &lt;- mean(nueva_gr80)\nybarra &lt;- mean(overa)\n\n\nalpha &lt;- 0.05\nsigma2 &lt;- 120\nsigma &lt;- sqrt(sigma2)\n\n\nz &lt;- qnorm(1-alpha/2)\n\nEE &lt;- sigma*sqrt(1/nx+1/ny)\n\nIC &lt;- c(\n  (xbarra-ybarra)-z*EE,\n  (xbarra-ybarra)+z*EE\n)\n\nIC\n\n[1] -11.313258  -1.932196"
   },
   {
-    "objectID": "pasos_R/ejercicio7.6_R_1.html#resolución-en-r",
-    "href": "pasos_R/ejercicio7.6_R_1.html#resolución-en-r",
-    "title": "Ejercicio 7.6 1 R",
+    "objectID": "pasos_R/ejercicio7.6_R_7.html",
+    "href": "pasos_R/ejercicio7.6_R_7.html",
+    "title": "Untitled",
     "section": "",
-    "text": "colesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\nn\n\n[1] 25\n\n\n\n\n\n\nmean(colesterol)\n\n[1] 1.6608\n\nsd(colesterol)\n\n[1] 0.09371588\n\nvar(colesterol)\n\n[1] 0.008782667\n\nsummary(colesterol)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  1.500   1.610   1.650   1.661   1.720   1.830"
+    "text": "Carga de datos\n\ncolesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\n\n\n7. Intervalo de predicción para un nuevo individuo\n\nalpha &lt;- 0.05\nn&lt;-length(colesterol)\n\nxbarra &lt;- mean(colesterol)\n\ns &lt;- sd(colesterol)\n\nt &lt;- qt(1-alpha/2,n-1)\n\nLI &lt;- xbarra-t*s*sqrt(1+1/n)\n\nLS &lt;- xbarra+t*s*sqrt(1+1/n)\n\nc(LI,LS)\n\n[1] 1.463549 1.858051"
   },
   {
-    "objectID": "pasos_R/ejercicio7.12_R_1.html",
-    "href": "pasos_R/ejercicio7.12_R_1.html",
-    "title": "Ejercicio 7.12.3",
+    "objectID": "pasos_R/ejercicio7.6_R_5.html",
+    "href": "pasos_R/ejercicio7.6_R_5.html",
+    "title": "Ejercicio 7.6 5 R",
     "section": "",
-    "text": "3. Intervalo de confianza del 95 % para la diferencia de proporciones\n\n# Datos\n\np1 &lt;- 0.80\np2 &lt;- 0.88\n\nn1 &lt;- 400\nn2 &lt;- 400\n\n# Nivel de significación\n\nalpha &lt;- 0.05\n\n# Valor crítico\n\nz &lt;- qnorm(1 - alpha/2)\n\n# Error estándar\n\nEE &lt;- sqrt(p1*(1-p1)/n1 +\n           p2*(1-p2)/n2)\n\n# Intervalo de confianza\n\nLI &lt;- (p1 - p2) - z * EE\nLS &lt;- (p1 - p2) + z * EE\n\nIC &lt;- c(Límite_inferior = LI,\n        Límite_superior = LS)\n\nIC\n\nLímite_inferior Límite_superior \n    -0.13050474     -0.02949526 \n\n\n\n\notra maneras\n\nprop.test\n\nx &lt;- c(320, 352)\nn &lt;- c(400, 400)\n\nprop.test(x, n,\n          conf.level = 0.95,\n          correct = FALSE)\n\n\n    2-sample test for equality of proportions without continuity correction\n\ndata:  x out of n\nX-squared = 9.5238, df = 1, p-value = 0.002028\nalternative hypothesis: two.sided\n95 percent confidence interval:\n -0.13050474 -0.02949526\nsample estimates:\nprop 1 prop 2 \n  0.80   0.88 \n\n\n\n\nBinomDiffCI\n\nlibrary(DescTools)\n\nBinomDiffCI(320,400,352,400,\n            method=\"wald\")\n\n       est     lwr.ci      upr.ci\n[1,] -0.08 -0.1305047 -0.02949526"
+    "text": "5. Intervalo para \\(e^{-\\mu}\\)\n\nCarga de los datos\n\ncolesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\n\n\nPrimero se obtiene el intervalo para la media poblacional\n\nIC_mu &lt;- t.test(colesterol)$conf.int # se asigna a IC_mu los LI y Ls del IC para la media poblacional\n\nLuego se aplica la transformación\n\\[g(\\mu)=e^{-\\mu}.\\]\n\nexp(-rev(IC_mu))\n\n[1] 0.1827778 0.1974804"
   },
   {
-    "objectID": "pasos_R/ejercicio4.2_R_1.html",
-    "href": "pasos_R/ejercicio4.2_R_1.html",
-    "title": "Ejercicio 4.2_R_1",
+    "objectID": "pasos_R/ejercicio7.6_R_3.html",
+    "href": "pasos_R/ejercicio7.6_R_3.html",
+    "title": "Ejercicio 7.6 3 R",
     "section": "",
-    "text": "# Fijamos semilla para que los resultados sean reproducibles\nset.seed(123)\n# Cantidad de réplicas\nB &lt;- 100\n\n# Tamaños muestrales\nn &lt;- c(10, 20, 30)\n\n\n# Simulación de las medias muestrales\nmedias_n10 &lt;- replicate(B, mean(runif(10, min = 240, max = 260)))\nmedias_n20 &lt;- replicate(B, mean(runif(20, min = 240, max = 260)))\nmedias_n30 &lt;- replicate(B, mean(runif(30, min = 240, max = 260)))\n\n\n# Histogramas\npar(mfrow = c(1, 3))\n\nhist(medias_n10,\n     main = \"n = 10\",\n     xlab = \"Media muestral\",\n     col = \"lightblue\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n20,\n     main = \"n = 20\",\n     xlab = \"Media muestral\",\n     col = \"lightgreen\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n30,\n     main = \"n = 30\",\n     xlab = \"Media muestral\",\n     col = \"lightpink\",\n     border = \"white\",\n     xlim = c(240, 260))\n\n\n\n\n\n\n\npar(mfrow = c(1, 1))"
+    "text": "colesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\nn\n\n[1] 25\n\n\n\n# Estadísticos descriptivos\nmean(colesterol)\n\n[1] 1.6608\n\nsd(colesterol)\n\n[1] 0.09371588\n\nvar(colesterol)\n\n[1] 0.008782667\n\nsummary(colesterol)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  1.500   1.610   1.650   1.661   1.720   1.830 \n\n\n\nIC manualmente\n\nxbarra &lt;- mean(colesterol) #obtenemos la media de los datos \ns &lt;- sd(colesterol) #obtenemos el desvío de los datos \n\nt &lt;- qt(0.975,n-1) # obtenemos el cuantil correspondiente para la distribución T con n-1 de libertad\n\nLI &lt;- xbarra-t*s/sqrt(n) #limite inferior \nLS &lt;- xbarra+t*s/sqrt(n) #limite Superior  \n\nc(LI,LS) #intervalo\n\n[1] 1.622116 1.699484\n\n\n\n\nIC Utlizando una función predetermianda en R\n\nt.test(colesterol,conf.level=0.95)$conf.int\n\n[1] 1.622116 1.699484\nattr(,\"conf.level\")\n[1] 0.95"
   },
   {
-    "objectID": "pasos_R/ejercicio3.3_R_3.html",
-    "href": "pasos_R/ejercicio3.3_R_3.html",
-    "title": "Ejercicio3.3_R_1",
+    "objectID": "pasos_R/ejercicio7.13_R_4.html",
+    "href": "pasos_R/ejercicio7.13_R_4.html",
+    "title": "Ejercicio 7.13 4 con R",
     "section": "",
-    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n\n#Para datos puros"
+    "text": "Evaluación del estadístico\n\nCon los datos muestrales,\n\nllamadas &lt;- c(\n40,33,43,35,40,41,51,54,42,54,\n42,51,45,42,44,38,35,47,37,48,\n33,47,47,44,29,36,46,39,45,48,\n37,51,37,45,56,40,51,42,42,33\n)\n\nn &lt;- length(llamadas)\n\nlambda_gorro &lt;- mean(llamadas)\n\nlambda_gorro\n\n[1] 42.75\n\n\nEl error estándar estimado es\n\nEE &lt;- sqrt(lambda_gorro/n)\n\nEE\n\n[1] 1.033804\n\n\nEvaluando el pivote para el caso\n\\[\n\\lambda=0,\n\\]\n\nZ &lt;- lambda_gorro/EE\n\nZ\n\n[1] 41.35215\n\n\n\nIntervalo de confianza\n\n\nalpha &lt;- 0.10\n\nz &lt;- qnorm(1-alpha/2)\n\nLI &lt;- lambda_gorro-z*EE\nLS &lt;- lambda_gorro+z*EE\n\nIC &lt;- c(Límite_inferior=LI,\n        Límite_superior=LS)\n\nIC\n\nLímite_inferior Límite_superior \n       41.04954        44.45046"
   },
   {
-    "objectID": "pasos_R/ejercicio3.3_R_3.html#media-y-varianza",
-    "href": "pasos_R/ejercicio3.3_R_3.html#media-y-varianza",
-    "title": "Ejercicio3.3_R_1",
+    "objectID": "pasos_R/ejercicio4.3_R_1.html",
+    "href": "pasos_R/ejercicio4.3_R_1.html",
+    "title": "Ejercicio 4.3_R_1",
+    "section": "",
+    "text": "1. Configurar los parámetros del experimento\n\nset.seed(123) # Asegura que los resultados sean replicables \nreplicas&lt;- 100 # Número de repeticiones (réplicas) \npi &lt;- 0.80 # Probabilidad de éxito de la marca Z\n\n\n\n2. Definir los tamaños de muestra a evaluar\n\ntamanos_n &lt;- c(20, 30, 50)\n\n\n\nConfigurar la pantalla para ver los 3 gráficos juntos (1 fila, 3 columnas)\n\npar(mfrow = c(1, 3))\n\n\n\n3. Bucle para simular, calcular p y graficar para cada n\n\nfor (n in tamanos_n) {\n\n# Simular 100 muestras binomiales de tamaño n \n# rbinom genera el número de éxitos 'X' directamente \nexitos_X &lt;- rbinom(n = replicas, size = n, prob = pi)\n\n# Calcular el estadístico p (proporción muestral) para cada réplica\nproporciones_p &lt;- exitos_X / n\n\n# Construir el histograma de las proporciones obtenidas\nhist(proporciones_p, \n     breaks = seq(0, 1, by = 0.05), # Intervalos de las barras \n     xlim =c(0.4, 1), # Límites del eje X enfocados en los datos \n     main = paste(\"n =\", n), # Título del gráfico \n     xlab = \"Proporción muestral (p)\", ylab = \"Frecuencia\", col = \"skyblue\", border = \"white\")\n\n# Línea roja para mostrar dónde está el valor real (0.80)\nabline(v = pi, col = \"red\", lwd = 2, lty = 2) \n}"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_4.html",
+    "href": "pasos_R/ejercicio3.3_R_4.html",
+    "title": "ejercicio4.3_R_1",
+    "section": "",
+    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_4.html#boxplot",
+    "href": "pasos_R/ejercicio3.3_R_4.html#boxplot",
+    "title": "ejercicio4.3_R_1",
+    "section": "Boxplot",
+    "text": "Boxplot\n\nboxplot(\n  nueva_gr80,\n  xlab=\" Nueva GR 80 \",\n  ylab=\"rendimiento\")"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_2.html",
+    "href": "pasos_R/ejercicio3.3_R_2.html",
+    "title": "ejercicio4.3_R_1",
+    "section": "",
+    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n#Para datos puros"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_2.html#media-y-varianza",
+    "href": "pasos_R/ejercicio3.3_R_2.html#media-y-varianza",
+    "title": "ejercicio4.3_R_1",
     "section": "2. Media y varianza",
-    "text": "2. Media y varianza"
+    "text": "2. Media y varianza\n\nmean(nueva_gr80)\n\n[1] 133.9\n\nvar(nueva_gr80)\n\n[1] 130.8103\n\n\n\n4. Boxplot\n\nboxplot(\n  nueva_gr80,\n  main = \"Boxplot del rendimiento - Nueva GR80\",\n  ylab = \"Rendimiento (tm/ha)\",\n  col = \"lightblue\"\n)\n\n\n\n\n\n\n\n\nRepitan el procedimiento anterior para el híbrido Overa.\n\novera &lt;- c(\n  115, 158, 139, 143, 151, 152, 148, 139, 153, 125, 136,\n  129, 146, 136, 140, 150, 140, 139, 128, 129, 125, 130,\n  140, 149, 150, 139, 142, 138, 129, 126, 137, 148, 146,\n  150, 158, 153, 119, 139, 154, 139, 151, 154, 139, 132\n)\n\n0 Luego comparen ambos híbridos considerando:\n\ncentro de la distribución: media y mediana;\nvariabilidad: varianza y MAD;\nforma de la distribución observada en los histogramas;\npresencia de valores extremos en los boxplots."
   },
   {
-    "objectID": "pasos_R/ejercicio3.3_R_3.html#mediana-y-mad",
-    "href": "pasos_R/ejercicio3.3_R_3.html#mediana-y-mad",
-    "title": "Ejercicio3.3_R_1",
-    "section": "3. Mediana y MAD",
-    "text": "3. Mediana y MAD\n\nmedian(nueva_gr80)\n\n[1] 136\n\nmad(nueva_gr80)\n\n[1] 10.3782\n\n\n\n3. Mediana y MAD\n\nmediana &lt;- median(nueva_gr80)\nmad_nueva &lt;- mad(nueva_gr80)\n\nmediana\n\n[1] 136\n\nmad_nueva\n\n[1] 10.3782"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_1.html",
-    "href": "pasos_R/ejercicio3.3_R_1.html",
-    "title": "ejercicio3.3_R_1",
+    "objectID": "pasos_R/ejercicio3.1_R_2.html",
+    "href": "pasos_R/ejercicio3.1_R_2.html",
+    "title": "Ejercicio3.1_R_1",
     "section": "",
-    "text": "nueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)"
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\npeliculas &lt;- data.frame(\n  EstadoCivil = rep(c(\"Soltero\", \"Casado\", \"Divorciado\", \"Viudo\"), each = 3),\n  TipoFilm = rep(c(\"Policial\", \"Comedia\", \"Romance\"), times = 4),\n  Frecuencia = c(\n    45, 25, 30,\n    26, 41, 33,\n    36, 33, 31,\n    28, 38, 34\n  )\n)\n\npeliculas\n\n   EstadoCivil TipoFilm Frecuencia\n1      Soltero Policial         45\n2      Soltero  Comedia         25\n3      Soltero  Romance         30\n4       Casado Policial         26\n5       Casado  Comedia         41\n6       Casado  Romance         33\n7   Divorciado Policial         36\n8   Divorciado  Comedia         33\n9   Divorciado  Romance         31\n10       Viudo Policial         28\n11       Viudo  Comedia         38\n12       Viudo  Romance         34\n\n\n\nggplot(peliculas,aes(x = EstadoCivil,y = Frecuencia,fill = TipoFilm)) +\n  geom_col(position = \"dodge\",) +\n   scale_fill_manual(\n    values = c(\n      \"Policial\" = \"steelblue\",\n      \"Comedia\" = \"orange\",\n      \"Romance\" = \"firebrick\"\n    ))+\n  labs(\n    x = \"Estado civil\",\n    y = \"Frecuencia\",\n    fill = \"Tipo de película\",\n    title = \"Preferencia de películas según estado civil\"\n  ) +\n  theme_linedraw() # exploará con los difrentes temas de ggplot"
   },
   {
-    "objectID": "pasos_R/ejercicio3.3_R_1.html#distribución-de-frecuencias-para-datos-agrupados",
-    "href": "pasos_R/ejercicio3.3_R_1.html#distribución-de-frecuencias-para-datos-agrupados",
-    "title": "ejercicio3.3_R_1",
-    "section": "1. Distribución de frecuencias para datos agrupados",
-    "text": "1. Distribución de frecuencias para datos agrupados\nDefinimos intervalos de clase y contamos cuántos datos caen en cada intervalo.\n\nintervalos &lt;- seq(110, 155, by = 5)\n\nclases &lt;- cut(\n  nueva_gr80,\n  breaks = intervalos,\n  right = FALSE,\n  include.lowest = TRUE\n)\n\ntabla_frecuencias &lt;- as.data.frame(table(clases))\ntabla_frecuencias\n\n     clases Freq\n1 [110,115)    4\n2 [115,120)    2\n3 [120,125)    3\n4 [125,130)    5\n5 [130,135)    1\n6 [135,140)   10\n7 [140,145)    9\n8 [145,150)    2\n9 [150,155]    4\n\n\nTambién podemos agregar la frecuencia relativa y porcentual.\n\ntabla_frecuencias$frecuencia_relativa &lt;- tabla_frecuencias$Freq / sum(tabla_frecuencias$Freq)\n\ntabla_frecuencias$porcentaje &lt;- tabla_frecuencias$frecuencia_relativa * 100\n\ntabla_frecuencias\n\n     clases Freq frecuencia_relativa porcentaje\n1 [110,115)    4               0.100       10.0\n2 [115,120)    2               0.050        5.0\n3 [120,125)    3               0.075        7.5\n4 [125,130)    5               0.125       12.5\n5 [130,135)    1               0.025        2.5\n6 [135,140)   10               0.250       25.0\n7 [140,145)    9               0.225       22.5\n8 [145,150)    2               0.050        5.0\n9 [150,155]    4               0.100       10.0"
+    "objectID": "pasos_R/ejercicio2.3_R_4.html",
+    "href": "pasos_R/ejercicio2.3_R_4.html",
+    "title": "Ejercicio 2.3_R_1",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n#borramos todo los objetos en el entorno\nrm(list=ls())"
   },
   {
-    "objectID": "pasos_R/ejercicio3.3_R_1.html#histograma",
-    "href": "pasos_R/ejercicio3.3_R_1.html#histograma",
-    "title": "ejercicio3.3_R_1",
-    "section": "Histograma",
-    "text": "Histograma\nUsamos los mismos intervalos definidos para la tabla de frecuencias.\n\nhist(\n  nueva_gr80,\n  breaks = intervalos,\n  right = FALSE,\n  main = \"Histograma del rendimiento - Nueva GR80\",\n  xlab = \"Rendimiento (tm/ha)\",\n  ylab = \"Frecuencia\",\n  col = \"lightblue\",\n  border = \"white\"\n)"
+    "objectID": "pasos_R/ejercicio2.3_R_4.html#actividad-construcción-de-un-boxplot-con-ggplot2",
+    "href": "pasos_R/ejercicio2.3_R_4.html#actividad-construcción-de-un-boxplot-con-ggplot2",
+    "title": "Ejercicio 2.3_R_1",
+    "section": "Actividad: Construcción de un Boxplot con ggplot2",
+    "text": "Actividad: Construcción de un Boxplot con ggplot2\nEn esta actividad aprenderemos a construir un diagrama de cajas (boxplot) utilizando el paquete ggplot2, una de las herramientas más utilizadas para la visualización de datos en R.\n\nPaso 1. Instalar el paquete tidyverse\nLa primera vez que utilicen estas herramientas deberán instalar el paquete tidyverse. Esta instalación se realiza una sola vez.\n\n# No repetir si ya está instalado\n#install.packages(\"tidyverse\")\n\n\n\nPaso 2. Cargar el paquete\nCada vez que inicien una nueva sesión de R deberán cargar el paquete mediante la función library().\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nPaso 3. Cargamos los datos, si no lo están\n\n# con c() cargamos un vector llamado perimetros\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\n#transformamos los datos en un data.frame\nperimetros&lt;-as.data.frame(perimetros)\n\nPaso 4. Construir un boxplot\n\nggplot(perimetros, aes(y = perimetros)) +\n  geom_boxplot(fill = \"lightblue\") +\n  labs(\n    title = \"Diagrama de cajas y brazos  del perímetro\",\n    y = \"Perímetro\"\n  ) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "pasos_R/ejercicio2.3_R_2.html",
+    "href": "pasos_R/ejercicio2.3_R_2.html",
+    "title": "Ejercicio 2.3_R_2",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\nrm(list=ls())\n\n\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nPedimos las medidas de centralización\n\n\n# Media \nmean(perimetros)\n\n[1] 147.725\n\n\n\n# mediana \nmedian(perimetros)\n\n[1] 146.5\n\n\n\n# Moda\ntabla &lt;- table(perimetros)\ntabla\n\nperimetros\n121 125 128 132 135 136 138 140 142 144 145 146 147 148 149 150 152 153 154 156 \n  1   1   1   1   3   1   2   2   2   2   2   2   2   1   1   2   1   1   1   1 \n157 158 161 163 164 165 168 173 176 \n  1   1   2   1   1   1   1   1   1 \n\nnames(tabla)[tabla == max(tabla)]\n\n[1] \"135\""
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prólogo",
+    "section": "",
+    "text": "Prólogo\nLa presente Guía de Trabajos Prácticos está dirigida a los estudiantes que cursan la asignatura “Inferencia Estadística” correspondiente a las carreras de Profesorado en Matemática y Licenciatura en Matemática, respectivamente, del Departamento de Matemática “Prof. Lic. Juan Ernesto Macluf” de la Facultad de Ciencias Exactas y Naturales de la UNLPam, y sirve como complemento a las Notas de Clases “Inferencia Estadística”.\nLos problemas y actividades propuestos tienen por objetivo orientar y ayudar a los estudiantes en el aprendizaje de los conceptos estudiados en las asignaturas mencionadas y brindarles un espacio de aplicación de los mismos en situaciones problemáticas concretas y, en ocasiones, reales. Además, se incorporan actividades que implican desarrollo matemático formal, tales como demostraciones de propiedades y resultados, sugeridas principalmente a estudiantes de Licenciatura en Matemática.\nAlgunos ejercicios están señalados con un ícono particular que indica, según el caso:\n💻 Resolución escrita y utilizando un paquete estadístico adecuado.\n📊 Aplicación con datos reales utilizando un paquete estadístico adecuado.\n⚙️ Actividad opcional pero recomendada a estudiantes de Licenciatura en Matemática.\nLa incorporación, secuenciación y complejidad de los problemas y actividades propuestos son el resultado de la experiencia docente en el área y de la interacción con estudiantes de años anteriores, a quienes agradecemos sus críticas y sugerencias para mejorar esta guía año tras año.\n\nLas autoras, julio de 2026",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "pasos_R/ejercicio2.3_R_1.html",
+    "href": "pasos_R/ejercicio2.3_R_1.html",
+    "title": "Ejercicio 2.3_R_1",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\n#borramos todo los objetos en el entorno\nrm(list=ls())\n\n\n# con c() cargamos un vector llamado perimetros\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nTabla de frecuencias Agrupadas\n\n# TABLA DE FRECUENCIAS AGRUPADAS\n\nintervalos &lt;- seq(120, 180, by = 10)\n\n# Tabla de frecuencias agrupadas\ntabla_agrupada &lt;- table(cut(perimetros, breaks = intervalos))\n# Marcas de clase\nmarcas_clase &lt;- (head(intervalos, -1) + tail(intervalos, -1)) / 2\n\n\ntabla_df &lt;- data.frame(\n  Intervalo = names(tabla_agrupada),\n  Marca_clase = marcas_clase,\n  Frecuencia = as.numeric(tabla_agrupada)\n)\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia\n1 (120,130]         125          3\n2 (130,140]         135          9\n3 (140,150]         145         14\n4 (150,160]         155          6\n5 (160,170]         165          6\n6 (170,180]         175          2\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia\n1 (120,130]         125          3\n2 (130,140]         135          9\n3 (140,150]         145         14\n4 (150,160]         155          6\n5 (160,170]         165          6\n6 (170,180]         175          2\n\n\n\n\nConstruimos un histograma\n\nhist(perimetros)\n\n\n\n\n\n\n\n# Histograma con títulos\nhist(\n  perimetros,\n  main = \"Histograma de perímetros basales\",\n  xlab = \"Perímetro basal (cm)\",\n  ylab = \"Frecuencia\"\n)\n\n\n\n\n\n\n\n\n\n\nMedidas resumenes datos agrupados\nMedia\n\nmedia_agrupada &lt;- sum(\n  tabla_df$Marca_clase * tabla_df$Frecuencia\n) / sum(tabla_df$Frecuencia)\n\nmedia_agrupada\n\n[1] 147.25\n\n\n\n# Frecuencia acumulada\ntabla_df$Frecuencia_acum &lt;- cumsum(tabla_df$Frecuencia)\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia Frecuencia_acum\n1 (120,130]         125          3               3\n2 (130,140]         135          9              12\n3 (140,150]         145         14              26\n4 (150,160]         155          6              32\n5 (160,170]         165          6              38\n6 (170,180]         175          2              40\n\n\nMediana\n\n# Número total de datos\nn &lt;- sum(tabla_df$Frecuencia)\n\n# Posición de la mediana\nn/2\n\n[1] 20\n\n\nIdentifiacamos la clase de la mediana que es el clase (140,150] y reemplazamos en los objetos\n\n# Datos de la clase mediana\nLi &lt;- 140          #  límite inferior\nF_anterior &lt;- 10   # frecuencia acumulada anterior\nfm &lt;- 14           # frecuencia de la clase mediana\nc &lt;- 10            # amplitud de clase\n\n# Mediana agrupada\nMd &lt;- Li + (((n/2) - F_anterior) / fm) * c\n\nMd\n\n[1] 147.1429"
+  },
+  {
+    "objectID": "pasos_R/ejercicio2.3_R_3.html",
+    "href": "pasos_R/ejercicio2.3_R_3.html",
+    "title": "Ejercicio 2.3_R_2",
+    "section": "",
+    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\nrm(list=ls())\n\n\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nPedimos las medidas de variabilidad para datos sin agrupar\n\n\n# desvio\nsd(perimetros)\n\n[1] 12.67946\n\n\n\n# Rango intercualtilico  \nIQR(perimetros)\n\n[1] 16.75"
   },
   {
     "objectID": "pasos_R/ejercicio3.1_R_1.html",
@@ -581,126 +772,165 @@
     "text": "Totales y proporciones\n\npeliculas  %&gt;%\n  group_by(EstadoCivil) %&gt;%\n  summarise(Total = sum(Frecuencia))\n\n# A tibble: 4 × 2\n  EstadoCivil Total\n  &lt;chr&gt;       &lt;dbl&gt;\n1 Casado        100\n2 Divorciado    100\n3 Soltero       100\n4 Viudo         100\n\n\n\npeliculas  %&gt;%\n  group_by(TipoFilm) %&gt;%\n  summarise(Total = sum(Frecuencia))\n\n# A tibble: 3 × 2\n  TipoFilm Total\n  &lt;chr&gt;    &lt;dbl&gt;\n1 Comedia    137\n2 Policial   135\n3 Romance    128\n\n\n### Total general\n\npeliculas %&gt;%\n  summarise(Total = sum(Frecuencia))\n\n  Total\n1   400\n\n\n\npeliculas %&gt;%\n  group_by(EstadoCivil) %&gt;%\n  mutate(Proporcion = Frecuencia / sum(Frecuencia))\n\n# A tibble: 12 × 4\n# Groups:   EstadoCivil [4]\n   EstadoCivil TipoFilm Frecuencia Proporcion\n   &lt;chr&gt;       &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;\n 1 Soltero     Policial         45       0.45\n 2 Soltero     Comedia          25       0.25\n 3 Soltero     Romance          30       0.3 \n 4 Casado      Policial         26       0.26\n 5 Casado      Comedia          41       0.41\n 6 Casado      Romance          33       0.33\n 7 Divorciado  Policial         36       0.36\n 8 Divorciado  Comedia          33       0.33\n 9 Divorciado  Romance          31       0.31\n10 Viudo       Policial         28       0.28\n11 Viudo       Comedia          38       0.38\n12 Viudo       Romance          34       0.34\n\n\n\n#constuyo la tabla\ntabla &lt;- xtabs(Frecuencia ~ EstadoCivil + TipoFilm,\n               data = peliculas)\n\ntabla\n\n            TipoFilm\nEstadoCivil  Comedia Policial Romance\n  Casado          41       26      33\n  Divorciado      33       36      31\n  Soltero         25       45      30\n  Viudo           38       28      34\n\n\n\n# Coeficiente de contingencia de Pearson y el corregido\nchi &lt;- chisq.test(tabla)\n\nchi2 &lt;- chi$statistic\nn &lt;- sum(tabla)\n\nC &lt;- sqrt(chi2 / (chi2 + n))\nk &lt;- min(nrow(tabla), ncol(tabla))\nC_corregido &lt;- C / sqrt((k - 1) / k)\nchi2\n\nX-squared \n 11.25643 \n\nC\n\nX-squared \n0.1654413 \n\nC_corregido \n\nX-squared \n0.2026234"
   },
   {
-    "objectID": "pasos_R/ejercicio2.3_R_3.html",
-    "href": "pasos_R/ejercicio2.3_R_3.html",
-    "title": "Ejercicio 2.3_R_2",
+    "objectID": "pasos_R/ejercicio3.3_R_1.html",
+    "href": "pasos_R/ejercicio3.3_R_1.html",
+    "title": "ejercicio3.3_R_1",
     "section": "",
-    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\nrm(list=ls())\n\n\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nPedimos las medidas de variabilidad para datos sin agrupar\n\n\n# desvio\nsd(perimetros)\n\n[1] 12.67946\n\n\n\n# Rango intercualtilico  \nIQR(perimetros)\n\n[1] 16.75"
+    "text": "nueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)"
   },
   {
-    "objectID": "pasos_R/ejercicio2.3_R_1.html",
-    "href": "pasos_R/ejercicio2.3_R_1.html",
-    "title": "Ejercicio 2.3_R_1",
+    "objectID": "pasos_R/ejercicio3.3_R_1.html#distribución-de-frecuencias-para-datos-agrupados",
+    "href": "pasos_R/ejercicio3.3_R_1.html#distribución-de-frecuencias-para-datos-agrupados",
+    "title": "ejercicio3.3_R_1",
+    "section": "1. Distribución de frecuencias para datos agrupados",
+    "text": "1. Distribución de frecuencias para datos agrupados\nDefinimos intervalos de clase y contamos cuántos datos caen en cada intervalo.\n\nintervalos &lt;- seq(110, 155, by = 5)\n\nclases &lt;- cut(\n  nueva_gr80,\n  breaks = intervalos,\n  right = FALSE,\n  include.lowest = TRUE\n)\n\ntabla_frecuencias &lt;- as.data.frame(table(clases))\ntabla_frecuencias\n\n     clases Freq\n1 [110,115)    4\n2 [115,120)    2\n3 [120,125)    3\n4 [125,130)    5\n5 [130,135)    1\n6 [135,140)   10\n7 [140,145)    9\n8 [145,150)    2\n9 [150,155]    4\n\n\nTambién podemos agregar la frecuencia relativa y porcentual.\n\ntabla_frecuencias$frecuencia_relativa &lt;- tabla_frecuencias$Freq / sum(tabla_frecuencias$Freq)\n\ntabla_frecuencias$porcentaje &lt;- tabla_frecuencias$frecuencia_relativa * 100\n\ntabla_frecuencias\n\n     clases Freq frecuencia_relativa porcentaje\n1 [110,115)    4               0.100       10.0\n2 [115,120)    2               0.050        5.0\n3 [120,125)    3               0.075        7.5\n4 [125,130)    5               0.125       12.5\n5 [130,135)    1               0.025        2.5\n6 [135,140)   10               0.250       25.0\n7 [140,145)    9               0.225       22.5\n8 [145,150)    2               0.050        5.0\n9 [150,155]    4               0.100       10.0"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_1.html#histograma",
+    "href": "pasos_R/ejercicio3.3_R_1.html#histograma",
+    "title": "ejercicio3.3_R_1",
+    "section": "Histograma",
+    "text": "Histograma\nUsamos los mismos intervalos definidos para la tabla de frecuencias.\n\nhist(\n  nueva_gr80,\n  breaks = intervalos,\n  right = FALSE,\n  main = \"Histograma del rendimiento - Nueva GR80\",\n  xlab = \"Rendimiento (tm/ha)\",\n  ylab = \"Frecuencia\",\n  col = \"lightblue\",\n  border = \"white\"\n)"
+  },
+  {
+    "objectID": "pasos_R/ejercicio3.3_R_3.html",
+    "href": "pasos_R/ejercicio3.3_R_3.html",
+    "title": "Ejercicio3.3_R_1",
     "section": "",
-    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\n#borramos todo los objetos en el entorno\nrm(list=ls())\n\n\n# con c() cargamos un vector llamado perimetros\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nTabla de frecuencias Agrupadas\n\n# TABLA DE FRECUENCIAS AGRUPADAS\n\nintervalos &lt;- seq(120, 180, by = 10)\n\n# Tabla de frecuencias agrupadas\ntabla_agrupada &lt;- table(cut(perimetros, breaks = intervalos))\n# Marcas de clase\nmarcas_clase &lt;- (head(intervalos, -1) + tail(intervalos, -1)) / 2\n\n\ntabla_df &lt;- data.frame(\n  Intervalo = names(tabla_agrupada),\n  Marca_clase = marcas_clase,\n  Frecuencia = as.numeric(tabla_agrupada)\n)\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia\n1 (120,130]         125          3\n2 (130,140]         135          9\n3 (140,150]         145         14\n4 (150,160]         155          6\n5 (160,170]         165          6\n6 (170,180]         175          2\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia\n1 (120,130]         125          3\n2 (130,140]         135          9\n3 (140,150]         145         14\n4 (150,160]         155          6\n5 (160,170]         165          6\n6 (170,180]         175          2\n\n\n\n\nConstruimos un histograma\n\nhist(perimetros)\n\n\n\n\n\n\n\n# Histograma con títulos\nhist(\n  perimetros,\n  main = \"Histograma de perímetros basales\",\n  xlab = \"Perímetro basal (cm)\",\n  ylab = \"Frecuencia\"\n)\n\n\n\n\n\n\n\n\n\n\nMedidas resumenes datos agrupados\nMedia\n\nmedia_agrupada &lt;- sum(\n  tabla_df$Marca_clase * tabla_df$Frecuencia\n) / sum(tabla_df$Frecuencia)\n\nmedia_agrupada\n\n[1] 147.25\n\n\n\n# Frecuencia acumulada\ntabla_df$Frecuencia_acum &lt;- cumsum(tabla_df$Frecuencia)\n\ntabla_df\n\n  Intervalo Marca_clase Frecuencia Frecuencia_acum\n1 (120,130]         125          3               3\n2 (130,140]         135          9              12\n3 (140,150]         145         14              26\n4 (150,160]         155          6              32\n5 (160,170]         165          6              38\n6 (170,180]         175          2              40\n\n\nMediana\n\n# Número total de datos\nn &lt;- sum(tabla_df$Frecuencia)\n\n# Posición de la mediana\nn/2\n\n[1] 20\n\n\nIdentifiacamos la clase de la mediana que es el clase (140,150] y reemplazamos en los objetos\n\n# Datos de la clase mediana\nLi &lt;- 140          #  límite inferior\nF_anterior &lt;- 10   # frecuencia acumulada anterior\nfm &lt;- 14           # frecuencia de la clase mediana\nc &lt;- 10            # amplitud de clase\n\n# Mediana agrupada\nMd &lt;- Li + (((n/2) - F_anterior) / fm) * c\n\nMd\n\n[1] 147.1429"
+    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n\n#Para datos puros"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Prólogo",
-    "section": "",
-    "text": "Prólogo\nLa presente Guía de Trabajos Prácticos está dirigida a los estudiantes que cursan la asignatura “Inferencia Estadística” correspondiente a las carreras de Profesorado en Matemática y Licenciatura en Matemática, respectivamente, del Departamento de Matemática “Prof. Lic. Juan Ernesto Macluf” de la Facultad de Ciencias Exactas y Naturales de la UNLPam, y sirve como complemento a las Notas de Clases “Inferencia Estadística”.\nLos problemas y actividades propuestos tienen por objetivo orientar y ayudar a los estudiantes en el aprendizaje de los conceptos estudiados en las asignaturas mencionadas y brindarles un espacio de aplicación de los mismos en situaciones problemáticas concretas y, en ocasiones, reales. Además, se incorporan actividades que implican desarrollo matemático formal, tales como demostraciones de propiedades y resultados, sugeridas principalmente a estudiantes de Licenciatura en Matemática.\nAlgunos ejercicios están señalados con un ícono particular que indica, según el caso:\n💻 Resolución escrita y utilizando un paquete estadístico adecuado.\n📊 Aplicación con datos reales utilizando un paquete estadístico adecuado.\n⚙️ Actividad opcional pero recomendada a estudiantes de Licenciatura en Matemática.\nLa incorporación, secuenciación y complejidad de los problemas y actividades propuestos son el resultado de la experiencia docente en el área y de la interacción con estudiantes de años anteriores, a quienes agradecemos sus críticas y sugerencias para mejorar esta guía año tras año.\n\nLas autoras, julio de 2026",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "pasos_R/ejercicio2.3_R_2.html",
-    "href": "pasos_R/ejercicio2.3_R_2.html",
-    "title": "Ejercicio 2.3_R_2",
-    "section": "",
-    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n\n\n\n138\n164\n150\n132\n144\n125\n149\n157\n146\n158\n\n\n140\n147\n136\n148\n152\n144\n168\n128\n138\n176\n\n\n163\n121\n154\n165\n146\n173\n142\n147\n135\n153\n\n\n140\n135\n161\n145\n135\n161\n145\n142\n150\n156\n\n\n\n\nCargamos los datos en el programa R\n\n\nrm(list=ls())\n\n\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\nPedimos las medidas de centralización\n\n\n# Media \nmean(perimetros)\n\n[1] 147.725\n\n\n\n# mediana \nmedian(perimetros)\n\n[1] 146.5\n\n\n\n# Moda\ntabla &lt;- table(perimetros)\ntabla\n\nperimetros\n121 125 128 132 135 136 138 140 142 144 145 146 147 148 149 150 152 153 154 156 \n  1   1   1   1   3   1   2   2   2   2   2   2   2   1   1   2   1   1   1   1 \n157 158 161 163 164 165 168 173 176 \n  1   1   2   1   1   1   1   1   1 \n\nnames(tabla)[tabla == max(tabla)]\n\n[1] \"135\""
-  },
-  {
-    "objectID": "pasos_R/ejercicio2.3_R_4.html",
-    "href": "pasos_R/ejercicio2.3_R_4.html",
-    "title": "Ejercicio 2.3_R_1",
-    "section": "",
-    "text": "En un estudio en un monte del Chaco árido se midieron los perímetros basales de troncos de plantas de quebracho blanco (en centímetros) obteniéndose la siguiente información:\nTabla: Perímetros basales de troncos de quebracho blanco (cm)\n#borramos todo los objetos en el entorno\nrm(list=ls())"
-  },
-  {
-    "objectID": "pasos_R/ejercicio2.3_R_4.html#actividad-construcción-de-un-boxplot-con-ggplot2",
-    "href": "pasos_R/ejercicio2.3_R_4.html#actividad-construcción-de-un-boxplot-con-ggplot2",
-    "title": "Ejercicio 2.3_R_1",
-    "section": "Actividad: Construcción de un Boxplot con ggplot2",
-    "text": "Actividad: Construcción de un Boxplot con ggplot2\nEn esta actividad aprenderemos a construir un diagrama de cajas (boxplot) utilizando el paquete ggplot2, una de las herramientas más utilizadas para la visualización de datos en R.\n\nPaso 1. Instalar el paquete tidyverse\nLa primera vez que utilicen estas herramientas deberán instalar el paquete tidyverse. Esta instalación se realiza una sola vez.\n\n# No repetir si ya está instalado\n#install.packages(\"tidyverse\")\n\n\n\nPaso 2. Cargar el paquete\nCada vez que inicien una nueva sesión de R deberán cargar el paquete mediante la función library().\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nPaso 3. Cargamos los datos, si no lo están\n\n# con c() cargamos un vector llamado perimetros\nperimetros &lt;- c(\n  138, 164, 150, 132, 144, 125, 149, 157, 146, 158,\n  140, 147, 136, 148, 152, 144, 168, 128, 138, 176,\n  163, 121, 154, 165, 146, 173, 142, 147, 135, 153,\n  140, 135, 161, 145, 135, 161, 145, 142, 150, 156\n)\n\n\n#transformamos los datos en un data.frame\nperimetros&lt;-as.data.frame(perimetros)\n\nPaso 4. Construir un boxplot\n\nggplot(perimetros, aes(y = perimetros)) +\n  geom_boxplot(fill = \"lightblue\") +\n  labs(\n    title = \"Diagrama de cajas y brazos  del perímetro\",\n    y = \"Perímetro\"\n  ) +\n  theme_minimal()"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.1_R_2.html",
-    "href": "pasos_R/ejercicio3.1_R_2.html",
-    "title": "Ejercicio3.1_R_1",
-    "section": "",
-    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\npeliculas &lt;- data.frame(\n  EstadoCivil = rep(c(\"Soltero\", \"Casado\", \"Divorciado\", \"Viudo\"), each = 3),\n  TipoFilm = rep(c(\"Policial\", \"Comedia\", \"Romance\"), times = 4),\n  Frecuencia = c(\n    45, 25, 30,\n    26, 41, 33,\n    36, 33, 31,\n    28, 38, 34\n  )\n)\n\npeliculas\n\n   EstadoCivil TipoFilm Frecuencia\n1      Soltero Policial         45\n2      Soltero  Comedia         25\n3      Soltero  Romance         30\n4       Casado Policial         26\n5       Casado  Comedia         41\n6       Casado  Romance         33\n7   Divorciado Policial         36\n8   Divorciado  Comedia         33\n9   Divorciado  Romance         31\n10       Viudo Policial         28\n11       Viudo  Comedia         38\n12       Viudo  Romance         34\n\n\n\nggplot(peliculas,aes(x = EstadoCivil,y = Frecuencia,fill = TipoFilm)) +\n  geom_col(position = \"dodge\",) +\n   scale_fill_manual(\n    values = c(\n      \"Policial\" = \"steelblue\",\n      \"Comedia\" = \"orange\",\n      \"Romance\" = \"firebrick\"\n    ))+\n  labs(\n    x = \"Estado civil\",\n    y = \"Frecuencia\",\n    fill = \"Tipo de película\",\n    title = \"Preferencia de películas según estado civil\"\n  ) +\n  theme_linedraw() # exploará con los difrentes temas de ggplot"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_2.html",
-    "href": "pasos_R/ejercicio3.3_R_2.html",
-    "title": "ejercicio4.3_R_1",
-    "section": "",
-    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n#Para datos puros"
-  },
-  {
-    "objectID": "pasos_R/ejercicio3.3_R_2.html#media-y-varianza",
-    "href": "pasos_R/ejercicio3.3_R_2.html#media-y-varianza",
-    "title": "ejercicio4.3_R_1",
+    "objectID": "pasos_R/ejercicio3.3_R_3.html#media-y-varianza",
+    "href": "pasos_R/ejercicio3.3_R_3.html#media-y-varianza",
+    "title": "Ejercicio3.3_R_1",
     "section": "2. Media y varianza",
-    "text": "2. Media y varianza\n\nmean(nueva_gr80)\n\n[1] 133.9\n\nvar(nueva_gr80)\n\n[1] 130.8103\n\n\n\n4. Boxplot\n\nboxplot(\n  nueva_gr80,\n  main = \"Boxplot del rendimiento - Nueva GR80\",\n  ylab = \"Rendimiento (tm/ha)\",\n  col = \"lightblue\"\n)\n\n\n\n\n\n\n\n\nRepitan el procedimiento anterior para el híbrido Overa.\n\novera &lt;- c(\n  115, 158, 139, 143, 151, 152, 148, 139, 153, 125, 136,\n  129, 146, 136, 140, 150, 140, 139, 128, 129, 125, 130,\n  140, 149, 150, 139, 142, 138, 129, 126, 137, 148, 146,\n  150, 158, 153, 119, 139, 154, 139, 151, 154, 139, 132\n)\n\n0 Luego comparen ambos híbridos considerando:\n\ncentro de la distribución: media y mediana;\nvariabilidad: varianza y MAD;\nforma de la distribución observada en los histogramas;\npresencia de valores extremos en los boxplots."
+    "text": "2. Media y varianza"
   },
   {
-    "objectID": "pasos_R/ejercicio3.3_R_4.html",
-    "href": "pasos_R/ejercicio3.3_R_4.html",
-    "title": "ejercicio4.3_R_1",
+    "objectID": "pasos_R/ejercicio3.3_R_3.html#mediana-y-mad",
+    "href": "pasos_R/ejercicio3.3_R_3.html#mediana-y-mad",
+    "title": "Ejercicio3.3_R_1",
+    "section": "3. Mediana y MAD",
+    "text": "3. Mediana y MAD\n\nmedian(nueva_gr80)\n\n[1] 136\n\nmad(nueva_gr80)\n\n[1] 10.3782\n\n\n\n3. Mediana y MAD\n\nmediana &lt;- median(nueva_gr80)\nmad_nueva &lt;- mad(nueva_gr80)\n\nmediana\n\n[1] 136\n\nmad_nueva\n\n[1] 10.3782"
+  },
+  {
+    "objectID": "pasos_R/ejercicio4.2_R_1.html",
+    "href": "pasos_R/ejercicio4.2_R_1.html",
+    "title": "Ejercicio 4.2_R_1",
     "section": "",
-    "text": "Primero cargamos los datos correspondientes al híbrido Nueva GR80.\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)"
+    "text": "# Fijamos semilla para que los resultados sean reproducibles\nset.seed(123)\n# Cantidad de réplicas\nB &lt;- 100\n\n# Tamaños muestrales\nn &lt;- c(10, 20, 30)\n\n\n# Simulación de las medias muestrales\nmedias_n10 &lt;- replicate(B, mean(runif(10, min = 240, max = 260)))\nmedias_n20 &lt;- replicate(B, mean(runif(20, min = 240, max = 260)))\nmedias_n30 &lt;- replicate(B, mean(runif(30, min = 240, max = 260)))\n\n\n# Histogramas\npar(mfrow = c(1, 3))\n\nhist(medias_n10,\n     main = \"n = 10\",\n     xlab = \"Media muestral\",\n     col = \"lightblue\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n20,\n     main = \"n = 20\",\n     xlab = \"Media muestral\",\n     col = \"lightgreen\",\n     border = \"white\",\n     xlim = c(240, 260))\n\nhist(medias_n30,\n     main = \"n = 30\",\n     xlab = \"Media muestral\",\n     col = \"lightpink\",\n     border = \"white\",\n     xlim = c(240, 260))\n\n\n\n\n\n\n\npar(mfrow = c(1, 1))"
   },
   {
-    "objectID": "pasos_R/ejercicio3.3_R_4.html#boxplot",
-    "href": "pasos_R/ejercicio3.3_R_4.html#boxplot",
-    "title": "ejercicio4.3_R_1",
-    "section": "Boxplot",
-    "text": "Boxplot\n\nboxplot(\n  nueva_gr80,\n  xlab=\" Nueva GR 80 \",\n  ylab=\"rendimiento\")"
-  },
-  {
-    "objectID": "pasos_R/ejercicio4.3_R_1.html",
-    "href": "pasos_R/ejercicio4.3_R_1.html",
-    "title": "Ejercicio 4.3_R_1",
+    "objectID": "pasos_R/ejercicio7.12_R_1.html",
+    "href": "pasos_R/ejercicio7.12_R_1.html",
+    "title": "Ejercicio 7.12.3",
     "section": "",
-    "text": "1. Configurar los parámetros del experimento\n\nset.seed(123) # Asegura que los resultados sean replicables \nreplicas&lt;- 100 # Número de repeticiones (réplicas) \npi &lt;- 0.80 # Probabilidad de éxito de la marca Z\n\n\n\n2. Definir los tamaños de muestra a evaluar\n\ntamanos_n &lt;- c(20, 30, 50)\n\n\n\nConfigurar la pantalla para ver los 3 gráficos juntos (1 fila, 3 columnas)\n\npar(mfrow = c(1, 3))\n\n\n\n3. Bucle para simular, calcular p y graficar para cada n\n\nfor (n in tamanos_n) {\n\n# Simular 100 muestras binomiales de tamaño n \n# rbinom genera el número de éxitos 'X' directamente \nexitos_X &lt;- rbinom(n = replicas, size = n, prob = pi)\n\n# Calcular el estadístico p (proporción muestral) para cada réplica\nproporciones_p &lt;- exitos_X / n\n\n# Construir el histograma de las proporciones obtenidas\nhist(proporciones_p, \n     breaks = seq(0, 1, by = 0.05), # Intervalos de las barras \n     xlim =c(0.4, 1), # Límites del eje X enfocados en los datos \n     main = paste(\"n =\", n), # Título del gráfico \n     xlab = \"Proporción muestral (p)\", ylab = \"Frecuencia\", col = \"skyblue\", border = \"white\")\n\n# Línea roja para mostrar dónde está el valor real (0.80)\nabline(v = pi, col = \"red\", lwd = 2, lty = 2) \n}"
+    "text": "3. Intervalo de confianza del 95 % para la diferencia de proporciones\n\n# Datos\n\np1 &lt;- 0.80\np2 &lt;- 0.88\n\nn1 &lt;- 400\nn2 &lt;- 400\n\n# Nivel de significación\n\nalpha &lt;- 0.05\n\n# Valor crítico\n\nz &lt;- qnorm(1 - alpha/2)\n\n# Error estándar\n\nEE &lt;- sqrt(p1*(1-p1)/n1 +\n           p2*(1-p2)/n2)\n\n# Intervalo de confianza\n\nLI &lt;- (p1 - p2) - z * EE\nLS &lt;- (p1 - p2) + z * EE\n\nIC &lt;- c(Límite_inferior = LI,\n        Límite_superior = LS)\n\nIC\n\nLímite_inferior Límite_superior \n    -0.13050474     -0.02949526 \n\n\n\n\notra maneras\n\nprop.test\n\nx &lt;- c(320, 352)\nn &lt;- c(400, 400)\n\nprop.test(x, n,\n          conf.level = 0.95,\n          correct = FALSE)\n\n\n    2-sample test for equality of proportions without continuity correction\n\ndata:  x out of n\nX-squared = 9.5238, df = 1, p-value = 0.002028\nalternative hypothesis: two.sided\n95 percent confidence interval:\n -0.13050474 -0.02949526\nsample estimates:\nprop 1 prop 2 \n  0.80   0.88 \n\n\n\n\nBinomDiffCI\n\nlibrary(DescTools)\n\nBinomDiffCI(320,400,352,400,\n            method=\"wald\")\n\n       est     lwr.ci      upr.ci\n[1,] -0.08 -0.1305047 -0.02949526"
   },
   {
-    "objectID": "pasos_R/ejercicio7.13_R_4.html",
-    "href": "pasos_R/ejercicio7.13_R_4.html",
-    "title": "Ejercicio 7.13 4 con R",
+    "objectID": "pasos_R/ejercicio7.6_R_1.html",
+    "href": "pasos_R/ejercicio7.6_R_1.html",
+    "title": "Ejercicio 7.6 1 R",
     "section": "",
-    "text": "Evaluación del estadístico\n\nCon los datos muestrales,\n\nllamadas &lt;- c(\n40,33,43,35,40,41,51,54,42,54,\n42,51,45,42,44,38,35,47,37,48,\n33,47,47,44,29,36,46,39,45,48,\n37,51,37,45,56,40,51,42,42,33\n)\n\nn &lt;- length(llamadas)\n\nlambda_gorro &lt;- mean(llamadas)\n\nlambda_gorro\n\n[1] 42.75\n\n\nEl error estándar estimado es\n\nEE &lt;- sqrt(lambda_gorro/n)\n\nEE\n\n[1] 1.033804\n\n\nEvaluando el pivote para el caso\n\\[\n\\lambda=0,\n\\]\n\nZ &lt;- lambda_gorro/EE\n\nZ\n\n[1] 41.35215\n\n\n\nIntervalo de confianza\n\n\nalpha &lt;- 0.10\n\nz &lt;- qnorm(1-alpha/2)\n\nLI &lt;- lambda_gorro-z*EE\nLS &lt;- lambda_gorro+z*EE\n\nIC &lt;- c(Límite_inferior=LI,\n        Límite_superior=LS)\n\nIC\n\nLímite_inferior Límite_superior \n       41.04954        44.45046"
+    "text": "colesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\nn\n\n[1] 25\n\n\n\n\n\n\nmean(colesterol)\n\n[1] 1.6608\n\nsd(colesterol)\n\n[1] 0.09371588\n\nvar(colesterol)\n\n[1] 0.008782667\n\nsummary(colesterol)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  1.500   1.610   1.650   1.661   1.720   1.830"
   },
   {
-    "objectID": "pasos_R/ejercicio7.6_R_3.html",
-    "href": "pasos_R/ejercicio7.6_R_3.html",
-    "title": "Ejercicio 7.6 3 R",
+    "objectID": "pasos_R/ejercicio7.6_R_1.html#resolución-en-r",
+    "href": "pasos_R/ejercicio7.6_R_1.html#resolución-en-r",
+    "title": "Ejercicio 7.6 1 R",
     "section": "",
-    "text": "colesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\nn\n\n[1] 25\n\n\n\n# Estadísticos descriptivos\nmean(colesterol)\n\n[1] 1.6608\n\nsd(colesterol)\n\n[1] 0.09371588\n\nvar(colesterol)\n\n[1] 0.008782667\n\nsummary(colesterol)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  1.500   1.610   1.650   1.661   1.720   1.830 \n\n\n\nIC manualmente\n\nxbarra &lt;- mean(colesterol) #obtenemos la media de los datos \ns &lt;- sd(colesterol) #obtenemos el desvío de los datos \n\nt &lt;- qt(0.975,n-1) # obtenemos el cuantil correspondiente para la distribución T con n-1 de libertad\n\nLI &lt;- xbarra-t*s/sqrt(n) #limite inferior \nLS &lt;- xbarra+t*s/sqrt(n) #limite Superior  \n\nc(LI,LS) #intervalo\n\n[1] 1.622116 1.699484\n\n\n\n\nIC Utlizando una función predetermianda en R\n\nt.test(colesterol,conf.level=0.95)$conf.int\n\n[1] 1.622116 1.699484\nattr(,\"conf.level\")\n[1] 0.95"
+    "text": "colesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\nn\n\n[1] 25\n\n\n\n\n\n\nmean(colesterol)\n\n[1] 1.6608\n\nsd(colesterol)\n\n[1] 0.09371588\n\nvar(colesterol)\n\n[1] 0.008782667\n\nsummary(colesterol)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  1.500   1.610   1.650   1.661   1.720   1.830"
   },
   {
-    "objectID": "pasos_R/ejercicio7.6_R_5.html",
-    "href": "pasos_R/ejercicio7.6_R_5.html",
-    "title": "Ejercicio 7.6 5 R",
+    "objectID": "pasos_R/ejercicio7.6_R_4.html",
+    "href": "pasos_R/ejercicio7.6_R_4.html",
+    "title": "Ejercicio 7.6 4 R",
     "section": "",
-    "text": "5. Intervalo para \\(e^{-\\mu}\\)\n\nCarga de los datos\n\ncolesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\n\n\nPrimero se obtiene el intervalo para la media poblacional\n\nIC_mu &lt;- t.test(colesterol)$conf.int # se asigna a IC_mu los LI y Ls del IC para la media poblacional\n\nLuego se aplica la transformación\n\\[g(\\mu)=e^{-\\mu}.\\]\n\nexp(-rev(IC_mu))\n\n[1] 0.1827778 0.1974804"
+    "text": "4. Tamaño muestral para una longitud máxima de 0,05\n\n#Carga de datos \ncolesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nn &lt;- length(colesterol)\n\nn\n\n[1] 25\n\n\nComo\n\\[L=2t_{\\alpha/2}\\frac{s}{\\sqrt n},\\]\ndebe cumplirse\n\\[L\\le0,05.\\]\n\ns &lt;- sd(colesterol)\n\nnuevo_n &lt;- ((2*qt(0.975,24)*s/0.05)^2)\n\nnuevo_n\n\n[1] 59.85812"
   },
   {
-    "objectID": "pasos_R/ejercicio7.6_R_7.html",
-    "href": "pasos_R/ejercicio7.6_R_7.html",
-    "title": "Untitled",
+    "objectID": "pasos_R/ejercicio7.6_R_6.html",
+    "href": "pasos_R/ejercicio7.6_R_6.html",
+    "title": "Ejercicio 7.6 6 R",
     "section": "",
-    "text": "Carga de datos\n\ncolesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\n\n\n7. Intervalo de predicción para un nuevo individuo\n\nalpha &lt;- 0.05\nn&lt;-length(colesterol)\n\nxbarra &lt;- mean(colesterol)\n\ns &lt;- sd(colesterol)\n\nt &lt;- qt(1-alpha/2,n-1)\n\nLI &lt;- xbarra-t*s*sqrt(1+1/n)\n\nLS &lt;- xbarra+t*s*sqrt(1+1/n)\n\nc(LI,LS)\n\n[1] 1.463549 1.858051"
+    "text": "6. Intervalo para la desviación típica\n\nCarga de datos\n\ncolesterol &lt;- c(\n  1.52,1.65,1.72,1.65,1.72,1.83,1.62,1.75,1.72,1.68,\n  1.51,1.65,1.58,1.65,1.61,1.70,1.60,1.73,1.61,1.52,\n  1.81,1.72,1.50,1.82,1.65\n)\n\nEl pivote utilizado es\n\\[\\frac{(n-1)S^2}{\\sigma^2}\n\\sim\\chi^2_{n-1}.\\]\nPara un nivel de confianza del 90 %:\n\nalpha &lt;- 0.10\nn &lt;- length(colesterol)\ns2 &lt;- var(colesterol) #calculamos la varianza de los datos \n\nLI.var &lt;- (n-1)*s2/qchisq(1-alpha/2,n-1) #límite inferior de la IC de la varianza pob\n\nLS.var &lt;- (n-1)*s2/qchisq(alpha/2,n-1)#límite superior de la IC de la varianza pob\n\nIC.sigma &lt;- sqrt(c(LI.var,LS.var)) #intervalo de confianza para el desvío poblacional\n\nIC.sigma\n\n[1] 0.0760814 0.1233726"
   },
   {
-    "objectID": "pasos_R/ejercicio7.7_R_1_c.html",
-    "href": "pasos_R/ejercicio7.7_R_1_c.html",
-    "title": "ejercicio7.7_R_1_c",
+    "objectID": "pasos_R/ejercicio7.7_R_1_b.html",
+    "href": "pasos_R/ejercicio7.7_R_1_b.html",
+    "title": "ejercicio7.7_R_1",
     "section": "",
-    "text": "Cargamos los datos\n\novera &lt;- c(\n  115, 158, 139, 143, 151, 152, 148, 139, 153, 125, 136,\n  129, 146, 136, 140, 150, 140, 139, 128, 129, 125, 130,\n  140, 149, 150, 139, 142, 138, 129, 126, 137, 148, 146,\n  150, 158, 153, 119, 139, 154, 139, 151, 154, 139, 132\n)\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n\n\nsigma2 &lt;- 120\nsigma &lt;- sqrt(sigma2)\n\nnx &lt;- length(nueva_gr80)\nny &lt;- length(overa)\n\nxbarra &lt;- mean(nueva_gr80)\nybarra &lt;- mean(overa)\n\n\nalpha &lt;- 0.05\nsigma2 &lt;- 120\nsigma &lt;- sqrt(sigma2)\n\n\nz &lt;- qnorm(1-alpha/2)\n\nEE &lt;- sigma*sqrt(1/nx+1/ny)\n\nIC &lt;- c(\n  (xbarra-ybarra)-z*EE,\n  (xbarra-ybarra)+z*EE\n)\n\nIC\n\n[1] -11.313258  -1.932196"
+    "text": "Cargamos los datos\n\novera &lt;- c(\n  115, 158, 139, 143, 151, 152, 148, 139, 153, 125, 136,\n  129, 146, 136, 140, 150, 140, 139, 128, 129, 125, 130,\n  140, 149, 150, 139, 142, 138, 129, 126, 137, 148, 146,\n  150, 158, 153, 119, 139, 154, 139, 151, 154, 139, 132\n)\n\nnueva_gr80 &lt;- c(\n  110, 112, 135, 140, 128, 132, 123, 125, 140, 142,\n  151, 113, 142, 123, 118, 143, 138, 135, 140, 135,\n  112, 128, 152, 136, 152, 139, 142, 129, 150, 135,\n  119, 128, 123, 142, 138, 145, 136, 147, 141, 137\n)\n\n\nDatos descriptivos\n\nsigma2 &lt;- 120\nsigma &lt;- sqrt(sigma2)\n\nnx &lt;- length(nueva_gr80)\nny &lt;- length(overa)\n\nxbarra &lt;- mean(nueva_gr80)\nybarra &lt;- mean(overa)\n\n\n\nEstadistico\n\nz0 &lt;- (xbarra-ybarra)/\n      (sigma*sqrt(1/nx+1/ny))\n\nz0\n\n[1] -2.767343"
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.4_R_1.html",
+    "href": "pasos_R/ejercicio8.4_R_1.html",
+    "title": "Untitledejercicio8.4 con R",
+    "section": "",
+    "text": "Cargo los datos\n\n# Datos\nrendimiento &lt;- c(10, 12, 18, 22, 19, 15, 18, 20, 13, 19)\n\n\n# Estadísticos descriptivos\nmean(rendimiento)\n\n[1] 16.6\n\nsd(rendimiento)\n\n[1] 3.893014\n\nlength(rendimiento)\n\n[1] 10\n\n\n\nt.test(rendimiento,\n       mu = 14,\n       alternative = \"greater\",\n       conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  rendimiento\nt = 2.112, df = 9, p-value = 0.03193\nalternative hypothesis: true mean is greater than 14\n95 percent confidence interval:\n 14.34329      Inf\nsample estimates:\nmean of x \n     16.6"
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.7_R_1.html",
+    "href": "pasos_R/ejercicio8.7_R_1.html",
+    "title": "Ejercicio 8.7 con R",
+    "section": "",
+    "text": "# Rendimientos (q/ha)\n\ngalant &lt;- c(22.0, 24.2, 19.8, 25.0, 27.3, 26.0, 23.9, 27.4)\n\npoast &lt;- c(23.5, 20.2, 21.6, 24.3, 25.7, 28.0, 23.6, 26.2)"
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.7_R_1.html#paso-1.-ingresar-los-datos",
+    "href": "pasos_R/ejercicio8.7_R_1.html#paso-1.-ingresar-los-datos",
+    "title": "Ejercicio 8.7 con R",
+    "section": "",
+    "text": "# Rendimientos (q/ha)\n\ngalant &lt;- c(22.0, 24.2, 19.8, 25.0, 27.3, 26.0, 23.9, 27.4)\n\npoast &lt;- c(23.5, 20.2, 21.6, 24.3, 25.7, 28.0, 23.6, 26.2)"
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.7_R_1.html#paso-2.-estadísticos-descriptivos",
+    "href": "pasos_R/ejercicio8.7_R_1.html#paso-2.-estadísticos-descriptivos",
+    "title": "Ejercicio 8.7 con R",
+    "section": "Paso 2. Estadísticos descriptivos",
+    "text": "Paso 2. Estadísticos descriptivos\n\nmean(galant)\n\n[1] 24.45\n\nsd(galant)\n\n[1] 2.605489\n\nmean(poast)\n\n[1] 24.1375\n\nsd(poast)\n\n[1] 2.515062"
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.7_R_1.html#paso-3.-verificar-el-supuesto-de-normalidad",
+    "href": "pasos_R/ejercicio8.7_R_1.html#paso-3.-verificar-el-supuesto-de-normalidad",
+    "title": "Ejercicio 8.7 con R",
+    "section": "Paso 3. Verificar el supuesto de normalidad",
+    "text": "Paso 3. Verificar el supuesto de normalidad\n\nshapiro.test(galant)\n\n\n    Shapiro-Wilk normality test\n\ndata:  galant\nW = 0.94121, p-value = 0.6231\n\nshapiro.test(poast)\n\n\n    Shapiro-Wilk normality test\n\ndata:  poast\nW = 0.98354, p-value = 0.9783\n\n\nComo los valores \\(p\\) son mayores que \\(0,05\\), no se rechaza la hipótesis de normalidad para ninguno de los dos grupos."
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.7_R_1.html#paso-4.-verificar-la-igualdad-de-varianzas",
+    "href": "pasos_R/ejercicio8.7_R_1.html#paso-4.-verificar-la-igualdad-de-varianzas",
+    "title": "Ejercicio 8.7 con R",
+    "section": "Paso 4. Verificar la igualdad de varianzas",
+    "text": "Paso 4. Verificar la igualdad de varianzas\n\nvar.test(galant, poast)\n\n\n    F test to compare two variances\n\ndata:  galant and poast\nF = 1.0732, num df = 7, denom df = 7, p-value = 0.9281\nalternative hypothesis: true ratio of variances is not equal to 1\n95 percent confidence interval:\n 0.214859 5.360542\nsample estimates:\nratio of variances \n          1.073201 \n\n\nComo el valor \\(p\\) es mayor que \\(0,05\\), puede asumirse igualdad de varianzas."
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.7_R_1.html#paso-5.-plantear-las-hipótesis",
+    "href": "pasos_R/ejercicio8.7_R_1.html#paso-5.-plantear-las-hipótesis",
+    "title": "Ejercicio 8.7 con R",
+    "section": "Paso 5. Plantear las hipótesis",
+    "text": "Paso 5. Plantear las hipótesis\nSe desea determinar si existen diferencias en el rendimiento medio entre ambos herbicidas.\n\\(H_0:\\mu_{Galant}=\\mu_{Poast} \\quad vs\\quad H_1:\\mu_{Galant}\\neq\\mu_{Poast}\\)"
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.7_R_1.html#paso-6.-realizar-el-test-t",
+    "href": "pasos_R/ejercicio8.7_R_1.html#paso-6.-realizar-el-test-t",
+    "title": "Ejercicio 8.7 con R",
+    "section": "Paso 6. Realizar el test t",
+    "text": "Paso 6. Realizar el test t\n\nresultado &lt;- t.test(galant,\n                    poast,\n                    var.equal = TRUE,\n                    alternative = \"two.sided\")\n\nresultado\n\n\n    Two Sample t-test\n\ndata:  galant and poast\nt = 0.24408, df = 14, p-value = 0.8107\nalternative hypothesis: true difference in means is not equal to 0\n95 percent confidence interval:\n -2.43355  3.05855\nsample estimates:\nmean of x mean of y \n  24.4500   24.1375"
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.7_R_1.html#paso-7.-estadístico-de-prueba-y-valor-p",
+    "href": "pasos_R/ejercicio8.7_R_1.html#paso-7.-estadístico-de-prueba-y-valor-p",
+    "title": "Ejercicio 8.7 con R",
+    "section": "Paso 7. Estadístico de prueba y valor p",
+    "text": "Paso 7. Estadístico de prueba y valor p\n\nresultado$statistic\n\n        t \n0.2440763 \n\nresultado$p.value\n\n[1] 0.8107123"
+  },
+  {
+    "objectID": "pasos_R/ejercicio8.7_R_1.html#conclusión",
+    "href": "pasos_R/ejercicio8.7_R_1.html#conclusión",
+    "title": "Ejercicio 8.7 con R",
+    "section": "Conclusión",
+    "text": "Conclusión\nComo el valor \\(p\\) es mayor que \\(0,05\\), no se rechaza la hipótesis nula.\nNo existe evidencia estadísticamente significativa para afirmar que el rendimiento medio de soja difiera entre los herbicidas Galant LPU y Poast."
   },
   {
     "objectID": "tp2/ejercicio2.1.html",
@@ -916,7 +1146,7 @@
     "href": "tp5/index.html",
     "title": "Trabajo Práctico 5",
     "section": "",
-    "text": "Aplicar los conceptos generales de la estimación puntual de parámetros de una población o distribución de probabilidad.\nObtener estimadores de los parámetros de una población o distribución de probabilidad por diferentes métodos.",
+    "text": "Aplicar los conceptos generales de la estimación puntual de parámetros de una población o distribución de probabilidad.\nObtener estimadores de los parámetros de una población o distribución de probabilidad por diferentes métodos.\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés.",
     "crumbs": [
       "TRABAJO PRÁCTICO 5",
       "Presentación"
@@ -927,7 +1157,7 @@
     "href": "tp5/index.html#objetivos",
     "title": "Trabajo Práctico 5",
     "section": "",
-    "text": "Aplicar los conceptos generales de la estimación puntual de parámetros de una población o distribución de probabilidad.\nObtener estimadores de los parámetros de una población o distribución de probabilidad por diferentes métodos.",
+    "text": "Aplicar los conceptos generales de la estimación puntual de parámetros de una población o distribución de probabilidad.\nObtener estimadores de los parámetros de una población o distribución de probabilidad por diferentes métodos.\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés.",
     "crumbs": [
       "TRABAJO PRÁCTICO 5",
       "Presentación"
@@ -1022,157 +1252,179 @@
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.1.html",
-    "href": "tp7/ejercicio7.1.html",
-    "title": "Ejercicio 7.1",
+    "objectID": "tp6/index.html",
+    "href": "tp6/index.html",
+    "title": "Trabajo Práctico 6",
     "section": "",
-    "text": "Se sabe que la varianza de las notas de un test psicológico, cuando es aplicado a una población de niños de 10 años de edad, es 255. En una particular localidad se sortearon 9 mujeres y 25 varones, todos con 10 años de edad, y las notas medias obtenidas fueron 86,6 y 84,0, respectivamente.\n\n\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?\n\n\n\n\n\nConstruya un intervalo de confianza del 95 % para la nota media de la población de niñas.\nConstruya un intervalo de confianza del 95 % para la nota media de la población de niños.\nRepita los incisos anteriores utilizando un coeficiente de confianza del 99 %.\nCompare los intervalos obtenidos para ambos niveles de confianza. ¿Qué efecto tiene aumentar el nivel de confianza sobre la amplitud del intervalo?\nInterprete cada uno de los intervalos obtenidos en el contexto del problema.",
+    "text": "S Aplicar los conceptos generales de la estimación puntual de los parámetros de una población o distribución de probabilidad.\nConocer y determinar las propiedades importantes de los estimadores puntuales, incluidos sesgo, varianza y error cuadrático medio.\nDeterminar y explicar la precisión de estimación de un parámetro.\n\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés.",
     "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.1"
+      "TRABAJO PRÁCTICO 6",
+      "Presentación"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.1.html#section",
-    "href": "tp7/ejercicio7.1.html#section",
-    "title": "Ejercicio 7.1",
+    "objectID": "tp6/index.html#propiedades-de-los-estimadores-puntuales",
+    "href": "tp6/index.html#propiedades-de-los-estimadores-puntuales",
+    "title": "Trabajo Práctico 6",
     "section": "",
-    "text": "Se sabe que la varianza de las notas de un test psicológico, cuando es aplicado a una población de niños de 10 años de edad, es 255. En una particular localidad se sortearon 9 mujeres y 25 varones, todos con 10 años de edad, y las notas medias obtenidas fueron 86,6 y 84,0, respectivamente.\n\n\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?\n\n\n\n\n\nConstruya un intervalo de confianza del 95 % para la nota media de la población de niñas.\nConstruya un intervalo de confianza del 95 % para la nota media de la población de niños.\nRepita los incisos anteriores utilizando un coeficiente de confianza del 99 %.\nCompare los intervalos obtenidos para ambos niveles de confianza. ¿Qué efecto tiene aumentar el nivel de confianza sobre la amplitud del intervalo?\nInterprete cada uno de los intervalos obtenidos en el contexto del problema.",
+    "text": "S Aplicar los conceptos generales de la estimación puntual de los parámetros de una población o distribución de probabilidad.\nConocer y determinar las propiedades importantes de los estimadores puntuales, incluidos sesgo, varianza y error cuadrático medio.\nDeterminar y explicar la precisión de estimación de un parámetro.\n\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés.",
     "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.1"
+      "TRABAJO PRÁCTICO 6",
+      "Presentación"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.11.html",
-    "href": "tp7/ejercicio7.11.html",
-    "title": "Ejercicio 7.11",
+    "objectID": "tp7/ejercicio7.10.html",
+    "href": "tp7/ejercicio7.10.html",
+    "title": "Ejercicio 7.10",
     "section": "",
-    "text": "El nivel de colesterol es un factor de alto riesgo en el desarrollo de la enfermedad de arterioesclerosis cardíaca y de la enfermedad de arteria coronaria; por lo tanto, es importante determinar los niveles que se esperan en los diferentes grupos de edad de acuerdo al sexo. Para comparar el nivel de colesterol en varones de entre 20 y 29 años de edad frente a las mujeres del mismo grupo etario, se realizó un estudio cuyos resultados fueron los siguientes:\n\n\n\nEstadístico\nHombres\nMujeres\n\n\n\n\nTamaño muestral\n96\n85\n\n\nMedia muestral (mg/dl)\n170,8\n181,1\n\n\nDesvío estándar (mg/dl)\n30,6\n30,8\n\n\n\nCalcule un intervalo de confianza del 90 % para la diferencia de medias del nivel de colesterol entre hombres y mujeres.",
+    "text": "Una droga cura cierta enfermedad con probabilidad \\(p\\). En una prueba con 100 enfermos, se curaron 30.\n\nDefina la variable aleatoria de interés e indique su distribución .\nIdentifique el estimador puntual del parámetro \\(p\\).\nConstruya el estadístico pivotal asintótico adecuado para obtener un intervalo de confianza para \\(p\\) e indique la distribución aproximada que sigue. Justifique su respuesta.\n\n💻 4. Obtenga un intervalo de confianza para \\(p\\) de nivel asintótico \\(0,05\\).\n💻 5. ¿Qué tamaño muestral se debe elegir para que la longitud del intervalo sea menor que \\(0,1\\)?",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.11"
+      "Ejercicio 7.10"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.13.html",
-    "href": "tp7/ejercicio7.13.html",
-    "title": "Ejercicio 7.13",
+    "objectID": "tp7/ejercicio7.12.html",
+    "href": "tp7/ejercicio7.12.html",
+    "title": "Ejercicio 7.12",
     "section": "",
-    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{P}(\\lambda)\\).\n\n\nConstruya el estadístico pivotal adecuado e indique la distribución que sigue.\nConstruya un intervalo de confianza para \\(\\lambda\\) de nivel asintótico \\(\\alpha\\).\n\n💻 4. El número de llamadas diarias a una central telefónica sigue un proceso de Poisson con media \\(\\lambda\\).\nSe ha registrado el número de llamadas durante 40 días, obteniéndose los siguientes valores:\n40 | 33 | 43 | 35 | 40 | 41 | 51 | 54 | 42 | 54 |\n42 | 51 | 45 | 42 | 44 | 38 | 35 | 47 | 37 | 48 |\n33 | 47 | 47 | 44 | 29 | 36 | 46 | 39 | 45 | 48 |\n37 | 51 | 37 | 45 | 56 | 40 | 51 | 42 | 42 | 33 |\n\nEvalúe el valor del estadístico utilizando los datos muestrales.\n\nObtenga un intervalo de confianza para $\\lambda$ de nivel asintótico \\(0,10\\).\n\nVer pasos para resolver enR",
+    "text": "Dos vacunas diferentes, producidas con la finalidad de prevenir una enfermedad en aves domésticas, mostraron una eficiencia del 80 % y 88 %, respectivamente, sobre dos muestras independientes de 400 aves cada una.\n💻1. Construya un intervalo de confianza del 95 % para la diferencia de porcentajes de aves vacunadas que sobreviven a la peste.\nVer pasos para resolver en R\n\n¿Cuál es el significado de su intervalo de confianza?",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.13"
+      "Ejercicio 7.12"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.15.html",
-    "href": "tp7/ejercicio7.15.html",
-    "title": "Ejercicio 7.15",
+    "objectID": "tp7/ejercicio7.14.html",
+    "href": "tp7/ejercicio7.14.html",
+    "title": "Ejercicio 7.14",
     "section": "",
-    "text": "⚙️Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim U(0;\\theta)\\) y sea el estadístico\n\\[T=\\max\\{X_1,X_2,\\ldots,X_n\\}.\\]\n\nDemuestre que \\(T/\\theta\\) tiene distribución independiente de \\(\\theta\\).\nEn base a lo obtenido en el ítem 1, construya un intervalo de confianza de longitud mínima para \\(\\theta\\) de nivel \\(\\alpha\\).",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim \\mathcal{E}(\\lambda)\\).\n\\[Y=2\\lambda X\\]\ntiene distribución chi-cuadrado con 2 grados de libertad.\n\\[T=2\\lambda(X_1+X_2+\\cdots+X_n)\\]\ntiene distribución chi-cuadrado con \\(2n\\) grados de libertad.\n💻 4. Se sabe que el tiempo de duración de cierto tipo de lámparas tiene distribución exponencial de parámetro \\(\\lambda\\). Se han probado 20 lámparas y los tiempos de duración, en días, fueron los siguientes:\nEncuentre un intervalo de confianza para \\(\\lambda\\) de nivel \\(0,01\\).",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.15"
+      "Ejercicio 7.14"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.3.html",
-    "href": "tp7/ejercicio7.3.html",
-    "title": "Ejercicio 7.3",
+    "objectID": "tp7/ejercicio7.2.html",
+    "href": "tp7/ejercicio7.2.html",
+    "title": "Ejercicio 7.2",
     "section": "",
-    "text": "El espárrago es una planta perenne cuyo cultivo comercial puede tener una duración de 15 años y su implantación es costosa. Dada la extensión del sistema radicular, la profundidad del suelo es fundamental, considerándose indispensable contar con un promedio mínimo de 80 cm de sustrato permeable. Se realizan 14 determinaciones de la profundidad del sustrato permeable (en cm) en puntos tomados al azar en dos campos (A y B). Los resultados fueron los siguientes:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCampo A\n72\n78\n86\n78\n90\n104\n76\n70\n83\n75\n90\n81\n85\n72\n\n\nCampo B\n78\n82\n68\n68\n74\n81\n85\n73\n75\n89\n100\n91\n82\n75\n\n\n\n\nParte A. Análisis previo del problema\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?\n\n\n\nParte B. Construcción de intervalos de confianza\n\nA partir de los intervalos de confianza al 95 %, determine si estos campos son aptos para el cultivo. Realice las suposiciones que sean necesarias respecto de la distribución de la variable y los gráficos que crea convenientes para analizar su validez.\nSe toman 14 observaciones de un campo C y se obtiene el siguiente intervalo de confianza para la profundidad media (en cm):\n\n\\[\nIC(\\mu;95\\%)=[77;\\,85]\n\\]\n¿Cuáles son los valores de la media muestral y la varianza muestral?",
+    "text": "Se trata de medir el período de un péndulo y se dispone de un cronómetro de precisión conocida, es decir, se conoce la varianza del error. Se supone que las observaciones son de la forma \\(X_i=\\mu+e_i\\), donde \\(e_i \\sim N(0;0,25)\\) y son independientes.\nLos datos obtenidos son:\n5,1    5,2    5,6    5,1    5,5    5,8    5,9    4,9    5,2    5,6\n\nEncuentre un intervalo de confianza para \\(\\mu\\) de coeficiente 0,95.\n¿Cuál debería haber sido el tamaño de la muestra si se hubiera deseado que la longitud del intervalo fuese a lo sumo 0,10?",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.3"
+      "Ejercicio 7.2"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.5.html",
-    "href": "tp7/ejercicio7.5.html",
-    "title": "Ejercicio 7.5",
+    "objectID": "tp7/ejercicio7.4.html",
+    "href": "tp7/ejercicio7.4.html",
+    "title": "Ejercicio 7.4",
     "section": "",
-    "text": "Una muestra de 10 tabletas de aspirinas producidas por cierta empresa farmacéutica arrojó los siguientes pesos expresados en miligramos:\n1190, 1230, 1180, 1210, 1270, 1170, 1150, 1140, 1190, 1200.\nSi se supone que los pesos se distribuyen normalmente.\n\nParte A. Análisis previo del problema\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?\n\n\n\nParte B. Construcción de intervalos de confianza\n\nObtenga el correspondiente intervalo de confianza para el desvío estándar poblacional.\n\nUtilice un nivel de significación del 5 %.",
+    "text": "Sea \\(X_1, X_2, \\ldots, X_n\\) una muestra aleatoria simple de \\(X \\sim N(\\mu; \\sigma^2)\\).\nExplique cómo influyen sobre un intervalo de confianza para la media poblacional:\n\nEl tamaño muestral.\nLa varianza, muestral o poblacional, según corresponda.\nLa media muestral.\nEl nivel de confianza.",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.5"
+      "Ejercicio 7.4"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.7.html",
-    "href": "tp7/ejercicio7.7.html",
-    "title": "Ejercicio 7.7",
+    "objectID": "tp7/ejercicio7.6.html",
+    "href": "tp7/ejercicio7.6.html",
+    "title": "Ejercicio 7.6",
     "section": "",
-    "text": "Suponga que los rendimientos para las variedades de sorgo Nueva GR80 (\\(X\\)) y Overa (\\(Y\\)) siguen distribuciones normales con medias \\(\\mu_X\\) y \\(\\mu_Y\\), respectivamente, siendo la varianza común \\(\\sigma^2 = 120\\). Suponga además que las parcelas fueron sembradas y seleccionadas de manera independiente entre sí. Se desea estudiar si existen diferencias entre los rendimientos medios de ambas variedades.",
+    "text": "La distribución del índice de colesterol en cierta población se supone normal con media \\(\\mu\\) y desviación típica \\(\\sigma\\). Se hacen análisis a 25 personas elegidas al azar entre los individuos de esta población y se obtienen los siguientes valores:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1,52\n1,65\n1,72\n1,65\n1,72\n1,83\n1,62\n1,75\n1,72\n1,68\n1,51\n1,65\n1,58\n\n\n1,65\n1,61\n1,70\n1,60\n1,73\n1,61\n1,52\n1,81\n1,72\n1,50\n1,82\n1,65\n\n\n\n\n💻1. Realice un gráfico de probabilidad normal. ¿Sugiere el gráfico que los datos, efectivamente, provienen de una distribución normal?\nVer pasos para resolver en R\n\nindique el intervalo de confianza para el índice medio de colesterol de esta población de nivel de confianza de \\(\\alpha\\).\n\n💻3. Obtenga el intervalo de confianza para el índice medio de colesterol a partir de la muestra de nivel de confianza de \\(0,05\\).\nVer pasos para resolver en R\n💻4. ¿Cuántos datos adicionales se necesitan para poder construir un intervalo para \\(\\mu\\) de nivel \\(0,05\\) pero con una longitud no mayor que \\(0,05\\)? ¿Qué forma tendría este intervalo?\nVer pasos para resolver en R\n💻5. Encuentre un intervalo de confianza para \\(\\exp(-\\mu)\\) de coeficiente de confianza \\(0,95\\).\nVer pasos para resolver en R\n💻 6. Encuentre un intervalo de confianza para la desviación típica de esta población de nivel de confianza de \\(0,10\\).\nVer pasos para resolver en R\n💻 7. Estime, con un nivel de confianza del \\(5\\%\\), el nivel de colesterol de un nuevo individuo.\nVer pasos para resolver en R",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.7"
+      "Ejercicio 7.6"
     ]
   },
   {
-    "objectID": "tp7/ejercicio7.7.html#parte-teórica",
-    "href": "tp7/ejercicio7.7.html#parte-teórica",
-    "title": "Ejercicio 7.7",
-    "section": "Parte teórica",
-    "text": "Parte teórica\nAntes de construir los intervalos de confianza, responda las siguientes preguntas:\n\n¿Cuál es la variable aleatoria de interés?\n¿Cuál es la unidad de análisis?\n¿Qué modelo probabilístico puede suponerse para la variable de interés?\n¿Cuáles son los parámetros del modelo probabilístico?\n¿Cuál es el parámetro de interés que se desea estimar?\n¿Cuál es el pivote que se utilizará para construir el intervalo de confianza?\n¿Qué distribución sigue dicho pivote? Justifique su respuesta.\nEn función del pivote determine un intervalo de confianza con un coeficiente de confianza de \\((1-\\alpha)\\).\n¿Qué suposiciones deben cumplirse sobre la variable de interés para que el procedimiento sea válido?",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.7"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.7.html#parte-b.-construcción-de-intervalos-de-confianza",
-    "href": "tp7/ejercicio7.7.html#parte-b.-construcción-de-intervalos-de-confianza",
-    "title": "Ejercicio 7.7",
-    "section": "Parte B. Construcción de intervalos de confianza",
-    "text": "Parte B. Construcción de intervalos de confianza\n\nEvalúe el valor del estadístico utilizando los datos muestrales.\nConstruya un intervalo de confianza para:\n\n\\[\n\\mu_1-\\mu_2\n\\]\nutilizando un nivel de significación:\n\\[\n\\alpha=0,05.\n\\]\n\nA partir del intervalo obtenido, indique si hay evidencia para sugerir que existen diferencias entre los rendimientos medios de ambas variedades.\nResponda:\n\n\n¿Cómo resultaría el intervalo de confianza si se utilizara un nivel de confianza mayor?\n¿Cómo resultaría el intervalo de confianza si se considerara un mayor tamaño muestral?",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.7"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.7.html#diferencia-de-medias-con-varianzas-conocidas",
-    "href": "tp7/ejercicio7.7.html#diferencia-de-medias-con-varianzas-conocidas",
-    "title": "Ejercicio 7.7",
-    "section": "Diferencia de medias con varianzas conocidas",
-    "text": "Diferencia de medias con varianzas conocidas\n\nIdentifique el parámetro de interés.\nConstruya el pivote correspondiente para obtener un intervalo de confianza para:\n\n\\[\n\\mu_1-\\mu_2\n\\] suponiendo varianzas conocidas 3. Indique qué distribución sigue dicho estadístico y bajo qué supuesto es válida.\n\nObtenga la expresión general del intervalo de confianza para la \\(\\mu_1-\\mu_2\\).",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.7"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.7.html#diferencia-de-medias-con-varianzas-desconocidas",
-    "href": "tp7/ejercicio7.7.html#diferencia-de-medias-con-varianzas-desconocidas",
-    "title": "Ejercicio 7.7",
-    "section": "Diferencia de medias con varianzas desconocidas",
-    "text": "Diferencia de medias con varianzas desconocidas\n\nConstruya el pivote correspondiente para obtener un intervalo de confianza para:\n\n\\[\n\\mu_1-\\mu_2\n\\] suponiendo varianzas desconocidas 6. Indique qué distribución sigue dicho estadístico y bajo qué supuesto es válida.\n\nObtenga la expresión general del intervalo de confianza para la \\(\\mu_1-\\mu_2\\).",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.7"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.7.html#diferencia-de-medias-para-muestras-apareadas",
-    "href": "tp7/ejercicio7.7.html#diferencia-de-medias-para-muestras-apareadas",
-    "title": "Ejercicio 7.7",
-    "section": "Diferencia de medias para muestras apareadas",
-    "text": "Diferencia de medias para muestras apareadas\nSuponga ahora que, en lugar de sembrarse parcelas diferentes para cada variedad, cada parcela se divide en dos mitades: una mitad se siembra con Nueva GR80 y la otra con Overa.\nEn este caso, las observaciones quedan apareadas por parcela.\nNo considere los datos de la muestra correspondientes a la última columna de la variedad Overa.\n\nExplique por qué este diseño corresponde a muestras apareadas.\nDefina la variable diferencia:\n\n\\[\nD_i=X_{1i}-X_{2i}\n\\] y Identifique el parámetro de interés.\n\nConstruya el pivote adecuado para obtener un intervalo de confianza para:\n\n\\[\n\\mu_D\n\\]\n\nIndique qué distribución sigue dicho pivote.\nObtenga la expresión general del intervalo de confianza para la media de las diferencias.",
-    "crumbs": [
-      "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.7"
-    ]
-  },
-  {
-    "objectID": "tp7/ejercicio7.9.html",
-    "href": "tp7/ejercicio7.9.html",
-    "title": "Ejercicio 7.9",
+    "objectID": "tp7/ejercicio7.8.html",
+    "href": "tp7/ejercicio7.8.html",
+    "title": "Ejercicio 7.8",
     "section": "",
-    "text": "Se desea establecer el contenido vitamínico medio de un alimento balanceado para pollos. Se toma una muestra de 50 bolsas y se encuentra que el contenido promedio de vitaminas por cada 100 g es de 12 mg y que la desviación estándar es de 2 mg.\n\nDetermine un intervalo de confianza para la media con un coeficiente de confianza del 95 %. ¿Dicho intervalo de confianza es exacto o asintótico? Fundamente.",
+    "text": "Para comprobar si la tolerancia a la glucosa en sujetos sanos tiende a decrecer con la edad, se realizó un test oral de glucosa a dos muestras de pacientes sanos: jóvenes y adultos.\nEl test consistió en medir el nivel de glucosa en sangre al momento de la ingestión de 100 g de glucosa (nivel basal) y a los 60 minutos de la toma.\nSuponga que todas las variables involucradas siguen una distribución normal.",
     "crumbs": [
       "TRABAJO PRÁCTICO 7",
-      "Ejercicio 7.9"
+      "Ejercicio 7.8"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.8.html#datos",
+    "href": "tp7/ejercicio7.8.html#datos",
+    "title": "Ejercicio 7.8",
+    "section": "Datos",
+    "text": "Datos\n\nPacientes jóvenes\n\n\n\nNivel basal\n81\n89\n80\n75\n74\n97\n76\n89\n83\n77\n\n\n\n\n60 minutos\n136\n150\n149\n141\n138\n154\n141\n155\n145\n147\n\n\n\n\n\nPacientes adultos\n\n\n\nNivel basal\n98\n94\n93\n88\n79\n90\n86\n89\n81\n90\n\n\n\n\n60 minutos\n196\n190\n191\n189\n159\n185\n182\n190\n170\n197",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.8"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.8.html#variación-del-nivel-de-glucosa-dentro-de-cada-grupo",
+    "href": "tp7/ejercicio7.8.html#variación-del-nivel-de-glucosa-dentro-de-cada-grupo",
+    "title": "Ejercicio 7.8",
+    "section": "1. Variación del nivel de glucosa dentro de cada grupo",
+    "text": "1. Variación del nivel de glucosa dentro de cada grupo\nSe desea evaluar si el nivel de glucosa en sangre cambia luego de 60 minutos respecto del nivel basal.\n\nConstruya un intervalo de confianza del 99 % para la diferencia media entre las mediciones de nivel basal y a los 60 minutos en los pacientes jóvenes.\nInterprete el intervalo obtenido y concluya si existe evidencia de una variación significativa del nivel de glucosa.\nRepita los incisos anteriores para los pacientes adultos.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.8"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.8.html#comparación-del-nivel-basal-entre-adultos-y-jóvenes",
+    "href": "tp7/ejercicio7.8.html#comparación-del-nivel-basal-entre-adultos-y-jóvenes",
+    "title": "Ejercicio 7.8",
+    "section": "2. Comparación del nivel basal entre adultos y jóvenes",
+    "text": "2. Comparación del nivel basal entre adultos y jóvenes\n\nConstruya un intervalo de confianza del 99 % para la diferencia entre las medias poblacionales del nivel basal de glucosa de ambos grupos.\nInterprete el intervalo obtenido y concluya si el nivel basal medio difiere entre adultos y jóvenes.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.8"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.8.html#comparación-del-nivel-de-glucosa-a-los-60-minutos",
+    "href": "tp7/ejercicio7.8.html#comparación-del-nivel-de-glucosa-a-los-60-minutos",
+    "title": "Ejercicio 7.8",
+    "section": "3. Comparación del nivel de glucosa a los 60 minutos",
+    "text": "3. Comparación del nivel de glucosa a los 60 minutos\n\nConstruya un intervalo de confianza del 99 % para la diferencia entre las medias poblacionales del nivel de glucosa a los 60 minutos de ambos grupos.\nInterprete el intervalo obtenido y concluya si la concentración media de glucosa a los 60 minutos difiere entre adultos y jóvenes.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.8"
+    ]
+  },
+  {
+    "objectID": "tp7/ejercicio7.8.html#predicción-para-un-nuevo-paciente",
+    "href": "tp7/ejercicio7.8.html#predicción-para-un-nuevo-paciente",
+    "title": "Ejercicio 7.8",
+    "section": "4. Predicción para un nuevo paciente",
+    "text": "4. Predicción para un nuevo paciente\n\nConstruya un intervalo de predicción del 95 % para el nivel basal de glucosa de un nuevo paciente joven.\nConstruya un intervalo de predicción del 95 % para el nivel basal de glucosa de un nuevo paciente adulto.\nInterprete ambos intervalos en el contexto del problema.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Ejercicio 7.8"
+    ]
+  },
+  {
+    "objectID": "tp7/index.html",
+    "href": "tp7/index.html",
+    "title": "Trabajo Práctico 7",
+    "section": "",
+    "text": "Saber recurrir a las distribuciones apropiadas cuando el objetivo es la construcción de un estimador de confianza de un parámetro poblacional para muestras pequeñas.\nSer capaz de usar el Teorema Central del Límite para la construcción de estimadores por intervalos de confianza de la media poblacional, así como también de la proporción poblacional, de la diferencia entre dos medias o de la diferencia entre dos proporciones.\nDeterminar y explicar la precisión de estimación de un parámetro.\n\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp7/index.html#estimación-por-intervalos-de-confianza",
+    "href": "tp7/index.html#estimación-por-intervalos-de-confianza",
+    "title": "Trabajo Práctico 7",
+    "section": "",
+    "text": "Saber recurrir a las distribuciones apropiadas cuando el objetivo es la construcción de un estimador de confianza de un parámetro poblacional para muestras pequeñas.\nSer capaz de usar el Teorema Central del Límite para la construcción de estimadores por intervalos de confianza de la media poblacional, así como también de la proporción poblacional, de la diferencia entre dos medias o de la diferencia entre dos proporciones.\nDeterminar y explicar la precisión de estimación de un parámetro.\n\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable usada, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 7",
+      "Presentación"
     ]
   },
   {
@@ -1180,7 +1432,7 @@
     "href": "tp8/ejercicio8.10.html",
     "title": "Ejercicio 8.10",
     "section": "",
-    "text": "En un experimento se desea determinar si el contenido de hemoglobina en la sangre de perros cambia al aplicar un tratamiento de niacina. Para ello se tomaron \\(8\\) perros, y se midió el contenido de hemoglobina antes y después del tratamiento, obteniéndose las siguientes mediciones:\n\n\n\nAntes\n12,6\n12,6\n13,7\n11,1\n11,3\n12,2\n10,0\n11,0\n\n\n\n\nDespués\n10,4\n11,5\n13,6\n12,0\n19,3\n8,8\n9,4\n10,7\n\n\n\n\nAl nivel del \\(5\\%\\), ¿modifica el tratamiento el contenido medio de hemoglobina?\nEn caso de rechazar la hipótesis nula, construya un intervalo de confianza.",
+    "text": "En un experimento se desea determinar si el contenido de hemoglobina en la sangre de perros cambia al aplicar un tratamiento de niacina. Para ello se tomaron \\(8\\) perros, y se midió el contenido de hemoglobina antes y después del tratamiento, obteniéndose las siguientes mediciones:\n\n\n\nAntes\n12,6\n12,6\n13,7\n11,1\n11,3\n12,2\n10,0\n11,0\n\n\n\n\nDespués\n10,4\n11,5\n13,6\n12,0\n19,3\n8,8\n9,4\n10,7\n\n\n\n\nAl nivel del \\(5\\%\\), ¿modifica el tratamiento el contenido medio de hemoglobina?\nEn caso de rechazar la hipótesis nula, construya un intervalo de confianza.\n\nVer pasos para resolver en R",
     "crumbs": [
       "TRABAJO PRÁCTICO 8",
       "Ejercicio 8.10"
@@ -1209,6 +1461,17 @@
     ]
   },
   {
+    "objectID": "tp8/ejercicio8.16.html",
+    "href": "tp8/ejercicio8.16.html",
+    "title": "Ejercicio 8.16",
+    "section": "",
+    "text": "⚙️Considere nuevamente el Ejercicio 7.15. Construya un test de hipótesis bilateral para \\(\\theta\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 8",
+      "Ejercicio 8.16"
+    ]
+  },
+  {
     "objectID": "tp8/ejercicio8.2.html",
     "href": "tp8/ejercicio8.2.html",
     "title": "Ejercicio 8.2",
@@ -1224,7 +1487,7 @@
     "href": "tp8/ejercicio8.4.html",
     "title": "Ejercicio 8.4",
     "section": "",
-    "text": "En una estancia ubicada al SO de la ciudad de Hernando (Córdoba), su administrador asegura que con sus técnicas de conservación de suelos aumenta los rendimientos de maní FLORUNNER. Se sabe que el rendimiento promedio de maní, en esa zona, es de \\(18\\) q/ha. Para tomar una decisión se eligieron en un mismo lote de esa estancia \\(10\\) parcelas al azar con los siguientes rindes en q/ha:\n\\[\n10,\\;12,\\;18,\\;22,\\;19,\\;15,\\;18,\\;20,\\;13,\\;19\n\\]\n\n¿Qué se desea probar? Dígalo con palabras y plantéelo estadísticamente.\nExplique para este caso, cuál sería el error de Tipo I y cuál el de Tipo II.\nA un nivel de significancia del \\(5\\%\\), ¿es cierta la afirmación del administrador?\nCalcule el valor del test.",
+    "text": "En una estancia ubicada al SO de la ciudad de Hernando (Córdoba), su administrador asegura que con sus técnicas de conservación de suelos aumenta los rendimientos de maní FLORUNNER. Se sabe que el rendimiento promedio de maní, en esa zona, es de \\(14\\) q/ha. Para tomar una decisión se eligieron en un mismo lote de esa estancia \\(10\\) parcelas al azar con los siguientes rindes en q/ha:\n\\[\n10,\\;12,\\;18,\\;22,\\;19,\\;15,\\;18,\\;20,\\;13,\\;19\n\\]\n\n¿Qué se desea probar? Dígalo con palabras y plantéelo estadísticamente.\nExplique para este caso, cuál sería el error de Tipo I y cuál el de Tipo II.\nA un nivel de significancia del \\(5\\%\\), ¿es cierta la afirmación del administrador?\nCalcule el valor del test.\n\nVer pasos para resolver en R",
     "crumbs": [
       "TRABAJO PRÁCTICO 8",
       "Ejercicio 8.4"
@@ -1250,6 +1513,105 @@
     "crumbs": [
       "TRABAJO PRÁCTICO 8",
       "Ejercicio 8.8"
+    ]
+  },
+  {
+    "objectID": "tp8/index.html",
+    "href": "tp8/index.html",
+    "title": "Trabajo Práctico 8",
+    "section": "",
+    "text": "Usar los conceptos básicos de la Inferencia Estadística en situaciones prácticas con la finalidad de tomar decisiones relativas al valor del (los) parámetro(s) que caracterizan la población de interés.\nFormular una medida de error que permita descubrir la eficiencia de una inferencia particular en una situación teórica dada.\n\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable de interés, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés. Asimismo, describa el pivote utilizado, su distribución y construya el TH a utilizar. En ejercicios con datos significativos, construya el IC y calcule la potencia del test.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 8",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp8/index.html#test-de-hipótesis",
+    "href": "tp8/index.html#test-de-hipótesis",
+    "title": "Trabajo Práctico 8",
+    "section": "",
+    "text": "Usar los conceptos básicos de la Inferencia Estadística en situaciones prácticas con la finalidad de tomar decisiones relativas al valor del (los) parámetro(s) que caracterizan la población de interés.\nFormular una medida de error que permita descubrir la eficiencia de una inferencia particular en una situación teórica dada.\n\n\n\n\n\n\n\n\nWarning\n\n\n\n🚨 Atención\nEn todos los ejercicios a seguir, describa la variable de interés, el modelo adoptado, los parámetros involucrados en el modelo y el parámetro de interés. Asimismo, describa el pivote utilizado, su distribución y construya el TH a utilizar. En ejercicios con datos significativos, construya el IC y calcule la potencia del test.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 8",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.10.html",
+    "href": "tp9/ejercicio9.10.html",
+    "title": "Ejercicio 9.10",
+    "section": "",
+    "text": "En un estudio realizado a un grupo de estudiantes de entre 10 y 12 años se les preguntó a qué daban más prioridad de entre tres posibilidades: tener buenas calificaciones, destacarse en los deportes, o ser popular entre sus compañeros. El número de casos por categoría es:\n\n\n\nSexo\nDeportes\nCalificaciones\nPopularidad\nTotal\n\n\n\n\nNiña\n17\n101\n75\n193\n\n\nNiño\n51\n95\n38\n184\n\n\nTotal\n68\n196\n113\n377\n\n\n\nA un nivel del \\(5\\%\\), ¿puede usted decir si hay independencia o no entre las prioridades y el género de cada escolar?",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.10"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.14.html",
+    "href": "tp9/ejercicio9.14.html",
+    "title": "Ejercicio 9.14",
+    "section": "",
+    "text": "En julio la gente está de vacaciones. El éxito de una encuesta puede depender de la estación del año. El Instituto Nacional de Estadística de Italia guardó los datos sobre las no-respuestas de una de sus encuestas telefónicas a nivel nacional. Todas las llamadas se hicieron entre las 7 y las 10 de la noche. He aquí una tabla con los porcentajes de tres tipos de no-respuestas en diferentes estaciones del año. Los porcentajes de cada fila suman el 100% salvo error de redondeo.\n\n\n\n\n\n\n\n\n\n\n\nTemporada\nLlamadas efectuadas\nExitosas\nSin respuesta\nLínea ocupada\nRechaza participar\n\n\n\n\n1 ene - 13 abr\n1558\n68,5%\n21,4%\n5,8%\n4,3%\n\n\n21 abr - 20 jun\n1589\n52,4%\n35,8%\n6,4%\n5,4%\n\n\n1 jul - 31 ago\n2075\n43,4%\n41,5%\n8,6%\n6,5%\n\n\n1 sep - 15 dic\n2638\n60,0%\n30,0%\n5,3%\n4,7%\n\n\n\n\nConstruya la tabla de contingencia que le permita resumir la información sobre el tipo de respuesta o no respuesta y la época del año.\nRealice el test adecuado que le permita poner a prueba la hipótesis de que la distribución del tipo de respuestas obtenidas varía con la estación. ¿Le sorprende la conclusión obtenida? Justifique.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.14"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.16.html",
+    "href": "tp9/ejercicio9.16.html",
+    "title": "Ejercicio 9.16",
+    "section": "",
+    "text": "📊 ¿Están relacionados el sexo y el tabaquismo?\nTome una muestra aleatoria de 100 individuos (explicando claramente cómo la seleccionó, entre quiénes, etc.) y resuma la información obtenida en una tabla de contingencia (\\(2 \\times 2\\)).\nRealice la prueba adecuada para determinar la respuesta a esta pregunta.",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.16"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.3.html",
+    "href": "tp9/ejercicio9.3.html",
+    "title": "Ejercicio 9.3",
+    "section": "",
+    "text": "Considere nuevamente los datos del Ejercicio 5.2. ¿Podría afirmar, a través del análisis estadístico correspondiente, si la variable en estudio tiene una distribución de Poisson considerando una probabilidad de error \\(\\alpha = 0,05\\)?",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.3"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.5.html",
+    "href": "tp9/ejercicio9.5.html",
+    "title": "Ejercicio 9.5",
+    "section": "",
+    "text": "La prueba de la d-xilosa permite la diferenciación entre una esteatorrea originada por una mala absorción intestinal y la debida a una insuficiencia pancreática, de modo que cifras inferiores a la media \\(4\\) g de d-xilosa indican una mala absorción intestinal.\nSe realiza la prueba a 300 individuos, cuyos resultados se muestran en el gráfico de la Figura 9.1.\nProponga una distribución teórica apropiada para la variable de interés y estime los parámetros desconocidos. Pruebe o refute su hipótesis utilizando (\\(\\alpha = 0,01\\)).\n\n\n\n\n\n\n\n\n\nFigura 9.1.:Resultados de la prueba de d-xilosa",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.5"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.7.html",
+    "href": "tp9/ejercicio9.7.html",
+    "title": "Ejercicio 9.7",
+    "section": "",
+    "text": "El tiempo de respuesta, en segundos, de un sistema de cómputo a una petición para cierto tipo de información tiene una distribución exponencial de parámetro (1). En una prueba, se obtuvieron los siguientes 40 tiempos de respuesta:\n\n\n\n0,10\n0,99\n1,14\n1,26\n3,24\n0,12\n0,26\n0,80\n0,79\n1,16\n\n\n1,76\n0,41\n0,59\n0,27\n2,22\n0,66\n0,71\n2,21\n0,68\n0,43\n\n\n0,11\n0,46\n0,69\n0,38\n0,91\n0,55\n0,81\n2,51\n2,77\n0,16\n\n\n1,11\n0,02\n2,13\n0,19\n1,21\n1,13\n2,93\n2,14\n0,34\n0,44\n\n\n\nPonga a prueba la hipótesis de que tales tiempos siguen la distribución indicada utilizando un nivel de significación del \\(0,05\\).",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.7"
+    ]
+  },
+  {
+    "objectID": "tp9/ejercicio9.9.html",
+    "href": "tp9/ejercicio9.9.html",
+    "title": "Ejercicio 9.9",
+    "section": "",
+    "text": "Un profesor de Geología le dice a sus alumnos si pueden contestar la siguiente pregunta: ¿Serán independientes las características litología del clasto de un cierto afloramiento y el hecho de que algunos clastos estén facetados o no?\nEl alumnado decide dar una respuesta con fundamentos, para ello toman una muestra aleatoria de 200 clastos de ese afloramiento y logran la siguiente clasificación:\n\n\n\nLitología\nFacetados\nNo facetados\nTotal\n\n\n\n\nGranitos\n45\n102\n147\n\n\nMetamórfico\n15\n38\n53\n\n\nTotal\n60\n140\n200\n\n\n\nLa respuesta dada al profesor fue “No hay razón para rechazar la independencia entre esas dos características”. ¿Puede usted verificar tal resultado, sabiendo que el nivel de significación fue \\(\\alpha = 0{,}05\\)?",
+    "crumbs": [
+      "TRABAJO PRÁCTICO 9",
+      "Ejercicio 9.9"
     ]
   }
 ]
