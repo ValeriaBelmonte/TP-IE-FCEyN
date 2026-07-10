@@ -1,0 +1,9 @@
+---
+title: "Ejercicio 1.3"
+---
+
+Resuelva la actividad **Analizando papers** a desarrollarse mediante un Foro. Para acceder a la actividad ingrese al curso de Moodle → **Unidades Temáticas** → **Unidad 1** → **Analizando Papers**.
+
+Se recomienda utilizar **NotebookLM** como herramienta de apoyo para el análisis del artículo científico. Sus funciones de síntesis, formulación de preguntas y organización de la información pueden facilitar la comprensión del material y enriquecer su participación en el foro.
+
+> **Importante:** NotebookLM debe emplearse como una herramienta de apoyo al aprendizaje. Las respuestas publicadas en el foro deben reflejar un análisis crítico y una elaboración propia.

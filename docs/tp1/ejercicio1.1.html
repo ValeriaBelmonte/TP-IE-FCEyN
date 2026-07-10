@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ejercicio 2.5 – Trabajo Práctico IE</title>
+<title>Ejercicio 1.1 – Trabajo Práctico IE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -116,7 +81,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tp2/index.html">TRABAJO PRÁCTICO 2</a></li><li class="breadcrumb-item"><a href="../tp2/ejercicio2.5.html">Ejercicio 2.5</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Trabajo Práctico IE
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -188,7 +155,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tp2/ejercicio2.5.html" class="sidebar-item-text sidebar-link active">
+  <a href="../tp2/ejercicio2.5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejercicio 2.5</span></a>
   </div>
 </li>
@@ -816,9 +783,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tp2/index.html">TRABAJO PRÁCTICO 2</a></li><li class="breadcrumb-item"><a href="../tp2/ejercicio2.5.html">Ejercicio 2.5</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ejercicio 2.5</h1>
+<h1 class="title">Ejercicio 1.1</h1>
 </div>
 
 
@@ -835,93 +802,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>En este sección trabajaremos con la base de datos <strong>Gapminder</strong></p>
-<p><em>Gapminder</em> es una base de datos internacional que contiene información socioeconómica de distintos países a lo largo del tiempo. Cada observación corresponde a un país en un año específico, y las variables permiten estudiar fenómenos como esperanza de vida, crecimiento poblacional y desarrollo económico.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Instalar solo una vez</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"gapminder"</span>,</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">repos =</span> <span class="st">"https://cloud.r-project.org"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>package 'gapminder' successfully unpacked and MD5 sums checked
-
-The downloaded binary packages are in
-    C:\Users\USUARIO\AppData\Local\Temp\Rtmpg16Ie2\downloaded_packages</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Luego, en el documento:</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gapminder)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 <ol type="1">
-<li>Observa la base de datos</li>
+<li>Para cada una de las siguientes situaciones identifique y describa: el objetivo de investigación, la unidad experimental, la población (estadística y de unidades), la composición de la muestra (estadística y de unidades). Determine la variable de interés y su tipo.</li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>gapminder</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1,704 × 6
-   country     continent  year lifeExp      pop gdpPercap
-   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
- 1 Afghanistan Asia       1952    28.8  8425333      779.
- 2 Afghanistan Asia       1957    30.3  9240934      821.
- 3 Afghanistan Asia       1962    32.0 10267083      853.
- 4 Afghanistan Asia       1967    34.0 11537966      836.
- 5 Afghanistan Asia       1972    36.1 13079460      740.
- 6 Afghanistan Asia       1977    38.4 14880372      786.
- 7 Afghanistan Asia       1982    39.9 12881816      978.
- 8 Afghanistan Asia       1987    40.8 13867957      852.
- 9 Afghanistan Asia       1992    41.7 16317921      649.
-10 Afghanistan Asia       1997    41.8 22227415      635.
-# ℹ 1,694 more rows</code></pre>
-</div>
-</div>
+<ol type="a">
+<li><p>La Administración Provincial del Agua desea determinar la concentración de flúor en el agua subterránea del sudeste de la Provincia de La Pampa. Se seleccionaron 30 pozos midiéndose en cada uno de ellos la concentración de flúor (en ppm) presente.<br>
+</p></li>
+<li><p>Para determinar la producción de huevos promedio de las hembras de pejerrey (Odontesthes bonariensis) de la laguna Don Tomás, se capturaron 27 ejemplares con una red y se contaron los huevos hallados en cada hembra.<br>
+</p></li>
+<li><p>Una compañía farmacéutica realizó un estudio para medir los efectos colaterales adversos de un nuevo medicamento usado para el tratamiento de pacientes con migraña. A 2633 personas que sufren migraña se les administraron dosis de medicamento en forma de tabletas durante un año. Los pacientes informaron si durante este período experimentaron alivio o no de la migraña, y la presencia de sensaciones atípicas que puedan ser consideradas como efectos colaterales adversos.<br>
+</p></li>
+<li><p>Se quiere estimar la composición botánica en la dieta anual de la vicuña en libre pastoreo en la Puna Jujeña. Se trabajó con 25 animales, recolectando una muestra de 100 gramos de heces de cada uno para determinar la composición botánica de la dieta.En cada muestra se midió el porcentaje de <em>Festuca scirpifolia</em> y de <em>Deyeuxia nardifolia</em>.</p></li>
+<li><p>Una compañía dedicada a la comercialización de semillas desea comparar el rendimiento promedio de los híbridos de sorgo granífero bajo riego en la zona sur de Santa Fe. Se seleccionaron 30 parcelas en las que se midió el rendimiento (tm/ha) del híbrido <strong>Nueva GR80</strong> y otras 40 en las que se hizo lo propio con el híbrido <strong>Overa</strong>.</p></li>
+</ol>
 <ol start="2" type="1">
-<li>Identifica las variables en estudio y su tipo</li>
+<li>Uso de Inteligencia Artificial como apoyo al aprendizaje</li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(gapminder) <span class="co">#vemos la estructura de la base datos </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>tibble [1,704 × 6] (S3: tbl_df/tbl/data.frame)
- $ country  : Factor w/ 142 levels "Afghanistan",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ continent: Factor w/ 5 levels "Africa","Americas",..: 3 3 3 3 3 3 3 3 3 3 ...
- $ year     : int [1:1704] 1952 1957 1962 1967 1972 1977 1982 1987 1992 1997 ...
- $ lifeExp  : num [1:1704] 28.8 30.3 32 34 36.1 ...
- $ pop      : int [1:1704] 8425333 9240934 10267083 11537966 13079460 14880372 12881816 13867957 16317921 22227415 ...
- $ gdpPercap: num [1:1704] 779 821 853 836 740 ...</code></pre>
-</div>
-</div>
-<p><strong>str(df)</strong> indica las variables y su tipo en la base de datos df</p>
-<ol start="3" type="1">
-<li>Averigua el tamaño de la base de datos</li>
+<p>Resuelva nuevamente el ejercicio anterior utilizando una herramienta de inteligencia artificial (por ejemplo, ChatGPT, Gemini, Copilot u otra de su elección).</p>
+<p>Luego: a. Compare las respuestas obtenidas con las elaboradas por usted. b. Identifique las coincidencias y las diferencias entre ambas resoluciones.<br>
+c.&nbsp;Analice críticamente la respuesta proporcionada por la IA, indicando:</p>
+<p>¿Fue correcta en todos los casos?<br>
+¿Hubo conceptos ambiguos o incorrectos?<br>
+¿Qué aspectos debieron corregirse o completarse?</p>
+<ol start="4" type="a">
+<li>Redacte una breve reflexión (entre 150 y 250 palabras) respondiendo:</li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(gapminder) <span class="co"># vemos la dimensión del data.frame</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 1704    6</code></pre>
-</div>
-</div>
-<p><strong>dim(df)</strong> indica la dimensión de la base de datos (df)</p>
-<ol start="4" type="1">
-<li>Realiza un box plot que muestre la esperanza de vida por continente y analiza los resultados.</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gapminder,</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> continent,</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">y =</span> lifeExp)) <span class="sc">+</span></span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">fill =</span> <span class="st">"lightgreen"</span>) <span class="sc">+</span></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Esperanza de vida por continente"</span>,</span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Continente"</span>,</span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Esperanza de vida"</span></span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="ejercicio2.5_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<p>¿En qué aspectos la IA le resultó útil?<br>
+¿Qué limitaciones encontró?<br>
+¿Considera que la IA puede reemplazar el razonamiento estadístico del estudiante? Justifique.</p>
+<p><em>Importante</em>: Adjunte el prompt utilizado y la respuesta completa generada por la IA para poder evaluar el proceso seguido.</p>
 
 
 

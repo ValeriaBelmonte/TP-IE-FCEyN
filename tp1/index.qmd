@@ -1,0 +1,7 @@
+---
+title: "Introducción a la estadística"
+---
+
+# OBJETIVOS
+-Reconocer población, muestra y unidad experimental.
+-Identificar distintos tipos de variables.

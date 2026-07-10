@@ -1,5 +1,5 @@
 ---
-title: "ejercicio2.5"
+title: "Ejercicio 2.5"
 ---
 
 En este sección trabajaremos con la base de datos **Gapminder**  

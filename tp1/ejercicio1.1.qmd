@@ -1,0 +1,34 @@
+---
+title: "Ejercicio 1.1"
+---
+
+1. Para cada una de las siguientes situaciones identifique y describa: el objetivo de investigación, la unidad experimental, la población (estadística y de unidades), la composición de la muestra (estadística y de unidades). Determine la variable de interés y su tipo.  
+
+a. La Administración Provincial del Agua desea determinar la concentración de flúor en el agua subterránea del sudeste de la Provincia de La Pampa. Se seleccionaron 30 pozos midiéndose en cada uno de ellos la concentración de flúor (en ppm) presente.  
+b. Para determinar la producción de huevos promedio de las hembras de pejerrey (Odontesthes bonariensis) de la laguna Don Tomás, se capturaron 27 ejemplares con una red y se contaron los huevos hallados en cada hembra.  
+c. Una compañía farmacéutica realizó un estudio para medir los efectos colaterales adversos de un nuevo medicamento usado para el tratamiento de pacientes con migraña. A 2633 personas que sufren migraña se les administraron dosis de medicamento en forma de tabletas durante un año. Los pacientes informaron si durante este período experimentaron alivio o no de la migraña, y la presencia de sensaciones atípicas que puedan ser consideradas como efectos colaterales adversos.  
+d. Se quiere estimar la composición botánica en la dieta anual de la vicuña en libre pastoreo en la Puna Jujeña. Se trabajó con 25 animales, recolectando una muestra de 100 gramos de heces de cada uno para determinar la composición botánica de la dieta.En cada muestra se midió el porcentaje de *Festuca scirpifolia* y de *Deyeuxia nardifolia*.
+
+e. Una compañía dedicada a la comercialización de semillas desea comparar el rendimiento promedio de los híbridos de sorgo granífero bajo riego en la zona sur de Santa Fe. Se seleccionaron 30 parcelas en las que se midió el rendimiento (tm/ha) del híbrido **Nueva GR80** y otras 40 en las que se hizo lo propio con el híbrido **Overa**.
+
+2. Uso de Inteligencia Artificial como apoyo al aprendizaje
+
+Resuelva nuevamente el ejercicio anterior utilizando una herramienta de inteligencia artificial (por ejemplo, ChatGPT, Gemini, Copilot u otra de su elección).
+
+Luego:
+a. Compare las respuestas obtenidas con las elaboradas por usted. 
+b. Identifique las coincidencias y las diferencias entre ambas resoluciones.  
+c. Analice críticamente la respuesta proporcionada por la IA, indicando:  
+
+¿Fue correcta en todos los casos?  
+¿Hubo conceptos ambiguos o incorrectos?  
+¿Qué aspectos debieron corregirse o completarse?  
+
+d. Redacte una breve reflexión (entre 150 y 250 palabras) respondiendo:  
+
+¿En qué aspectos la IA le resultó útil?  
+¿Qué limitaciones encontró?  
+¿Considera que la IA puede reemplazar el razonamiento estadístico del estudiante? Justifique.  
+
+*Importante*: Adjunte el prompt utilizado y la respuesta completa generada por la IA para poder evaluar el proceso seguido.  
+

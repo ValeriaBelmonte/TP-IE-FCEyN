@@ -1,0 +1,12 @@
+---
+title: "Ejercicio 1.2"
+---
+
+Para cada una de las siguientes variables, indique su tipo:
+
+1. Número de crías por año para cada una de las ratas de un bioterio.
+2. Estado de cada paciente de un hospital después de un tratamiento.
+3. Concentración de fósforo inorgánico en el suero después de aplicar anestesia.
+4. Color de pétalos de una cierta especie de rosa.
+5. Aumento de peso de un cobayo a los 10 días de inyectarle una cierta droga.
+6. Longitud del fémur en una especie de áfidos.

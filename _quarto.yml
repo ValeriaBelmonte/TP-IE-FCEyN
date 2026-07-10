@@ -17,6 +17,16 @@ website:
     contents:
       - href: index.qmd
         text: Inicio
+        - section: "TRABAJO PRÁCTICO 1"
+        contents:
+          - href: tp1/index.qmd
+            text: Presentación
+          - href: tp1/ejercicio1.1.qmd
+            text: Ejercicio 1.1
+          - href: tp2/ejercicio1.2.qmd
+            text: Ejercicio 1.2
+          - href: tp2/ejercicio1.3.qmd
+            text: Ejercicio 1.3
 
       - section: "TRABAJO PRÁCTICO 2"
         contents:
